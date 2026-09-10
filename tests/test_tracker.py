@@ -1,6 +1,7 @@
 import json
 import tempfile
 import unittest
+from unittest.mock import patch
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -109,6 +110,13 @@ class TrackerTests(unittest.TestCase):
         (self.root / "snapshots" / "2026-09.csv").write_text("timestamp,game_id,players\n")
         with self.assertRaises(ValueError):
             self.result()
+
+    def test_monthly_file_rollover_keeps_comparisons(self):
+        self.snapshot(-60, {1: 1100})
+        with patch.object(config, "SNAPSHOT_FILE_BYTES", 1):
+            self.snapshot(0, {1: 2000})
+        self.assertTrue((self.root / "snapshots" / "2026-09-002.csv").exists())
+        self.assertEqual(self.result()["games"][0]["windows"]["1"]["delta"], 900)
 
 
 if __name__ == "__main__":

@@ -12,3 +12,4 @@ TOLERANCE_MINUTES = 20
 RETENTION_DAYS = 60
 TOP_N = 100  # Display limit per lens; JSON retains all eligible games for sorting.
 STALE_MINUTES = 45
+SNAPSHOT_FILE_BYTES = 40 * 1024 * 1024

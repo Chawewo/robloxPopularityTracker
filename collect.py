@@ -74,7 +74,13 @@ def save_snapshot(payload, now, data_dir=config.DATA_DIR):
         atomic_write(metadata_path, csv_text(
             ["game_id", "name", "icon_url", "first_seen"],
             [metadata[key] for key in sorted(metadata, key=int)]))
-    path = data_dir / "snapshots" / f"{timestamp[:7]}.csv"
+    snapshot_dir = data_dir / "snapshots"
+    path = snapshot_dir / f"{timestamp[:7]}.csv"
+    part = 1
+    # Keep monthly partitions below GitHub's per-file limit as history grows.
+    while path.exists() and path.stat().st_size >= config.SNAPSHOT_FILE_BYTES:
+        part += 1
+        path = snapshot_dir / f"{timestamp[:7]}-{part:03d}.csv"
     path.parent.mkdir(parents=True, exist_ok=True)
     exists = path.exists() and path.stat().st_size > 0
     with path.open("a", encoding="utf-8", newline="") as stream:
@@ -92,6 +98,8 @@ def prune(now, data_dir=config.DATA_DIR):
     """Bound working-tree history, preserving original metadata first_seen values."""
     cutoff = utc_text(now - timedelta(days=config.RETENTION_DAYS))
     for path in (Path(data_dir) / "snapshots").glob("*.csv"):
+        if path.stem[:7] > cutoff[:7]:
+            continue
         rows = read_csv(path)
         retained = [row for row in rows if row["timestamp"] >= cutoff]
         if not retained:

@@ -2,6 +2,7 @@
 from bisect import bisect_left
 from collections import defaultdict
 from datetime import datetime, timedelta, timezone
+import csv
 import json
 from pathlib import Path
 
@@ -32,21 +33,29 @@ def analyze(data_dir=config.DATA_DIR, now=None):
     data_dir = Path(data_dir)
     manifest = read_csv(data_dir / "collections.csv")
     complete = {parse_time(row["timestamp"]): int(row["games"]) for row in manifest}
+    latest = max(complete) if complete else None
+    earliest = min(complete) if complete else None
+    cutoff = latest - timedelta(hours=max(config.WINDOWS), minutes=config.TOLERANCE_MINUTES) if latest else now
+    cutoff_text = utc_text(cutoff)
+    recent = {stamp: count for stamp, count in complete.items() if stamp >= cutoff}
     metadata = {row["game_id"]: row for row in read_csv(data_dir / "games.csv")}
     points = defaultdict(dict)
     snapshot_counts = defaultdict(int)
     for path in sorted((data_dir / "snapshots").glob("*.csv")):
-        for row in read_csv(path):
-            timestamp = parse_time(row["timestamp"])
-            if timestamp in complete:
-                points[row["game_id"]][timestamp] = int(row["players"])
+        if path.stem[:7] < cutoff_text[:7]:
+            continue
+        with path.open(encoding="utf-8", newline="") as stream:
+            for row in csv.DictReader(stream):
+                if row["timestamp"] < cutoff_text:
+                    continue
+                timestamp = parse_time(row["timestamp"])
+                if timestamp in recent:
+                    points[row["game_id"]][timestamp] = int(row["players"])
     for history in points.values():
         for timestamp in history:
             snapshot_counts[timestamp] += 1
-    if any(snapshot_counts[stamp] != count for stamp, count in complete.items()):
+    if any(snapshot_counts[stamp] != count for stamp, count in recent.items()):
         raise ValueError("Snapshot rows do not match the completed collection manifest")
-    latest = max(complete) if complete else None
-    earliest = min(complete) if complete else None
     rows = []
     for game_id, history in points.items():
         # Missing from the newest complete collection means not currently eligible.
