@@ -2,7 +2,7 @@ name: Track Roblox risers
 
 on:
   schedule:
-    - cron: '7,22,37,52 * * * *'
+    - cron: '4-59/15 * * * *'
   workflow_dispatch:
   push:
     branches: [main]
@@ -38,6 +38,22 @@ jobs:
         run: |
           python collect.py
           python analyze.py
+      - name: Record collection diagnostics
+        env:
+          RUN_TRIGGER: ${{ github.event_name }}
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          data = json.loads(Path('dashboard/data.json').read_text())
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as summary:
+              summary.write(f"Trigger: {os.environ['RUN_TRIGGER']}\n\n")
+              summary.write(f"Snapshot: {data['latest_snapshot']}\n\n")
+              summary.write(f"Minutes since previous collection: {data['last_interval_minutes']}\n\n")
+              for key in ['since_last', '1', '6', '24']:
+                  count = sum((g.get('since_last') if key == 'since_last' else g['windows'].get(key)) is not None for g in data['games'])
+                  summary.write(f"{key}: {count} games with comparisons\n\n")
+          PY
       - name: Save history
         run: |
           git config user.name 'github-actions[bot]'

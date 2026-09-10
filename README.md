@@ -21,7 +21,7 @@ Avoid repeatedly running the live collector: one run per ~15 minutes is sufficie
 
 ## GitHub Actions and Pages
 
-The repository is `Chawewo/robloxPopularityTracker`. The workflow runs on pushes to `main` that change code, manual dispatch, and every 15 minutes at minutes 7, 22, 37, and 52 UTC. The offset avoids the busiest top-of-hour period. Collection and deployment are serialized; an active collection is never cancelled by another trigger.
+The repository is `Chawewo/robloxPopularityTracker`. The workflow runs on pushes to `main` that change code, manual dispatch, and every 15 minutes at minutes 4, 19, 34, and 49 UTC. The offset avoids the busiest top-of-hour period. Collection and deployment are serialized; an active collection is never cancelled by another trigger.
 
 1. Settings → Actions → General → Workflow permissions → Read and write permissions.
 2. Settings → Pages → Build and deployment → Source: **GitHub Actions**.
@@ -49,3 +49,9 @@ GitHub scheduling is **best effort**, not gap-free: jobs can be delayed or dropp
 Edit `config.py` to tune floors, comparison windows, tolerance, retention, display limit, and stale threshold. The dashboard currently presents fixed 1h/6h/24h columns; update its UI if changing window choices. The dashboard fetches every three minutes; this does not poll Rolimons.
 
 The public Pages artifact contains leaderboard data and demo data, not snapshot CSVs. A public repository exposes committed history. Use this for personal discovery and respect the upstream service’s terms; avoid bulk redistribution.
+
+## Changes since the previous run
+
+The LAST RUN column compares the newest two completed collections, showing player delta, percentage, and the actual interval in minutes. It works for manual runs and scheduling gaps without pretending the interval is one hour. A game missing from the previous collection has no comparison; an unchanged count shows zero. This lens is selected automatically until a 6h comparison becomes available. The 1h/6h/24h windows still require their own baselines within the configured tolerance.
+
+On September 10, scheduled triggers had not appeared despite successful push and manual runs. The cron was changed to `4-59/15 * * * *` as a recovery attempt. This does not guarantee scheduler recovery: only a run with event `schedule` verifies it. Each run now includes a summary showing its trigger, snapshot time, elapsed interval, and comparison coverage. No local scheduler has been installed.

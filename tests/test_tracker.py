@@ -118,6 +118,34 @@ class TrackerTests(unittest.TestCase):
         self.assertTrue((self.root / "snapshots" / "2026-09-002.csv").exists())
         self.assertEqual(self.result()["games"][0]["windows"]["1"]["delta"], 900)
 
+    def test_last_run_comparison_when_hour_window_is_unavailable(self):
+        self.snapshot(-33, {1: 2000, 2: 3000, 3: 1000})
+        self.snapshot(0, {1: 2500, 2: 2700, 3: 1000})
+        data = self.result()
+        rows = {r['game_id']: r for r in data['games']}
+        self.assertEqual(data['last_interval_minutes'], 33)
+        self.assertEqual(rows['1']['since_last']['pct'], 25)
+        self.assertEqual(rows['2']['since_last']['delta'], -300)
+        self.assertEqual(rows['3']['since_last']['pct'], 0)
+        self.assertIsNone(rows['1']['windows']['1'])
+
+    def test_last_run_does_not_skip_missing_game_or_invent_zero(self):
+        self.snapshot(-120, {1: 1200})
+        self.snapshot(-30, {2: 1500})
+        self.snapshot(0, {1: 2400, 2: 1600, 3: 3000})
+        rows = {r['game_id']: r for r in self.result()['games']}
+        self.assertIsNone(rows['1']['since_last'])
+        self.assertIsNone(rows['3']['since_last'])
+        self.assertEqual(rows['2']['since_last']['delta'], 100)
+
+    def test_last_run_across_multiday_gap(self):
+        self.snapshot(-3 * 1440, {1: 1000})
+        self.snapshot(0, {1: 2000})
+        row = self.result()['games'][0]
+        self.assertEqual(row['since_last']['pct'], 100)
+        self.assertEqual(row['since_last']['elapsed_minutes'], 4320)
+        self.assertTrue(all(v is None for v in row['windows'].values()))
+
 
 if __name__ == "__main__":
     unittest.main()

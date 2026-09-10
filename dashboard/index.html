@@ -6,8 +6,8 @@
   <meta name="color-scheme" content="dark light">
   <meta name="description" content="Find emerging Roblox games through sustained player growth, fresh momentum, and new entrants.">
   <title>Next Up · Roblox game tracker</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="app.js" defer></script>
+  <link rel="stylesheet" href="style.css?v=2">
+  <script src="app.js?v=2" defer></script>
 </head>
 <body>
   <main>
@@ -28,6 +28,7 @@
     <section class="board" aria-label="Game leaderboard">
       <div class="board-heading"><h2>The watchlist <span>↗</span></h2><span id="result-count">Loading games…</span></div>
       <div class="lenses" role="group" aria-label="Ranking lens">
+        <button data-lens="latest" aria-pressed="false">Since last run <small>Δ %</small></button>
         <button class="active" data-lens="sustained" aria-pressed="true">Sustained growth <small>6H</small></button>
         <button data-lens="absolute" aria-pressed="false">Big movers <small>6H Δ</small></button>
         <button data-lens="momentum" aria-pressed="false">Fresh momentum <small>1H</small></button>
@@ -41,11 +42,12 @@
             <th scope="col" class="rank">#</th>
             <th scope="col"><button data-sort="name">GAME ↕</button></th>
             <th scope="col"><button data-sort="players">PLAYING NOW ↕</button></th>
+            <th scope="col"><button data-sort="last.delta">LAST RUN Δ ↕</button><button data-sort="last.pct" class="subsort">% CHANGE ↕</button><small id="last-interval" class="interval"></small></th>
             <th scope="col"><button data-sort="1.delta">1H Δ ↕</button><button data-sort="1.pct" class="subsort">% CHANGE ↕</button></th>
             <th scope="col"><button data-sort="6.delta">6H Δ ↕</button><button data-sort="6.pct" class="subsort">% CHANGE ↕</button></th>
             <th scope="col"><button data-sort="24.delta">24H Δ ↕</button><button data-sort="24.pct" class="subsort">% CHANGE ↕</button></th>
           </tr></thead>
-          <tbody id="rows"><tr><td colspan="6" class="empty">Loading the watchlist…</td></tr></tbody>
+          <tbody id="rows"><tr><td colspan="7" class="empty">Loading the watchlist…</td></tr></tbody>
         </table>
       </div>
       <div class="board-footer"><span>↗ Sustained = positive across all available windows</span><span>— = no matching historical snapshot</span></div>

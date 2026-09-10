@@ -35,7 +35,10 @@ def analyze(data_dir=config.DATA_DIR, now=None):
     complete = {parse_time(row["timestamp"]): int(row["games"]) for row in manifest}
     latest = max(complete) if complete else None
     earliest = min(complete) if complete else None
+    previous_snapshot = sorted(complete)[-2] if len(complete) >= 2 else None
     cutoff = latest - timedelta(hours=max(config.WINDOWS), minutes=config.TOLERANCE_MINUTES) if latest else now
+    if previous_snapshot:
+        cutoff = min(cutoff, previous_snapshot)
     cutoff_text = utc_text(cutoff)
     recent = {stamp: count for stamp, count in complete.items() if stamp >= cutoff}
     metadata = {row["game_id"]: row for row in read_csv(data_dir / "games.csv")}
@@ -62,6 +65,12 @@ def analyze(data_dir=config.DATA_DIR, now=None):
         if latest not in history or history[latest] < config.MIN_PLAYERS:
             continue
         current = history[latest]
+        previous_players = history.get(previous_snapshot)
+        since_last = (dict(delta=current - previous_players,
+            pct=round((current - previous_players) / max(previous_players, 1) * 100, 2),
+            baseline_players=previous_players, baseline_at=utc_text(previous_snapshot),
+            elapsed_minutes=round((latest - previous_snapshot).total_seconds() / 60, 2))
+            if previous_players is not None else None)
         ordered = sorted(history.items())
         windows = {}
         for hours in config.WINDOWS:
@@ -78,12 +87,14 @@ def analyze(data_dir=config.DATA_DIR, now=None):
         observed_new = cutoff <= first_seen <= latest
         available = [window for window in windows.values() if window is not None]
         rows.append(dict(game_id=game_id, name=meta["name"], icon_url=meta["icon_url"],
-            players=current, windows=windows, first_seen=meta["first_seen"],
+            players=current, windows=windows, since_last=since_last, first_seen=meta["first_seen"],
             new_entrant=observed_new or crossed, crossed_floor=crossed,
             sustained=bool(available) and all(window["delta"] > 0 for window in available),
             available_windows=len(available)))
     rows.sort(key=lambda row: (-row["players"], row["game_id"]))
     return dict(generated_at=utc_text(now), latest_snapshot=utc_text(latest) if latest else None,
+        previous_snapshot=utc_text(previous_snapshot) if previous_snapshot else None,
+        last_interval_minutes=round((latest - previous_snapshot).total_seconds() / 60, 2) if previous_snapshot else None,
         history_hours=round((latest - earliest).total_seconds() / 3600, 2) if latest else 0,
         snapshot_count=len(complete), eligible_count=len(rows), min_players=config.MIN_PLAYERS,
         collect_floor=config.COLLECT_FLOOR, top_n=config.TOP_N,
