@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.tmp
+.live-response.json
+.preview.log
+.preview.err

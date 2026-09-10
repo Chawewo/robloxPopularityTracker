@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <meta name="description" content="Find emerging Roblox games through sustained player growth, fresh momentum, and new entrants.">
+  <title>Next Up · Roblox game tracker</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main>
+    <header class="masthead">
+      <div class="brand"><span class="mark" aria-hidden="true">↗</span><span>NEXT UP <small>ROBLOX RADAR</small></span></div>
+      <button id="theme" class="quiet" aria-label="Switch color theme">◐ Theme</button>
+    </header>
+    <section class="intro">
+      <div><p class="eyebrow">THE NEXT BIG GAME</p><h1>Catch the climb.</h1><p class="subtitle">Real traction. Fresh momentum. Find the games moving up.</p></div>
+      <div class="status"><span id="status-dot" class="dot"></span><span id="freshness">Connecting…</span><small id="updated">Snapshots every ~15 minutes</small></div>
+    </section>
+    <section class="stats" aria-label="Collection summary">
+      <div><span>GAMES WITH TRACTION</span><strong id="eligible">—</strong><small id="floor">1,000+ concurrent players</small></div>
+      <div><span>SUSTAINED RISERS</span><strong id="sustained">—</strong><small>Positive in every available window</small></div>
+      <div><span>NEW ENTRANTS</span><strong id="entrants">—</strong><small>First observed or crossed the floor · 24h</small></div>
+      <div><span>HISTORY COLLECTED</span><strong id="history">—</strong><small id="snapshots">Waiting for the first snapshot</small></div>
+    </section>
+    <section class="board" aria-label="Game leaderboard">
+      <div class="board-heading"><h2>The watchlist <span>↗</span></h2><span id="result-count">Loading games…</span></div>
+      <div class="lenses" role="group" aria-label="Ranking lens">
+        <button class="active" data-lens="sustained" aria-pressed="true">Sustained growth <small>6H</small></button>
+        <button data-lens="absolute" aria-pressed="false">Big movers <small>6H Δ</small></button>
+        <button data-lens="momentum" aria-pressed="false">Fresh momentum <small>1H</small></button>
+        <button data-lens="entrants" aria-pressed="false">New entrants <small>24H</small></button>
+      </div>
+      <p id="lens-description" class="lens-description">Positive growth in every available window, ranked by 6-hour percentage gain.</p>
+      <p id="notice" class="notice" role="status" hidden></p>
+      <div class="table-scroll">
+        <table>
+          <thead><tr>
+            <th scope="col" class="rank">#</th>
+            <th scope="col"><button data-sort="name">GAME ↕</button></th>
+            <th scope="col"><button data-sort="players">PLAYING NOW ↕</button></th>
+            <th scope="col"><button data-sort="1.delta">1H Δ ↕</button><button data-sort="1.pct" class="subsort">% CHANGE ↕</button></th>
+            <th scope="col"><button data-sort="6.delta">6H Δ ↕</button><button data-sort="6.pct" class="subsort">% CHANGE ↕</button></th>
+            <th scope="col"><button data-sort="24.delta">24H Δ ↕</button><button data-sort="24.pct" class="subsort">% CHANGE ↕</button></th>
+          </tr></thead>
+          <tbody id="rows"><tr><td colspan="6" class="empty">Loading the watchlist…</td></tr></tbody>
+        </table>
+      </div>
+      <div class="board-footer"><span>↗ Sustained = positive across all available windows</span><span>— = no matching historical snapshot</span></div>
+    </section>
+    <footer><span>NEXT UP <span class="muted">/ Independent Roblox game discovery</span></span><span>Data from <a href="https://www.rolimons.com/games" target="_blank" rel="noopener noreferrer">Rolimons</a> · Times shown locally</span></footer>
+  </main>
+</body>
+</html>
