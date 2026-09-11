@@ -55,3 +55,11 @@ The public Pages artifact contains leaderboard data and demo data, not snapshot 
 The LAST RUN column compares the newest two completed collections, showing player delta, percentage, and the actual interval in minutes. It works for manual runs and scheduling gaps without pretending the interval is one hour. A game missing from the previous collection has no comparison; an unchanged count shows zero. This lens is selected automatically until a 6h comparison becomes available. The 1h/6h/24h windows still require their own baselines within the configured tolerance.
 
 On September 10, scheduled triggers had not appeared despite successful push and manual runs. The cron was changed to `4-59/15 * * * *` as a recovery attempt. This does not guarantee scheduler recovery: only a run with event `schedule` verifies it. Each run now includes a summary showing its trigger, snapshot time, elapsed interval, and comparison coverage. No local scheduler has been installed.
+
+## Windows collection timer
+
+`Roblox Tracker - GitHub Collection` runs `dispatch_workflow.py` with hidden Python every 15 minutes and at sign-in. It runs as the current Windows user without elevation, while signed in (locking is fine). It cannot run during sleep, shutdown, or sign-out; missed starts are handled when available. Your GitHub credentials stay in the existing Git credential helper; no token is saved in the repository. The script skips active workflows and snapshots under 12 minutes old. GitHub cron remains a fallback when the PC is unavailable. Dispatch only requests a run; network or GitHub service failures can still delay collection. Inspect `.scheduler.log` and Task Scheduler for status. Reinstall with `powershell -File install_scheduler.ps1` under your normal account. Disable or remove the named task in Task Scheduler to stop it.
+
+## Sparse historical comparisons
+
+Window tolerances are now 1h ±20 minutes, 6h ±90 minutes, and 24h ±3 hours. Every available time-window metric includes its actual elapsed hours. Matches farther than 20 minutes from the target are labeled approximate. No interpolation is used. Missing comparisons explicitly distinguish insufficient history from collection gaps. This supersedes the original uniform ±20-minute matching rule described above.

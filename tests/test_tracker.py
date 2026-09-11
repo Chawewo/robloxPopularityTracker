@@ -146,6 +146,22 @@ class TrackerTests(unittest.TestCase):
         self.assertEqual(row['since_last']['elapsed_minutes'], 4320)
         self.assertTrue(all(v is None for v in row['windows'].values()))
 
+    def test_sparse_six_hour_match_is_labeled_with_actual_duration(self):
+        self.snapshot(-310, {1: 1000})
+        self.snapshot(0, {1: 1500})
+        data = self.result()
+        metric = data['games'][0]['windows']['6']
+        self.assertEqual(metric['pct'], 50)
+        self.assertTrue(metric['approximate'])
+        self.assertEqual(metric['elapsed_hours'], 5.17)
+        self.assertEqual(data['window_coverage']['1']['reason'], 'collection_gap')
+        self.assertEqual(data['window_coverage']['24']['reason'], 'not_enough_history')
+
+    def test_six_hour_match_still_rejects_unrelated_time(self):
+        self.snapshot(-200, {1: 1000})
+        self.snapshot(0, {1: 1500})
+        self.assertIsNone(self.result()['games'][0]['windows']['6'])
+
 
 if __name__ == "__main__":
     unittest.main()

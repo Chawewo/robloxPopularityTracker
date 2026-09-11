@@ -23,7 +23,7 @@ def compare(points, latest, hours):
     if not candidates:
         return None
     match = min(candidates, key=lambda point: (abs(point[0] - target), point[0]))
-    if abs(match[0] - target) > timedelta(minutes=config.TOLERANCE_MINUTES):
+    if abs(match[0] - target) > timedelta(minutes=config.WINDOW_TOLERANCE_MINUTES.get(hours, config.TOLERANCE_MINUTES)):
         return None
     return match
 
@@ -36,7 +36,7 @@ def analyze(data_dir=config.DATA_DIR, now=None):
     latest = max(complete) if complete else None
     earliest = min(complete) if complete else None
     previous_snapshot = sorted(complete)[-2] if len(complete) >= 2 else None
-    cutoff = latest - timedelta(hours=max(config.WINDOWS), minutes=config.TOLERANCE_MINUTES) if latest else now
+    cutoff = latest - timedelta(hours=max(config.WINDOWS), minutes=max(config.WINDOW_TOLERANCE_MINUTES.values())) if latest else now
     if previous_snapshot:
         cutoff = min(cutoff, previous_snapshot)
     cutoff_text = utc_text(cutoff)
@@ -77,7 +77,9 @@ def analyze(data_dir=config.DATA_DIR, now=None):
             previous = compare(ordered, latest, hours)
             windows[str(hours)] = (dict(delta=current - previous[1],
                 pct=round((current - previous[1]) / max(previous[1], 1) * 100, 2),
-                baseline_players=previous[1], baseline_at=utc_text(previous[0]))
+                baseline_players=previous[1], baseline_at=utc_text(previous[0]),
+                elapsed_hours=round((latest - previous[0]).total_seconds() / 3600, 2),
+                approximate=abs((latest - previous[0]).total_seconds() / 60 - hours * 60) > config.TOLERANCE_MINUTES)
                 if previous else None)
         meta = metadata[game_id]
         cutoff = latest - timedelta(hours=24)
@@ -92,11 +94,18 @@ def analyze(data_dir=config.DATA_DIR, now=None):
             sustained=bool(available) and all(window["delta"] > 0 for window in available),
             available_windows=len(available)))
     rows.sort(key=lambda row: (-row["players"], row["game_id"]))
+    coverage = {}
+    for hours in config.WINDOWS:
+        available = sum(row['windows'][str(hours)] is not None for row in rows)
+        elapsed = (latest - earliest).total_seconds() / 3600 if latest else 0
+        coverage[str(hours)] = dict(available=available,
+            reason='available' if available else 'not_enough_history' if elapsed < hours else 'collection_gap')
     return dict(generated_at=utc_text(now), latest_snapshot=utc_text(latest) if latest else None,
         previous_snapshot=utc_text(previous_snapshot) if previous_snapshot else None,
         last_interval_minutes=round((latest - previous_snapshot).total_seconds() / 60, 2) if previous_snapshot else None,
         history_hours=round((latest - earliest).total_seconds() / 3600, 2) if latest else 0,
         snapshot_count=len(complete), eligible_count=len(rows), min_players=config.MIN_PLAYERS,
+        window_coverage=coverage,
         collect_floor=config.COLLECT_FLOOR, top_n=config.TOP_N,
         tolerance_minutes=config.TOLERANCE_MINUTES, stale_minutes=config.STALE_MINUTES,
         games=rows)

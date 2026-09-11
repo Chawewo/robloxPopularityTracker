@@ -9,6 +9,7 @@ MIN_PLAYERS = 1_000
 COLLECT_FLOOR = 500
 WINDOWS = (1, 6, 24)
 TOLERANCE_MINUTES = 20
+WINDOW_TOLERANCE_MINUTES = {1: 20, 6: 90, 24: 180}
 RETENTION_DAYS = 60
 TOP_N = 100  # Display limit per lens; JSON retains all eligible games for sorting.
 STALE_MINUTES = 45

@@ -73,7 +73,12 @@ function render() {
   const notices=[];
   if(demo) notices.push('Sample data for design review. These are fictional games and simulated growth.');
   if(stale && !demo) notices.push('No recent snapshot. Counts may be outdated; check the GitHub Actions run.');
-  if(data.history_hours<24) notices.push('History is warming up. Each comparison appears when a snapshot is available within ±20 minutes of its target. NEW means first observed by this tracker, not newly released.');
+  if(data.history_hours<24) notices.push('History is warming up. NEW means first observed by this tracker, not newly released.');
+  for(const window of ['1','6','24']) {
+    const coverage=data.window_coverage?.[window];
+    if(coverage && !coverage.available) notices.push(`${window}h: ${coverage.reason==='not_enough_history' ? 'not enough recorded history yet' : 'no snapshot near the target time because of a collection gap'}.`);
+  }
+  if(games.some(g=>Object.values(g.windows).some(w=>w?.approximate))) notices.push('Approximate comparisons show their actual duration. Matching tolerance: 1h ±20 min, 6h ±90 min, 24h ±3h.');
   if(pending) notices.push(lens==='latest' ? 'A second completed collection with the same games will unlock changes since last run.' : 'This time window has no matching baseline yet. Select Since last run to compare consecutive collections.');
   if(lens==='latest') notices.push('Last-run changes compare consecutive collections, even across scheduling gaps. An unchanged upstream count is shown as 0.0%; a game absent from the previous collection has no comparison.');
   $('#notice').hidden=!notices.length;
@@ -97,8 +102,8 @@ function render() {
     if(game.new_entrant) {const badge=element('span','badge','NEW');badge.title=game.crossed_floor?'Observed below the player floor in the last 24 hours':'First observed by this tracker within 24 hours';badges.append(badge);}
     info.append(badges);wrapper.append(icon,info);nameCell.append(wrapper);tr.append(nameCell,element('td','number',format.format(game.players)));
     ['last','1','6','24'].forEach(window=>{const td=element('td');const metric=window==='last'?game.since_last:game.windows[window];
-      if(metric) {td.className=metric.delta>0?'positive':metric.delta<0?'negative':'muted';td.append(element('span','delta',signed(metric.delta)),element('span','pct',signed(metric.pct,true)));td.title=`Compared with ${new Date(metric.baseline_at).toLocaleString()} · ${format.format(metric.baseline_players)} players`;}
-      else {td.append(element('span','muted','—'));td.title=window==='last'?'Game not observed in the previous completed collection':'No historical snapshot within the matching tolerance';}tr.append(td);
+      if(metric) {td.className=metric.delta>0?'positive':metric.delta<0?'negative':'muted';td.append(element('span','delta',signed(metric.delta)),element('span','pct',signed(metric.pct,true)));if(window!=='last') td.append(element('small','interval',`${metric.approximate?'≈ ':''}${metric.elapsed_hours ?? window}h actual`));td.title=`Compared with ${new Date(metric.baseline_at).toLocaleString()} · ${format.format(metric.baseline_players)} players`;}
+      else {td.append(element('span','muted',window==='last'?'—':data.window_coverage?.[window]?.reason==='not_enough_history'?'Warming up':'No sample'));td.title=window==='last'?'Game not observed in the previous completed collection':'No historical snapshot within the matching tolerance';}tr.append(td);
     });tbody.append(tr);
   });
   document.querySelectorAll('[data-sort]').forEach(button=>{const active=button.dataset.sort===sortKey;button.classList.toggle('selected',active);button.setAttribute('aria-label',`${button.textContent.replace('↕','').trim()}: ${active?(direction===1?'ascending':'descending'):'sort'}`);});

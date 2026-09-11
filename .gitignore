@@ -5,3 +5,4 @@ __pycache__/
 .live-response.json
 .preview.log
 .preview.err
+.scheduler.log
