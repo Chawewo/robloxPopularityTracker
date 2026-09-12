@@ -63,3 +63,7 @@ On September 10, scheduled triggers had not appeared despite successful push and
 ## Sparse historical comparisons
 
 Window tolerances are now 1h ±20 minutes, 6h ±90 minutes, and 24h ±3 hours. Every available time-window metric includes its actual elapsed hours. Matches farther than 20 minutes from the target are labeled approximate. No interpolation is used. Missing comparisons explicitly distinguish insufficient history from collection gaps. This supersedes the original uniform ±20-minute matching rule described above.
+
+## Longer-term trends
+
+Use Trend window to choose 1 day, 2 days, 3 days, or 1 week. Changing the selector opens Longer trends and ranks by percentage change for that period; click its delta header to rank by players gained instead. Name search applies before the top-100 display limit. The extra trend column shows the observed peak and percent below that peak, based on samples between the matched baseline and latest snapshot. Missing samples can hide peaks. Longer periods use ±3h tolerance and show actual elapsed time; they remain unavailable until a matching baseline exists. No past data is fabricated. Short-term sustained badges still use only 1h/6h/24h comparisons. Analysis now retains up to 7 days plus tolerance in memory.

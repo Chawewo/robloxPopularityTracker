@@ -6,8 +6,8 @@
   <meta name="color-scheme" content="dark light">
   <meta name="description" content="Find emerging Roblox games through sustained player growth, fresh momentum, and new entrants.">
   <title>Next Up · Roblox game tracker</title>
-  <link rel="stylesheet" href="style.css?v=4">
-  <script src="app.js?v=4" defer></script>
+  <link rel="stylesheet" href="style.css?v=5">
+  <script src="app.js?v=5" defer></script>
 </head>
 <body>
   <main>
@@ -33,9 +33,17 @@
         <button data-lens="absolute" aria-pressed="false">Big movers <small>6H Δ</small></button>
         <button data-lens="momentum" aria-pressed="false">Fresh momentum <small>1H</small></button>
         <button data-lens="entrants" aria-pressed="false">New entrants <small>24H</small></button>
+        <button data-lens="trend" aria-pressed="false">Longer trends</button>
       </div>
       <p id="lens-description" class="lens-description">Positive growth in every available window, ranked by 6-hour percentage gain.</p>
       <div class="name-filter">
+        <label for="trend-window">Trend window</label>
+        <select id="trend-window">
+          <option value="24">1 day</option>
+          <option value="48" selected>2 days</option>
+          <option value="72">3 days</option>
+          <option value="168">1 week</option>
+        </select>
         <label for="name-search">Filter by game name</label>
         <input id="name-search" type="search" placeholder="Search titles, e.g. brain" autocomplete="off" aria-describedby="search-help">
         <small id="search-help">Matches any part of a title within the selected ranking lens.</small>
@@ -51,8 +59,9 @@
             <th scope="col"><button data-sort="1.delta">1H Δ ↕</button><button data-sort="1.pct" class="subsort">% CHANGE ↕</button></th>
             <th scope="col"><button data-sort="6.delta">6H Δ ↕</button><button data-sort="6.pct" class="subsort">% CHANGE ↕</button></th>
             <th scope="col"><button data-sort="24.delta">24H Δ ↕</button><button data-sort="24.pct" class="subsort">% CHANGE ↕</button></th>
+            <th scope="col"><button id="trend-delta" data-sort="48.delta">2 DAYS Δ ↕</button><button id="trend-pct" data-sort="48.pct" class="subsort">% CHANGE ↕</button></th>
           </tr></thead>
-          <tbody id="rows"><tr><td colspan="7" class="empty">Loading the watchlist…</td></tr></tbody>
+          <tbody id="rows"><tr><td colspan="8" class="empty">Loading the watchlist…</td></tr></tbody>
         </table>
       </div>
       <div class="board-footer"><span>↗ Sustained = positive across all available windows</span><span>— = no matching historical snapshot</span></div>

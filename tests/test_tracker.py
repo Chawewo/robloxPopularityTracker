@@ -33,7 +33,7 @@ class TrackerTests(unittest.TestCase):
         self.assertEqual(data["eligible_count"], 1)
         self.assertEqual(data["history_hours"], 0)
         self.assertFalse(data["games"][0]["sustained"])
-        self.assertEqual(data["games"][0]["windows"], {"1": None, "6": None, "24": None})
+        self.assertEqual(data["games"][0]["windows"], {str(h): None for h in config.WINDOWS})
 
     def test_jitter_and_crossing_and_percent(self):
         self.snapshot(-1448, {1: 600})
@@ -144,7 +144,7 @@ class TrackerTests(unittest.TestCase):
         row = self.result()['games'][0]
         self.assertEqual(row['since_last']['pct'], 100)
         self.assertEqual(row['since_last']['elapsed_minutes'], 4320)
-        self.assertTrue(all(v is None for v in row['windows'].values()))
+        self.assertTrue(all(row['windows'][str(h)] is None for h in (1, 6, 24)))
 
     def test_sparse_six_hour_match_is_labeled_with_actual_duration(self):
         self.snapshot(-310, {1: 1000})
@@ -161,6 +161,28 @@ class TrackerTests(unittest.TestCase):
         self.snapshot(-200, {1: 1000})
         self.snapshot(0, {1: 1500})
         self.assertIsNone(self.result()['games'][0]['windows']['6'])
+
+    def test_multiday_growth_and_peak_use_recorded_history(self):
+        self.snapshot(-168 * 60, {1: 1000})
+        self.snapshot(-72 * 60, {1: 2000})
+        self.snapshot(-48 * 60, {1: 2500})
+        self.snapshot(-24 * 60, {1: 5000})
+        self.snapshot(0, {1: 3000})
+        row = self.result()['games'][0]
+        self.assertEqual(row['windows']['48']['pct'], 20)
+        self.assertEqual(row['windows']['72']['pct'], 50)
+        weekly = row['windows']['168']
+        self.assertEqual(weekly['pct'], 200)
+        self.assertEqual(weekly['observed_peak'], 5000)
+        self.assertEqual(weekly['below_peak_pct'], 40)
+        self.assertEqual(weekly['observation_count'], 5)
+
+    def test_weekly_window_does_not_use_three_day_history(self):
+        self.snapshot(-72 * 60, {1: 1000})
+        self.snapshot(0, {1: 3000})
+        data = self.result()
+        self.assertIsNone(data['games'][0]['windows']['168'])
+        self.assertEqual(data['window_coverage']['168']['reason'], 'not_enough_history')
 
 
 if __name__ == "__main__":

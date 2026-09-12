@@ -81,13 +81,20 @@ def analyze(data_dir=config.DATA_DIR, now=None):
                 elapsed_hours=round((latest - previous[0]).total_seconds() / 3600, 2),
                 approximate=abs((latest - previous[0]).total_seconds() / 60 - hours * 60) > config.TOLERANCE_MINUTES)
                 if previous else None)
+            if previous:
+                samples = [count for stamp, count in ordered if previous[0] <= stamp <= latest]
+                peak = max(samples)
+                windows[str(hours)].update(observed_peak=peak,
+                    below_peak_pct=round((peak - current) / max(peak, 1) * 100, 2),
+                    observation_count=len(samples))
         meta = metadata[game_id]
         cutoff = latest - timedelta(hours=24)
         first_seen = parse_time(meta["first_seen"])
         crossed = any(cutoff <= stamp < latest and value < config.MIN_PLAYERS
                       for stamp, value in ordered)
         observed_new = cutoff <= first_seen <= latest
-        available = [window for window in windows.values() if window is not None]
+        # Preserve the short-term sustained signal independently of longer lookbacks.
+        available = [windows[str(h)] for h in (1, 6, 24) if windows.get(str(h)) is not None]
         rows.append(dict(game_id=game_id, name=meta["name"], icon_url=meta["icon_url"],
             players=current, windows=windows, since_last=since_last, first_seen=meta["first_seen"],
             new_entrant=observed_new or crossed, crossed_floor=crossed,

@@ -10,7 +10,7 @@ const descriptions = {
   momentum: 'The fastest percentage growth over the past hour.',
   entrants: 'First observed or seen below 1,000 players within the past 24 hours. Ranked by current players.'
 };
-const defaults = {latest:'last.pct', sustained:'6.pct', absolute:'6.delta', momentum:'1.pct', entrants:'players'};
+const defaults = {latest:'last.pct', sustained:'6.pct', absolute:'6.delta', momentum:'1.pct', entrants:'players', trend:'48.pct'};
 const demo = new URLSearchParams(location.search).get('demo') === '1';
 if (demo) document.body.dataset.demo = 'true';
 try { const theme = localStorage.getItem('theme'); if (['light','dark'].includes(theme)) document.documentElement.dataset.theme = theme; } catch {}
@@ -43,6 +43,13 @@ function element(tag, className, text) {
 function render() {
   if(!data) return;
   const games=data.games;
+  const trendWindow=$('#trend-window').value;
+  const trendLabel=$('#trend-window').selectedOptions[0].text;
+  defaults.trend=`${trendWindow}.pct`;
+  descriptions.trend=`${trendLabel} growth, ranked by percentage change. Observed peak and distance below it help distinguish rising games from games that have already peaked. Peaks only reflect collected snapshots.`;
+  $('#trend-delta').dataset.sort=`${trendWindow}.delta`;
+  $('#trend-delta').textContent=`${trendLabel.toUpperCase()} Δ ↕`;
+  $('#trend-pct').dataset.sort=`${trendWindow}.pct`;
   if(!userPickedLens) {
     lens=games.some(g=>g.windows['6']!=null) ? 'sustained' : 'latest';
     sortKey=defaults[lens];direction=-1;
@@ -61,7 +68,7 @@ function render() {
   $('#status-dot').classList.toggle('stale',stale);
   $('#freshness').textContent=demo ? 'Design preview · sample games' : !data.latest_snapshot ? 'Awaiting first collection' : stale ? 'Collection is overdue' : 'Tracking player counts';
   $('#updated').textContent=data.latest_snapshot ? `Last snapshot ${new Date(data.latest_snapshot).toLocaleString()}` : 'Snapshots every ~15 minutes';
-  const hasBaseline=g=>lens==='latest' ? g.since_last!=null : g.windows[lens==='momentum'?'1':'6']!=null;
+  const hasBaseline=g=>lens==='latest' ? g.since_last!=null : g.windows[lens==='trend'?trendWindow:lens==='momentum'?'1':'6']!=null;
   let selected=games.filter(g=>lens==='latest' ? true : lens==='sustained' ? g.sustained && hasBaseline(g) : lens==='entrants' ? g.new_entrant : hasBaseline(g));
   const pending=games.length>0 && lens!=='entrants' && !games.some(hasBaseline);
   // Show actual traction during cold start, explicitly unranked by growth.
@@ -76,11 +83,11 @@ function render() {
   if(demo) notices.push('Sample data for design review. These are fictional games and simulated growth.');
   if(stale && !demo) notices.push('No recent snapshot. Counts may be outdated; check the GitHub Actions run.');
   if(data.history_hours<24) notices.push('History is warming up. NEW means first observed by this tracker, not newly released.');
-  for(const window of ['1','6','24']) {
+  for(const window of new Set(['1','6','24',trendWindow])) {
     const coverage=data.window_coverage?.[window];
     if(coverage && !coverage.available) notices.push(`${window}h: ${coverage.reason==='not_enough_history' ? 'not enough recorded history yet' : 'no snapshot near the target time because of a collection gap'}.`);
   }
-  if(games.some(g=>Object.values(g.windows).some(w=>w?.approximate))) notices.push('Approximate comparisons show their actual duration. Matching tolerance: 1h ±20 min, 6h ±90 min, 24h ±3h.');
+  if(games.some(g=>Object.values(g.windows).some(w=>w?.approximate))) notices.push('Approximate comparisons show their actual duration. Matching tolerance: 1h ±20 min, 6h ±90 min, 24h and longer ±3h.');
   if(pending) notices.push(lens==='latest' ? 'A second completed collection with the same games will unlock changes since last run.' : 'This time window has no matching baseline yet. Select Since last run to compare consecutive collections.');
   if(lens==='latest') notices.push('Last-run changes compare consecutive collections, even across scheduling gaps. An unchanged upstream count is shown as 0.0%; a game absent from the previous collection has no comparison.');
   $('#notice').hidden=!notices.length;
@@ -89,7 +96,7 @@ function render() {
   const tbody=$('#rows'); tbody.replaceChildren();
   if(!selected.length) {
     const tr=element('tr'); const td=element('td','empty',query?'No matching game titles in this lens. Try another name or select Since last run to search all eligible games.':games.length?'No games match this lens right now. Try another ranking lens.':'No games above the player floor in the latest collection.');
-    td.colSpan=7;tr.append(td);tbody.append(tr);
+    td.colSpan=8;tr.append(td);tbody.append(tr);
   }
   selected.forEach((game,index)=>{
     const tr=element('tr');tr.append(element('td','rank',pending?'—':String(index+1)));
@@ -103,8 +110,8 @@ function render() {
     if(game.sustained) {const badge=element('span','badge rising','↗ SUSTAINED');badge.title=`Positive across ${game.available_windows} available comparison windows`;badges.append(badge);}
     if(game.new_entrant) {const badge=element('span','badge','NEW');badge.title=game.crossed_floor?'Observed below the player floor in the last 24 hours':'First observed by this tracker within 24 hours';badges.append(badge);}
     info.append(badges);wrapper.append(icon,info);nameCell.append(wrapper);tr.append(nameCell,element('td','number',format.format(game.players)));
-    ['last','1','6','24'].forEach(window=>{const td=element('td');const metric=window==='last'?game.since_last:game.windows[window];
-      if(metric) {td.className=metric.delta>0?'positive':metric.delta<0?'negative':'muted';td.append(element('span','delta',signed(metric.delta)),element('span','pct',signed(metric.pct,true)));if(window!=='last') td.append(element('small','interval',`${metric.approximate?'≈ ':''}${metric.elapsed_hours ?? window}h actual`));td.title=`Compared with ${new Date(metric.baseline_at).toLocaleString()} · ${format.format(metric.baseline_players)} players`;}
+    ['last','1','6','24',trendWindow].forEach((window,columnIndex)=>{const td=element('td');const metric=window==='last'?game.since_last:game.windows[window];
+      if(metric) {td.className=metric.delta>0?'positive':metric.delta<0?'negative':'muted';td.append(element('span','delta',signed(metric.delta)),element('span','pct',signed(metric.pct,true)));if(window!=='last') td.append(element('small','interval',`${metric.approximate?'≈ ':''}${metric.elapsed_hours ?? window}h actual`));if(columnIndex===4 && metric.observed_peak!=null) td.append(element('small','interval',`Peak ${format.format(metric.observed_peak)} · ${metric.below_peak_pct.toFixed(1)}% below`));td.title=`Compared with ${new Date(metric.baseline_at).toLocaleString()} · ${format.format(metric.baseline_players)} players`;}
       else {td.append(element('span','muted',window==='last'?'—':data.window_coverage?.[window]?.reason==='not_enough_history'?'Warming up':'No sample'));td.title=window==='last'?'Game not observed in the previous completed collection':'No historical snapshot within the matching tolerance';}tr.append(td);
     });tbody.append(tr);
   });
@@ -131,8 +138,9 @@ async function load() {
     $('#notice').hidden=false;$('#notice').classList.add('error');
     $('#notice').textContent=`Could not refresh the leaderboard (${error.message}). ${data?'Showing the last loaded snapshot.':'The first successful workflow run will publish the data.'} Retrying in 3 minutes.`;
     $('#freshness').textContent='Refresh unavailable';$('#status-dot').classList.add('stale');
-    if(!data) {$('#result-count').textContent='Data unavailable';$('#rows').replaceChildren();const tr=element('tr'),td=element('td','empty','Waiting for collection data.');td.colSpan=7;tr.append(td);$('#rows').append(tr);}
+    if(!data) {$('#result-count').textContent='Data unavailable';$('#rows').replaceChildren();const tr=element('tr'),td=element('td','empty','Waiting for collection data.');td.colSpan=8;tr.append(td);$('#rows').append(tr);}
   }
 }
+$('#trend-window').addEventListener('change',()=>{userPickedLens=true;lens='trend';sortKey=`${$('#trend-window').value}.pct`;direction=-1;render();});
 $('#name-search').addEventListener('input',render);
 load();setInterval(load,180000);
