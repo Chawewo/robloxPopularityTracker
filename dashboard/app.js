@@ -66,6 +66,8 @@ function render() {
   const pending=games.length>0 && lens!=='entrants' && !games.some(hasBaseline);
   // Show actual traction during cold start, explicitly unranked by growth.
   if(pending) selected=[...games];
+  const query=$('#name-search').value.trim().toLocaleLowerCase();
+  if(query) selected=selected.filter(game=>game.name.toLocaleLowerCase().includes(query));
   selected.sort(compare);
   const total=selected.length;
   selected=selected.slice(0,data.top_n);
@@ -86,7 +88,7 @@ function render() {
   $('#notice').textContent=notices.join(' ');
   const tbody=$('#rows'); tbody.replaceChildren();
   if(!selected.length) {
-    const tr=element('tr'); const td=element('td','empty',games.length?'No games match this lens right now. Try another ranking lens.':'No games above the player floor in the latest collection.');
+    const tr=element('tr'); const td=element('td','empty',query?'No matching game titles in this lens. Try another name or select Since last run to search all eligible games.':games.length?'No games match this lens right now. Try another ranking lens.':'No games above the player floor in the latest collection.');
     td.colSpan=7;tr.append(td);tbody.append(tr);
   }
   selected.forEach((game,index)=>{
@@ -132,4 +134,5 @@ async function load() {
     if(!data) {$('#result-count').textContent='Data unavailable';$('#rows').replaceChildren();const tr=element('tr'),td=element('td','empty','Waiting for collection data.');td.colSpan=7;tr.append(td);$('#rows').append(tr);}
   }
 }
+$('#name-search').addEventListener('input',render);
 load();setInterval(load,180000);

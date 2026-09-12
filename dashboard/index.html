@@ -6,8 +6,8 @@
   <meta name="color-scheme" content="dark light">
   <meta name="description" content="Find emerging Roblox games through sustained player growth, fresh momentum, and new entrants.">
   <title>Next Up · Roblox game tracker</title>
-  <link rel="stylesheet" href="style.css?v=3">
-  <script src="app.js?v=3" defer></script>
+  <link rel="stylesheet" href="style.css?v=4">
+  <script src="app.js?v=4" defer></script>
 </head>
 <body>
   <main>
@@ -35,6 +35,11 @@
         <button data-lens="entrants" aria-pressed="false">New entrants <small>24H</small></button>
       </div>
       <p id="lens-description" class="lens-description">Positive growth in every available window, ranked by 6-hour percentage gain.</p>
+      <div class="name-filter">
+        <label for="name-search">Filter by game name</label>
+        <input id="name-search" type="search" placeholder="Search titles, e.g. brain" autocomplete="off" aria-describedby="search-help">
+        <small id="search-help">Matches any part of a title within the selected ranking lens.</small>
+      </div>
       <p id="notice" class="notice" role="status" hidden></p>
       <div class="table-scroll">
         <table>
