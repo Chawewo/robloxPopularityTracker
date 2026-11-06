@@ -17,25 +17,33 @@ GROWTH_WEIGHT = 2
 GROWTH_CAP = 1.5  # Log ratio; about 4.5x. Larger jumps earn nothing extra.
 SPIKE_RATIO = 2.5
 SPIKE_PENALTY = 3
+# Only for a game already climbing: clones that aren't climbing did worse than average.
+FAMILY_BONUS = 2
 FULL_MARKS = STREAK_POINTS[6] + GROWTH_WEIGHT * GROWTH_CAP
 
 
-def stand_in():
+def stand_in(floor=None):
     """An absent day is below the floor. This value is used for scoring and is never displayed."""
-    return config.COLLECT_FLOOR * 0.8
+    return (config.COLLECT_FLOOR if floor is None else floor) * 0.8
 
 
-def level(peaks, index, width=3):
-    """The median of recent daily peaks, so one spike day doesn't move a game's level."""
-    window = peaks[max(0, index - width + 1):index + 1]
-    return median(stand_in() if value is None else value for value in window)
+def level(peaks, index, width=3, floors=None):
+    """The median of recent daily peaks, so one spike day doesn't move a game's level.
+
+    floors gives each day's collection floor, so lowering the floor doesn't change what an
+    absent day in the past meant.
+    """
+    start = max(0, index - width + 1)
+    return median(stand_in(floors[start + offset] if floors else None) if value is None else value
+                  for offset, value in enumerate(peaks[start:index + 1]))
 
 
-def rising_streak(peaks, index):
+def rising_streak(peaks, index, floors=None):
     """Consecutive days ending at index on which the 3-day level rose."""
     streak = 0
     position = index
-    while streak < STREAK_LIMIT and position > 0 and level(peaks, position) > level(peaks, position - 1):
+    while (streak < STREAK_LIMIT and position > 0
+           and level(peaks, position, floors=floors) > level(peaks, position - 1, floors=floors)):
         streak += 1
         position -= 1
     return streak
@@ -56,21 +64,24 @@ def market_index(series, length):
     return index
 
 
-def vs_market(peaks, index, days, market):
+def vs_market(peaks, index, days, market, floors=None):
     """Log growth over `days`, net of the market. None without enough history."""
     if index < days:
         return None
-    return log(level(peaks, index) / level(peaks, index - days)) - (market[index] - market[index - days])
+    return (log(level(peaks, index, floors=floors) / level(peaks, index - days, floors=floors))
+            - (market[index] - market[index - days]))
 
 
-def score(peaks, index, market):
+def score(peaks, index, market, floors=None, in_family=False):
     """Score a game on the given day, using only data up to that day."""
-    streak = rising_streak(peaks, index)
-    growth = vs_market(peaks, index, 3, market)
+    streak = rising_streak(peaks, index, floors)
+    growth = vs_market(peaks, index, 3, market, floors)
     visible = max((value for value in peaks[max(0, index - 2):index + 1] if value is not None), default=0)
-    spike = visible > SPIKE_RATIO * level(peaks, index)
+    spike = visible > SPIKE_RATIO * level(peaks, index, floors=floors)
     points = STREAK_POINTS[streak] + GROWTH_WEIGHT * min(max(growth or 0, 0), GROWTH_CAP)
     if spike:
         points -= SPIKE_PENALTY
+    elif in_family and streak >= 1 and (growth or 0) > 0:
+        points += FAMILY_BONUS
     return dict(score=max(0, min(100, round(points / FULL_MARKS * 100))), streak=streak, spike=spike,
                 vs_market_3=round(growth, 3) if growth is not None else None)

@@ -202,7 +202,7 @@ class EnrichTests(Workspace):
         self.run_enrich()
         self.urls.clear()
         self.assertEqual(self.run_enrich(), dict(resolved=0, refreshed=0))
-        self.assertEqual(self.urls, [])
+        self.assertEqual([url for url in self.urls if "explore-api" not in url], [])
 
     def test_rate_limit_keeps_progress(self):
         self.snapshot(0, {1: 1500, 2: 1500, 3: 1500}, hour=13)
@@ -230,8 +230,12 @@ class EnrichTests(Workspace):
         self.assertEqual((row["created"], row["updated"]), ("", ""))
 
     def test_a_roblox_failure_never_fails_collection(self):
-        with patch.object(enrich, "enrich", side_effect=OSError("offline")):
+        with patch.object(enrich, "enrich", side_effect=OSError("offline")), \
+             patch.object(enrich, "sample_badges", side_effect=OSError("offline")) as badges, \
+             patch.object(enrich, "sample_groups", return_value=0) as groups:
             enrich.main()
+        badges.assert_called_once()
+        groups.assert_called_once()
 
     def test_newest_listed_games_resolve_first(self):
         self.snapshot(0, {5: 1500, 900: 1500, 40: 1500}, hour=13)

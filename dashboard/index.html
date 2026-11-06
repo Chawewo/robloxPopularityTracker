@@ -6,8 +6,8 @@
   <meta name="color-scheme" content="dark light">
   <meta name="description" content="Find emerging Roblox games through steady climbs, release dates, and backtested breakout signals.">
   <title>Next Up · Roblox game tracker</title>
-  <link rel="stylesheet" href="style.css?v=7">
-  <script src="app.js?v=7" defer></script>
+  <link rel="stylesheet" href="style.css?v=10">
+  <script src="app.js?v=10" defer></script>
 </head>
 <body>
   <main>
@@ -20,7 +20,7 @@
       <div class="status"><span id="status-dot" class="dot"></span><span id="freshness">Connecting…</span><small id="updated">Snapshots every ~15 minutes</small></div>
     </section>
     <section class="stats" aria-label="Collection summary">
-      <div><span>GAMES TRACKED</span><strong id="eligible">—</strong><small id="floor">500+ concurrent players</small></div>
+      <div><span>GAMES TRACKED</span><strong id="eligible">—</strong><small id="floor">Loading</small></div>
       <div><span>BREAKOUT WATCH</span><strong id="watch">—</strong><small>Score of 40 or higher</small></div>
       <div><span>RELEASED IN 90 DAYS</span><strong id="fresh">—</strong><small id="fresh-note">Still in the tracked list</small></div>
       <div><span>HISTORY COLLECTED</span><strong id="history">—</strong><small id="snapshots">Waiting for the first snapshot</small></div>
@@ -44,6 +44,8 @@
             <button data-lens="climbers">Biggest climbers</button>
             <button data-lens="comeback">Comebacks</button>
             <button data-lens="update">Update bumps</button>
+            <button data-lens="clones">Clone waves</button>
+            <button data-lens="charts">Roblox charts</button>
           </div>
         </div>
         <div class="lens-group">
@@ -69,9 +71,12 @@
           <div class="chips" id="released-chips" role="group" aria-labelledby="released-label"></div>
         </div>
         <div class="filter-grid">
-          <label>Min players<select id="min-players"></select></label>
-          <label>Max players<select id="max-players"></select></label>
+          <label>Min players<input id="min-players" type="number" min="0" step="50" inputmode="numeric" list="player-steps"></label>
+          <label>Max players<input id="max-players" type="number" min="0" step="50" inputmode="numeric" list="player-steps" placeholder="No limit"></label>
+          <datalist id="player-steps"></datalist>
           <label>Genre<select id="genre"></select></label>
+          <label>Clone wave<select id="family"></select></label>
+          <label>Roblox chart<select id="chart"></select></label>
           <label>Updated<select id="updated-within"></select></label>
           <label>Min score<select id="min-score"></select></label>
           <label>Min rising days<select id="min-streak"></select></label>
@@ -96,13 +101,23 @@
           <tbody id="rows"><tr><td class="empty">Loading the watchlist…</td></tr></tbody>
         </table>
       </div>
-      <div class="board-footer"><span>Long-range change compares the last 24 hours' peak with the peak on the matching past day</span><span>≥ means the game was under the 500-player floor then, so the true gain is larger</span></div>
+      <div class="board-footer"><span>Long-range change compares the last 24 hours' peak with the peak on the matching past day</span><span>≥ means the game was under the collection floor then, so the true gain is larger</span></div>
     </section>
     <section class="panels">
       <article class="panel" aria-labelledby="trust-title">
         <h3 id="trust-title">How far to trust the score</h3>
         <p id="trust-summary" class="panel-note">Loading the backtest…</p>
         <div class="table-scroll"><table class="mini"><thead><tr><th scope="col">Picks</th><th scope="col">Doubled</th><th scope="col">Tripled</th><th scope="col">5×</th><th scope="col">Samples</th></tr></thead><tbody id="trust-rows"></tbody></table></div>
+      </article>
+      <article class="panel" aria-labelledby="lab-title">
+        <h3 id="lab-title">Signal lab</h3>
+        <p id="lab-summary" class="panel-note">Loading…</p>
+        <div class="table-scroll"><table class="mini"><thead><tr><th scope="col">Signal</th><th scope="col">Doubled</th><th scope="col">Vs average</th><th scope="col">Samples</th><th scope="col">Status</th></tr></thead><tbody id="lab-rows"></tbody></table></div>
+      </article>
+      <article class="panel" aria-labelledby="wave-title">
+        <h3 id="wave-title">Clone waves</h3>
+        <p id="wave-summary" class="panel-note"></p>
+        <div id="wave-rows" class="wave-rows"></div>
       </article>
       <article class="panel" aria-labelledby="genre-title">
         <h3 id="genre-title">Genres moving</h3>

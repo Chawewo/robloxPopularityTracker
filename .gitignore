@@ -10,3 +10,4 @@ __pycache__/
 # data.json alone was 85% of the repository.
 dashboard/data.json
 dashboard/history.json
+dashboard/status.json

@@ -15,13 +15,15 @@ import config
 from collect import atomic_write, csv_text, read_csv
 
 DAILY_FIELDS = ["date", "game_id", "peak", "avg", "samples"]
-INDEX_FIELDS = ["date", "snapshots"]
+INDEX_FIELDS = ["date", "snapshots", "floor"]
+LEGACY_FLOOR = 500  # The fixed floor before it became configurable.
 
 
 def rollup(data_dir=config.DATA_DIR):
     """Roll up every completed day not yet recorded. Returns the dates added."""
     data_dir = Path(data_dir)
-    stamps = [row["timestamp"] for row in read_csv(data_dir / "collections.csv")]
+    manifest = read_csv(data_dir / "collections.csv")
+    stamps = [row["timestamp"] for row in manifest]
     if not stamps:
         return []
     index = {row["date"]: row for row in read_csv(data_dir / "daily_index.csv")}
@@ -57,9 +59,19 @@ def rollup(data_dir=config.DATA_DIR):
         merged = read_csv(path) + rows
         merged.sort(key=lambda row: (row["date"], int(row["game_id"])))
         atomic_write(path, csv_text(DAILY_FIELDS, merged))
-    index.update({date: dict(date=date, snapshots=count) for date, count in counts.items()})
+    # The highest floor of the day, so an absent game is known to be below that value.
+    floors = defaultdict(int)
+    for row in manifest:
+        floors[row["timestamp"][:10]] = max(floors[row["timestamp"][:10]], int(row.get("floor") or LEGACY_FLOOR))
+    index.update({date: dict(date=date, snapshots=count, floor=floors[date]) for date, count in counts.items()})
     atomic_write(data_dir / "daily_index.csv", csv_text(INDEX_FIELDS, [index[key] for key in sorted(index)]))
     return sorted(counts)
+
+
+def read_floors(data_dir=config.DATA_DIR):
+    """The collection floor of each rolled-up day, in date order."""
+    rows = sorted(read_csv(Path(data_dir) / "daily_index.csv"), key=lambda row: row["date"])
+    return [int(row.get("floor") or LEGACY_FLOOR) for row in rows]
 
 
 def read_daily(data_dir=config.DATA_DIR):

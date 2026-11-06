@@ -1,6 +1,6 @@
 # Next Up — Roblox “Next Big Game” Tracker
 
-A Python collector and GitHub Pages dashboard for catching Roblox games before they blow up. It tracks every game above 500 concurrent players, adds release dates and engagement from Roblox, and ranks games by the signals that came before past blow-ups.
+A Python collector and GitHub Pages dashboard for catching Roblox games before they blow up. It tracks every game above a floor you can change (100 concurrent players by default), adds release dates, engagement and chart positions from Roblox, detects clone waves, and ranks games by the signals that came before past blow-ups.
 
 **Dashboard:** https://chawewo.github.io/robloxPopularityTracker/ (available after the first successful Pages deployment).
 
@@ -39,14 +39,14 @@ GitHub scheduling is **best effort**, not gap-free: jobs can be delayed or dropp
 ## Data and signals
 
 - **Source:** one GET to https://api.rolimons.com/games/v1/gamelist with browser-style User-Agent and Rolimons Referer. Request timeout: 45 seconds, no retries. Counts reflect Rolimons’ cached observation, not exact real-time Roblox counts.
-- **Storage:** `data/snapshots/YYYY-MM.csv` contains `timestamp,game_id,players`; only games with at least 500 players are retained. At 40 MiB, a month rolls over into `YYYY-MM-002.csv`, etc., to stay below GitHub's file limit. Analysis streams only relevant months and retains observations for the last 24h plus tolerance in memory. `data/games.csv` tracks names, icons, and first observation. Metadata is rewritten only when changed. `data/collections.csv` marks completed snapshots, including zero-qualifier runs; orphan rows from interrupted writes are ignored and incomplete recent committed snapshots fail analysis.
-- **Current:** every game in the newest complete snapshot is listed (500+ players). Those with at least 1,000 players count as having traction. A missing game is unknown, never a stale current count or a zero baseline.
+- **Storage:** `data/snapshots/YYYY-MM.csv` contains `timestamp,game_id,players`; only games at or above the collection floor are retained. At 40 MiB, a month rolls over into `YYYY-MM-002.csv`, etc., to stay below GitHub's file limit. Analysis streams only relevant months and retains observations for the last 24h plus tolerance in memory. `data/games.csv` tracks names, icons, and first observation. Metadata is rewritten only when changed. `data/collections.csv` marks completed snapshots, including zero-qualifier runs; orphan rows from interrupted writes are ignored and incomplete recent committed snapshots fail analysis.
+- **Current:** every game in the newest complete snapshot is listed. Those with at least 1,000 players count as having traction. A missing game is unknown, never a stale current count or a zero baseline.
 - **Growth:** nearest observed count to 1h, 6h, and 24h before the latest collection, within ±20 minutes. Ties use the earlier observation. `delta = current − baseline`; `pct = delta / max(baseline, 1) × 100`. JSON includes the actual matched baseline timestamp. No interpolation or missing-value imputation.
 - **Sustained:** positive growth in every available window, with at least one comparison. The default lens additionally requires a 6h baseline. This is an early signal, not proof of uninterrupted growth; daily cycles, updates, and events can affect counts.
 - **New entrant:** first observed by this tracker within 24h, or a current count at or above 1,000 after a week below it, so a game dipping under 1,000 overnight does not qualify. First observed does not mean newly released. The initial batch will all show NEW. Crossing from below the collection floor cannot always be proven for previously seen games, so missing observations are not inferred as crossings.
 - **Ranking:** sustained 6h percentage gain; absolute 6h player change; 1h percentage change; new entrants by current players. Each lens displays up to 100 games. JSON retains all eligible games so another lens or column can find its own top 100. Click count, name, delta, or percentage headers to sort ascending/descending; missing values remain last.
 - **Cold start:** comparisons stay blank until a matching baseline exists. Before a lens has history, it shows current traction with an explicit “awaiting history” notice and no rank numbers. Around 1h/6h/24h of collection unlocks the respective comparisons (subject to tolerance and schedule delays).
-- **Retention:** exact rolling 60 days of raw snapshots in the working tree, pruning old rows and empty files. Daily rollups are kept permanently. Metadata first-seen dates persist. Old Git commits still retain prior data, so pruning does not shrink repository history; archive/rotate the repository if long-term Git size becomes an issue.
+- **Retention:** at least 30 days of raw snapshots in the working tree. Partitions are deleted whole once every row has expired, because trimming rows would add a full copy of a 40 MB file to Git history on every run. Daily rollups are kept permanently. Metadata first-seen dates persist. Old Git commits still retain prior data, so pruning does not shrink repository history; archive/rotate the repository if long-term Git size becomes an issue.
 
 Edit `config.py` to tune floors, comparison windows, tolerance, retention, display limit, and stale threshold. The dashboard fetches every three minutes; this does not poll Rolimons.
 
@@ -66,44 +66,92 @@ On September 10, scheduled triggers had not appeared despite successful push and
 
 Window tolerances are now 1h ±20 minutes, 6h ±90 minutes, and 24h ±3 hours. Every available time-window metric includes its actual elapsed hours. Matches farther than 20 minutes from the target are labeled approximate. No interpolation is used. Missing comparisons explicitly distinguish insufficient history from collection gaps. This supersedes the original uniform ±20-minute matching rule described above.
 
+## Changing the collection floor
+
+The floor decides which games are stored. Rolimons lists about 7,800 games, so lower floors really do reveal more:
+
+| Floor | Games (Nov 2026) |
+|---|---|
+| 500 | 1,486 |
+| 200 | 2,348 |
+| 100 | 3,056 |
+| 50 | 3,831 |
+| 10 | 5,526 |
+
+Change it either way:
+
+- **No code:** in GitHub, go to Settings → Secrets and variables → Actions → Variables and create `COLLECT_FLOOR` with the number you want. It overrides the default on the next run.
+- **In code:** edit `DEFAULT_COLLECT_FLOOR` in `config.py`.
+
+The minimum is 10, and an invalid value falls back to the default rather than stopping collection. Each day records the floor it was collected under, so changing it never distorts history: an absent day still means "below the floor that day", and lowering the floor does not mark long-running games as new. Storage scales with game count, so 100 costs about double 500.
+
+The floor only controls what is stored. Min players on the dashboard controls what you see, and accepts any number at or above the floor.
+
 ## Long-range change
 
-`rollup.py` compresses each completed UTC day into `data/daily/YYYY-MM.csv` (peak, average, samples per game) and records the day in `data/daily_index.csv`. It runs before pruning, so long-range history survives the 60-day limit at about 2 MB a month. `analyze.py` publishes these peaks to `dashboard/history.json`, which is rebuilt each run, deployed to Pages, and not committed.
+`rollup.py` compresses each completed UTC day into `data/daily/YYYY-MM.csv` (peak, average, samples per game) and records the day in `data/daily_index.csv`. It runs before pruning, so long-range history survives raw pruning. `analyze.py` publishes these peaks to `dashboard/history.json`, which is rebuilt each run, deployed to Pages, and not committed.
 
 The dashboard compares the peak of the last 24 hours with the peak on the matching past day, so **any** period works, including a custom number of days. Peaks are used because collection has overnight gaps: a peak barely depends on which hours were sampled, while point-in-time counts and daily averages do. The peak also removes the time-of-day cycle.
 
-- **≥ values:** a game absent on the baseline day was under the 500-player floor, so the gain is shown as a lower bound against 500. Sorting uses that lower bound. These games would otherwise disappear from the ranking, and they are often the ones you want.
+- **≥ values:** a game absent on the baseline day was under that day's collection floor, so the gain is shown as a lower bound against that floor. Sorting uses that lower bound. These games would otherwise disappear from the ranking, and they are often the ones you want.
 - **Vs market:** the change after removing the median game's move over the same days. The median stops one giant game from defining the market, and the adjustment cancels weekends and holidays, which matters for periods that are not whole weeks.
 
 ## Release dates and engagement
 
 `enrich.py` reads Roblox's public APIs for release date, last update, genre, creator, visits, favorites and votes. Place-to-universe lookups are limited to 60 a minute, so they run in small batches, newest place ids first, and are cached permanently in `data/universes.csv`. `data/details.csv` is refreshed every 6 hours and one engagement sample per day goes to `data/engagement/YYYY-MM.csv`. The step is best effort: an outage or rate limit prints a message and collection continues.
 
-- **Released is the date the Roblox experience was created.** Some games sit private for months or reuse an old experience, so a game titled `[NEW]` can show a date years ago. A game also appears here only after reaching 500 players.
+- **Released is the date the Roblox experience was created.** Some games sit private for months or reuse an old experience, so a game titled `[NEW]` can show a date years ago. A game also appears here only after reaching the collection floor.
 - **Visits per day** needs two daily samples, so it stays blank for the first day or two.
 - **Minutes per visit** is an estimate from average sampled players and visits per day (Little's law). Sampling leans towards the hours the collector runs, so use it to compare games rather than as an exact figure.
 
+## Roblox charts and community signals
+
+`enrich.py` runs these as separate best-effort steps, and all of them keep working if one source fails.
+
+- **Charts:** position on Top Trending, Up-and-Coming, Top Revisited, Top Earning, Top Rated and Fun with Friends, by UTC day, on computer and phone (`data/charts/`). Sponsored slots are skipped.
+- **New players per day:** daily awards of a game's most-earned badge (`data/badges/`). Many games award one on first join, so this roughly tracks arrivals, but it is a proxy.
+- **Group members:** community size behind group-owned games (`data/groups/`). Roblox allows 7 lookups a minute, so these fill in slowly.
+- **Update cadence:** each change to a game's published date (`data/updates.csv`), giving updates per 30 days and change since the latest update.
+- **Engagement:** visits acceleration, favorites per 1,000 visits and like-rate change.
+- **Title and icon changes:** logged to `data/changes.csv`, including history rebuilt from Git.
+
+These endpoints are public but undocumented, so Roblox can change them without notice. Discord, YouTube and TikTok are not included: Roblox's social links need a login, and the others need accounts or API keys.
+
+## Clone waves
+
+`clones.py` finds trends without a hand-kept list. It strips tags and emoji from titles, then looks for words and word pairs far more common among games from the past 120 days than among older games, used by at least 3 creators. Each game joins one wave, with the biggest game as its leader, and variants such as "steal egg" stay inside the wider "egg" wave. The wave's change is its median game over 7 days, which shows whether the idea is still growing or already fading.
+
 ## Breakout score
 
-`signals.py` scores each game from 0 to 100 using only its daily peaks:
+`signals.py` scores each game from 0 to 100:
 
 - **Rising days:** consecutive days its 3-day median peak rose. Points are deliberately convex, so 5 or more days counts far more than 2.
 - **3-day growth vs market**, capped so a huge jump earns nothing extra.
+- **Clone wave:** a bonus for a climbing game inside a wave. Being a clone alone is not a good sign, so the bonus never applies to a game that is not climbing.
 - **Spike penalty:** when a recent peak is over 2.5 times its usual level.
+
+A signal only joins the score if it improves the replay when tested on and off. Two ideas failed that test. A penalty for games aged 61 to 180 days did not improve the ranking, even though those games do worse on average. A bonus for games aged 14 to 60 days lifted doubling but hurt tripling, so it stays a filter and a note on each game rather than part of the score. The dashboard's signal lab shows every signal's record, including ones still collecting history, and it updates daily.
 
 `backtest.py` replays history using only data available on each day, then checks the next 14 days. A hit needs a sustained 3-day level against the highest level already visible, so a spike that already happened or a one-day event does not count. Results are in `dashboard/backtest.json` and on the dashboard, and refresh daily.
 
-Through 2026-11-05, across 29 days and 2,414 games:
+Through 2026-11-05, across 29 days and 2,588 games:
 
 | Picks | Doubled | Tripled | 5× |
 |---|---|---|---|
-| All games | 5.0% | 1.7% | 0.5% |
-| Score 70–100 | 20.6% | 10.3% | 2.9% |
-| Score 40–69 | 13.3% | 3.9% | 2.3% |
-| Score 15–39 | 7.5% | 2.9% | 0.9% |
-| Score 0–14 | 4.9% | 1.6% | 0.4% |
-| Top 25 daily by score | 13.8% | 5.8% | 1.8% |
+| All games | 5.1% | 1.8% | 0.5% |
+| Score 70–100 | 21.4% | 11.4% | 2.9% |
+| Score 40–69 | 12.8% | 3.2% | 1.9% |
+| Score 15–39 | 7.7% | 3.0% | 0.9% |
+| Score 0–14 | 4.9% | 1.7% | 0.5% |
+| Top 25 daily by score | 15.2% | 6.2% | 2.3% |
 | Top 25 daily by 3-day % | 10.8% | 4.4% | 1.2% |
 | Top 25 daily by 7-day % | 7.7% | 1.4% | 0.4% |
 
-The weights were chosen after seeing this same history, and 57 days is one short stretch that includes Halloween, so these figures are optimistic. Most high scorers still do not blow up: the score ranks which games deserve a look. Rerun `python backtest.py` as history grows, since later days are a fairer test. Likes, favorites and visits are not in the score because there is no past data to test them against yet; `data/engagement/` is building that history.
+The weights were chosen after seeing this same history, and 57 days is one short stretch that includes Halloween, so these figures are optimistic. Most high scorers still do not blow up: the score ranks which games deserve a look. Rerun `python backtest.py` as history grows, since later days are a fairer test. Charts, visits, likes, favorites, badges and groups are not in the score because there is no past data to test them against yet; the signal lab tests them automatically as history builds.
+
+## Running on GitHub Actions: known risks
+
+- **GitHub's terms:** Actions is meant for developing, testing and publishing software, and GitHub may restrict misuse. A data collector running every 15 minutes is a grey area even though this workflow also publishes the site. Moving collection to a small always-on server would remove this risk and fix the next one.
+- **Gaps:** GitHub says scheduled runs can be delayed or dropped, and in practice the cron fires every 6 to 8 hours. Regular collection depends on the Windows timer, so it pauses while the PC sleeps. Daily peaks mostly survive this; 1-hour and 6-hour comparisons do not.
+- **Upstream changes:** Rolimons and the Roblox endpoints can change or block automated requests at any time. Rolimons is the single source of player counts.
+- **Private repositories:** this repository is public, so Actions minutes are free. About 96 runs a day would exceed a private plan's free allowance.

@@ -37,6 +37,22 @@ def csv_text(fields, rows):
     return stream.getvalue()
 
 
+MANIFEST_FIELDS = ["timestamp", "games", "floor", "total_players"]
+CHANGE_FIELDS = ["timestamp", "game_id", "field", "old", "new"]
+
+
+def append_rows(path, fields, rows):
+    """Append to a CSV, writing a header for a new file. Avoids rewriting large histories."""
+    path = Path(path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    exists = path.exists() and path.stat().st_size > 0
+    with path.open("a", encoding="utf-8", newline="") as stream:
+        writer = csv.DictWriter(stream, fieldnames=fields, lineterminator="\n")
+        if not exists:
+            writer.writeheader()
+        writer.writerows(rows)
+
+
 def validate(payload):
     games = payload.get("games") if isinstance(payload, dict) else None
     if not isinstance(payload, dict) or payload.get("success", True) is not True or not isinstance(games, dict) or not games:
@@ -63,6 +79,7 @@ def save_snapshot(payload, now, data_dir=config.DATA_DIR):
     metadata_path = data_dir / "games.csv"
     metadata = {row["game_id"]: row for row in read_csv(metadata_path)}
     changed = False
+    changes = []
     for game_id, (name, players, icon) in selected.items():
         old = metadata.get(game_id)
         row = dict(game_id=game_id, name=name, icon_url=icon,
@@ -70,6 +87,12 @@ def save_snapshot(payload, now, data_dir=config.DATA_DIR):
         if old != row:
             metadata[game_id] = row
             changed = True
+        if old and old["name"] != name:
+            changes.append(dict(timestamp=timestamp, game_id=game_id, field="name", old=old["name"], new=name))
+        if old and old["icon_url"] != icon:
+            changes.append(dict(timestamp=timestamp, game_id=game_id, field="icon", old="", new=""))
+    if changes:
+        append_rows(data_dir / "changes.csv", CHANGE_FIELDS, changes)
     if changed:
         atomic_write(metadata_path, csv_text(
             ["game_id", "name", "icon_url", "first_seen"],
@@ -89,29 +112,40 @@ def save_snapshot(payload, now, data_dir=config.DATA_DIR):
             writer.writerow(["timestamp", "game_id", "players"])
         writer.writerows((timestamp, key, value[1]) for key, value in selected.items())
     # A completion manifest also represents valid snapshots with no qualifying games.
-    manifest.append(dict(timestamp=timestamp, games=len(selected)))
-    atomic_write(data_dir / "collections.csv", csv_text(["timestamp", "games"], manifest))
+    manifest.append(dict(timestamp=timestamp, games=len(selected), floor=config.COLLECT_FLOOR,
+                         total_players=sum(value[1] for value in games.values())))
+    atomic_write(data_dir / "collections.csv", csv_text(MANIFEST_FIELDS, manifest))
     return len(selected)
 
 
+def newest_timestamp(path):
+    """Read only the final row, since rows are appended in time order."""
+    with path.open("rb") as stream:
+        stream.seek(0, os.SEEK_END)
+        stream.seek(max(0, stream.tell() - 256))
+        lines = stream.read().decode("utf-8", "ignore").strip().splitlines()
+    return lines[-1].split(",")[0] if lines else ""
+
+
 def prune(now, data_dir=config.DATA_DIR):
-    """Bound working-tree history, preserving original metadata first_seen values."""
+    """Delete raw partitions once every row has expired, preserving first_seen values.
+
+    Whole files only: trimming rows would rewrite a 40 MB file on every run, adding a full
+    copy to Git history each time. Expired rows in a live partition are simply ignored.
+    """
     cutoff = utc_text(now - timedelta(days=config.RETENTION_DAYS))
     for path in (Path(data_dir) / "snapshots").glob("*.csv"):
         if path.stem[:7] > cutoff[:7]:
             continue
-        rows = read_csv(path)
-        retained = [row for row in rows if row["timestamp"] >= cutoff]
-        if not retained:
+        newest = newest_timestamp(path)
+        if newest == "timestamp" or newest < cutoff:
             path.unlink()
-        elif len(rows) != len(retained):
-            atomic_write(path, csv_text(["timestamp", "game_id", "players"], retained))
     path = Path(data_dir) / "collections.csv"
     if path.exists():
         rows = read_csv(path)
         retained = [row for row in rows if row["timestamp"] >= cutoff]
         if retained != rows:
-            atomic_write(path, csv_text(["timestamp", "games"], retained))
+            atomic_write(path, csv_text(MANIFEST_FIELDS, retained))
 
 
 def main():

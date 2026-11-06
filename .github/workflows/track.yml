@@ -24,7 +24,7 @@ jobs:
   collect:
     if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
         with:
@@ -35,6 +35,8 @@ jobs:
       - name: Verify analysis
         run: python -m unittest discover -s tests -v
       - name: Collect and analyze
+        env:
+          COLLECT_FLOOR: ${{ vars.COLLECT_FLOOR }}
         run: |
           python collect.py
           python enrich.py
@@ -50,6 +52,7 @@ jobs:
           with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as summary:
               summary.write(f"Trigger: {os.environ['RUN_TRIGGER']}\n\n")
               summary.write(f"Snapshot: {data['latest_snapshot']}\n\n")
+              summary.write(f"Floor: {data['collect_floor']}, games: {len(data['games'])}, clone waves: {len(data['families'])}\n\n")
               summary.write(f"Minutes since previous collection: {data['last_interval_minutes']}\n\n")
               for key in ['since_last', '1', '6', '24']:
                   count = sum((g.get('since_last') if key == 'since_last' else g['windows'].get(key)) is not None for g in data['games'])
