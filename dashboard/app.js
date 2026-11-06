@@ -462,9 +462,10 @@ function render() {
   floorControls();
   $('#watch').textContent = format.format(games.filter(g => (g.score ?? 0) >= 40).length);
   $('#fresh').textContent = format.format(games.filter(g => g.age_days != null && g.age_days <= 90).length);
-  const days = data.history_hours / 24;
+  // Daily peaks outlive raw snapshots, so they are the true length of the history.
+  const days = peakHistory?.dates?.length || data.history_hours / 24;
   $('#history').textContent = days >= 2 ? `${format.format(Math.round(days))} days` : `${format.format(data.history_hours)}h`;
-  $('#snapshots').textContent = `${format.format(data.snapshot_count)} completed snapshots`;
+  $('#snapshots').textContent = `Daily peaks · ${format.format(data.snapshot_count)} recent snapshots`;
   $('#lens-description').textContent = lenses[state.lens].text();
   const age = data.latest_snapshot ? (Date.now() - Date.parse(data.latest_snapshot)) / 60000 : Infinity;
   const stale = age > data.stale_minutes;
