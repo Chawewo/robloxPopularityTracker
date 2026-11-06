@@ -6,3 +6,7 @@ __pycache__/
 .preview.log
 .preview.err
 .scheduler.log
+# Rebuilt on every run and deployed to Pages. Committing them would only bloat history:
+# data.json alone was 85% of the repository.
+dashboard/data.json
+dashboard/history.json

@@ -8,7 +8,7 @@ on:
     branches: [main]
     paths-ignore:
       - 'data/**'
-      - 'dashboard/data.json'
+      - 'dashboard/backtest.json'
       - '*.md'
 
 permissions:
@@ -37,6 +37,7 @@ jobs:
       - name: Collect and analyze
         run: |
           python collect.py
+          python enrich.py
           python analyze.py
       - name: Record collection diagnostics
         env:
@@ -58,7 +59,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/ dashboard/data.json
+          git add data/ dashboard/backtest.json
           if ! git diff --cached --quiet; then
             git commit -m 'Update player snapshots [skip ci]'
             git pull --rebase origin "${{ github.event.repository.default_branch }}"

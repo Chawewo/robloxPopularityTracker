@@ -123,6 +123,9 @@ def main():
         payload = json.load(response)
     now = datetime.now(timezone.utc)
     count = save_snapshot(payload, now)
+    # Roll up before pruning, so no raw day can be deleted without leaving its daily peak.
+    from rollup import rollup  # rollup.py imports this module's CSV helpers.
+    rollup()
     prune(now)
     print(f"Collected {count} games at {utc_text(now)}")
 

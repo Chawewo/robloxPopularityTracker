@@ -50,7 +50,7 @@ class TrackerTests(unittest.TestCase):
     def test_missing_and_below_floor_are_not_current(self):
         self.snapshot(-60, {1: 2000, 2: 1500, 3: 1200})
         self.snapshot(0, {2: 999, 3: 1400})
-        self.assertEqual([row["game_id"] for row in self.result()["games"]], ["3"])
+        self.assertEqual([row["game_id"] for row in self.result()["games"] if row["traction"]], ["3"])
 
     def test_empty_complete_snapshot_removes_stale_games(self):
         self.snapshot(-60, {1: 3000})

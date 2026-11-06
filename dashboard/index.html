@@ -4,10 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="dark light">
-  <meta name="description" content="Find emerging Roblox games through sustained player growth, fresh momentum, and new entrants.">
+  <meta name="description" content="Find emerging Roblox games through steady climbs, release dates, and backtested breakout signals.">
   <title>Next Up · Roblox game tracker</title>
-  <link rel="stylesheet" href="style.css?v=5">
-  <script src="app.js?v=5" defer></script>
+  <link rel="stylesheet" href="style.css?v=7">
+  <script src="app.js?v=7" defer></script>
 </head>
 <body>
   <main>
@@ -16,57 +16,101 @@
       <button id="theme" class="quiet" aria-label="Switch color theme">◐ Theme</button>
     </header>
     <section class="intro">
-      <div><p class="eyebrow">THE NEXT BIG GAME</p><h1>Catch the climb.</h1><p class="subtitle">Real traction. Fresh momentum. Find the games moving up.</p></div>
+      <div><p class="eyebrow">THE NEXT BIG GAME</p><h1>Catch the climb.</h1><p class="subtitle">Spot the slow burners before they blow up.</p></div>
       <div class="status"><span id="status-dot" class="dot"></span><span id="freshness">Connecting…</span><small id="updated">Snapshots every ~15 minutes</small></div>
     </section>
     <section class="stats" aria-label="Collection summary">
-      <div><span>GAMES WITH TRACTION</span><strong id="eligible">—</strong><small id="floor">1,000+ concurrent players</small></div>
-      <div><span>SUSTAINED RISERS</span><strong id="sustained">—</strong><small>Positive in every available window</small></div>
-      <div><span>NEW ENTRANTS</span><strong id="entrants">—</strong><small>First observed or crossed the floor · 24h</small></div>
+      <div><span>GAMES TRACKED</span><strong id="eligible">—</strong><small id="floor">500+ concurrent players</small></div>
+      <div><span>BREAKOUT WATCH</span><strong id="watch">—</strong><small>Score of 40 or higher</small></div>
+      <div><span>RELEASED IN 90 DAYS</span><strong id="fresh">—</strong><small id="fresh-note">Still in the tracked list</small></div>
       <div><span>HISTORY COLLECTED</span><strong id="history">—</strong><small id="snapshots">Waiting for the first snapshot</small></div>
     </section>
     <section class="board" aria-label="Game leaderboard">
-      <div class="board-heading"><h2>The watchlist <span>↗</span></h2><span id="result-count">Loading games…</span></div>
-      <div class="lenses" role="group" aria-label="Ranking lens">
-        <button data-lens="latest" aria-pressed="false">Since last run <small>Δ %</small></button>
-        <button class="active" data-lens="sustained" aria-pressed="true">Sustained growth <small>6H</small></button>
-        <button data-lens="absolute" aria-pressed="false">Big movers <small>6H Δ</small></button>
-        <button data-lens="momentum" aria-pressed="false">Fresh momentum <small>1H</small></button>
-        <button data-lens="entrants" aria-pressed="false">New entrants <small>24H</small></button>
-        <button data-lens="trend" aria-pressed="false">Longer trends</button>
+      <div class="board-heading">
+        <h2>The watchlist <span>↗</span></h2>
+        <div class="board-actions">
+          <span id="result-count">Loading games…</span>
+          <button id="copy-link" class="quiet small">Copy link to this view</button>
+          <button id="export" class="quiet small">Export CSV</button>
+        </div>
       </div>
-      <p id="lens-description" class="lens-description">Positive growth in every available window, ranked by 6-hour percentage gain.</p>
-      <div class="name-filter">
-        <label for="trend-window">Trend window</label>
-        <select id="trend-window">
-          <option value="24">1 day</option>
-          <option value="48" selected>2 days</option>
-          <option value="72">3 days</option>
-          <option value="168">1 week</option>
-        </select>
-        <label for="name-search">Filter by game name</label>
-        <input id="name-search" type="search" placeholder="Search titles, e.g. brain" autocomplete="off" aria-describedby="search-help">
-        <small id="search-help">Matches any part of a title within the selected ranking lens.</small>
+      <div class="lens-groups">
+        <div class="lens-group">
+          <span class="group-label" id="early-label">Catch it early</span>
+          <div class="lenses" role="group" aria-labelledby="early-label">
+            <button data-lens="radar">Breakout radar</button>
+            <button data-lens="slow">Slow burners</button>
+            <button data-lens="newest">Newest releases</button>
+            <button data-lens="climbers">Biggest climbers</button>
+            <button data-lens="comeback">Comebacks</button>
+            <button data-lens="update">Update bumps</button>
+          </div>
+        </div>
+        <div class="lens-group">
+          <span class="group-label" id="now-label">Moving right now</span>
+          <div class="lenses" role="group" aria-labelledby="now-label">
+            <button data-lens="sustained">Sustained <small>6H</small></button>
+            <button data-lens="absolute">Big movers <small>6H Δ</small></button>
+            <button data-lens="momentum">Fresh momentum <small>1H</small></button>
+            <button data-lens="entrants">New entrants <small>24H</small></button>
+            <button data-lens="latest">Since last run <small>Δ %</small></button>
+          </div>
+        </div>
+      </div>
+      <p id="lens-description" class="lens-description"></p>
+      <div class="filters">
+        <div class="filter-row">
+          <span class="filter-label" id="period-label">Change over</span>
+          <div class="chips" id="period-chips" role="group" aria-labelledby="period-label"></div>
+          <label class="inline-field">or <input id="period-custom" type="number" min="1" step="1" inputmode="numeric" aria-label="Custom number of days"> days</label>
+        </div>
+        <div class="filter-row">
+          <span class="filter-label" id="released-label">Released</span>
+          <div class="chips" id="released-chips" role="group" aria-labelledby="released-label"></div>
+        </div>
+        <div class="filter-grid">
+          <label>Min players<select id="min-players"></select></label>
+          <label>Max players<select id="max-players"></select></label>
+          <label>Genre<select id="genre"></select></label>
+          <label>Updated<select id="updated-within"></select></label>
+          <label>Min score<select id="min-score"></select></label>
+          <label>Min rising days<select id="min-streak"></select></label>
+          <label>Min change<select id="min-growth"></select></label>
+          <label>Show<select id="limit"></select></label>
+          <label class="search-field">Search titles or creators<input id="name-search" type="search" placeholder="e.g. brain, tower" autocomplete="off"></label>
+        </div>
+        <div class="filter-actions">
+          <label class="check"><input id="hide-spikes" type="checkbox"> Hide one-day spikes</label>
+          <label class="check"><input id="starred" type="checkbox"> Starred only</label>
+          <details class="column-menu">
+            <summary>Columns</summary>
+            <div id="column-list" class="column-list"></div>
+          </details>
+          <button id="reset" class="quiet small">Reset filters</button>
+        </div>
       </div>
       <p id="notice" class="notice" role="status" hidden></p>
       <div class="table-scroll">
         <table>
-          <thead><tr>
-            <th scope="col" class="rank">#</th>
-            <th scope="col"><button data-sort="name">GAME ↕</button></th>
-            <th scope="col"><button data-sort="players">PLAYING NOW ↕</button></th>
-            <th scope="col"><button data-sort="last.delta">LAST RUN Δ ↕</button><button data-sort="last.pct" class="subsort">% CHANGE ↕</button><small id="last-interval" class="interval"></small></th>
-            <th scope="col"><button data-sort="1.delta">1H Δ ↕</button><button data-sort="1.pct" class="subsort">% CHANGE ↕</button></th>
-            <th scope="col"><button data-sort="6.delta">6H Δ ↕</button><button data-sort="6.pct" class="subsort">% CHANGE ↕</button></th>
-            <th scope="col"><button data-sort="24.delta">24H Δ ↕</button><button data-sort="24.pct" class="subsort">% CHANGE ↕</button></th>
-            <th scope="col"><button id="trend-delta" data-sort="48.delta">2 DAYS Δ ↕</button><button id="trend-pct" data-sort="48.pct" class="subsort">% CHANGE ↕</button></th>
-          </tr></thead>
-          <tbody id="rows"><tr><td colspan="8" class="empty">Loading the watchlist…</td></tr></tbody>
+          <thead><tr id="headers"></tr></thead>
+          <tbody id="rows"><tr><td class="empty">Loading the watchlist…</td></tr></tbody>
         </table>
       </div>
-      <div class="board-footer"><span>↗ Sustained = positive across all available windows</span><span>— = no matching historical snapshot</span></div>
+      <div class="board-footer"><span>Long-range change compares the last 24 hours' peak with the peak on the matching past day</span><span>≥ means the game was under the 500-player floor then, so the true gain is larger</span></div>
     </section>
-    <footer><span>NEXT UP <span class="muted">/ Independent Roblox game discovery</span></span><span>Data from <a href="https://www.rolimons.com/games" target="_blank" rel="noopener noreferrer">Rolimons</a> · Times shown locally</span></footer>
+    <section class="panels">
+      <article class="panel" aria-labelledby="trust-title">
+        <h3 id="trust-title">How far to trust the score</h3>
+        <p id="trust-summary" class="panel-note">Loading the backtest…</p>
+        <div class="table-scroll"><table class="mini"><thead><tr><th scope="col">Picks</th><th scope="col">Doubled</th><th scope="col">Tripled</th><th scope="col">5×</th><th scope="col">Samples</th></tr></thead><tbody id="trust-rows"></tbody></table></div>
+      </article>
+      <article class="panel" aria-labelledby="genre-title">
+        <h3 id="genre-title">Genres moving</h3>
+        <p id="genre-summary" class="panel-note"></p>
+        <div id="genre-rows" class="genre-rows"></div>
+      </article>
+    </section>
+    <footer><span>NEXT UP <span class="muted">/ Independent Roblox game discovery</span></span><span>Player counts from <a href="https://www.rolimons.com/games" target="_blank" rel="noopener noreferrer">Rolimons</a> · Release data from Roblox · Times shown locally</span></footer>
   </main>
 </body>
 </html>
