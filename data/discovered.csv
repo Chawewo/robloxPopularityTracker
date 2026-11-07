@@ -181,7 +181,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 6608498361,2491559356,[UPDATE] Cursed Tank Simulator【HOLD THE LINE】,,,2026-11-07,,2026-11-07,mild,,2026-11-07
 6652606416,2501141430,Circuit Maker 2,,,2026-11-07,,,minimal,,2026-11-07
 6653964354,2501896830,Emergency Port-Marie 🚨,,,2026-11-07,,2026-11-07,mild,,2026-11-07
-6686932749,2520686564,Prehistoria | Dinosaur Survival PVP,,,2026-11-07,,2026-11-07,mild,,2026-11-07
+6686932749,2520686564,Prehistoria | Dinosaur Survival PVP,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-07
 6698800091,2527789729,[HALLOWEEN👻]Prior Extinction - Dinosaur Survival!,,,2026-11-07,,2026-11-07,moderate,,2026-11-07
 6708164649,2533027421,Ocean Conservation Experience,,,2026-11-07,,,minimal,,
 6711870575,2535080489,[💢ALL FOR ME] Heroes Online 2 ,,,2026-11-07,,2026-11-07,mild,,
@@ -442,7 +442,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 16115051360,5568657754,Gun and Armor Testing ,,,2026-11-07,,2026-11-07,mild,,2026-11-07
 16116270224,5569032992,🌙 Dandy's World [ALPHA],,,2026-11-07,,2026-11-07,mild,,2026-11-07
 16141640360,5576890130,[NEW] Skateboard of Hell Obby,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
-16146832113,5578556129,Vanguards: 2nd Anniversary,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-07
+16146832113,5578556129,Vanguards: 2nd Anniversary,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
 16154918775,5580972377,[UPD] 🎃 BUCKSHOT,,,2026-11-07,,2026-11-07,mild,,2026-11-07
 16205713724,5595353122,Slayers 2,,,2026-11-07,,2026-11-07,mild,,2026-11-07
 16389395869,5650396773,a dusty trip [🎃HALLOWEEN],,,2026-11-07,,2026-11-07,minimal,,2026-11-07
@@ -574,7 +574,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 72317248326994,9294646427,Bobsled Ride Down a Mountainside,,,2026-11-07,,2026-11-07,mild,,2026-11-07
 72393956865647,10769344844,[ ⚔️ ] 1.8 KIT PVP,https://tr.rbxcdn.com/180DAY-a11af32a83d8cde1f35c8f60f59175c8/150/150/Image/Webp/noFilter,,2026-11-07,,,mild,,2026-11-07
 72712036210947,7673659635,[UPD] Fix It Up!,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
-72763503064951,10140010190,🎃 Would You Rather: Teamwork Outfit Tower!,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-07
+72763503064951,10140010190,🎃 Would You Rather: Teamwork Outfit Tower!,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
 72835604369883,10770190697,[X2 CASH] Survive Monochrome in Area 51,https://tr.rbxcdn.com/180DAY-1ed9731e1a49ad48fe9f17bc3b3b1f9f/150/150/Image/Webp/noFilter,,2026-11-07,2026-11-07,,mild,,2026-11-07
 72845937010155,8365871374,[✋] Gear Slap Tower,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
 72858262610964,10629695169,✨Tap Simulator REBORN,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
@@ -814,7 +814,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 84449017742177,10289201563,[NEW RIGS] Chameleon! 🎨,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
 84515722934860,7613921865,[🎃] Anime Expeditions ,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
 84525826229916,10127797448,Would You Rather: Boys & Girls Outfit Tower!,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
-84556640895285,10057403337,Deagle Arena,,,2026-11-07,,2026-11-07,mild,,2026-11-07
+84556640895285,10057403337,[6H] Deagle Arena,,,2026-11-07,,2026-11-07,mild,,2026-11-07
 84573964061106,9848302960,[THE HOLLOW] Free Items,https://tr.rbxcdn.com/180DAY-8330a97c6a79210ef5d8ee4651b65950/150/150/Image/Webp/noFilter,2026-03-07T15:10:52Z,2026-11-07,,,minimal,10697106,2026-11-07
 84611219194602,10168752868,[CH2] KAI CENAT [HORROR],https://tr.rbxcdn.com/180DAY-bb9648fe65e61943c7f5a13f7e6d3772/150/150/Image/Webp/noFilter,2026-05-14T21:41:09Z,2026-11-07,,,minimal,3996555,2026-11-07
 84626040132277,7294576294,RC Test  🚗,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
@@ -1102,7 +1102,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 99703116573266,10393438342,[⌛ X2 🧟] Alliance Tower Defense! ⚔️,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
 99713568470959,10291735332,Moped Drag [BIG UPDATE  🏍️],https://tr.rbxcdn.com/180DAY-58f770c775358650f60de9a662b72425/150/150/Image/Webp/noFilter,2026-06-08T13:19:32Z,2026-11-07,,,minimal,45665145,2026-11-07
 99715799384017,7307471843,Easy Soccer 🌈 Rainbow Football,https://tr.rbxcdn.com/180DAY-693eba93b48abd3765e0a46ed65d97a1/150/150/Image/Webp/noFilter,2025-02-28T15:31:15Z,2026-11-07,,,minimal,24368746,2026-11-07
-99831194982791,10769574323,[UPD⚽] PIGSHOT,,,2026-11-07,,2026-11-07,mild,,2026-11-07
+99831194982791,10769574323,[RANKED] PIGSHOT,,,2026-11-07,,2026-11-07,mild,,2026-11-07
 99838015219458,10769341404,[🌊] Steal Eggs From Tsunami!,https://tr.rbxcdn.com/180DAY-904e671be3c22dfe387a5aa13fd2d97f/150/150/Image/Webp/noFilter,2026-10-04T14:01:53Z,2026-11-07,,,minimal,4260949,2026-11-07
 100047964036957,10770568427,Fart Together [1-4 PLAYER OBBY] 💨,,,2026-11-07,2026-11-07,2026-11-07,mild,,2026-11-07
 100055483398966,8348146089,[UPD🎉] Anime Slap Tower 🖐️,https://tr.rbxcdn.com/180DAY-71b0c2e0edb838f70dd29208a75f4acb/150/150/Image/Webp/noFilter,2025-08-04T19:09:21Z,2026-11-07,,,mild,111712504,2026-11-07
@@ -1547,7 +1547,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 122494806393707,9830176316,[UPD!] Super Head Soccer 🎃,https://tr.rbxcdn.com/180DAY-1255667121ed73729bd8c6c8b31acf4d/150/150/Image/Webp/noFilter,2026-03-03T21:07:15Z,2026-11-07,,,minimal,133399562,2026-11-07
 122507029092776,10577682617,Build a +1 Obby,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
 122572082932179,10336278580,[💎] Sell Ores ⛏️,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
-122606989565107,8401518398,Obby But You're on a Scooter,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
+122606989565107,8401518398,Obby But You're on a Scooter,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-07
 122627508602297,7430288939,Chipeo's Choir 2.0,https://tr.rbxcdn.com/180DAY-2ecf5abbdf91e8c00e43a317b04448a4/150/150/Image/Webp/noFilter,2025-03-24T14:23:49Z,2026-11-07,,,minimal,10023034,2026-11-07
 122840796290491,10767138232,Kukirin Life [Testing],,,2026-11-07,,2026-11-07,minimal,,2026-11-07
 122895181244406,10766667627,Shoot That Fish [UPD],https://tr.rbxcdn.com/180DAY-56b92f0e9fec1233516d989f9c93fd96/150/150/Image/Webp/noFilter,2026-09-16T11:36:43Z,2026-11-07,,,minimal,965246,2026-11-07
