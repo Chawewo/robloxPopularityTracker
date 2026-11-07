@@ -186,7 +186,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 6708164649,2533027421,Ocean Conservation Experience,,,2026-11-07,,,minimal,,
 6711870575,2535080489,[💢ALL FOR ME] Heroes Online 2 ,,,2026-11-07,,2026-11-07,mild,,
 6717367660,2538086639,Happy Land 🏡RP,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
-6728870912,2544520106,[📢UPDATE] World of Stands,,,2026-11-07,,2026-11-07,mild,,2026-11-07
+6728870912,2544520106,[📢UPDATE] World of Stands,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-07
 6737970321,2549475383,Livetopia 🏡 RP,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
 6804602922,2583564222,[🎃] Boxing Beta! 🥊,,,2026-11-07,,2026-11-07,mild,,2026-11-07
 6816975827,2589957623,[☀️] Car Suspension Test,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
@@ -283,7 +283,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 10179538382,3734304510,South Bronx: The Trenches❗,,,2026-11-07,,2026-11-07,moderate,,2026-11-07
 10228136016,3747388906,[5X] Fallen Survival🏹,,,2026-11-07,,2026-11-07,moderate,,2026-11-07
 10253248401,3754482795,Elemental Powers Tycoon,,,2026-11-07,,2026-11-07,mild,,2026-11-07
-10260193230,3756501373,[UPDATE 4] Meme Sea,,,2026-11-07,,2026-11-07,mild,,2026-11-07
+10260193230,3756501373,[UPDATE 4] Meme Sea,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-07
 10424585322,3801413348,⭐ Face Animations [Demo],https://tr.rbxcdn.com/180DAY-40c60da4c1726cc6f114905353bc42c6/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-07
 10425361163,3801657309,CurioCity,,,2026-11-07,,,minimal,,
 10449761463,3808081382,[HALLOWEEN] The Strongest Battlegrounds,,,2026-11-07,,2026-11-07,mild,,2026-11-07
@@ -573,7 +573,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 72248722616845,10059548251,[UPD]Samurai DUELS,,,2026-11-07,,2026-11-07,mild,,2026-11-07
 72317248326994,9294646427,Bobsled Ride Down a Mountainside,,,2026-11-07,,2026-11-07,mild,,2026-11-07
 72393956865647,10769344844,[ ⚔️ ] 1.8 KIT PVP,https://tr.rbxcdn.com/180DAY-a11af32a83d8cde1f35c8f60f59175c8/150/150/Image/Webp/noFilter,,2026-11-07,,,mild,,2026-11-07
-72712036210947,7673659635,[UPD] Fix It Up!,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-07
+72712036210947,7673659635,[UPD] Fix It Up!,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
 72763503064951,10140010190,🎃 Would You Rather: Teamwork Outfit Tower!,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
 72835604369883,10770190697,[X2 CASH] Survive Monochrome in Area 51,https://tr.rbxcdn.com/180DAY-1ed9731e1a49ad48fe9f17bc3b3b1f9f/150/150/Image/Webp/noFilter,,2026-11-07,2026-11-07,,mild,,2026-11-07
 72845937010155,8365871374,[✋] Gear Slap Tower,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
@@ -1019,7 +1019,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 95685043209957,6957393054,LITE Rebates - [FLAKE PC] - BETA,,2024-12-22T15:13:47Z,2026-11-07,,,minimal,5971509,2026-11-07
 95721658376580,7414497778,[REDLINE] Multicrew Tank Combat,,,2026-11-07,,2026-11-07,mild,,2026-11-07
 95784893420853,10301203995,⚽Aura Football [💥PHONK] ,https://tr.rbxcdn.com/180DAY-498c3b6b1becc9526684e5453bc1f1cb/150/150/Image/Webp/noFilter,2026-06-10T15:02:08Z,2026-11-07,,,minimal,21803177,2026-11-07
-96041842832519,10282569694,Baltic Bus Simulator | EARLY ACCESS,,,2026-11-07,,,minimal,,
+96041842832519,10282569694,Baltic Bus Simulator | EARLY ACCESS,,2026-06-06T19:07:13Z,2026-11-07,,,minimal,110143,2026-11-07
 96058414266541,10623237963,[🐊UPD ] Senadi Mount ⛅,https://tr.rbxcdn.com/180DAY-a1c37542bbad04c29a84710c4baa67aa/150/150/Image/Webp/noFilter,2026-08-03T08:42:51Z,2026-11-07,,,minimal,2841002,2026-11-07
 96120449121277,10770533880,Hit Bout' It! [BIG UPDATE],https://tr.rbxcdn.com/180DAY-068f8cbc901a3eb4de3e472f4523740d/150/150/Image/Webp/noFilter,2026-10-12T15:14:55Z,2026-11-07,2026-11-07,,mild,2797621,2026-11-07
 96151197088731,10514978482,Ritmada Ball [UPDATE📢],https://tr.rbxcdn.com/180DAY-4f3e0a2a3e91df97e0211bf344e5ba73/150/150/Image/Webp/noFilter,2026-07-16T21:47:42Z,2026-11-07,,,minimal,700507,2026-11-07
@@ -1574,7 +1574,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 124032631078772,10541331578,[🏰TOWER] Poly Loot⚔️,,,2026-11-07,,2026-11-07,mild,,2026-11-07
 124063493943486,10772879271,30 Floors Up,https://tr.rbxcdn.com/180DAY-259654c7a3946dea248da128011204ac/150/150/Image/Webp/noFilter,2026-10-25T06:10:18Z,2026-11-07,2026-11-07,,mild,2766029,2026-11-07
 124142675784254,10569930060,maybe tomorrow ill open the door,https://tr.rbxcdn.com/180DAY-8e0d794725b07d1d9f466b4a4a1b535a/150/150/Image/Webp/noFilter,2026-07-26T05:09:04Z,2026-11-07,,,minimal,15265142,2026-11-07
-124143542106350,9290633310,Strike Back [🌂S7],https://tr.rbxcdn.com/180DAY-3da2cf9d32d80a47cb1b5f6c7b1aadd8/150/150/Image/Webp/noFilter,2025-12-03T11:36:58Z,2026-11-07,,,mild,48872598,2026-11-07
+124143542106350,9290633310,Strike Back [🌂S7],https://tr.rbxcdn.com/180DAY-3da2cf9d32d80a47cb1b5f6c7b1aadd8/150/150/Image/Webp/noFilter,2025-12-03T11:36:58Z,2026-11-07,,,vng-rating-override,48872598,2026-11-07
 124172969655058,10768025830,Oregon Trail [new!],,,2026-11-07,,2026-11-07,minimal,,2026-11-07
 124216119978534,10035204815,[⌛] Ride A Pet,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
 124239460312806,10589881655,SELL YOUR OUTFIT,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
@@ -1602,7 +1602,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 125364060164263,9526541677,Who is the killer? 🎃,https://tr.rbxcdn.com/180DAY-698d07e0fa47b1dc0c03288512217a46/150/150/Image/Webp/noFilter,2026-01-08T19:32:38Z,2026-11-07,,,mild,13234734,2026-11-07
 125443886963420,10771658642,2 Player Knockout!,https://tr.rbxcdn.com/180DAY-1e81031c216dfd5da1478b110d1d9159/150/150/Image/Webp/noFilter,2026-10-18T06:59:34Z,2026-11-07,2026-11-07,,minimal,906600,2026-11-07
 125474121706035,10503890169,Zombie Base Defense ⚔️,https://tr.rbxcdn.com/180DAY-159d5d59c64a1b80890d5b6bfa8bfe9a/150/150/Image/Webp/noFilter,2026-07-14T20:00:45Z,2026-11-07,,,minimal,1614492,2026-11-07
-125479550217058,7113599041,vivid memory - cozy house [showcase/RP],https://tr.rbxcdn.com/180DAY-790eaa285269ffd58e6e556f3044aa48/150/150/Image/Webp/noFilter,2025-01-19T19:31:11Z,2026-11-07,,,vng-rating-override,9856542,2026-11-07
+125479550217058,7113599041,vivid memory - cozy house [showcase/RP],https://tr.rbxcdn.com/180DAY-790eaa285269ffd58e6e556f3044aa48/150/150/Image/Webp/noFilter,2025-01-19T19:31:11Z,2026-11-07,,,minimal,9856542,2026-11-07
 125660167015046,10766373552,Itty Bitty Circuit 🎃🏁 [BETA],https://tr.rbxcdn.com/180DAY-959a216d6e9098c8c11528edb18a09e0/150/150/Image/Webp/noFilter,2026-09-13T21:33:39Z,2026-11-07,2026-11-07,,minimal,463193,2026-11-07
 125687897212345,9829036041,GUESS THE CLONE 👀,https://tr.rbxcdn.com/180DAY-9b7f0ec2f6fd080d13a3bc5d8197d49f/150/150/Image/Webp/noFilter,2026-03-03T15:09:30Z,2026-11-07,,,mild,22065375,2026-11-07
 125790795579287,6983536246,Incredible Blox🎶,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
@@ -1858,7 +1858,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 140199277601307,10181310479,[UPDATE!] Bathtub Universe,https://tr.rbxcdn.com/180DAY-84c2a2084da76b73096d4b80df64d68a/150/150/Image/Webp/noFilter,2026-05-17T10:38:50Z,2026-11-07,,,mild,20459770,2026-11-07
 140322231839637,10765763629,ONE TAP PISTOLS,,,2026-11-07,,2026-11-07,mild,,2026-11-07
 140374914197602,7005891584,Speed Clicker ⚡,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
-140409475718339,9073513091,[24H!] Anime Apocalypse,,,2026-11-07,,2026-11-07,moderate,,2026-11-07
+140409475718339,9073513091,[9H!] Anime Apocalypse,,,2026-11-07,,2026-11-07,moderate,,2026-11-07
 140481779622210,8504461817,Escape The Lava 🔥,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
 140513449479833,10769844467,Horses: Eggs to Gallop,https://tr.rbxcdn.com/180DAY-487c65ec1136322fe33aa300baaf7736/150/150/Image/Webp/noFilter,2026-10-08T09:37:33Z,2026-11-07,2026-11-07,,minimal,199079,2026-11-07
 140562752391899,10766508263,AWP Arena,https://tr.rbxcdn.com/180DAY-cab7c4af9f796d31e01343e5b2f43dd1/150/150/Image/Webp/noFilter,2026-09-15T02:16:13Z,2026-11-07,,,mild,1140316,2026-11-07
