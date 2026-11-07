@@ -17,7 +17,7 @@ const CHARTS = [['up-and-coming', 'Up-and-Coming'], ['top-trending', 'Top Trendi
   ['top-earning', 'Top Earning'], ['top-rated', 'Top Rated'], ['fun-with-friends', 'Fun with Friends']];
 const PLAYER_STEPS = [50, 100, 250, 500, 1000, 2500, 5000, 10000, 25000, 50000, 100000];
 /* Signals the backtest supports. Everything else in the lab is shown, not scored. */
-const IN_SCORE = new Set(['5+ rising days', '3-4 rising days', 'Clone wave, game climbing']);
+const IN_SCORE = new Set(['5+ rising days', '3-4 rising days']);
 const SELECTS = {
   updated: ['#updated-within', [['any', 'Any time'], ['1', 'Past day'], ['3', 'Past 3 days'], ['7', 'Past week'], ['30', 'Past month'], ['stale', 'Not in 3 months']]],
   score: ['#min-score', [[0, 'Any'], [15, '15+ watch'], [40, '40+ building'], [70, '70+ hot']]],
@@ -28,7 +28,7 @@ const SELECTS = {
 const DEFAULTS = {lens: 'radar', period: 7, released: 'any', updated: 'any', min: 0, max: 0, genre: '', family: '', chart: '',
   score: 0, streak: 0, growth: -Infinity, limit: 100, q: '', spikes: true, starred: false};
 const state = {...DEFAULTS};
-let data, peakHistory, backtest, sortKey = null, direction = -1, expanded = null;
+let data, peakHistory, backtest, modelReport, sortKey = null, direction = -1, expanded = null;
 let dateIndex = new Map();
 
 const lenses = {
@@ -45,9 +45,15 @@ const lenses = {
   update: {sort: 'period.pct', test: g => g.updated_days != null && g.updated_days <= 3 && (g.period?.pct ?? 0) > 0,
     text: () => `Updated in the past 3 days and rising over ${state.period} ${plural(state.period, 'day')}. Shows whether an update is landing.`},
   clones: {sort: 'score', test: g => g.family != null,
-    text: () => 'Games in a clone wave: an idea spreading across several creators right now. Being a clone is not a good sign alone. Clones that are already climbing did far better, so read the score.'},
+    text: () => 'Games in a clone wave: an idea spreading across several creators right now. A wave shows what is popular, not which game will win: being in one has shown no edge so far, so read the score.'},
   charts: {sort: 'charts.up-and-coming', dir: 1, test: g => g.charts?.['up-and-coming'] != null,
     text: () => 'Games Roblox is placing on Up-and-Coming, ranked by chart position. Whether this predicts blow-ups is still being tested in the signal lab.'},
+  unlisted: {sort: 'players', test: g => g.unlisted,
+    text: () => 'Games found on Roblox\'s own lists that Rolimons has not listed yet. Their counts come straight from Roblox, and these are often the newest games.'},
+  stepups: {sort: 'step_up', test: g => g.step_up != null,
+    text: () => 'Games holding at least 3 times last week\'s level for two days. In a young game this can mark clearing Roblox\'s under-16 evaluation, but Roblox does not publish that, so it is a guess. Updates and events cause jumps too.'},
+  model: {sort: 'chance_double', test: g => g.chance_double != null,
+    text: () => 'Experimental. A trained model\'s chance of a game doubling to a new record within 14 days. It has not clearly beaten the score yet, so it runs alongside it and is graded below.'},
   sustained: {sort: '6.pct', window: '6', test: g => g.sustained && g.windows['6'] != null,
     text: () => 'Positive growth in every available window, ranked by 6-hour percentage gain.'},
   absolute: {sort: '6.delta', window: '6', test: g => g.windows['6'] != null,
@@ -113,6 +119,12 @@ const columns = [
     render(td, g) { if (!g.period) return td.append(element('span', 'muted', '—')); td.className = tone(g.period.vsMarket); td.append(element('span', 'delta', `${g.period.bound ? '≥ ' : ''}${signed(g.period.vsMarket, true)}`)); }},
   {id: 'streak', label: 'RISING DAYS', sort: 'streak', on: true, title: 'Consecutive days the 3-day peak level rose. Capped at 10.',
     render(td, g) { td.append(element('span', g.streak >= 5 ? 'delta positive' : g.streak ? 'delta' : 'muted', g.streak ?? '—')); }},
+  {id: 'chance', label: 'MODEL CHANCE', sort: 'chance_double', title: 'Experimental. Chance of doubling to a new record within 14 days, from the trained model. Updated daily.', ...textCell(g => g.chance_double == null ? '—' : `${g.chance_double.toFixed(0)}%`)},
+  {id: 'chance3', label: 'MODEL 3×', sort: 'chance_triple', title: 'Experimental. Chance of tripling to a new record within 14 days.', ...textCell(g => g.chance_triple == null ? '—' : `${g.chance_triple.toFixed(0)}%`)},
+  {id: 'stepup', label: 'STEP-UP', sort: 'step_up', title: 'How many times higher the last two days sit than the week before. Blank under 3×.', ...textCell(g => g.step_up == null ? '—' : `${g.step_up}×`)},
+  {id: 'source', label: 'COUNT FROM', sort: 'unlisted', title: 'Roblox means Rolimons has not listed this game yet, so its count is read directly from Roblox.', ...textCell(g => g.unlisted ? 'Roblox' : 'Rolimons')},
+  {id: 'publicby', label: 'PUBLIC BY', sort: 'public_by', title: 'The latest date the game can have gone public, from its first sighting. Roblox does not publish a launch date. Tracking began Sep 10, 2026 and list scanning Nov 7, 2026, so earlier launches show those dates.', ...textCell(g => g.public_by ? shortDate.format(new Date(g.public_by)) : '—')},
+  {id: 'maturity', label: 'MATURITY', sort: 'maturity', first: 1, title: 'Roblox\'s content label, logged when it changes. It does not show whether a game has cleared the under-16 evaluation.', ...textCell(g => g.maturity ?? '—')},
   {id: 'last', label: 'LAST RUN', sort: 'last.delta', sub: 'last.pct', ...metricCell('last')},
   {id: 'h1', label: '1H', sort: '1.delta', sub: '1.pct', ...metricCell('1')},
   {id: 'h6', label: '6H', sort: '6.delta', sub: '6.pct', ...metricCell('6')},
@@ -134,7 +146,7 @@ const columns = [
   {id: 'group', label: 'GROUP MEMBERS', sort: 'group_members', ...textCell(g => g.group_members == null ? '—' : compact.format(g.group_members))},
   {id: 'groupchange', label: 'GROUP Δ', sort: 'group_change_pct', title: 'Change in group members over the past week.', ...percentCell('group_change_pct')},
   {id: 'below', label: 'BELOW RECORD', sort: 'below_tracked_peak_pct', first: 1, title: 'How far the current count sits below the highest daily peak on record.', ...textCell(g => g.below_tracked_peak_pct == null ? '—' : `${g.below_tracked_peak_pct.toFixed(0)}%`)},
-  {id: 'tracked', label: 'FIRST SEEN', sort: 'tracked_days', first: 1, title: 'When the game first reached 500 players on this tracker. Tracking began Sep 10, 2026. Useful when an old experience launches as a new game.', ...textCell(g => ageText(g.tracked_days))},
+  {id: 'tracked', label: 'FIRST SEEN', sort: 'tracked_days', first: 1, title: 'When this tracker first stored the game. Tracking began Sep 10, 2026, and the floor was 500 until Nov 2026. Useful when an old experience launches as a new game.', ...textCell(g => ageText(g.tracked_days))},
   {id: 'updated', label: 'UPDATED', sort: 'updated_days', first: 1, ...textCell(g => ageText(g.updated_days))},
   {id: 'genre', label: 'GENRE', sort: 'genre', first: 1, ...textCell(g => g.subgenre || g.genre || '—')},
   {id: 'visits', label: 'VISITS/DAY', sort: 'visits_per_day', ...textCell(g => g.visits_per_day == null ? '—' : compact.format(g.visits_per_day))},
@@ -165,6 +177,8 @@ function periodChange(game, days) {
   const index = dateIndex.get(target);
   if (index == null || now == null) return null;
   const bound = peaks[index] == null;
+  // A late find's absence means nobody was looking, not that it was under the floor.
+  if (bound && game.known_from && target < game.known_from) return null;
   const base = bound ? (peakHistory.floors?.[index] ?? peakHistory.floor) : peaks[index];
   const market = Math.exp(peakHistory.market[peakHistory.market.length - 1] - peakHistory.market[index]);
   const pct = (now - base) / base * 100;
@@ -245,7 +259,7 @@ function periodCell(td, game) {
   const p = game.period;
   if (!p) {
     td.append(element('span', 'muted', 'No data'));
-    td.title = peakHistory ? 'History does not reach that far back' : 'History file unavailable';
+    td.title = game.known_from ? `First found ${dateFormat.format(new Date(game.known_from))}, so there is nothing to compare with` : peakHistory ? 'History does not reach that far back' : 'History file unavailable';
     return;
   }
   const mark = p.bound ? '≥ ' : '';
@@ -260,10 +274,13 @@ function reasons(game) {
   else if (game.streak >= 3) list.push({text: `Peaks up ${game.streak} days straight`, good: true});
   if (game.vs_market_3 != null && game.vs_market_3 > 0.1) list.push({text: `${signed((Math.exp(game.vs_market_3) - 1) * 100, true)} against the market over 3 days`, good: true});
   if (game.spike) list.push({text: 'Single-day spike: recent peak is far above its usual level, and these often fade', good: false});
-  if (game.age_days != null && game.age_days >= 14 && game.age_days <= 60) list.push({text: `In the launch window: created ${game.age_days} days ago, when past blow-ups clustered`, good: true});
+  if (game.unlisted) list.push({text: 'Not on Rolimons yet, so found through Roblox\'s own lists', good: true});
+  if (game.step_up != null) list.push({text: `Holding ${game.step_up}× last week's level for two days${game.age_days != null && game.age_days <= 120 ? ', which in a young game can mean it just reached a wider audience' : ''}`, good: true});
+  if (game.chance_double != null && game.chance_double >= 15) list.push({text: `The experimental model gives ${game.chance_double.toFixed(0)}% to double to a new record within 14 days`, good: true});
+  if (game.age_days != null && game.age_days >= 14 && game.age_days <= 30) list.push({text: `In the launch window: created ${game.age_days} days ago, the age that doubled most often`, good: true});
   else if (game.age_days != null && game.age_days > 60 && game.age_days <= 180) list.push({text: `Created ${game.age_days} days ago: games this age did worse than average`, good: false});
   else if (game.age_days != null && game.age_days < 14) list.push({text: `Brand new, created ${game.age_days} ${plural(game.age_days, 'day')} ago`, good: true});
-  if (game.family) list.push({text: game.family_role === 'leader' ? `Leads the "${game.family}" clone wave` : `Part of the "${game.family}" clone wave`, good: true});
+  if (game.family) list.push({text: game.family_role === 'leader' ? `Leads the "${game.family}" clone wave` : `Part of the "${game.family}" clone wave, which has shown no edge by itself`, good: game.family_role === 'leader'});
   if (game.charts?.['up-and-coming'] != null) list.push({text: `#${game.charts['up-and-coming']} on Up-and-Coming${game.up_and_coming_days > 1 ? ` for ${game.up_and_coming_days} days` : ''}`, good: true});
   if (game.charts?.['top-revisited'] != null) list.push({text: `#${game.charts['top-revisited']} on Top Revisited, so players are returning`, good: true});
   if (game.new_players_change_pct >= 50) list.push({text: `New-player badge awards up ${game.new_players_change_pct.toFixed(0)}% this week`, good: true});
@@ -332,6 +349,8 @@ function gameRow(game, index, pending, span) {
   info.append(link);
   const badges = element('div', 'badges');
   if (game.genre) badges.append(element('span', 'tag', game.genre));
+  if (game.unlisted) { const badge = element('span', 'badge chart', 'NOT ON ROLIMONS'); badge.title = 'Found on Roblox\'s own lists. Its count comes directly from Roblox.'; badges.append(badge); }
+  if (game.step_up != null) { const badge = element('span', 'badge rising', `STEP-UP ${game.step_up}×`); badge.title = 'Holding well above last week\'s level for two days'; badges.append(badge); }
   if (game.charts?.['up-and-coming'] != null) { const badge = element('span', 'badge chart', `UP-AND-COMING #${game.charts['up-and-coming']}`); badges.append(badge); }
   if (game.family) { const badge = element('span', 'badge', game.family_role === 'leader' ? 'WAVE LEADER' : 'CLONE WAVE'); badge.title = `"${game.family}" wave`; badges.append(badge); }
   if (game.sustained) { const badge = element('span', 'badge rising', '↗ SUSTAINED'); badge.title = `Positive across ${game.available_windows} available comparison windows`; badges.append(badge); }
@@ -385,7 +404,13 @@ function detailPanel(game) {
   const fact = (label, text) => { if (text != null) { facts.append(element('dt', '', label), element('dd', '', text)); } };
   fact('Created', game.created && utcDate(game.created));
   fact('Updated', game.updated && utcDate(game.updated));
+  fact('Public by', game.public_by && utcDate(game.public_by));
+  fact('Public since', game.public_from && `Not before ${utcDate(game.public_from)}, from Up-and-Coming`);
   fact('First tracked', game.first_seen && utcDate(game.first_seen));
+  fact('First on Roblox lists', game.first_chart && utcDate(game.first_chart));
+  fact('Visits when found', game.visits_at_first != null ? format.format(game.visits_at_first) : null);
+  fact('Maturity', game.maturity);
+  fact('Model chance', game.chance_double != null ? `${game.chance_double.toFixed(0)}% to double, ${(game.chance_triple ?? 0).toFixed(0)}% to triple` : null);
   fact('Genre', [game.genre, game.subgenre].filter(Boolean).join(' / ') || null);
   fact('Creator', game.creator && `${game.creator}${game.verified ? ' ✓' : ''}`);
   fact('Total visits', game.visits != null ? format.format(game.visits) : null);
@@ -458,7 +483,7 @@ function render() {
   $$('[data-lens]').forEach(button => { const on = button.dataset.lens === state.lens; button.classList.toggle('active', on); button.setAttribute('aria-pressed', String(on)); });
   chips();
   $('#eligible').textContent = format.format(games.length);
-  $('#floor').textContent = `Floor ${format.format(data.collect_floor)} · ${format.format(data.eligible_count)} above ${format.format(data.min_players)}`;
+  $('#floor').textContent = `Floor ${format.format(data.collect_floor)} · ${format.format(data.unlisted_count ?? 0)} not on Rolimons`;
   floorControls();
   $('#watch').textContent = format.format(games.filter(g => (g.score ?? 0) >= 40).length);
   $('#fresh').textContent = format.format(games.filter(g => g.age_days != null && g.age_days <= 90).length);
@@ -500,7 +525,7 @@ function notices(pending) {
   const missing = data.games.filter(g => g.age_days == null).length;
   if (missing && (state.released !== 'any' || state.lens === 'newest')) list.push(`${format.format(missing)} tracked ${plural(missing, 'game')} have no release date yet and are left out here.`);
   if (state.released !== 'any') list.push(`Released means when the Roblox experience was created. Some games sit private for months first, and a game only appears here once it reaches ${format.format(data.collect_floor)} players.`);
-  if (state.min && state.min < data.collect_floor) list.push(`Nothing below the collection floor of ${format.format(data.collect_floor)} is stored. See the README to lower it.`);
+  if (state.min && state.min < data.collect_floor) list.push(`Below ${format.format(data.collect_floor)} players, only games from the past 4 months are stored, down to ${format.format(data.young_floor ?? data.collect_floor)} players. See the README to change this.`);
   if (state.lens === 'charts' && !data.chart_days) list.push('Chart tracking starts with the next collection.');
   if (peakHistory && state.period > peakHistory.dates.length) list.push(`History reaches ${peakHistory.dates.length} days, so a ${state.period}-day comparison has no starting point yet.`);
   if (pending) list.push('No snapshot exists near this time because collection pauses overnight, so these games are unranked. The daily lenses above are not affected.');
@@ -521,7 +546,7 @@ function floorControls() {
   const list = $('#player-steps');
   if (list.dataset.floor === String(data.collect_floor)) return;
   list.dataset.floor = data.collect_floor;
-  list.replaceChildren(...PLAYER_STEPS.filter(step => step >= data.collect_floor).map(step => { const option = element('option'); option.value = step; return option; }));
+  list.replaceChildren(...PLAYER_STEPS.filter(step => step >= (data.young_floor ?? data.collect_floor)).map(step => { const option = element('option'); option.value = step; return option; }));
   $('#min-players').placeholder = `${format.format(data.collect_floor)} (floor)`;
 }
 function waves() {
@@ -580,7 +605,7 @@ function genreHeat() {
 }
 function renderTrust() {
   if (!backtest) { $('#trust-summary').textContent = 'The backtest has not run yet.'; return; }
-  $('#trust-summary').textContent = `Replayed ${backtest.days_tested} past days across ${format.format(backtest.games_tested)} games, using only data available on each day, then checked the next ${backtest.horizon_days} days. A hit means a sustained 3-day level, judged against the highest level already visible. Even at the top, most picks do not blow up.`;
+  $('#trust-summary').textContent = `Replayed ${backtest.days_tested} past days across ${format.format(backtest.games_tested)} games, using only data available on each day, then checked the next ${backtest.horizon_days} days. A hit means a sustained 3-day level above both the highest level already visible and the game's record, so routine bounces do not count. Even at the top, most picks do not blow up.`;
   const rows = [
     ['All games', backtest.base_rates, backtest.observations],
     ...backtest.bands.slice().reverse().map(b => [`Score ${b.low}–${b.high}`, b, b.observations]),
@@ -595,6 +620,44 @@ function renderTrust() {
     tr.append(element('td', '', label));
     ['double', 'triple', 'five_x'].forEach(key => tr.append(element('td', '', rates[key] == null ? '—' : `${rates[key].toFixed(1)}%`)));
     tr.append(element('td', 'muted', samples == null ? '—' : format.format(samples)));
+    body.append(tr);
+  });
+}
+
+function renderBlindSpot() {
+  const late = backtest?.late_arrivals, caught = backtest?.five_x_caught, today = data?.coverage;
+  const parts = [];
+  if (late?.games) parts.push(`${format.format(late.games)} games reached 5,000 players after tracking began, and only ${format.format(late.seen_early)} were seen under 2,000 first. A score cannot catch a game the source lists late, which is why the tracker now scans Roblox directly.`);
+  if (caught?.games) parts.push(`Of ${format.format(caught.games)} games that could be replayed as a 5× win, the daily top ${backtest.top_k} caught ${format.format(caught.caught)}.`);
+  $('#blind-summary').textContent = parts.join(' ') || 'Waiting for the first scan of Roblox\'s lists.';
+  const body = $('#blind-rows');
+  body.replaceChildren();
+  if (!today) return;
+  [['5,000+ players', today.charted_5k, today.missing_5k], ['500–4,999 players', today.charted_500, today.missing_500]].forEach(([label, total, missing]) => {
+    const tr = element('tr');
+    const share = Number(total) ? ` (${Math.round(missing / total * 100)}%)` : '';
+    tr.append(element('td', '', label), element('td', '', format.format(total)), element('td', '', `${format.format(missing)}${share}`));
+    body.append(tr);
+  });
+  const tr = element('tr');
+  tr.append(element('td', '', 'Now read directly from Roblox'), element('td', '', format.format(today.watching)), element('td', 'muted', '—'));
+  body.append(tr);
+}
+function renderModel() {
+  const summary = $('#model-summary');
+  if (!modelReport) { summary.textContent = 'The model has not run yet.'; return; }
+  const forward = modelReport.forward, held = modelReport.held_out;
+  const graded = forward?.days ? `It has been graded on ${forward.days} ${plural(forward.days, 'day')} neither had seen.` : `Forward grading starts ${backtest?.horizon_days ?? 14} days after the first logged picks.`;
+  summary.textContent = `Experimental, and the score is unchanged. The model retrains daily and logs its top picks, which are graded against the score's on days neither had seen. ${graded} The score stays in charge unless the model clearly wins that record over several weeks. Held-out rows come from games the model never trained on, a week away from its training days.`;
+  const rows = [['Held out: all games', held?.base, held?.days], ['Held out: score', held?.score, held?.days], ['Held out: model', held?.model, held?.days],
+    ['Forward test: score', forward?.score, forward?.days], ['Forward test: model', forward?.model, forward?.days]];
+  const body = $('#model-rows');
+  body.replaceChildren();
+  rows.forEach(([label, rates, days]) => {
+    const tr = element('tr');
+    tr.append(element('td', '', label));
+    ['double', 'triple', 'five_x'].forEach(key => tr.append(element('td', '', rates?.[key] == null ? '—' : `${rates[key].toFixed(1)}%`)));
+    tr.append(element('td', 'muted', days == null ? '—' : format.format(days)));
     body.append(tr);
   });
 }
@@ -692,7 +755,8 @@ function exportCsv() {
   const fields = [['name', g => g.name], ['game_id', g => g.game_id], ['url', g => `https://www.roblox.com/games/${g.game_id}`], ['score', g => g.score], ['rising_days', g => g.streak],
     ['players', g => g.players], ['peak_24h', g => g.peak_24h], [`change_${state.period}d_pct`, g => g.period?.pct?.toFixed(1)], [`change_${state.period}d_players`, g => g.period?.delta],
     ['baseline_under_floor', g => g.period?.bound], ['vs_market_pct', g => g.period?.vsMarket?.toFixed(1)], ['created', g => g.created], ['updated', g => g.updated], ['genre', g => g.genre],
-    ['subgenre', g => g.subgenre], ['creator', g => g.creator], ['visits_per_day', g => g.visits_per_day], ['like_pct', g => g.like_pct], ['one_day_spike', g => g.spike]];
+    ['subgenre', g => g.subgenre], ['creator', g => g.creator], ['visits_per_day', g => g.visits_per_day], ['like_pct', g => g.like_pct], ['one_day_spike', g => g.spike],
+    ['model_chance_double', g => g.chance_double], ['step_up', g => g.step_up], ['not_on_rolimons', g => g.unlisted], ['public_by', g => g.public_by]];
   const cell = value => {
     let text = value == null ? '' : String(value);
     if (/^[=+\-@\t\r]/.test(text) && typeof value === 'string') text = `'${text}`; // Stops spreadsheets running a title as a formula.
@@ -729,10 +793,13 @@ async function load() {
       } catch { peakHistory = peakHistory ?? null; }
     }
     if (!backtest && !demo) { try { backtest = await fetchJson('backtest.json'); } catch {} }
+    if (!modelReport && !demo) { try { modelReport = await fetchJson('model.json'); } catch {} }
     genres();
     families();
     renderTrust();
     renderLab();
+    renderBlindSpot();
+    renderModel();
     render();
   } catch (error) {
     if (data) render();

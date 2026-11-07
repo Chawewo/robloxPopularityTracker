@@ -163,13 +163,6 @@ class ScoreBonusTests(unittest.TestCase):
     def points(self, **options):
         return score(self.climbing, 7, self.market, **options)["score"]
 
-    def test_a_clone_wave_lifts_a_climbing_game(self):
-        self.assertGreater(self.points(in_family=True), self.points())
-
-    def test_a_clone_wave_does_nothing_for_a_game_that_is_not_climbing(self):
-        flat = [1000] * 8
-        self.assertEqual(score(flat, 7, self.market, in_family=True)["score"], 0)
-
 
 class ChartTests(Workspace):
     def fake(self, url):
@@ -180,7 +173,7 @@ class ChartTests(Workspace):
         return dict(sorts=[dict(sortId="up-and-coming", games=games), dict(sortId="ignored", games=games)])
 
     def test_sponsored_slots_are_skipped_and_best_device_rank_wins(self):
-        positions = charts.fetch_positions(self.fake)
+        positions = charts.fetch_positions(self.fake, lambda _: None)
         self.assertNotIn(("up-and-coming", "9"), positions)
         self.assertEqual(positions[("up-and-coming", "1")][0], 1)
         self.assertEqual(positions[("up-and-coming", "2")][0], 1)
@@ -192,8 +185,8 @@ class ChartTests(Workspace):
         def fetch(url):
             calls.append(url)
             return dict(sorts=[], nextSortsPageToken="more" if "sortsPageToken" not in url else None)
-        charts.fetch_positions(fetch)
-        self.assertEqual(len(calls), 4)
+        charts.fetch_positions(fetch, lambda _: None)
+        self.assertEqual(len(calls), 2 * len(config.DISCOVERY_SCANS))
         self.assertIn("sortsPageToken=more", calls[1])
 
     def test_repeat_runs_keep_the_best_rank_and_count_samples(self):

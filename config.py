@@ -7,6 +7,7 @@ DATA_DIR = ROOT / "data"
 OUTPUT = ROOT / "dashboard" / "data.json"
 HISTORY_OUTPUT = ROOT / "dashboard" / "history.json"
 BACKTEST_OUTPUT = ROOT / "dashboard" / "backtest.json"
+MODEL_OUTPUT = ROOT / "dashboard" / "model.json"
 STATUS_OUTPUT = ROOT / "dashboard" / "status.json"
 ENDPOINT = "https://api.rolimons.com/games/v1/gamelist"
 MIN_PLAYERS = 1_000  # "Traction" floor; the dashboard's player filter can go down to COLLECT_FLOOR.
@@ -15,6 +16,10 @@ MIN_PLAYERS = 1_000  # "Traction" floor; the dashboard's player filter can go do
 # History keeps each day's floor, so changing it never distorts past comparisons.
 DEFAULT_COLLECT_FLOOR = 100
 MIN_COLLECT_FLOOR = 10  # Below this the list is mostly dormant games and storage grows fast.
+# Young games keep this lower floor: a new game's 16+ stage can happen well under 100 players.
+YOUNG_FLOOR = 25
+YOUNG_DAYS = 120
+RECENT_PLACE_ID = 70_000_000_000_000  # Every game created in 2026 so far has an id above this.
 
 
 def collect_floor(value=None):
@@ -42,4 +47,14 @@ ENRICH_REFRESH_HOURS = 6
 ENRICH_BADGE_BUDGET = 60  # Badge lookups per run, at most once a day per game.
 ENRICH_BADGE_DELAY = 0.65  # The badge endpoint allows 100 requests a minute.
 ENRICH_GROUP_BUDGET = 6  # The group endpoint allows only 7 requests a minute.
-CHART_PAGES = 3
+CHART_PAGES = 6
+# Roblox's Explore lists differ by device and country, so each scan finds different games.
+# Regional hits matter: one of the biggest breakouts this autumn was an Arabic-language game.
+DISCOVERY_SCANS = (("computer", "all"), ("high_end_phone", "all"), ("low_end_phone", "all"), ("console", "all"),
+                   ("high_end_phone", "br"), ("high_end_phone", "id"), ("high_end_phone", "sa"))
+DISCOVERY_DELAY = 0.25  # Seconds between Explore requests.
+WATCH_DELAY = 0.4  # Seconds between player-count requests for games Rolimons does not list.
+WATCH_DAYS = 30  # Stop reading an unlisted game after this long without activity.
+WATCH_MAX = 2_000  # 40 requests a run at most.
+ICON_BUDGET = 200
+UP_AND_COMING_DAYS = 28  # Roblox describes this chart as experiences published in the past 28 days.

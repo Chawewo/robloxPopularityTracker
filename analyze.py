@@ -11,8 +11,8 @@ import charts
 import clones
 import config
 from collect import atomic_write, read_csv, utc_text
-from rollup import LEGACY_FLOOR, read_daily, read_floors
-from signals import level, market_index, score
+from rollup import LEGACY_FLOOR, read_daily, read_floors, read_late_games
+from signals import fill_unseen, level, market_index, score, step_up
 
 
 def parse_time(value):
@@ -131,6 +131,26 @@ def chart_positions(data_dir):
     return ranks, rising, len(days)
 
 
+def public_window(row, first_seen):
+    """What we can say about when a game went public, as (earliest, latest) dates.
+
+    Roblox publishes only Created and Updated. The first sighting anywhere is the latest it
+    can have gone public. Roblox says Up-and-Coming covers games published in the past 28 days,
+    which gives an earliest date when a game appears there.
+    """
+    sightings = [value[:10] for value in (first_seen, row.get("first_chart")) if value]
+    latest = min(sightings) if sightings else None
+    first_up = row.get("first_up_and_coming")
+    earliest = (parse_time(first_up + "T00:00:00Z") - timedelta(days=config.UP_AND_COMING_DAYS)).date().isoformat() if first_up else None
+    return earliest, latest
+
+
+def read_model(data_dir):
+    """The shadow model's latest chances, as ({game_id: row}, date). Empty until it has run."""
+    rows = read_csv(Path(data_dir) / "model" / "latest.csv")
+    return {row["game_id"]: row for row in rows}, rows[0]["date"] if rows else None
+
+
 def since_update(peaks, dates, updated, floors):
     """Percentage change since the day before a game's latest update, within 30 days."""
     day = updated[:10] if updated else None
@@ -152,6 +172,8 @@ def build(data_dir=config.DATA_DIR, now=None):
     for earlier, later in zip(manifest, manifest[1:]):
         if int(later.get("floor") or LEGACY_FLOOR) < int(earlier.get("floor") or LEGACY_FLOOR):
             floor_lowered_at = later["timestamp"]
+    # The same goes for the first run that reads Roblox's own lists.
+    discovery_began_at = next((row["timestamp"] for row in manifest if int(row.get("discovered") or 0) > 0), None)
     latest = max(complete) if complete else None
     earliest = min(complete) if complete else None
     previous_snapshot = sorted(complete)[-2] if len(complete) >= 2 else None
@@ -186,6 +208,9 @@ def build(data_dir=config.DATA_DIR, now=None):
     group_sizes = daily_change(data_dir, "groups", "group_id", "members", latest) if latest else {}
     update_counts = recent_updates(data_dir, latest) if latest else {}
     chart_ranks, up_and_coming, chart_days = chart_positions(data_dir)
+    discovered = {row["game_id"]: row for row in read_csv(data_dir / "discovered.csv")}
+    model, model_date = read_model(data_dir)
+    coverage_log = read_csv(data_dir / "coverage.csv")
     # The final entry is a rolling 24h peak, so a riser shows up before its day has closed.
     rolling = {game_id: max((count for stamp, count in history.items() if stamp > latest - timedelta(hours=24)),
                             default=None) for game_id, history in points.items()} if latest else {}
@@ -193,14 +218,18 @@ def build(data_dir=config.DATA_DIR, now=None):
               for game_id in set(daily) | set(points)}
     market = market_index(list(series.values()), len(dates) + 1)
     final = len(dates)
+    late_games = read_late_games(data_dir)
+    # Published history keeps real gaps; only the scoring treats a late find's early days as flat.
+    scored = {game_id: fill_unseen(peaks) if game_id in late_games else peaks for game_id, peaks in series.items()}
     family_input = []
-    for game_id, peaks in series.items():
+    for game_id, peaks in scored.items():
         created = details.get(game_id, {}).get("created")
         if created and game_id in metadata and latest and any(value is not None for value in peaks):
             family_input.append(dict(game_id=game_id, name=metadata[game_id]["name"],
                 age_days=max(0, (latest - parse_time(created)).days), creator=details[game_id].get("creator"),
                 level=level(peaks, final, floors=floors), level_before=level(peaks, max(final - 7, 0), floors=floors)))
     families, family_of = clones.find_families(family_input)
+    number = lambda row, key: float(row[key]) if row and row.get(key) else None
     family_games = {game["game_id"]: game for game in family_input}
     rows = []
     for game_id, history in points.items():
@@ -237,15 +266,19 @@ def build(data_dir=config.DATA_DIR, now=None):
         crossed = (current >= config.MIN_PLAYERS
                    and any(cutoff <= stamp < latest and value < config.MIN_PLAYERS for stamp, value in ordered)
                    and all(value < config.MIN_PLAYERS for stamp, value in ordered if stamp < cutoff))
-        observed_new = cutoff <= first_seen <= latest and meta["first_seen"] != floor_lowered_at
+        observed_new = (cutoff <= first_seen <= latest and current >= current_floor
+                        and meta["first_seen"] not in (floor_lowered_at, discovery_began_at))
         # Preserve the short-term sustained signal independently of longer lookbacks.
         available = [windows[str(h)] for h in (1, 6, 24) if windows.get(str(h)) is not None]
-        peaks = series[game_id]
+        peaks = scored[game_id]
         record = max(value for value in peaks if value is not None)
         rate = rates.get(game_id)
         described = describe(details.get(game_id), latest)
         creator_id = details.get(game_id, {}).get("creator_id")
         week = [count for stamp, count in ordered if stamp > latest - timedelta(days=7)]
+        found = discovered.get(game_id, {})
+        public_from, public_by = public_window(found, meta["first_seen"])
+        chance = model.get(game_id)
         # Little's law: average concurrent players = arrivals per minute x minutes per visit.
         minutes = round(sum(week) / len(week) * 1440 / rate["visits_per_day"], 1) if rate and rate["visits_per_day"] > 0 else None
         rows.append(dict(game_id=game_id, name=meta["name"], icon_url=meta["icon_url"],
@@ -263,7 +296,13 @@ def build(data_dir=config.DATA_DIR, now=None):
             updates_30d=update_counts.get(game_id, 0), since_update_pct=since_update(peaks, dates, described["updated"], floors),
             charts=chart_ranks.get(game_id, {}), up_and_coming_days=len(up_and_coming.get(game_id, ())),
             family=family_of.get(game_id), family_role=clones.role(family_games[game_id], families[family_of[game_id]]) if game_id in family_of else None,
-            **score(peaks, len(peaks) - 1, market, floors, game_id in family_of)))
+            unlisted=bool(found) and not found.get("listed"), first_chart=found.get("first_chart") or None,
+            known_from=meta["first_seen"][:10] if game_id in late_games else None,
+            first_up_and_coming=found.get("first_up_and_coming") or None, maturity=found.get("maturity") or None,
+            visits_at_first=int(found["visits_at_first"]) if found.get("visits_at_first") else None,
+            public_from=public_from, public_by=public_by, step_up=step_up(peaks, len(peaks) - 1),
+            chance_double=number(chance, "double"), chance_triple=number(chance, "triple"),
+            **score(peaks, len(peaks) - 1, market, floors)))
     rows.sort(key=lambda row: (-row["players"], row["game_id"]))
     coverage = {}
     for hours in config.WINDOWS:
@@ -278,6 +317,8 @@ def build(data_dir=config.DATA_DIR, now=None):
         snapshot_count=len(complete), eligible_count=sum(row["traction"] for row in rows), min_players=config.MIN_PLAYERS,
         families=sorted(families.values(), key=lambda family: (-family["recent"], family["phrase"])),
         chart_days=chart_days, total_players=int(manifest[-1].get("total_players") or 0) if manifest else 0,
+        coverage=coverage_log[-1] if coverage_log else None, model_date=model_date,
+        young_floor=config.YOUNG_FLOOR, unlisted_count=sum(row["unlisted"] for row in rows),
         window_coverage=coverage,
         collect_floor=current_floor, top_n=config.TOP_N,
         tolerance_minutes=config.TOLERANCE_MINUTES, stale_minutes=config.STALE_MINUTES,

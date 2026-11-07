@@ -3,6 +3,7 @@ import csv
 import io
 import json
 import os
+import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.request import Request, urlopen
@@ -37,7 +38,7 @@ def csv_text(fields, rows):
     return stream.getvalue()
 
 
-MANIFEST_FIELDS = ["timestamp", "games", "floor", "total_players"]
+MANIFEST_FIELDS = ["timestamp", "games", "floor", "total_players", "discovered"]
 CHANGE_FIELDS = ["timestamp", "game_id", "field", "old", "new"]
 
 
@@ -68,20 +69,36 @@ def validate(payload):
     return result
 
 
-def save_snapshot(payload, now, data_dir=config.DATA_DIR):
+def young_games(data_dir, now):
+    """Return (games created within YOUNG_DAYS, every game with a known release date)."""
+    cutoff = utc_text(now - timedelta(days=config.YOUNG_DAYS))
+    details = read_csv(Path(data_dir) / "details.csv")
+    return {row["game_id"] for row in details if row["created"] >= cutoff}, {row["game_id"] for row in details}
+
+
+def save_snapshot(payload, now, data_dir=config.DATA_DIR, extra=None):
+    """Store the listed games at or above their floor, plus `extra` games found elsewhere."""
     games = validate(payload)
     timestamp = utc_text(now)
     data_dir = Path(data_dir)
     manifest = read_csv(data_dir / "collections.csv")
     if any(row["timestamp"] == timestamp for row in manifest):
         return 0
-    selected = {key: value for key, value in games.items() if value[1] >= config.COLLECT_FLOOR}
+    young, known = young_games(data_dir, now)
+    selected = {key: value for key, value in games.items()
+                if value[1] >= (config.YOUNG_FLOOR if key in young else config.COLLECT_FLOOR)}
+    # Enrichment reads this in the same run to learn which small games are young. It is a queue, not history.
+    atomic_write(data_dir / "below_floor.csv", csv_text(["game_id", "players"], [
+        dict(game_id=key, players=value[1]) for key, value in sorted(games.items(), key=lambda item: -item[1][1])
+        if config.YOUNG_FLOOR <= value[1] < config.COLLECT_FLOOR and key not in known and int(key) >= config.RECENT_PLACE_ID]))
+    selected.update(extra or {})
     metadata_path = data_dir / "games.csv"
     metadata = {row["game_id"]: row for row in read_csv(metadata_path)}
     changed = False
     changes = []
     for game_id, (name, players, icon) in selected.items():
         old = metadata.get(game_id)
+        icon = icon or (old["icon_url"] if old else "")
         row = dict(game_id=game_id, name=name, icon_url=icon,
                    first_seen=old["first_seen"] if old else timestamp)
         if old != row:
@@ -89,7 +106,7 @@ def save_snapshot(payload, now, data_dir=config.DATA_DIR):
             changed = True
         if old and old["name"] != name:
             changes.append(dict(timestamp=timestamp, game_id=game_id, field="name", old=old["name"], new=name))
-        if old and old["icon_url"] != icon:
+        if old and old["icon_url"] and old["icon_url"] != icon:
             changes.append(dict(timestamp=timestamp, game_id=game_id, field="icon", old="", new=""))
     if changes:
         append_rows(data_dir / "changes.csv", CHANGE_FIELDS, changes)
@@ -113,7 +130,7 @@ def save_snapshot(payload, now, data_dir=config.DATA_DIR):
         writer.writerows((timestamp, key, value[1]) for key, value in selected.items())
     # A completion manifest also represents valid snapshots with no qualifying games.
     manifest.append(dict(timestamp=timestamp, games=len(selected), floor=config.COLLECT_FLOOR,
-                         total_players=sum(value[1] for value in games.values())))
+                         total_players=sum(value[1] for value in games.values()), discovered=len(extra or ())))
     atomic_write(data_dir / "collections.csv", csv_text(MANIFEST_FIELDS, manifest))
     return len(selected)
 
@@ -148,6 +165,16 @@ def prune(now, data_dir=config.DATA_DIR):
             atomic_write(path, csv_text(MANIFEST_FIELDS, retained))
 
 
+def find_unlisted(payload, now):
+    """Games Rolimons is missing. Losing Roblox's lists must never stop this collection."""
+    try:
+        from discover import discover  # discover.py imports this module's CSV helpers.
+        return discover(validate(payload), now)
+    except Exception as error:  # Deliberately broad, for the same reason as enrich.py.
+        print(f"discovery skipped: {type(error).__name__}: {error}", file=sys.stderr)
+        return {}
+
+
 def main():
     request = Request(config.ENDPOINT, headers={
         "User-Agent": "Mozilla/5.0 (compatible; RobloxRisingTracker/1.0)",
@@ -156,7 +183,7 @@ def main():
     with urlopen(request, timeout=45) as response:
         payload = json.load(response)
     now = datetime.now(timezone.utc)
-    count = save_snapshot(payload, now)
+    count = save_snapshot(payload, now, extra=find_unlisted(payload, now))
     # Roll up before pruning, so no raw day can be deleted without leaving its daily peak.
     from rollup import rollup  # rollup.py imports this module's CSV helpers.
     rollup()

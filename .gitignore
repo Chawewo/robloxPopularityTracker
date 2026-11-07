@@ -11,3 +11,5 @@ __pycache__/
 dashboard/data.json
 dashboard/history.json
 dashboard/status.json
+# Rewritten every run and only read later in the same run.
+data/below_floor.csv

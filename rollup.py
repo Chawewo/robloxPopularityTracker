@@ -74,6 +74,12 @@ def read_floors(data_dir=config.DATA_DIR):
     return [int(row.get("floor") or LEGACY_FLOOR) for row in rows]
 
 
+def read_late_games(data_dir=config.DATA_DIR):
+    """Games Roblox's lists revealed before Rolimons did, so their early absence means unseen."""
+    return {row["game_id"] for row in read_csv(Path(data_dir) / "discovered.csv")
+            if not row["listed"] or row["listed"] > row["first_chart"]}
+
+
 def read_daily(data_dir=config.DATA_DIR):
     """Return (sorted dates, {game_id: {date: peak}}). A date is present only if collection ran."""
     data_dir = Path(data_dir)

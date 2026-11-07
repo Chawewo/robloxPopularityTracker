@@ -12,7 +12,6 @@ from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
-import charts
 import config
 from collect import append_rows, atomic_write, csv_text, read_csv, utc_text
 
@@ -80,7 +79,12 @@ def fetch_details(universe_ids, fetch=fetch_json, pause=time.sleep):
     for batch in batches(universe_ids, config.ENRICH_BATCH):
         joined = ",".join(batch)
         for url, target in ((GAMES_URL, details), (VOTES_URL, votes)):
-            payload = fetch(url.format(joined))
+            try:
+                payload = fetch(url.format(joined))
+            except HTTPError as error:
+                if error.code == 429:
+                    return details, votes  # Keep what arrived; the next run picks up the rest.
+                raise
             for item in (payload or {}).get("data", []):
                 target[str(item["id"])] = item
             pause(config.ENRICH_REQUEST_DELAY)
@@ -120,13 +124,15 @@ def enrich(now, data_dir=config.DATA_DIR, fetch=fetch_json, pause=time.sleep):
     universes = {row["game_id"]: row["universe_id"] for row in read_csv(data_dir / "universes.csv")}
     details = {row["game_id"]: row for row in read_csv(data_dir / "details.csv")}
     current = current_game_ids(data_dir)
-    # Charts also reveal universe ids, which saves rate-limited lookups for those games.
-    free = charts.record(now, data_dir, fetch)
+    # Roblox's lists also reveal universe ids, which saves rate-limited lookups for those games.
     known_before = len(universes)
-    universes.update({key: value for key, value in free.items() if key not in universes})
+    universes.update({row["game_id"]: row["universe_id"] for row in read_csv(data_dir / "discovered.csv")
+                      if row["universe_id"] and row["game_id"] not in universes})
     charted = len(universes) - known_before
     # Newest place ids first within listed games: a new riser needs its release date most urgently.
-    order = sorted(current, key=int, reverse=True) + [row["game_id"] for row in metadata]
+    # Small games come last, largest first: a release date is what makes them worth storing.
+    order = (sorted(current, key=int, reverse=True) + [row["game_id"] for row in metadata]
+             + [row["game_id"] for row in read_csv(data_dir / "below_floor.csv")])
     found = resolve_universes(list(dict.fromkeys(order)), universes, config.ENRICH_RESOLVE_BUDGET, fetch, pause)
     if found or charted:
         universes.update(found)

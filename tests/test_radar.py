@@ -249,7 +249,7 @@ class CollectOrderTests(unittest.TestCase):
         calls = []
         response = MagicMock()
         response.__enter__.return_value = io.BytesIO(b'{"games": {}}')
-        with patch.object(collect, "urlopen", return_value=response),              patch.object(collect, "save_snapshot", side_effect=lambda *_: calls.append("save") or 0),              patch("rollup.rollup", side_effect=lambda: calls.append("rollup")),              patch.object(collect, "prune", side_effect=lambda *_: calls.append("prune")):
+        with patch.object(collect, "urlopen", return_value=response),              patch.object(collect, "find_unlisted", return_value={}),              patch.object(collect, "save_snapshot", side_effect=lambda *_, **__: calls.append("save") or 0),              patch("rollup.rollup", side_effect=lambda: calls.append("rollup")),              patch.object(collect, "prune", side_effect=lambda *_: calls.append("prune")):
             collect.main()
         self.assertEqual(calls, ["save", "rollup", "prune"])
 

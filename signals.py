@@ -17,8 +17,10 @@ GROWTH_WEIGHT = 2
 GROWTH_CAP = 1.5  # Log ratio; about 4.5x. Larger jumps earn nothing extra.
 SPIKE_RATIO = 2.5
 SPIKE_PENALTY = 3
-# Only for a game already climbing: clones that aren't climbing did worse than average.
-FAMILY_BONUS = 2
+# A sudden lasting jump, such as a game clearing Roblox's under-16 evaluation. Not scored.
+STEP_RATIO = 3
+STEP_BASE_DAYS = 7
+STEP_MIN_OBSERVED = 3
 FULL_MARKS = STREAK_POINTS[6] + GROWTH_WEIGHT * GROWTH_CAP
 
 
@@ -36,6 +38,21 @@ def level(peaks, index, width=3, floors=None):
     start = max(0, index - width + 1)
     return median(stand_in(floors[start + offset] if floors else None) if value is None else value
                   for offset, value in enumerate(peaks[start:index + 1]))
+
+
+def fill_unseen(peaks):
+    """Hold a late-found game flat before its first reading.
+
+    An absent day normally means below the floor. For a game found late it means nobody was
+    looking, and reading that as a jump from nothing would score a 40,000-player game as a
+    spike. Flat history gives it no credit or penalty until real movement is observed.
+    """
+    first = next((value for value in peaks if value is not None), None)
+    filled, started = [], False
+    for value in peaks:
+        started = started or value is not None
+        filled.append(value if started else first)
+    return filled
 
 
 def rising_streak(peaks, index, floors=None):
@@ -72,7 +89,21 @@ def vs_market(peaks, index, days, market, floors=None):
             - (market[index] - market[index - days]))
 
 
-def score(peaks, index, market, floors=None, in_family=False):
+def step_up(peaks, index):
+    """How many times higher the last two days sit than the week before, or None.
+
+    Both days must hold the gain, so a one-day spike does not count, and the game must have
+    been seen beforehand, so a game Rolimons listed late does not look like a jump.
+    """
+    recent = peaks[max(index - 1, 0):index + 1]
+    base = [value for value in peaks[max(index - 1 - STEP_BASE_DAYS, 0):max(index - 1, 0)] if value is not None]
+    if len(recent) < 2 or None in recent or len(base) < STEP_MIN_OBSERVED:
+        return None
+    ratio = min(recent) / median(base)
+    return round(ratio, 1) if ratio >= STEP_RATIO else None
+
+
+def score(peaks, index, market, floors=None):
     """Score a game on the given day, using only data up to that day."""
     streak = rising_streak(peaks, index, floors)
     growth = vs_market(peaks, index, 3, market, floors)
@@ -81,7 +112,5 @@ def score(peaks, index, market, floors=None, in_family=False):
     points = STREAK_POINTS[streak] + GROWTH_WEIGHT * min(max(growth or 0, 0), GROWTH_CAP)
     if spike:
         points -= SPIKE_PENALTY
-    elif in_family and streak >= 1 and (growth or 0) > 0:
-        points += FAMILY_BONUS
     return dict(score=max(0, min(100, round(points / FULL_MARKS * 100))), streak=streak, spike=spike,
                 vs_market_3=round(growth, 3) if growth is not None else None)

@@ -2,8 +2,10 @@
 
 For each past day this uses only data up to that day, ranks the games a scout could still
 act on, then checks what happened next. A hit needs a sustained 3-day level, judged against
-the highest level already visible on the day, so a spike that had already happened and a
-one-day event are not counted as predictions.
+the highest level already visible on the day, so a spike or one-day event is not counted as
+a prediction. It must also beat the game's record so far: an old game bouncing back to last
+month's level is a routine update cycle, not a blow-up, and counting those made a trained
+model look far better than it was.
 
 The signal lab tests every signal the same way, including ones still collecting history.
 Nothing joins the score until it earns its place here. The score's weights were chosen after
@@ -20,18 +22,30 @@ import charts
 import clones
 import config
 from collect import atomic_write, read_csv
-from rollup import read_daily, read_floors
-from signals import level, market_index, rising_streak, score, vs_market
+from rollup import read_daily, read_floors, read_late_games
+from signals import fill_unseen, level, market_index, rising_streak, score, step_up, vs_market
 
 LOOKBACK = 14
 HORIZON = 14
 TOP_K = 25
 SCOUT_MIN = config.COLLECT_FLOOR
 SCOUT_MAX = 15_000
+OLD_FLOOR = 500  # Every game was absent below this until November 2026.
+BIG = 5_000
+EARLY_DAYS = 5  # Games seen this soon after tracking began may simply have been there already.
 MAX_DAYS_TESTED = 90  # Keeps the daily refresh quick as history grows.
 MIN_SAMPLES = 150  # Below this a signal's result is still mostly chance.
 HITS = {"double": (2, 2_000), "triple": (3, 3_000), "five_x": (5, 5_000)}
 BANDS = ((0, 15), (15, 40), (40, 70), (70, 101))
+
+
+def outcomes(peaks, day):
+    """What happened in the HORIZON days after `day`, as {hit name: True or False}."""
+    visible = max(value for value in peaks[max(day - 2, 0):day + 1] if value is not None)
+    record = max(value for value in peaks[:day + 1] if value is not None)
+    future = sustained_level(peaks, day + 1, day + HORIZON + 1)
+    return {name: future >= multiple * visible and future >= minimum and future > record
+            for name, (multiple, minimum) in HITS.items()}
 
 
 def sustained_level(peaks, start, end):
@@ -65,6 +79,18 @@ def forward_flags(data_dir, dates):
     """Signals logged going forward, as {name: {(game_id, day index)}}. Empty until data builds."""
     index = {date_text: position for position, date_text in enumerate(dates)}
     flags = defaultdict(set)
+    discovered = read_csv(Path(data_dir) / "discovered.csv")
+    first_scan = min((row["first_chart"] for row in discovered), default="")
+    for row in discovered:
+        day = index.get(row["first_chart"])
+        if day is not None and row["first_chart"] != first_scan:  # The first scan found everything at once.
+            for offset in range(3):
+                flags["New to Roblox lists in past 3 days"].add((row["game_id"], day + offset))
+    for row in read_csv(Path(data_dir) / "maturity_changes.csv"):
+        day = index.get(row["timestamp"][:10])
+        if day is not None:
+            for offset in range(7):
+                flags["Maturity label changed in past week"].add((row["game_id"], day + offset))
     for date_text, rows in charts.read_recent(data_dir, len(dates) + 1):
         for row in rows:
             if date_text in index:
@@ -105,11 +131,12 @@ def forward_flags(data_dir, dates):
     return flags
 
 
-def observations(series, length, market, floors=None, names=None, details=None, flags=None):
+def observations(series, length, market, floors=None, names=None, details=None, flags=None, days=None):
+    """One row per scouted game per day. `days` overrides the range, including unfinished days."""
     names, details, flags = names or {}, details or {}, flags or {}
     start = max(LOOKBACK, length - HORIZON - MAX_DAYS_TESTED)
     rows = []
-    for day in range(start, length - HORIZON):
+    for day in (range(start, length - HORIZON) if days is None else days):
         stamp = date.fromisoformat(names["__dates__"][day]) if "__dates__" in names else None
         families, family_of = day_families(series, day, names["__dates__"], floors, names, details) if stamp else ({}, {})
         for game_id, peaks in series.items():
@@ -118,15 +145,15 @@ def observations(series, length, market, floors=None, names=None, details=None, 
             current = level(peaks, day, floors=floors)
             if not SCOUT_MIN <= current <= SCOUT_MAX:
                 continue
-            visible = max(value for value in peaks[day - 2:day + 1] if value is not None)
-            future = sustained_level(peaks, day + 1, day + HORIZON + 1)
-            outcome = {name: future >= multiple * visible and future >= minimum
-                       for name, (multiple, minimum) in HITS.items()}
+            outcome = outcomes(peaks, day)
             age = age_on(details.get(game_id, {}).get("created"), stamp) if stamp else None
             family = families.get(family_of.get(game_id))
-            result = score(peaks, day, market, floors, family is not None)
+            result = score(peaks, day, market, floors)
             growth_3d = vs_market(peaks, day, 3, market, floors)
+            jump = step_up(peaks, day)
             signals = {
+                "Step-up, game under 120 days old": jump is not None and age is not None and age <= 120,
+                "Step-up, older game": jump is not None and age is not None and age > 120,
                 "5+ rising days": result["streak"] >= 5,
                 "3-4 rising days": 3 <= result["streak"] <= 4,
                 "Released 14-30 days ago": age is not None and 14 < age <= 30,
@@ -162,6 +189,30 @@ def top_picks(rows, key, top=TOP_K):
     return picks
 
 
+def caught(rows, outcome, key="score"):
+    """How many games with this outcome ever made the daily top picks while it was still ahead."""
+    winners = {row["game_id"] for row in rows if row["outcome"][outcome]}
+    found = {row["game_id"] for row in top_picks(rows, key) if row["outcome"][outcome]}
+    return dict(games=len(winners), caught=len(found))
+
+
+def late_arrivals(series, floors):
+    """Games the tracker first saw at a size that left no time to catch them.
+
+    A game that first reads 2,000 or more skipped the floor entirely. Almost always that means
+    the source listed it late, which no score can fix, so this measures the data's blind spot.
+    """
+    arrived = early = 0
+    for peaks in series.values():
+        first = next((day for day, value in enumerate(peaks) if value is not None and value >= OLD_FLOOR), None)
+        if first is None or first < EARLY_DAYS:
+            continue
+        if any(level(peaks, day, floors=floors) >= BIG for day in range(first, len(peaks))):
+            arrived += 1
+            early += peaks[first] < 2_000
+    return dict(games=arrived, seen_early=early)
+
+
 def signal_lab(rows, names):
     """Every signal's record against the average game."""
     base = hit_rates(rows)["double"] or 0
@@ -181,6 +232,8 @@ def run(data_dir=config.DATA_DIR):
     floors = read_floors(data_dir)
     series = {game_id: [days.get(date_text) for date_text in dates] for game_id, days in peaks.items()}
     market = market_index(list(series.values()), len(dates))
+    for game_id in read_late_games(data_dir) & set(series):
+        series[game_id] = fill_unseen(series[game_id])
     names = {row["game_id"]: row["name"] for row in read_csv(data_dir / "games.csv")}
     names["__dates__"] = dates
     details = {row["game_id"]: row for row in read_csv(data_dir / "details.csv")}
@@ -196,6 +249,7 @@ def run(data_dir=config.DATA_DIR):
         top_by_score=hit_rates(top_picks(rows, "score")),
         top_by_growth_7d=hit_rates(top_picks(rows, "growth_7d")),
         top_by_growth_3d=hit_rates(top_picks(rows, "growth_3d")),
+        five_x_caught=caught(rows, "five_x"), late_arrivals=late_arrivals(series, floors),
         early_top_by_score=hit_rates(top_picks([row for row in rows if row["day"] < middle], "score")),
         late_top_by_score=hit_rates(top_picks([row for row in rows if row["day"] >= middle], "score")),
         bands=[dict(low=low, high=high - 1, observations=len(band), **hit_rates(band))

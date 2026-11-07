@@ -6,8 +6,8 @@
   <meta name="color-scheme" content="dark light">
   <meta name="description" content="Find emerging Roblox games through steady climbs, release dates, and backtested breakout signals.">
   <title>Next Up · Roblox game tracker</title>
-  <link rel="stylesheet" href="style.css?v=11">
-  <script src="app.js?v=11" defer></script>
+  <link rel="stylesheet" href="style.css?v=12">
+  <script src="app.js?v=12" defer></script>
 </head>
 <body>
   <main>
@@ -46,6 +46,9 @@
             <button data-lens="update">Update bumps</button>
             <button data-lens="clones">Clone waves</button>
             <button data-lens="charts">Roblox charts</button>
+            <button data-lens="unlisted">Not on Rolimons</button>
+            <button data-lens="stepups">Step-ups</button>
+            <button data-lens="model">Model picks <small>TEST</small></button>
           </div>
         </div>
         <div class="lens-group">
@@ -123,6 +126,16 @@
         <h3 id="genre-title">Genres moving</h3>
         <p id="genre-summary" class="panel-note"></p>
         <div id="genre-rows" class="genre-rows"></div>
+      </article>
+      <article class="panel" aria-labelledby="blind-title">
+        <h3 id="blind-title">What the tracker can see</h3>
+        <p id="blind-summary" class="panel-note">Loading…</p>
+        <div class="table-scroll"><table class="mini"><thead><tr><th scope="col">Games on Roblox's lists</th><th scope="col">Total</th><th scope="col">Rolimons missed</th></tr></thead><tbody id="blind-rows"></tbody></table></div>
+      </article>
+      <article class="panel wide" aria-labelledby="model-title">
+        <h3 id="model-title">Score vs trained model</h3>
+        <p id="model-summary" class="panel-note">Loading…</p>
+        <div class="table-scroll"><table class="mini"><thead><tr><th scope="col">Daily top 25</th><th scope="col">Doubled</th><th scope="col">Tripled</th><th scope="col">5×</th><th scope="col">Days</th></tr></thead><tbody id="model-rows"></tbody></table></div>
       </article>
     </section>
     <footer><span>NEXT UP <span class="muted">/ Independent Roblox game discovery</span></span><span>Player counts from <a href="https://www.rolimons.com/games" target="_blank" rel="noopener noreferrer">Rolimons</a> · Release data from Roblox · Times shown locally</span></footer>
