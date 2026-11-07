@@ -207,7 +207,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 7171174521,2783797267,[🌽HAULING🌽] American Plains Mudding,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
 7199663966,2799421838,Durian Village 🌳 Malaysia RP,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
 7232779505,2817076516,Type Race!,,,2026-11-07,,2026-11-07,minimal,,
-7305309231,2851381018,Taxi Boss 🚖,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
+7305309231,2851381018,Taxi Boss 🚖,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-07
 7331676440,2860485766,[😱] Horror Elevator!,https://tr.rbxcdn.com/180DAY-a3752dc92379fa8901b4d69ebca452bf/150/150/Image/Webp/noFilter,,2026-11-07,,,mild,,2026-11-07
 7336302630,2862098693,Project Delta,,,2026-11-07,,2026-11-07,moderate,,2026-11-07
 7346416636,2865535599,Pop It Trading ✨,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
@@ -344,7 +344,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 12912731475,4518160318,Mansion Tycoon 🌴🏠,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
 12912934221,4518213768,WarCommand,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
 12931609417,4523856444,Color or Die 🎨,,,2026-11-07,,2026-11-07,mild,,2026-11-07
-12979690461,4538598064,[🎃] Phantom Ball,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-07
+12979690461,4538598064,[🎃] Phantom Ball,,,2026-11-07,,2026-11-07,mild,,2026-11-07
 12985361032,4540138978,Metro Life 🏡 City RP,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
 13042495892,4557322431,Project: Afternight,,,2026-11-07,,2026-11-07,mild,,2026-11-07
 13076380114,4568630521,[HALLOWEEN] Heroes Battlegrounds,,,2026-11-07,,2026-11-07,mild,,2026-11-07
@@ -598,7 +598,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 74150363564411,10768114929,Boss Fight For Eggs,https://tr.rbxcdn.com/180DAY-e58bdccc84cefa73b6adc35b17c6fc69/150/150/Image/Webp/noFilter,,2026-11-07,2026-11-07,,mild,,2026-11-07
 74164633882084,10771124452,TROLL Jail Hug Tower,https://tr.rbxcdn.com/180DAY-91c309994ef12b10d0e56bc6c377022d/150/150/Image/Webp/noFilter,,2026-11-07,2026-11-07,,mild,,2026-11-07
 74183246285569,10770228857,[⚡] Steal a Superpower!,https://tr.rbxcdn.com/180DAY-779569dd2e881a757e029c3676924c36/150/150/Image/Webp/noFilter,,2026-11-07,2026-11-07,,mild,,2026-11-07
-74188431054457,9978329815,Mukbang Game [Testing]🦇!,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-07
+74188431054457,9978329815,Mukbang Game [Testing]🦇!,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
 74205509034203,10766456501,The Hunt: Roblox 20,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
 74256669508761,8662243497,🐙 Raft 101 Survival,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
 74260430392611,7178032757,[🎉] Rebirth Champions: Ultimate,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
@@ -818,7 +818,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 85524229158571,10684538441,GLADIATOR VR [PAID ACCESS],,,2026-11-07,,,moderate,,
 85624479560888,10308844888,Board Of Hell,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
 85637933571461,10765707128,🌈 Guess The Color!,https://tr.rbxcdn.com/180DAY-3dff5644c9db84aebe49a49c1ad06dc1/150/150/Image/Webp/noFilter,2026-09-08T18:21:04Z,2026-11-07,,,minimal,4295166,2026-11-07
-85738654635245,10765490774,Climb For Animals Eggs🥚,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-07
+85738654635245,10765490774,Climb For Animals Eggs🥚,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
 85776559327018,10599505531,Game Of Life,https://tr.rbxcdn.com/180DAY-159412d897afb5c93118cf23532161b6/150/150/Image/Webp/noFilter,2026-07-30T19:14:14Z,2026-11-07,,,minimal,6192354,2026-11-07
 85834455114754,10764431554,Bid For An Egg!,https://tr.rbxcdn.com/180DAY-3ad6b74f140c5a1adf2954f87b3a0afe/150/150/Image/Webp/noFilter,2026-08-30T04:44:29Z,2026-11-07,,,minimal,3624860,2026-11-07
 85896571713843,6504986360,[🎃] Bubble Gum Simulator INFINITY,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
