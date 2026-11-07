@@ -439,7 +439,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 16115051360,5568657754,Gun and Armor Testing ,,,2026-11-07,,2026-11-07,mild,,2026-11-07
 16116270224,5569032992,🌙 Dandy's World [ALPHA],,,2026-11-07,,2026-11-07,mild,,2026-11-07
 16141640360,5576890130,[NEW] Skateboard of Hell Obby,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
-16146832113,5578556129,Vanguards: 2nd Anniversary,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
+16146832113,5578556129,Vanguards: 2nd Anniversary,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-07
 16154918775,5580972377,[UPD] 🎃 BUCKSHOT,,,2026-11-07,,2026-11-07,mild,,2026-11-07
 16205713724,5595353122,Slayers 2,,,2026-11-07,,2026-11-07,mild,,2026-11-07
 16389395869,5650396773,a dusty trip [🎃HALLOWEEN],,,2026-11-07,,2026-11-07,minimal,,2026-11-07
@@ -601,7 +601,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 74188431054457,9978329815,Mukbang Game [Testing]🦇!,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
 74205509034203,10766456501,The Hunt: Roblox 20,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
 74256669508761,8662243497,🐙 Raft 101 Survival,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
-74260430392611,7178032757,[🎉] Rebirth Champions: Ultimate,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
+74260430392611,7178032757,[🎉] Rebirth Champions: Ultimate,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-07
 74271625354615,7448488942,eko Beta Test,,,2026-11-07,,,minimal,,
 74300432420573,10747710159,[💬] Word Battle!,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
 74395953411817,6521100398,Dreamville 🏡 RP [Pets! 😺],,,2026-11-07,,2026-11-07,minimal,,2026-11-07
@@ -1225,7 +1225,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 107653234825538,10611823566,[🎃X10] +1 Universe Keyboard Escape!,https://tr.rbxcdn.com/180DAY-da44cdad3515801ecc9050ddff3e6ab0/150/150/Image/Webp/noFilter,2026-08-01T16:02:35Z,2026-11-07,,,minimal,686603,2026-11-07
 107676118189831,10771853697,[UPDATE] Project Web,https://tr.rbxcdn.com/180DAY-edc9f43d69e77f34969b23ee22dd8f5b/150/150/Image/Webp/noFilter,2026-10-19T04:40:19Z,2026-11-07,2026-11-07,,minimal,1108984,2026-11-07
 107725109349532,10766350628,Steal An Egg ROLEPLAY,https://tr.rbxcdn.com/180DAY-8d03c0b2f73817a3bb3bb43468388b3d/150/150/Image/Webp/noFilter,2026-09-13T18:27:02Z,2026-11-07,,,minimal,9761356,2026-11-07
-107727386530697,7794218964,[💫] Noob Mayhem!,,,2026-11-07,,2026-11-07,mild,,2026-11-07
+107727386530697,7794218964,[💫] Noob Mayhem!,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-07
 107778070777162,10563114921,Steal An Egg,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
 107879374402090,10768410533,🔥 SPEED,https://tr.rbxcdn.com/180DAY-8336081c5aab9f6e239e02c3f942b9d6/150/150/Image/Webp/noFilter,2026-09-28T03:45:06Z,2026-11-07,,,minimal,2650548,2026-11-07
 107894105055312,7948426536,[🌈🚂UPDATE] Wax ASMR Tower,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
@@ -1385,7 +1385,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 115910853212591,10765174195,Catalog Avatar Engine,https://tr.rbxcdn.com/180DAY-c252d6f2bc2435a5d674b1f2e2af043b/150/150/Image/Webp/noFilter,2026-09-05T02:53:36Z,2026-11-07,,,minimal,95942,2026-11-07
 116113866980358,7383133134,💰 Deadly Heist 💰,,,2026-11-07,,2026-11-07,mild,,2026-11-07
 116189555550783,10772284148,[50K] Broodwing,https://tr.rbxcdn.com/180DAY-cf72891158ae58eee0aa8c1ce55ca55c/150/150/Image/Webp/noFilter,2026-10-21T18:59:18Z,2026-11-07,,,minimal,2108561,2026-11-07
-116192088324578,10743048214,[SOON!] FNaF World Multiplayer,,,2026-11-07,,2026-11-07,mild,,2026-11-07
+116192088324578,10743048214,[???] FNaF World Multiplayer,,,2026-11-07,,2026-11-07,mild,,2026-11-07
 116250213377123,10769170829,German Moped Days,https://tr.rbxcdn.com/180DAY-4185ff7667d2c2497813db3f9915f1a6/150/150/Image/Webp/noFilter,2026-10-03T15:11:39Z,2026-11-07,,,minimal,4065463,2026-11-07
 116271122728938,10358859224,EXCHANGE EXCHANGE - RJ FPS ,https://tr.rbxcdn.com/180DAY-a684ebfdf197b0dda622edf72d4f49ac/150/150/Image/Webp/noFilter,2026-06-19T22:53:41Z,2026-11-07,,,mild,2453549,2026-11-07
 116276659864007,9219838330,Project Mirror Labyrinth,https://tr.rbxcdn.com/180DAY-b7d7b8ac334f94743fc9a38f1ab701ec/150/150/Image/Webp/noFilter,2025-11-22T06:54:04Z,2026-11-07,,,moderate,15080316,2026-11-07
