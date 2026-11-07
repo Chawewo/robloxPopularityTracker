@@ -16,3 +16,10 @@ timestamp,game_id,old,new
 2026-11-07T01:13:19Z,78265060714011,minimal,mild
 2026-11-07T01:13:19Z,1801008322,mild,vng-rating-override
 2026-11-07T01:13:19Z,5683833663,minimal,vng-rating-override
+2026-11-07T01:28:20Z,98502499119821,vng-rating-override,minimal
+2026-11-07T01:28:20Z,75317862071711,vng-rating-override,minimal
+2026-11-07T01:28:20Z,2809202155,moderate,vng-rating-override
+2026-11-07T01:28:20Z,123847390309161,minimal,vng-rating-override
+2026-11-07T01:28:20Z,72712036210947,vng-rating-override,minimal
+2026-11-07T01:28:20Z,4195834406,mild,vng-rating-override
+2026-11-07T01:28:20Z,5683833663,vng-rating-override,minimal
