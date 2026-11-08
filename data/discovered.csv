@@ -111,7 +111,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 4640354700,1527252839,Ben 10 Super Hero Time,,,2026-11-07,,2026-11-07,mild,,2026-11-08
 4646477729,1531130248,Tower Heroes [UPD] 🎃 ,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 4735589050,1579747797,Prizefighter Boxing,,,2026-11-07,,,mild,,
-4796443083,1617287243,Daycare 2 🎈 (Story),,,2026-11-07,,2026-11-07,minimal,,2026-11-08
+4796443083,1617287243,Daycare 2 🎈 (Story),,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-08
 4850588087,1648496580,Bendy and the ink Machine,,,2026-11-07,,2026-11-07,mild,,2026-11-08
 4857298151,1651278324,[🧟] Free Items Game!,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 4878988249,1663370770,[HALLOWEEN] Mighty Omega,,,2026-11-08,,2026-11-08,moderate,,
@@ -361,7 +361,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 12912731475,4518160318,Mansion Tycoon 🌴🏠,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 12912934221,4518213768,WarCommand,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 12931609417,4523856444,Color or Die 🎨,,,2026-11-07,,2026-11-07,mild,,2026-11-08
-12933818947,4524605690,Collapsing Tower,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
+12933818947,4524605690,Collapsing Tower,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-08
 12979690461,4538598064,[🎃] Phantom Ball,,,2026-11-07,,2026-11-07,mild,,2026-11-08
 12985361032,4540138978,Metro Life 🏡 City RP,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 13042495892,4557322431,Project: Afternight,,,2026-11-07,,2026-11-07,mild,,2026-11-08
@@ -482,7 +482,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 16910059756,5807622548,RV Cooked? [ALPHA],,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 16916122579,5809308870,Indian Bank Story,https://tr.rbxcdn.com/180DAY-4c7f9021b3aff9b12fd4486e0264683c/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-08
 16927467487,5812546130,"[🎃] West Coast, Florida",,,2026-11-07,,2026-11-07,minimal,,2026-11-08
-16981421605,5827120940,Reborn As Swordsman,,,2026-11-07,,2026-11-07,mild,,2026-11-08
+16981421605,5827120940,Reborn As Swordsman,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-08
 16991287194,5829613337,something evil will happen [🎃🎃🎃],,,2026-11-07,,2026-11-07,mild,,2026-11-08
 17011057137,5835014039,[HALLOWEEN] New Journey,,,2026-11-07,,2026-11-07,mild,,2026-11-08
 17027058704,5839302258,[HALLOWEEN🎃] Spectral Fades REMAKE,https://tr.rbxcdn.com/180DAY-f817e032f5c4033e69bea80331196d95/150/150/Image/Webp/noFilter,,2026-11-07,,,moderate,,2026-11-08
@@ -1266,7 +1266,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 103363457515322,10767386157,Chop A Forest,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 103461839968825,10765728692,Build Together! [🔨],https://tr.rbxcdn.com/180DAY-4569bdd29de7cad2bf4d7d61672c1e99/150/150/Image/Webp/noFilter,2026-09-08T22:20:06Z,2026-11-07,,,minimal,3306218,2026-11-08
 103482292591717,10765774354,[🎃] Nuke A Country,https://tr.rbxcdn.com/180DAY-ccb9ee4985645640ef291f84847ad794/150/150/Image/Webp/noFilter,2026-09-09T10:56:05Z,2026-11-07,,,mild,11267864,2026-11-08
-103529173989890,10334356308,BINGO TROLL 😈,https://tr.rbxcdn.com/180DAY-e28a6028b0f81f0737147c9bd79e8886/150/150/Image/Webp/noFilter,2026-06-15T17:36:05Z,2026-11-07,,,minimal,21207606,2026-11-08
+103529173989890,10334356308,BINGO TROLL,https://tr.rbxcdn.com/180DAY-e28a6028b0f81f0737147c9bd79e8886/150/150/Image/Webp/noFilter,2026-06-15T17:36:05Z,2026-11-07,,,minimal,21207606,2026-11-08
 103556382323599,7990186056,Build a Tower,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 103592096287211,10765969301,[⛩️JAPAN] Travel Simulator,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 103593441753340,6495484417,[200] Find The Button! 🔴,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
@@ -1766,7 +1766,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 127380660530951,7058980030,Survive Overnight in a Mega Store,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 127403135954624,10732236937,[ Muto Prime ] Kaiju Alpha,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 127707120843339,7091388561,Math Murder,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
-127742093697776,8316902627,[💰] Plants & Brainrots 🌻,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
+127742093697776,8316902627,[💰] Plants & Brainrots 🌻,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-08
 127750392812160,10007567876,Last Contract: Tower Defense [ALPHA],,,2026-11-07,,,moderate,,
 127753293230152,8648908145,Trains Of Indonesia 2,https://tr.rbxcdn.com/180DAY-ef99898d88d6d2a8df1bfd79a3085882/150/150/Image/Webp/noFilter,2025-09-06T14:42:50Z,2026-11-07,,,minimal,3318365,2026-11-08
 127768809070884,10650979742,[🥞] Make a Pancake!,https://tr.rbxcdn.com/180DAY-af173aefbebb7bdfab2c071e6d95cfac/150/150/Image/Webp/noFilter,2026-08-07T20:54:49Z,2026-11-07,,,minimal,13525046,2026-11-08
