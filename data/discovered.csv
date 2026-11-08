@@ -8,7 +8,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 142823291,66654135,Murder Mystery 2,,,2026-11-07,,2026-11-07,moderate,,2026-11-08
 155615604,73885730,Prison Life,,,2026-11-07,,2026-11-07,mild,,2026-11-08
 166986752,79301772,🔨Plane Crazy🔨 [UPDATE],,,2026-11-07,,2026-11-07,minimal,,2026-11-08
-180364455,85651869,[🎃PLAYER CARDS] Survive The Disasters 2,,,2026-11-07,,2026-11-07,mild,,2026-11-08
+180364455,85651869,[🎃PLAYER CARDS] Survive The Disasters 2,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-08
 185655149,88070565,[🐬] Welcome to Bloxburg ,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 205224386,93740418,Hide and Seek Extreme,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 221718525,97314177,Ninja Tycoon (v4.8),,,2026-11-07,,2026-11-07,mild,,2026-11-08
@@ -393,7 +393,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 13864661000,4807308814,Break In 2 (Story),,,2026-11-07,,2026-11-07,mild,,2026-11-08
 13953602912,4835576249,Boba Tea Tower (Boba Tower),,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 13967668166,4839802560,LifeTogether 🏠 RP ,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
-13999660589,4850044287,Together [Party Game],,,2026-11-07,,2026-11-07,minimal,,2026-11-08
+13999660589,4850044287,Together [Party Game],,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-08
 14004668761,4851783408,[FIX]⚽Real Futbol,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 14026026722,4858558391,Terminal [Escape Room],,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 14056754882,4867910507,Flex Your UGC Limiteds,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
@@ -1077,6 +1077,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 94629611849859,10701680071,SUNYI [HORROR],https://tr.rbxcdn.com/180DAY-1befda55316380c5746ed715f7b871ea/150/150/Image/Webp/noFilter,2026-08-14T07:21:56Z,2026-11-07,,,mild,2525571,2026-11-08
 94640181989498,10338952197,Grow a Chicken Fighter,,,2026-11-07,,2026-11-07,mild,,2026-11-08
 94647229517154,6945584306,[🎃EVENT!] Azure Latch,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
+94687048380719,10371053153,🕷️[500+] Spider-Man Outfits,,,2026-11-08,,,minimal,,
 94702395375549,9671940985,Run For Brainrots!,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 94704154698049,10769039159,Car Crash Physics 🚗,,,2026-11-07,,,minimal,,
 94776439976207,8535088052,Refuse 2 Die [🎃HALLOWEEN],,,2026-11-07,,2026-11-07,mild,,2026-11-08
@@ -1111,7 +1112,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 96280251181127,9496852407,⚔️Build to Defend Loot,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-08
 96329519553919,10771450807,WarFront [PVP],https://tr.rbxcdn.com/180DAY-b4761ce64717620f234d1db25bf8675f/150/150/Image/Webp/noFilter,2026-10-17T09:55:18Z,2026-11-07,,,minimal,504569,2026-11-08
 96384896875593,7223396421,Memory Murder,https://tr.rbxcdn.com/180DAY-bc6eddb3b24e1cbeef620c678fc9cb1d/150/150/Image/Webp/noFilter,2025-02-10T05:32:25Z,2026-11-07,,,minimal,42952250,2026-11-08
-96425088123775,10552540426,My Toll Farm!,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-08
+96425088123775,10552540426,My Toll Farm!,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 96443646410175,8738763254,Sesame Street: Neighborhood Adventures,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 96510596525082,10685282333,Ball VS Ball [RANKED],,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 96645548064314,9091133975,[😵‍💫] Catch And Tame!,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
@@ -1645,6 +1646,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 120309659150421,10768533103,[UPD] +1 Spear Throwing,https://tr.rbxcdn.com/180DAY-56fd34d87dbc4c5047a0ef59238855f1/150/150/Image/Webp/noFilter,2026-09-29T00:23:17Z,2026-11-07,2026-11-07,,minimal,2551397,2026-11-08
 120329833999324,9510573507,GUNS VS FNAF,,,2026-11-07,,2026-11-07,moderate,,2026-11-08
 120392598553216,10771096069,Where Is Fahd?,https://tr.rbxcdn.com/180DAY-4b04c9a1d1ef321a5ac367481b351288/150/150/Image/Webp/noFilter,2026-10-15T18:50:39Z,2026-11-07,2026-11-07,,mild,15942532,2026-11-08
+120450743769548,10334731049,Clean the Supermarket!,,,2026-11-08,,2026-11-08,minimal,,2026-11-08
 120511086614436,10768476566,[RACES] DRIVE: Highway,https://tr.rbxcdn.com/180DAY-a25ea640ccb3008c18bbabc352d4ee2c/150/150/Image/Webp/noFilter,2026-09-28T17:27:37Z,2026-11-07,,,minimal,6193902,2026-11-08
 120511427220580,10766630653,Funky Duels! [FNF],https://tr.rbxcdn.com/180DAY-5a0742dd4e6e2b8ff15922b413638946/150/150/Image/Webp/noFilter,2026-09-16T00:26:51Z,2026-11-07,,,minimal,3195391,2026-11-08
 120564326011184,8572854650,Be a YouTuber! 🔴🎥,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
