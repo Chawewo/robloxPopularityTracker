@@ -275,7 +275,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 9503261072,3541611379,2X 🎃| Tower Defense X: BETA,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
 9603033881,3573098848,💰 Bid Battles!,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
 9731376817,3608594708,✨Collect The Body,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
-9731911476,3608732146,💪Size Legends Simulator,,,2026-11-07,,2026-11-07,mild,,2026-11-07
+9731911476,3608732146,💪Size Legends Simulator,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-07
 9756976552,3615728730,[🎃] Derelict,,,2026-11-07,,2026-11-07,moderate,,2026-11-07
 9759893929,3616579578,Zoo Tropica 🦓 ,,,2026-11-07,,,minimal,,2026-11-07
 9791603388,3624423521,Underground War 2.0 ⚔️ [NUKE],,,2026-11-07,,2026-11-07,mild,,2026-11-07
@@ -1574,7 +1574,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 119242658671952,10739112966,[CLUBS] Street Soccer Pro,https://tr.rbxcdn.com/180DAY-eed6906fe185a0254370bf28722ccb96/150/150/Image/Webp/noFilter,2026-08-19T02:56:04Z,2026-11-07,,,minimal,39935449,2026-11-07
 119248750585731,10767903282,Merge Squishy Balls [ASMR],https://tr.rbxcdn.com/180DAY-7949d015caf54ce752add8833b1216d2/150/150/Image/Webp/noFilter,2026-09-24T19:29:47Z,2026-11-07,,,minimal,253906,2026-11-07
 119263815547952,10768458048,Army Commander Tycoon [UPDATE 6],,,2026-11-07,,2026-11-07,mild,,2026-11-07
-119271610514030,9491545867,[SOON] Break a Brainrot Egg!,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
+119271610514030,9491545867,[NOW] Break a Brainrot Egg!,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
 119339172690037,7134571356,Mini Drifters [BETA],,,2026-11-07,,,minimal,,
 119363206449928,10770036723,Club Legacy Soccer Manager [ALPHA],https://tr.rbxcdn.com/180DAY-cbb7922f8626ea6871eb52a4155c41f6/150/150/Image/Webp/noFilter,2026-10-09T18:47:26Z,2026-11-07,2026-11-07,,minimal,2047376,2026-11-07
 119455737640001,9774284077,Logo Color Bridge,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
@@ -1622,6 +1622,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 121268060261990,9501701013,🚨Suspect,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
 121297490325652,10175155684,[I'LL SEE YOU AROUND] Mrouse's Animations,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
 121311242023938,10771797050,+1 Baddie Evolution 💅,https://tr.rbxcdn.com/180DAY-4d88a81c49a079aba03cd48f3f9729fb/150/150/Image/Webp/noFilter,2026-10-18T19:55:29Z,2026-11-07,2026-11-07,,mild,370974,2026-11-07
+121328255239317,10283056471,Would You Rather: Games Tower,https://tr.rbxcdn.com/180DAY-7419fc612bc20b3c9a73c65f1507cc0f/150/150/Image/Webp/noFilter,2026-06-06T21:06:15Z,2026-11-07,2026-11-07,,minimal,3194522,2026-11-07
 121338943285005,10768949861,Secure the Waterpark,https://tr.rbxcdn.com/180DAY-940f87128f6accff9bad097128dc7ccc/150/150/Image/Webp/noFilter,2026-10-02T05:45:53Z,2026-11-07,,,mild,4788304,2026-11-07
 121347884701659,10769621549,Krillion [Official] - Guess the Rarest Answer 🦐,https://tr.rbxcdn.com/180DAY-985b48144093c512488cc214dcd0c45c/150/150/Image/Webp/noFilter,2026-10-06T14:24:06Z,2026-11-07,,,minimal,732111,2026-11-07
 121348681731705,7158496266,[2XP WEEKEND] Burger Planet: Fast Food Simulator,https://tr.rbxcdn.com/180DAY-fb8389b7329ab088347c52f264aa29d6/150/150/Image/Webp/noFilter,2025-01-28T08:49:55Z,2026-11-07,,,minimal,2607482,2026-11-07
@@ -1749,7 +1750,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 127707120843339,7091388561,Math Murder,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
 127742093697776,8316902627,[💰] Plants & Brainrots 🌻,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
 127750392812160,10007567876,Last Contract: Tower Defense [ALPHA],,,2026-11-07,,,moderate,,
-127753293230152,8648908145,Trains Of Indonesia 2,,2025-09-06T14:42:50Z,2026-11-07,,,minimal,3318365,2026-11-07
+127753293230152,8648908145,Trains Of Indonesia 2,https://tr.rbxcdn.com/180DAY-ef99898d88d6d2a8df1bfd79a3085882/150/150/Image/Webp/noFilter,2025-09-06T14:42:50Z,2026-11-07,,,minimal,3318365,2026-11-07
 127768809070884,10650979742,[🥞] Make a Pancake!,https://tr.rbxcdn.com/180DAY-af173aefbebb7bdfab2c071e6d95cfac/150/150/Image/Webp/noFilter,2026-08-07T20:54:49Z,2026-11-07,,,minimal,13525046,2026-11-07
 127775478639865,10635348596,[Codes] Machine Party 💥,,,2026-11-07,,2026-11-07,mild,,2026-11-07
 127796122510286,10447863204,[❗DUELS❗] South Bronx: Elite War❗,https://tr.rbxcdn.com/180DAY-e6a0b3a4384e4188bb56ce7ff1ca9e12/150/150/Image/Webp/noFilter,2026-07-04T21:14:13Z,2026-11-07,,,moderate,1703418,2026-11-07
