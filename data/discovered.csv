@@ -495,7 +495,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 16910059756,5807622548,RV Cooked? [ALPHA],,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 16916122579,5809308870,Indian Bank Story,https://tr.rbxcdn.com/180DAY-4c7f9021b3aff9b12fd4486e0264683c/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-08
 16927467487,5812546130,"[🎃] West Coast, Florida",,,2026-11-07,,2026-11-07,minimal,,2026-11-08
-16981421605,5827120940,Reborn As Swordsman,,,2026-11-07,,2026-11-07,mild,,2026-11-08
+16981421605,5827120940,Reborn As Swordsman,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-08
 16991287194,5829613337,something evil will happen [🎃🎃🎃],,,2026-11-07,,2026-11-07,mild,,2026-11-08
 17011057137,5835014039,[HALLOWEEN] New Journey,,,2026-11-07,,2026-11-07,mild,,2026-11-08
 17027058704,5839302258,[HALLOWEEN🎃] Spectral Fades REMAKE,https://tr.rbxcdn.com/180DAY-f817e032f5c4033e69bea80331196d95/150/150/Image/Webp/noFilter,,2026-11-07,,,moderate,,2026-11-08
@@ -684,7 +684,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 75108253383447,10767619742,[3 HOURS] Portal Sandbox,https://tr.rbxcdn.com/180DAY-71053a5c7fe808499dd00938421176f9/150/150/Image/Webp/noFilter,,2026-11-07,,,mild,,2026-11-08
 75146334692216,10485072019,"[BETA] MoVal, CA | School Buses 🚌",,,2026-11-07,,,minimal,,
 75317862071711,9584946743,[🪬 WORLD 10 PT. 2] Immortality Incremental,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
-75356998324697,10769735087,[NOW] Ship The Cargo 🚢,https://tr.rbxcdn.com/180DAY-9b617b45810cb1c4f30a970113d8a2e8/150/150/Image/Webp/noFilter,,2026-11-07,2026-11-07,,minimal,,2026-11-08
+75356998324697,10769735087,Ship The Cargo 🚢,https://tr.rbxcdn.com/180DAY-9b617b45810cb1c4f30a970113d8a2e8/150/150/Image/Webp/noFilter,,2026-11-07,2026-11-07,,minimal,,2026-11-08
 75387700043737,7554119808,🛍️ My Avatar!,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 75541741887441,8198412649,Dinosaur Life,,,2026-11-07,,2026-11-07,moderate,,2026-11-08
 75663528075786,7450497506,HOW TO TRAIN YOUR DRAGON,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
@@ -1525,7 +1525,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 112447054650527,10771261307,خط الرين [رعب],https://tr.rbxcdn.com/180DAY-f68acbda24122d7ff13ae0a922ec994e/150/150/Image/Webp/noFilter,2026-10-16T13:48:04Z,2026-11-08,2026-11-08,,mild,31350,2026-11-08
 112461772532323,9538131680,COCA-COLA VS PEPSI WOMAN PRISON RUN! (Obby),https://tr.rbxcdn.com/180DAY-b36aba25b0a263f318173bc2a646a699/150/150/Image/Webp/noFilter,2026-01-10T17:24:45Z,2026-11-07,,,minimal,4212146,2026-11-07
 112520542193137,10768106877,+1 TREADMILL THE BEST!,https://tr.rbxcdn.com/180DAY-6f1f51386ae9f8c68f6a5df2ebe70afc/150/150/Image/Webp/noFilter,2026-09-26T09:38:01Z,2026-11-07,,,minimal,599730,2026-11-08
-112626674737178,9364041968,[TRADING🏎️] Car Sales 2 🏎️,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-08
+112626674737178,9364041968,[TRADING🏎️] Car Sales 2 🏎️,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 112641748896693,10249209189,Missiles vs Cities,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 112731528776884,9641502068,[UPD] KNIFE DUELS,,,2026-11-07,,2026-11-07,mild,,2026-11-08
 112781315318195,10195997258,Pull a Lucky Fish,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
