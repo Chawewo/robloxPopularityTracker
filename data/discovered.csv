@@ -1,8 +1,9 @@
 game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed,maturity,visits_at_first,last_active
 189707,65241,Natural Disaster Survival,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 192800,47545,🍕Work at a Pizza Place,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
+9528010,16876831,[Italy] Blood and Iron,,,2026-11-08,,2026-11-08,moderate,,2026-11-08
 13822889,2471084,🌳 Lumber Tycoon 2,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
-20321167,21164849,Pilot Training Flight Simulator,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-08
+20321167,21164849,Pilot Training Flight Simulator,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 21532277,16680835,Notoriety: A PAYDAY® Experience,,,2026-11-07,,2026-11-07,mild,,2026-11-08
 71315343,98929893,[OMEGA] Dragon Ball Rage,,,2026-11-07,,2026-11-07,mild,,2026-11-08
 142823291,66654135,Murder Mystery 2,,,2026-11-07,,2026-11-07,moderate,,2026-11-08
@@ -495,7 +496,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 16910059756,5807622548,RV Cooked? [ALPHA],,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 16916122579,5809308870,Indian Bank Story,https://tr.rbxcdn.com/180DAY-4c7f9021b3aff9b12fd4486e0264683c/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-08
 16927467487,5812546130,"[🎃] West Coast, Florida",,,2026-11-07,,2026-11-07,minimal,,2026-11-08
-16981421605,5827120940,Reborn As Swordsman,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-08
+16981421605,5827120940,Reborn As Swordsman,,,2026-11-07,,2026-11-07,mild,,2026-11-08
 16991287194,5829613337,something evil will happen [🎃🎃🎃],,,2026-11-07,,2026-11-07,mild,,2026-11-08
 17011057137,5835014039,[HALLOWEEN] New Journey,,,2026-11-07,,2026-11-07,mild,,2026-11-08
 17027058704,5839302258,[HALLOWEEN🎃] Spectral Fades REMAKE,https://tr.rbxcdn.com/180DAY-f817e032f5c4033e69bea80331196d95/150/150/Image/Webp/noFilter,,2026-11-07,,,moderate,,2026-11-08
@@ -661,6 +662,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 74188431054457,9978329815,Mukbang Game [Testing]🫓🍲!,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 74205509034203,10766456501,The Hunt: Roblox 20,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 74231131119820,10773109486,Prime Dash [BETA 0.2],https://tr.rbxcdn.com/180DAY-62ff2c5a101186bc795ee79be329d4b1/150/150/Image/Webp/noFilter,,2026-11-08,2026-11-08,,minimal,,2026-11-08
+74244835465756,6818297884,[x5 EXP + UPDATE] Sans AUs Fighter 2,,,2026-11-08,,2026-11-08,mild,,2026-11-08
 74256669508761,8662243497,🐙 Raft 101 Survival,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 74260430392611,7178032757,[🎉] Rebirth Champions: Ultimate,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 74271625354615,7448488942,eko Beta Test,,,2026-11-07,,,minimal,,2026-11-07
@@ -681,7 +683,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 74966223370173,9934748045,[🎃] pop and drop,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 74994442538508,9344916045,Cirque School of Acrobatics,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 75009218715136,10335414560,pretty cool princess,https://tr.rbxcdn.com/180DAY-26de3a6f3be928df6691f27dc32575c9/150/150/GameIcon9/Webp/noFilter,,2026-11-07,,,mild,,2026-11-08
-75108253383447,10767619742,[3 HOURS] Portal Sandbox,https://tr.rbxcdn.com/180DAY-71053a5c7fe808499dd00938421176f9/150/150/Image/Webp/noFilter,,2026-11-07,,,mild,,2026-11-08
+75108253383447,10767619742,[2 HOURS] Portal Sandbox,https://tr.rbxcdn.com/180DAY-71053a5c7fe808499dd00938421176f9/150/150/Image/Webp/noFilter,,2026-11-07,,,mild,,2026-11-08
 75146334692216,10485072019,"[BETA] MoVal, CA | School Buses 🚌",,,2026-11-07,,,minimal,,
 75317862071711,9584946743,[🪬 WORLD 10 PT. 2] Immortality Incremental,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 75356998324697,10769735087,Ship The Cargo 🚢,https://tr.rbxcdn.com/180DAY-9b617b45810cb1c4f30a970113d8a2e8/150/150/Image/Webp/noFilter,,2026-11-07,2026-11-07,,minimal,,2026-11-08
@@ -1638,6 +1640,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 117652242674206,10766764802,[UPD2] Prison Bus [ANOMALY],https://tr.rbxcdn.com/180DAY-0c923aa212382991155dc513a86c8665/150/150/Image/Webp/noFilter,2026-09-17T08:14:19Z,2026-11-07,2026-11-07,,mild,2580381,2026-11-08
 117713779364528,8178086002,[🎃] Lethal Ape Experience,,,2026-11-07,,2026-11-07,mild,,2026-11-08
 117734411290994,10771997908,+1 Spider Arm🕷️,,,2026-11-07,2026-11-07,2026-11-07,minimal,,2026-11-08
+117795955884406,9023560962,🎖️ Chrono Warfare | Tower Defense,,,2026-11-08,,2026-11-08,minimal,,2026-11-08
 117804322579587,10772275863,الاختبار النهائي | The Final Exam,https://tr.rbxcdn.com/180DAY-758d09c2a7b94f14e2efd05b11dd0140/150/150/Image/Webp/noFilter,2026-10-21T17:55:37Z,2026-11-07,2026-11-07,,mild,173131,2026-11-08
 117846704577993,10772019175,🧟 ZOMBIE MODE PRISON RUN! (Obby),https://tr.rbxcdn.com/180DAY-0c78434fb194b65fd0bb3f383ba4bffc/150/150/Image/Webp/noFilter,2026-10-20T03:27:21Z,2026-11-07,2026-11-07,,minimal,580290,2026-11-08
 117949143041402,10116272705,[ 🎃 UPDATE 1.25 ] Anime Mysterious,,,2026-11-07,,2026-11-07,mild,,2026-11-08
@@ -1956,6 +1959,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 131817327709359,10771051754,Realistic Car Destruction,,,2026-11-07,2026-11-07,2026-11-07,minimal,,2026-11-08
 132044122002338,10639043831,[Halloween 👻] Chaos Fruits,https://tr.rbxcdn.com/180DAY-a1ed0ca3dd10027cfd94d3b1648a71a1/150/150/Image/Webp/noFilter,2026-08-06T02:13:51Z,2026-11-07,,,mild,1766870,2026-11-08
 132081245551901,10751939592,ASMR Auto Wallhop Tower 2,,,2026-11-07,,2026-11-07,mild,,2026-11-08
+132087064828787,7211699445,💥 BlockyTubbies,https://tr.rbxcdn.com/180DAY-d01f8ecd0bcb0f5195aafd6d1619e7b5/150/150/Image/Webp/noFilter,2025-02-08T06:47:54Z,2026-11-08,,,minimal,15581618,2026-11-08
 132161842708206,10770057181,Style Outfit Tower! [Would You Rather] ✨,https://tr.rbxcdn.com/180DAY-e804a649356f716ca7f0dbf9df939cce/150/150/Image/Webp/noFilter,2026-10-09T21:26:43Z,2026-11-07,,,minimal,2057178,2026-11-08
 132169393925482,9784883402,Collect Dinos,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 132173349090360,10630800860,Color My Flag,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
