@@ -2,7 +2,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 189707,65241,Natural Disaster Survival,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 192800,47545,🍕Work at a Pizza Place,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 13822889,2471084,🌳 Lumber Tycoon 2,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
-20321167,21164849,Pilot Training Flight Simulator,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
+20321167,21164849,Pilot Training Flight Simulator,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-08
 21532277,16680835,Notoriety: A PAYDAY® Experience,,,2026-11-07,,2026-11-07,mild,,2026-11-08
 71315343,98929893,[OMEGA] Dragon Ball Rage,,,2026-11-07,,2026-11-07,mild,,2026-11-08
 142823291,66654135,Murder Mystery 2,,,2026-11-07,,2026-11-07,moderate,,2026-11-08
@@ -495,7 +495,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 16910059756,5807622548,RV Cooked? [ALPHA],,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 16916122579,5809308870,Indian Bank Story,https://tr.rbxcdn.com/180DAY-4c7f9021b3aff9b12fd4486e0264683c/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-08
 16927467487,5812546130,"[🎃] West Coast, Florida",,,2026-11-07,,2026-11-07,minimal,,2026-11-08
-16981421605,5827120940,Reborn As Swordsman,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-08
+16981421605,5827120940,Reborn As Swordsman,,,2026-11-07,,2026-11-07,mild,,2026-11-08
 16991287194,5829613337,something evil will happen [🎃🎃🎃],,,2026-11-07,,2026-11-07,mild,,2026-11-08
 17011057137,5835014039,[HALLOWEEN] New Journey,,,2026-11-07,,2026-11-07,mild,,2026-11-08
 17027058704,5839302258,[HALLOWEEN🎃] Spectral Fades REMAKE,https://tr.rbxcdn.com/180DAY-f817e032f5c4033e69bea80331196d95/150/150/Image/Webp/noFilter,,2026-11-07,,,moderate,,2026-11-08
@@ -681,7 +681,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 74966223370173,9934748045,[🎃] pop and drop,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 74994442538508,9344916045,Cirque School of Acrobatics,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 75009218715136,10335414560,pretty cool princess,https://tr.rbxcdn.com/180DAY-26de3a6f3be928df6691f27dc32575c9/150/150/GameIcon9/Webp/noFilter,,2026-11-07,,,mild,,2026-11-08
-75108253383447,10767619742,[4 HOURS] Portal Sandbox,https://tr.rbxcdn.com/180DAY-71053a5c7fe808499dd00938421176f9/150/150/Image/Webp/noFilter,,2026-11-07,,,mild,,2026-11-08
+75108253383447,10767619742,[3 HOURS] Portal Sandbox,https://tr.rbxcdn.com/180DAY-71053a5c7fe808499dd00938421176f9/150/150/Image/Webp/noFilter,,2026-11-07,,,mild,,2026-11-08
 75146334692216,10485072019,"[BETA] MoVal, CA | School Buses 🚌",,,2026-11-07,,,minimal,,
 75317862071711,9584946743,[🪬 WORLD 10 PT. 2] Immortality Incremental,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 75356998324697,10769735087,[NOW] Ship The Cargo 🚢,https://tr.rbxcdn.com/180DAY-9b617b45810cb1c4f30a970113d8a2e8/150/150/Image/Webp/noFilter,,2026-11-07,2026-11-07,,minimal,,2026-11-08
@@ -1243,6 +1243,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 100079017940927,9702840627,🤔Hot or Cold: Guess the Word!,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 100095010102847,10681043083,Nextbots Brazil (0.9),https://tr.rbxcdn.com/180DAY-224e953725ba2abb72a50faffe30b211/150/150/Image/Webp/noFilter,2026-08-11T13:34:11Z,2026-11-08,2026-11-08,,minimal,313792,2026-11-08
 100169861827044,10771110187,Build a Car Company 🚗,https://tr.rbxcdn.com/180DAY-855a5a72ebe655a33bd1af37112c9800/150/150/Image/Webp/noFilter,2026-10-15T20:35:15Z,2026-11-07,2026-11-07,,minimal,386333,2026-11-08
+100178831086674,9758027784,TimeBomb AnkleBreak!,,,2026-11-08,,2026-11-08,mild,,2026-11-08
 100227226022278,10741792653,Survive The Swarm [🎃],https://tr.rbxcdn.com/180DAY-456f1d1bcf30330940c6a7e64d92d1ea/150/150/Image/Webp/noFilter,2026-08-19T18:31:37Z,2026-11-07,,,mild,20575859,2026-11-08
 100293509865504,10516888336,[Boss🔥] Catch 1 Billion Ducks,,,2026-11-07,,2026-11-07,mild,,2026-11-08
 100321734959591,10770370806,Find The Country 🌍,https://tr.rbxcdn.com/180DAY-5550708f20f0879bc1a20c4d360fed34/150/150/Image/Webp/noFilter,2026-10-11T13:53:21Z,2026-11-07,2026-11-07,,minimal,2938497,2026-11-08
@@ -1272,6 +1273,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 101685456774656,6787216875,Hell Or Heaven,,,2026-11-07,,2026-11-07,mild,,2026-11-08
 101689779936941,8396003586,⚔️ Tiny Troops,,2025-08-10T05:07:10Z,2026-11-07,,,mild,18183095,2026-11-07
 101694313675268,10770259671,Hug Tower & TROLL Traps,https://tr.rbxcdn.com/180DAY-094c4ba66e38cbb649f1c239e8cfcd31/150/150/Image/Webp/noFilter,2026-10-10T21:34:46Z,2026-11-07,2026-11-07,,mild,3392338,2026-11-08
+101723587858956,10132466472,Duckies! 🐤 [2 Player Obby],https://tr.rbxcdn.com/180DAY-8448889a923a2f07b4232c613b764feb/150/150/Image/Webp/noFilter,2026-05-07T03:31:37Z,2026-11-08,,,minimal,55336464,2026-11-08
 101733180974837,8375166760,Bull Battles [JESTER],,,2026-11-07,,2026-11-07,mild,,2026-11-08
 101734723529213,10229958682,[🎃] Grabpack Place | Legacy,https://tr.rbxcdn.com/180DAY-cbe7ca4af0b921e32c05a07a1a33e01b/150/150/Image/Webp/noFilter,2026-05-27T11:35:04Z,2026-11-07,,,minimal,7259185,2026-11-08
 101736964164901,10168229420,[💻] My Gaming Cafe!,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
@@ -1617,6 +1619,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 116637001962797,10768259308,Manage A Country ,https://tr.rbxcdn.com/180DAY-cdf76251aac8bbc07f68607c5829c567/150/150/Image/Webp/noFilter,2026-09-27T06:18:13Z,2026-11-07,,,minimal,2126858,2026-11-08
 116701845804918,10767408330,Peel THE Potato,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 116722973795182,10772735708,Become the Potato!,https://tr.rbxcdn.com/180DAY-66aa5d70e8436174684edee94e046ad8/150/150/Image/Webp/noFilter,2026-10-24T12:45:45Z,2026-11-07,2026-11-07,,minimal,2010368,2026-11-08
+116779912472448,10772946647,Do Not Stop.,https://tr.rbxcdn.com/180DAY-838a633ee4e8901ea6dbfa543c90f1a2/150/150/Image/Webp/noFilter,2026-10-25T14:06:37Z,2026-11-08,2026-11-08,,minimal,403051,2026-11-08
 116802325837172,10766506199,7 Days Cat-Sitting,,,2026-11-07,,2026-11-07,mild,,2026-11-08
 116905776288284,10768881868,Korean Board Game Cafe,https://tr.rbxcdn.com/180DAY-3b4adb68ebf6b655e35056e5cc8fcb33/150/150/Image/Webp/noFilter,2026-10-01T17:28:46Z,2026-11-07,,,mild,1455170,2026-11-08
 116921506811323,10526463655,[🎃] 8 Ball Duels,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
