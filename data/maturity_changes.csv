@@ -602,3 +602,10 @@ timestamp,game_id,old,new
 2026-11-09T06:13:23Z,81505130631572,minimal,vng-rating-override
 2026-11-09T06:13:23Z,124143542106350,mild,vng-rating-override
 2026-11-09T06:13:23Z,6686932749,mild,vng-rating-override
+2026-11-09T06:28:26Z,9391468976,mild,vng-rating-override
+2026-11-09T06:28:26Z,11872917490,vng-rating-override,mild
+2026-11-09T06:28:26Z,13621938427,vng-rating-override,mild
+2026-11-09T06:28:26Z,89343390950953,minimal,vng-rating-override
+2026-11-09T06:28:26Z,81505130631572,vng-rating-override,minimal
+2026-11-09T06:28:26Z,124143542106350,vng-rating-override,mild
+2026-11-09T06:28:26Z,6686932749,vng-rating-override,mild
