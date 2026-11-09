@@ -266,7 +266,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 8554378337,3262314006,[👊UPD] Weapon Fighting Simulator,,,2026-11-07,,2026-11-07,minimal,,2026-11-09
 8562822414,3264581003,[🎃] Eternal Towers of Hell,,,2026-11-07,,2026-11-07,minimal,,2026-11-09
 8571687919,3267012194,LOCOfficial!,,,2026-11-07,,2026-11-07,minimal,,2026-11-09
-8646026339,3289847355,[❄️ ROPE PLATFORM!] Tower Creator,,,2026-11-07,,2026-11-07,minimal,,2026-11-09
+8646026339,3289847355,[❄️ ROPE PLATFORMS!] Tower Creator,,,2026-11-07,,2026-11-07,minimal,,2026-11-09
 8704997000,3308103880,Maple Hospital 🍂,,,2026-11-07,,2026-11-07,minimal,,2026-11-09
 8712817601,3310460039,🚨BARRY'S PRISON RUN! (OBBY),,,2026-11-07,,2026-11-07,mild,,2026-11-09
 8737602449,3317679266,PLS DONATE 💸,,,2026-11-07,,2026-11-07,minimal,,2026-11-09
@@ -382,7 +382,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 12979690461,4538598064,[🎃] Phantom Ball,,,2026-11-07,,2026-11-07,mild,,2026-11-09
 12985361032,4540138978,Metro Life 🏡 City RP,,,2026-11-07,,2026-11-07,minimal,,2026-11-09
 13042495892,4557322431,Project: Afternight,,,2026-11-07,,2026-11-07,mild,,2026-11-09
-13076380114,4568630521,[HALLOWEEN] Heroes Battlegrounds,,,2026-11-07,,2026-11-07,mild,,2026-11-09
+13076380114,4568630521,[HALLOWEEN] Heroes Battlegrounds,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-09
 13116420108,4578260860,Try To Die 💀,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
 13127800756,4582358979,Arm Wrestle Simulator,,,2026-11-07,,2026-11-07,minimal,,2026-11-09
 13166293021,4595016786,Barbie DreamHouse Tycoon,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
@@ -448,7 +448,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 15216188831,5245853977,[UPDATE] Incorails | Alpha,https://tr.rbxcdn.com/180DAY-be22c627f0509b5d5b681fe0066390ee/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-09
 15220242937,5247232141,Don't Anger the Button 😡,https://tr.rbxcdn.com/180DAY-9284a1445d5374503df1aed89ec8f991/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-08
 15240723287,5254920366,Secret Staycation,,,2026-11-07,,2026-11-07,minimal,,2026-11-09
-15269951959,5265857965,Legends Battlegrounds,,,2026-11-07,,2026-11-07,mild,,2026-11-09
+15269951959,5265857965,Legends Battlegrounds,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-09
 15270182488,5265950669,Ultra Toilet Roleplay 2,,,2026-11-07,,2026-11-07,mild,,2026-11-07
 15288629078,5272606478,[LIMITEDS🚗] Highway Legends,,,2026-11-07,,2026-11-07,minimal,,2026-11-09
 15306809513,5279216497,Princess Tycoon 👸,https://tr.rbxcdn.com/180DAY-79ba95d2dd24a653e9e7255c4640d94d/150/150/Image/Webp/noFilter,,2026-11-07,,,mild,,2026-11-09
@@ -696,7 +696,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 75146334692216,10485072019,"[BETA] MoVal, CA | School Buses 🚌",,,2026-11-07,,,minimal,,
 75317862071711,9584946743,[🪬 WORLD 10 PT. 2] Immortality Incremental,,,2026-11-07,,2026-11-07,minimal,,2026-11-09
 75356998324697,10769735087,Ship The Cargo 🚢,https://tr.rbxcdn.com/180DAY-9b617b45810cb1c4f30a970113d8a2e8/150/150/Image/Webp/noFilter,,2026-11-07,2026-11-07,,minimal,,2026-11-09
-75387700043737,7554119808,🛍️ My Avatar!,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-09
+75387700043737,7554119808,🛍️ My Avatar!,,,2026-11-07,,2026-11-07,minimal,,2026-11-09
 75541741887441,8198412649,Dinosaur Life,,,2026-11-07,,2026-11-07,moderate,,2026-11-08
 75663528075786,7450497506,HOW TO TRAIN YOUR DRAGON,,,2026-11-07,,2026-11-07,minimal,,2026-11-09
 75673503074101,10771410956,[UPD 🛠️] Realistic Ragdoll Playground 💥,https://tr.rbxcdn.com/180DAY-d98e2fd577265cc803c5fd9010ca6766/150/150/Image/Webp/noFilter,,2026-11-07,2026-11-07,2026-11-07,moderate,,2026-11-09
@@ -749,7 +749,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 77122167637573,10764297192,Race Stars,https://tr.rbxcdn.com/180DAY-1330d3d3e6f07b74c80ce1436e96033f/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-09
 77138116852203,10773111433,Ragdoll Universe 🩸,https://tr.rbxcdn.com/180DAY-a98867e7c8d0591d698be58364d4f1ab/150/150/Image/Webp/noFilter,,2026-11-07,2026-11-07,,mild,,2026-11-09
 77176809309004,10605063792,🌌 AURA,https://tr.rbxcdn.com/180DAY-2ee9c67c4e29babaabab6493ea20da92/150/150/Image/Webp/noFilter,,2026-11-07,,,moderate,,2026-11-09
-77187847593796,9796643263,Avatar Maker,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-09
+77187847593796,9796643263,Avatar Maker,,,2026-11-07,,2026-11-07,minimal,,2026-11-09
 77249951548081,10769578834,[NOW] Find The Clown,https://tr.rbxcdn.com/180DAY-818a0848574d37b1735cbecb10b2868a/150/150/Image/Webp/noFilter,,2026-11-08,2026-11-08,,minimal,,2026-11-09
 77298265653885,9300358822,AVATAR FREE 👕,https://tr.rbxcdn.com/180DAY-206a946e1cca008e1c3cebef13da9dda/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-09
 77301670644441,9671745030,[STATIC!] Luuynix's Animations,,,2026-11-07,,2026-11-07,minimal,,2026-11-09
