@@ -103,7 +103,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 4545054277,1467077046,[VR Exclusive] EdgeWorks,,,2026-11-07,,,minimal,,
 4580204640,1489026993,🔪Survive the Killer!,,,2026-11-07,,2026-11-07,mild,,2026-11-09
 4588604953,1494262959,[🎃] Criminality,,,2026-11-07,,2026-11-07,moderate,,2026-11-09
-4616652839,1511883870,Shindo Life [251],,,2026-11-07,,2026-11-07,minimal,,2026-11-09
+4616652839,1511883870,Shindo Life [251],,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-09
 4620174796,1514363493,[DOT UPD] Tennessee Roleplay Community,https://tr.rbxcdn.com/180DAY-1ced6299360d2175e7572f3e651b4c06/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-08
 4622480690,1515869119,Coded Clothing Mall V3,,,2026-11-07,,,minimal,,2026-11-09
 4623386862,1516533665,Piggy [X2 SEASON XP],,,2026-11-07,,2026-11-07,mild,,2026-11-09
@@ -307,7 +307,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 10224049386,3746418487,House Tycoon 2,,,2026-11-08,,2026-11-08,minimal,,2026-11-09
 10228136016,3747388906,[5X] Fallen Survival🏹,,,2026-11-07,,2026-11-07,moderate,,2026-11-09
 10253248401,3754482795,Elemental Powers Tycoon,,,2026-11-07,,2026-11-07,mild,,2026-11-09
-10260193230,3756501373,[UPDATE 4] Meme Sea,,,2026-11-07,,2026-11-07,mild,,2026-11-09
+10260193230,3756501373,[UPDATE 4] Meme Sea,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-09
 10277607801,3761186887,Apeirophobia,,,2026-11-08,,2026-11-08,moderate,,2026-11-09
 10424585322,3801413348,⭐ Face Animations [Demo],https://tr.rbxcdn.com/180DAY-40c60da4c1726cc6f114905353bc42c6/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-09
 10425361163,3801657309,CurioCity,,,2026-11-07,,,minimal,,
@@ -316,7 +316,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 10524142058,3827656431,MTR South Island Line | A train simulator,,,2026-11-07,,,minimal,,
 10561456271,3837114739,The Vampire Legends 2,,,2026-11-07,,2026-11-07,moderate,,2026-11-09
 10617518225,3852524123,Catalog Avatar Editor,,,2026-11-07,,2026-11-07,minimal,,2026-11-09
-10679239752,3869462497,Furry Infection game [Furinfection],,,2026-11-07,,2026-11-07,mild,,2026-11-08
+10679239752,3869462497,Furry Infection game [Furinfection],,,2026-11-07,,2026-11-07,mild,,2026-11-09
 10683046649,3870463843,[SBR 1500+🔥]Jojo Outfits,,,2026-11-07,,,minimal,,2026-11-07
 10834586502,3913007563,The Battle Bricks,,,2026-11-07,,2026-11-07,mild,,2026-11-09
 10840095864,3914607290,Mission: Mars – Explore the Red Planet 🔴,,,2026-11-07,,,minimal,,
@@ -1152,7 +1152,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 95168737547508,10769315427,[🏁] Steal A Pet And Ride It!,,,2026-11-07,2026-11-07,2026-11-07,minimal,,2026-11-09
 95219522950423,10765490955,Steal a Hacker Egg 🌮,https://tr.rbxcdn.com/180DAY-9b3be49e987e649ab9373a76b4749840/150/150/Image/Webp/noFilter,2026-09-06T23:23:47Z,2026-11-07,,,minimal,10786510,2026-11-07
 95286376401706,10770599659,Build A Mech!,https://tr.rbxcdn.com/180DAY-e3e08a231659e15f1c1e0717ccf24c41/150/150/Image/Webp/noFilter,2026-10-12T23:41:50Z,2026-11-07,2026-11-07,,minimal,2225464,2026-11-09
-95319535505764,8869088870,[🚢] Sail Down A River,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
+95319535505764,8869088870,[🚢] Sail Down A River,,,2026-11-07,,2026-11-07,minimal,,2026-11-09
 95409544559668,10698216738,[ 2x ] Military Army Tycoon,https://tr.rbxcdn.com/180DAY-7c481dc023162b6466dc3502f0285429/150/150/Image/Webp/noFilter,2026-08-13T20:28:03Z,2026-11-07,,,mild,44382545,2026-11-09
 95508886069297,7444224664,Slap Tower 🖐️,,,2026-11-07,,2026-11-07,mild,,2026-11-07
 95525762235977,10773775450,Malam Sama Kembar,https://tr.rbxcdn.com/180DAY-28ca2282e10107fe34ad267182b65d64/150/150/Image/Webp/noFilter,2026-10-30T07:53:39Z,2026-11-08,2026-11-08,,minimal,172485,2026-11-09
@@ -1353,6 +1353,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 103883942725157,10561352230,+1 Drain Water Per Click,,,2026-11-07,,2026-11-07,minimal,,2026-11-09
 103921126484906,10772490127,Respect PVP [BETA],https://tr.rbxcdn.com/180DAY-b178937616d25d1a5c44a18ba8d291a0/150/150/Image/Webp/noFilter,2026-10-23T01:48:00Z,2026-11-07,2026-11-07,,mild,294986,2026-11-09
 103993041704310,10768475316,BLOCKFRONT (Global RTS PVP)!,https://tr.rbxcdn.com/180DAY-60b260ed490c5505b31d7b2cf7f4c5c8/150/150/Image/Webp/noFilter,2026-09-28T17:16:11Z,2026-11-07,,,minimal,384437,2026-11-08
+104123171301797,10773056739,Paint Clash ⚔️  [1v1],https://tr.rbxcdn.com/180DAY-a7b110e350420cafcbd2b716c09a31f2/150/150/Image/Webp/noFilter,2026-10-26T03:28:40Z,2026-11-09,,,minimal,58980,2026-11-09
 104155717798808,10759401628,Destroy Verity 💥🫠,https://tr.rbxcdn.com/180DAY-f1d21bc7ad378e561a493dcf20fbd118/150/150/Image/Webp/noFilter,2026-08-24T16:35:06Z,2026-11-07,2026-11-07,,mild,6333601,2026-11-09
 104178237503385,10156180435,Steal Squishy from Kpop Demon Hunters!,https://tr.rbxcdn.com/180DAY-d089569fe48b1c8f9b4816096c6e82e6/150/150/Image/Webp/noFilter,2026-05-12T03:49:53Z,2026-11-07,,,mild,8324015,2026-11-09
 104178853788462,10126644530,[🛒] Run a Sari-Sari Store!,,,2026-11-07,,2026-11-07,minimal,,2026-11-09
@@ -1483,6 +1484,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 109813591245812,10769707586,Clover Legends [Devil Fusion] ,https://tr.rbxcdn.com/180DAY-7560c6af4a66f2fc36887605960c90a7/150/150/Image/Webp/noFilter,2026-10-07T06:31:49Z,2026-11-07,,,mild,2013352,2026-11-09
 109844970270991,10766016948,Unscrew It! 3D Toy Puzzle,https://tr.rbxcdn.com/180DAY-b9152d6f7580f947775d4f4ed823dde5/150/150/Image/Webp/noFilter,2026-09-11T15:37:25Z,2026-11-07,,,minimal,2007903,2026-11-09
 109848987632347,10771624540,[🎃👻UPDATE] Ride Bone Emperor [NEW!],https://tr.rbxcdn.com/180DAY-637bcff6688b7e94f2a216c140410243/150/150/Image/Webp/noFilter,2026-10-18T02:37:41Z,2026-11-08,2026-11-08,,minimal,988411,2026-11-09
+109881277752094,10226701629,Clean The Library 📖 ,,,2026-11-09,,2026-11-09,minimal,,2026-11-09
 109928390521457,10675117523,[🐎BIZARRE] Anime Breaker,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 109959833715820,10766812776,"WideOpen [TESTING, 2XP WEEKEND, CUSTOMIZATION]",,,2026-11-07,,2026-11-07,minimal,,2026-11-09
 109983668079237,7709344486,[💀] Steal a Brainrot,,,2026-11-07,,2026-11-07,minimal,,2026-11-09
