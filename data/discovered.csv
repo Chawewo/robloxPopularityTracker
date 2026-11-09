@@ -72,7 +72,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 3016661674,1087859240,[🎃] Rogue Lineage,,,2026-11-07,,2026-11-07,moderate,,2026-11-09
 3025990139,1091907805,Unboxing Simulator [UPDATE],,,2026-11-07,,2026-11-07,minimal,,2026-11-09
 3030166262,1093311378,1867 Historical Role Play,,,2026-11-07,,,minimal,,
-3177438863,1147304238,Dragon Blox,,,2026-11-07,,2026-11-07,mild,,2026-11-09
+3177438863,1147304238,Dragon Blox,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-09
 3178828841,1147796911,Water Park World [Beta],,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 3203685552,1157126388,BEAR (Alpha),,,2026-11-07,,2026-11-07,mild,,2026-11-09
 3242417672,1171251167,Carros Rebaixados BR (Pre-Alpha),,,2026-11-07,,2026-11-07,minimal,,2026-11-09
@@ -1037,7 +1037,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 90945967466286,7104927007,Sprunki Roleplay,https://tr.rbxcdn.com/180DAY-182e13f1ece7eb9f3985fc6380bac97a/150/150/Image/Webp/noFilter,2025-01-18T11:50:15Z,2026-11-07,,,mild,13450809,2026-11-09
 90983151639115,7618293590,Voxel Warfare,https://tr.rbxcdn.com/180DAY-23749a2da0ae63f4188ad774ea1754df/150/150/Image/Webp/noFilter,2025-04-29T19:04:47Z,2026-11-07,,,mild,35543582,2026-11-09
 90996930447931,10648011307,[NEW] Gunung Kambuno,https://tr.rbxcdn.com/180DAY-0dbffbfff8e2a0c9dc0fc612e3370da3/150/150/Image/Webp/noFilter,2026-08-07T11:54:07Z,2026-11-07,,,minimal,3471967,2026-11-09
-91064322438141,10752743876,Trending Emote Dance,,,2026-11-07,,2026-11-07,minimal,,2026-11-09
+91064322438141,10752743876,Trending Emote Dance,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-09
 91068386149874,9931622290,Smack Tower 🖐,https://tr.rbxcdn.com/180DAY-9e2c4028bc5443c73663d5da2f53811a/150/150/Image/Webp/noFilter,2026-03-24T00:21:19Z,2026-11-07,,,mild,12417690,2026-11-09
 91246277860636,10772066587,[UPD] MALAM SAMA OPAH ,https://tr.rbxcdn.com/180DAY-0a72f63bd9898e9056f19cf3322ead86/150/150/Image/Webp/noFilter,2026-10-20T11:51:20Z,2026-11-07,2026-11-07,2026-11-07,minimal,18508495,2026-11-09
 91296119701853,8243724761,[🎨] Farm a Fish 🐟,,,2026-11-08,,2026-11-08,minimal,,2026-11-09
