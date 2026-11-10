@@ -178,7 +178,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 6270290407,2309918273,[🎃HOLLOVVEEN] VV: ULTIMATUM,,,2026-11-07,,2026-11-07,moderate,,2026-11-10
 6298464951,2324018757,Roblox Is Unbreakable,,,2026-11-07,,2026-11-07,moderate,,2026-11-10
 6299805723,2324662457, [🔵💙✨] Anime Fighters,,,2026-11-08,,2026-11-08,minimal,,2026-11-09
-6349094071,2350840700,[CONSOLE!] Project Flight | Alpha,,,2026-11-07,,2026-11-07,minimal,,2026-11-10
+6349094071,2350840700,[CONSOLE!] Project Flight | Alpha,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-10
 6366329104,2360092394,Off-Roading Epic,,,2026-11-07,,2026-11-07,minimal,,2026-11-10
 6377740507,2366560560,[STICKERS] Miraculous™ RP: Ladybug & Cat Noir,,,2026-11-07,,2026-11-07,minimal,,2026-11-10
 6382584061,2369077151,Build to Survive 🛠️ ,,,2026-11-07,,2026-11-07,mild,,2026-11-10
@@ -637,7 +637,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 72248722616845,10059548251,Samurai DUELS,,,2026-11-07,,2026-11-07,mild,,2026-11-10
 72253255916841,8412983875,[🎃] DOORS: Cutscenes & Jumpscares,https://tr.rbxcdn.com/180DAY-5e8f4ce9120dbb550695668a0f8eda61/150/150/Image/Webp/noFilter,,2026-11-08,,,minimal,,2026-11-09
 72317248326994,9294646427,Bobsled Ride Down a Mountainside,,,2026-11-07,,2026-11-07,mild,,2026-11-10
-72393956865647,10769344844,[ ⚔️ ] 1.8 KIT PVP,https://tr.rbxcdn.com/180DAY-a11af32a83d8cde1f35c8f60f59175c8/150/150/Image/Webp/noFilter,,2026-11-07,,,mild,,2026-11-10
+72393956865647,10769344844,[Cosmetics!] 1.8 KIT PVP,https://tr.rbxcdn.com/180DAY-a11af32a83d8cde1f35c8f60f59175c8/150/150/Image/Webp/noFilter,,2026-11-07,,,mild,,2026-11-10
 72419869791939,10773262148,Draw an aquarium,https://tr.rbxcdn.com/180DAY-eae56a5ea28678ffa3175dfd41910566/150/150/Image/Webp/noFilter,,2026-11-08,2026-11-08,,minimal,,2026-11-09
 72708474319092,10771508240,[60+ CARS🔥] Simple Drift,https://tr.rbxcdn.com/180DAY-0bc6a0a23e4592a0a01159a5e8a56195/150/150/Image/Webp/noFilter,,2026-11-10,2026-11-10,,minimal,,2026-11-10
 72712036210947,7673659635,[UPD] Fix It Up!,,,2026-11-07,,2026-11-07,minimal,,2026-11-10
@@ -908,7 +908,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 82539019711975,9776222468,[🎃] Cluck or Hide!🐔,,,2026-11-07,,2026-11-07,mild,,2026-11-10
 82686341450515,10768735219,Climb Scary Buddy Tower,https://tr.rbxcdn.com/180DAY-837af7e4d79eaa530cb26f70c559dd3a/150/150/Image/Webp/noFilter,,2026-11-07,,,mild,,2026-11-10
 82756210797896,7457090912,[GOKU & SPIDERMAN] Realistic Outfits & Avatars,,,2026-11-09,,,minimal,,
-82797688803922,9885372266,Unseen Liminality,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-10
+82797688803922,9885372266,Unseen Liminality,,,2026-11-07,,2026-11-07,minimal,,2026-11-10
 82835505740239,10767708641,PISTOL DUELS [MASTERY 🏆] ,https://tr.rbxcdn.com/180DAY-f96a5573fb95802e76b546597231287a/150/150/Image/Webp/noFilter,,2026-11-07,,,mild,,2026-11-10
 82854191372599,9979684281,🔧 Mechanic Legends [UPD🏁],https://tr.rbxcdn.com/180DAY-36836b04bb346eb7ba73b4bf8b9b2cd3/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-10
 82866880824588,9908641400,Football Fusion 3,,,2026-11-07,,2026-11-07,minimal,,2026-11-10
@@ -1622,6 +1622,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 113841196617922,10504739696,Belt Dance [New Playlist🎶] ,https://tr.rbxcdn.com/180DAY-538b2f280a34eee68152f21e33b18541/150/150/Image/Webp/noFilter,2026-07-15T00:29:54Z,2026-11-07,,,minimal,2919407,2026-11-10
 113890950093491,10767353295,Supernatural Realm,https://tr.rbxcdn.com/180DAY-d42b5e8f51128ca50e6db00e7a4e9940/150/150/Image/Webp/noFilter,2026-09-21T02:56:02Z,2026-11-07,,,minimal,1053476,2026-11-09
 113918641206373,9893515490,☢️ Nuke Your City,,,2026-11-07,,2026-11-07,minimal,,2026-11-10
+113921375793640,10772497615,[🎃] Break And Hide The Plane! ✈️,https://tr.rbxcdn.com/180DAY-166ff40bae0af1038a5af72a366efc68/150/150/Image/Webp/noFilter,2026-10-23T03:14:44Z,2026-11-10,2026-11-10,,minimal,556041,2026-11-10
 113939391927202,8187135306,Roblox Innovation Awards 2025 - Voting Hub,,,2026-11-07,,2026-11-07,minimal,,2026-11-10
 113956654824187,10765312940,[🎃] Swim For Eggs!,,,2026-11-07,,2026-11-07,minimal,,2026-11-10
 113957557975382,10298869819,Domed,https://tr.rbxcdn.com/180DAY-b10572adfd6dad32c1971a127be86ae5/150/150/Image/Webp/noFilter,2026-06-10T04:26:39Z,2026-11-08,,,minimal,1898438,2026-11-10
@@ -1690,6 +1691,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 116722973795182,10772735708,Become the Potato!,https://tr.rbxcdn.com/180DAY-66aa5d70e8436174684edee94e046ad8/150/150/Image/Webp/noFilter,2026-10-24T12:45:45Z,2026-11-07,2026-11-07,,minimal,2010368,2026-11-10
 116779912472448,10772946647,Do Not Stop.,https://tr.rbxcdn.com/180DAY-838a633ee4e8901ea6dbfa543c90f1a2/150/150/Image/Webp/noFilter,2026-10-25T14:06:37Z,2026-11-08,2026-11-08,,minimal,403051,2026-11-10
 116802325837172,10766506199,7 Days Cat-Sitting,,,2026-11-07,,2026-11-07,mild,,2026-11-10
+116884863643647,10773150670,Realistic Hunting,https://tr.rbxcdn.com/180DAY-8fc3c28db8f1ec7c97643b9b270f11b0/150/150/Image/Webp/noFilter,2026-10-26T17:31:54Z,2026-11-10,2026-11-10,,moderate,93382,2026-11-10
 116905776288284,10768881868,Korean Board Game Cafe,https://tr.rbxcdn.com/180DAY-3b4adb68ebf6b655e35056e5cc8fcb33/150/150/Image/Webp/noFilter,2026-10-01T17:28:46Z,2026-11-07,,,mild,1455170,2026-11-09
 116921506811323,10526463655,[🎃] 8 Ball Duels,,,2026-11-07,,2026-11-07,minimal,,2026-11-10
 117043200777029,10764221401,TROLL Fly & Carry Tower,https://tr.rbxcdn.com/180DAY-ff3c396eb6d34fd9f9a9b488af59db08/150/150/Image/Webp/noFilter,2026-08-28T16:46:41Z,2026-11-07,,,minimal,45151310,2026-11-10
@@ -1804,7 +1806,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 121338943285005,10768949861,Secure the Waterpark,https://tr.rbxcdn.com/180DAY-940f87128f6accff9bad097128dc7ccc/150/150/Image/Webp/noFilter,2026-10-02T05:45:53Z,2026-11-07,,,mild,4788304,2026-11-09
 121347884701659,10769621549,Krillion [Official] - Guess the Rarest Answer 🦐,https://tr.rbxcdn.com/180DAY-985b48144093c512488cc214dcd0c45c/150/150/Image/Webp/noFilter,2026-10-06T14:24:06Z,2026-11-07,2026-11-08,,minimal,732111,2026-11-10
 121348681731705,7158496266,Burger Planet: Fast Food Simulator,https://tr.rbxcdn.com/180DAY-fb8389b7329ab088347c52f264aa29d6/150/150/Image/Webp/noFilter,2025-01-28T08:49:55Z,2026-11-07,,,minimal,2607482,2026-11-10
-121362092826008,10771288526, Jump To Steal Baddies!,https://tr.rbxcdn.com/180DAY-841d9aed0eda94972bcfa9f016b7ccf0/150/150/Image/Webp/noFilter,2026-10-16T15:47:02Z,2026-11-07,2026-11-07,,minimal,176964,2026-11-09
+121362092826008,10771288526, Jump To Steal Baddies!,https://tr.rbxcdn.com/180DAY-841d9aed0eda94972bcfa9f016b7ccf0/150/150/Image/Webp/noFilter,2026-10-16T15:47:02Z,2026-11-07,2026-11-07,,minimal,176964,2026-11-10
 121371815815493,10767201394,Scooter Duo 🛴 [2 Player Obby],https://tr.rbxcdn.com/180DAY-9e8d4360c5eed2dc3faef539b8811048/150/150/Image/Webp/noFilter,2026-09-20T05:57:03Z,2026-11-07,,,minimal,13543115,2026-11-10
 121396034828506,10765346073,Fight for Eggs,https://tr.rbxcdn.com/180DAY-37591c4cc37785cf836e24044ea3df68/150/150/Image/Webp/noFilter,2026-09-06T02:55:18Z,2026-11-07,,,mild,735144,2026-11-10
 121461214257813,9655781693,Be an SCP or Guard [HALLOWEEN],,,2026-11-07,,2026-11-07,mild,,2026-11-10
@@ -1987,6 +1989,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 129293217952280,10772159183,Build A Steal An Egg,https://tr.rbxcdn.com/180DAY-f9da36959d88f96268628c79b5f183a2/150/150/Image/Webp/noFilter,2026-10-21T00:10:25Z,2026-11-09,2026-11-09,,minimal,700135,2026-11-10
 129332901430212,10768625767,Save the Krusty Krab 🍔,,,2026-11-07,2026-11-07,2026-11-07,minimal,,2026-11-10
 129382295065915,10770703729,🎃 KRN: Crosshair,https://tr.rbxcdn.com/180DAY-007f7044ff5b7a317951e689f0b4f0a7/150/150/Image/Webp/noFilter,2026-10-13T18:44:45Z,2026-11-07,2026-11-07,,mild,4906088,2026-11-10
+129383120986892,10773097147,[🌎UPD] +1 Ghoul Evolution,https://tr.rbxcdn.com/180DAY-bfe3668062ed90c90a37695ff9a54cde/150/150/Image/Webp/noFilter,2026-10-26T10:55:23Z,2026-11-10,2026-11-10,,mild,749438,2026-11-10
 129408497314827,7868055955,Zombie Troll Tower,https://tr.rbxcdn.com/180DAY-59f18cf7a26c66167e284b43841e4426/150/150/Image/Webp/noFilter,2025-06-08T07:40:10Z,2026-11-07,,,mild,39158267,2026-11-10
 129575489050393,10766777819,[UPD🌸] Climb and Steal an Egg,https://tr.rbxcdn.com/180DAY-7e62dddb963b3b8b3809f7e685b124bf/150/150/Image/Webp/noFilter,2026-09-17T11:53:58Z,2026-11-07,,,minimal,3793224,2026-11-10
 129631837832236,10768785226,A Long Flight [BIOMES],,,2026-11-07,,2026-11-07,minimal,,2026-11-10
