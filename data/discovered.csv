@@ -417,7 +417,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 14026026722,4858558391,Terminal [Escape Room],,,2026-11-07,,2026-11-07,minimal,,2026-11-10
 14056754882,4867910507,Flex Your UGC Limiteds,,,2026-11-07,,2026-11-07,minimal,,2026-11-10
 14172431401,4905293690,The Horse Game,,,2026-11-07,,,minimal,,
-14236123211,4924516231,[🎃]Punch Simulator 👊[FREE UGC],,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-10
+14236123211,4924516231,[🎃]Punch Simulator 👊[FREE UGC],,,2026-11-07,,2026-11-07,mild,,2026-11-10
 14259168147,4931927012,[🎃]🏀Basketball Legends🏀,,,2026-11-07,,2026-11-07,minimal,,2026-11-10
 14279693118,4938220315,[ACT 3] Skibi Defense,,,2026-11-09,,2026-11-09,minimal,,2026-11-10
 14301835518,4944984948,Team School Breakout! (TEAMWORK OBBY),,,2026-11-07,,2026-11-07,minimal,,2026-11-10
@@ -469,7 +469,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 15550215902,5367389312,[🎃HALLOWEEN] Sing It! Karaoke Battles [VC🎤],,,2026-11-07,,2026-11-07,minimal,,2026-11-10
 15555246249,5369242581,⭐DoW⭐ -  Dogs of War,,,2026-11-10,,2026-11-10,moderate,,2026-11-10
 15560168390,5371127625,[NOW] Toilet Verse Tower Defense,,,2026-11-07,,2026-11-07,minimal,,2026-11-10
-15570520070,5374819012,[🎃HALLOWEEN]Driving Experience Japan,https://tr.rbxcdn.com/180DAY-1d82400af5f9fcf2bc59dc120eb79544/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-10
+15570520070,5374819012,[🎃HALLOWEEN]Driving Experience Japan,https://tr.rbxcdn.com/180DAY-1d82400af5f9fcf2bc59dc120eb79544/150/150/Image/Webp/noFilter,,2026-11-07,,,vng-rating-override,,2026-11-10
 15591486940,5383076404,Aurenvale [🎃 Halloween Pt. 2🎃],https://tr.rbxcdn.com/180DAY-cb82d5b91c3188698ed14b687f4a300d/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-10
 15598056478,5385674359,BEAT BOUNCE 🎶 (GEOMETRY DASH),,,2026-11-07,,2026-11-07,minimal,,2026-11-10
 15694891095,5421899973,Combat Arena,,,2026-11-07,,2026-11-07,mild,,2026-11-10
@@ -1887,7 +1887,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 124063493943486,10772879271,[UPDATE 2.0] 30 Floors Up,https://tr.rbxcdn.com/180DAY-259654c7a3946dea248da128011204ac/150/150/Image/Webp/noFilter,2026-10-25T06:10:18Z,2026-11-07,2026-11-07,2026-11-07,mild,2766029,2026-11-10
 124124395449044,9702081004,[🪏Digging] Brainrot Card Battles,https://tr.rbxcdn.com/180DAY-01a174c0bc78de53f9ddf04f8970ade9/150/150/Image/Webp/noFilter,2026-02-09T22:07:38Z,2026-11-08,,,mild,24860017,2026-11-10
 124142675784254,10569930060,maybe tomorrow ill open the door,https://tr.rbxcdn.com/180DAY-8e0d794725b07d1d9f466b4a4a1b535a/150/150/Image/Webp/noFilter,2026-07-26T05:09:04Z,2026-11-07,,,minimal,15265142,2026-11-10
-124143542106350,9290633310,Strike Back [🌂S7],https://tr.rbxcdn.com/180DAY-3da2cf9d32d80a47cb1b5f6c7b1aadd8/150/150/Image/Webp/noFilter,2025-12-03T11:36:58Z,2026-11-07,,,mild,48872598,2026-11-10
+124143542106350,9290633310,Strike Back [🌂S7],https://tr.rbxcdn.com/180DAY-3da2cf9d32d80a47cb1b5f6c7b1aadd8/150/150/Image/Webp/noFilter,2025-12-03T11:36:58Z,2026-11-07,,,vng-rating-override,48872598,2026-11-10
 124156325220041,10772422537,Compliment,https://tr.rbxcdn.com/180DAY-32962b7e58edd6b49796774311f9eabc/150/150/Image/Webp/noFilter,2026-10-22T15:40:06Z,2026-11-07,2026-11-08,,minimal,910449,2026-11-10
 124172969655058,10768025830,Oregon Trail [new!],,,2026-11-07,,2026-11-07,minimal,,2026-11-10
 124216119978534,10035204815,[♻️] Ride A Pet,,,2026-11-07,,2026-11-07,minimal,,2026-11-10
@@ -2174,7 +2174,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 136608860274308,10766026489,Avataria Life,https://tr.rbxcdn.com/180DAY-cefe23060a683ec50e77711e9fb58ecf/150/150/Image/Webp/noFilter,2026-09-11T17:03:57Z,2026-11-07,2026-11-07,,minimal,2698243,2026-11-10
 136611085381274,10037019232,🤿[TRAINING] Marine Academy: Military Roleplay,,,2026-11-07,,2026-11-07,mild,,2026-11-10
 136751105840706,10764840185,[🎃] CASER - Open Cases & Upgrade Your Skins!,https://tr.rbxcdn.com/180DAY-777fe64606b04df78f1a4ee22ecd9bfc/150/150/Image/Webp/noFilter,2026-09-02T12:27:01Z,2026-11-07,,,minimal,4000369,2026-11-10
-136764190843219,9384605736,[🎩] Knockout! 🐧,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-10
+136764190843219,9384605736,[🎩] Knockout! 🐧,,,2026-11-07,,2026-11-07,minimal,,2026-11-10
 136801880565837,8795154789,[FPS] Flick,,,2026-11-07,,2026-11-07,mild,,2026-11-10
 136822524519115,10535292470,[UPD!] TNT Voxel Playground,,,2026-11-09,,2026-11-09,mild,,2026-11-10
 136928539834463,6956638729,[UPDATE] Pantura Road Bus Simulator,https://tr.rbxcdn.com/180DAY-af4c3bd750985fac630a01efd3c6fd1c/150/150/Image/Webp/noFilter,2024-12-22T12:28:21Z,2026-11-08,,,minimal,40084367,2026-11-10
