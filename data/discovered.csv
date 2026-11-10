@@ -67,7 +67,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 2768379856,1000233041,3008 [2.75],,,2026-11-07,,2026-11-07,minimal,,2026-11-10
 2772610559,1001911915,[🎃] Farming and Friends,,,2026-11-07,,2026-11-07,minimal,,2026-11-10
 2788229376,1008451066,[🦃] Da Hood,,,2026-11-07,,2026-11-07,moderate,,2026-11-10
-2809202155,1016936714,🎃 Your Bizarre Adventure 🎃,,,2026-11-07,,2026-11-07,moderate,,2026-11-10
+2809202155,1016936714,🎃 Your Bizarre Adventure 🎃,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-10
 2916899287,1054526971,Blackhawk Rescue Mission 5,,,2026-11-07,,2026-11-07,moderate,,2026-11-10
 3016661674,1087859240,[🎃] Rogue Lineage,,,2026-11-07,,2026-11-07,moderate,,2026-11-10
 3025990139,1091907805,Unboxing Simulator [UPDATE],,,2026-11-07,,2026-11-07,minimal,,2026-11-10
@@ -408,7 +408,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 13775256536,4778845442,[✨CHANGES] Toilet Tower Defense,,,2026-11-07,,2026-11-07,minimal,,2026-11-10
 13796645198,4785982047,FLASHPOINT⚡,,,2026-11-07,,2026-11-07,mild,,2026-11-10
 13822562292,4793836769,[SALEEN]🚗Midnight Chasers: Highway Racing,,,2026-11-07,,2026-11-07,minimal,,2026-11-10
-13827198708,4795326392,[CLANS] Pull a Sword,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-10
+13827198708,4795326392,[CLANS] Pull a Sword,,,2026-11-07,,2026-11-07,mild,,2026-11-10
 13864661000,4807308814,Break In 2 (Story),,,2026-11-07,,2026-11-07,mild,,2026-11-10
 13953602912,4835576249,Boba Tea Tower (Boba Tower),,,2026-11-07,,2026-11-07,minimal,,2026-11-10
 13967668166,4839802560,LifeTogether 🏠 RP ,,,2026-11-07,,2026-11-07,minimal,,2026-11-10
@@ -869,7 +869,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 80761166368092,10493707858,Destroy The Sun ☀️,https://tr.rbxcdn.com/180DAY-0acfaf35309f498cdcbc5a17b57c72b4/150/150/Image/Webp/noFilter,,2026-11-07,,,mild,,2026-11-09
 80858274130963,8157480608,Cursed Troll Tower 💀,https://tr.rbxcdn.com/180DAY-00124a951f77b7b159cd38ad6ca4726f/150/150/Image/Webp/noFilter,,2026-11-07,,,mild,,2026-11-10
 80959592833753,10638886777,[🎃] 🧈 Stack A Butter Squishy [ASMR],https://tr.rbxcdn.com/180DAY-cfab797080f3560f188e2233e8e8a781/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-10
-80968788477163,10247214642,[🎆]Garba Nights - Indian Karaoke RP,,,2026-11-09,,,minimal,,2026-11-10
+80968788477163,10247214642,[🎆]Garba Nights - Indian Karaoke RP,https://tr.rbxcdn.com/180DAY-05ecca9ee41a6c7f16e32b4119b12a43/150/150/Image/Webp/noFilter,,2026-11-09,,,minimal,,2026-11-10
 81065794749401,6489437351,Realistic Farming Experience ,https://tr.rbxcdn.com/180DAY-8b353343a8dbc27f6f41e6ae049bc5c3/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-08
 81223687051453,9150731899,PRISON RP,,,2026-11-07,,2026-11-07,mild,,2026-11-10
 81225487834060,10765457401,[BIG UPD] Moto Empire,https://tr.rbxcdn.com/180DAY-8f2a0a61ad45e15fd157b1f4eed68932/150/150/Image/Webp/noFilter,,2026-11-10,,,minimal,,2026-11-10
@@ -1423,7 +1423,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 105777072844340,10757297508,[UPD🖤!] Luc1d Matching & Solo Outfits !,https://tr.rbxcdn.com/180DAY-9a2171e2e4745afc499ea8c1370814c8/150/150/Image/Webp/noFilter,2026-08-23T18:42:27Z,2026-11-07,,,minimal,55660,2026-11-10
 105916934349181,10768800151,ANALOG 📂[HORROR],,,2026-11-08,,2026-11-08,mild,,2026-11-09
 105950169251296,9686425244,[🎃 SPOOKY] HAZBIN HOTEL: Hell's Fortune,https://tr.rbxcdn.com/180DAY-b509fa22b222a112cfc53f9cbf16e06e/150/150/Image/Webp/noFilter,2026-02-07T03:49:22Z,2026-11-08,,,minimal,5856181,2026-11-09
-106033474760693,9857334324,🎃Skibidi Battle Simulator,https://tr.rbxcdn.com/180DAY-bf4204341a7bc9caf1acb52964a68723/150/150/Image/Webp/noFilter,2026-03-09T03:35:54Z,2026-11-07,,,mild,45009085,2026-11-10
+106033474760693,9857334324,Skibidi Battle Simulator,https://tr.rbxcdn.com/180DAY-bf4204341a7bc9caf1acb52964a68723/150/150/Image/Webp/noFilter,2026-03-09T03:35:54Z,2026-11-07,,,mild,45009085,2026-11-10
 106078822951099,6818915584,🎠 Mingle Carousel [SQUID GAME 2],,,2026-11-07,,2026-11-07,mild,,2026-11-10
 106153947616190,10155952879,[🌊] WaterWorld WaterPark,https://tr.rbxcdn.com/180DAY-9781eb008cbb2c9927c87bcde47e74f5/150/150/Image/Webp/noFilter,2026-05-12T02:48:06Z,2026-11-07,,,minimal,16728212,2026-11-10
 106198175232796,10765902945,[🥷NINJA] Anime Legacy Simulator,,,2026-11-07,,2026-11-07,minimal,,2026-11-10
@@ -1667,7 +1667,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 115681808123944,10131390815,[🌎W10] Throw a Coin,,,2026-11-07,,2026-11-07,minimal,,2026-11-10
 115692660598319,10769735991,Be Ninja to Steal Eggs 🥷,https://tr.rbxcdn.com/180DAY-126c7e2451e6d5b553daf88f08b992f8/150/150/Image/Webp/noFilter,2026-10-07T13:00:52Z,2026-11-08,2026-11-08,,minimal,308756,2026-11-10
 115881284278096,10771443461,Break Walls To Escape,https://tr.rbxcdn.com/180DAY-01605636357445769f9c07239b4cc654/150/150/Image/Webp/noFilter,2026-10-17T09:14:38Z,2026-11-07,2026-11-07,,minimal,690017,2026-11-08
-115893378298440,9619492068,[UPD] Titan Fishing,,,2026-11-08,,2026-11-08,minimal,,2026-11-10
+115893378298440,9619492068,[UPD] Titan Fishing,,,2026-11-08,,2026-11-08,vng-rating-override,,2026-11-10
 115903978623312,9320646231,Edenville,https://tr.rbxcdn.com/180DAY-ec8513e291a12938641d0929f1372f04/150/150/Image/Webp/noFilter,2025-12-08T06:41:50Z,2026-11-07,,,minimal,783580,2026-11-10
 115910853212591,10765174195,Catalog Avatar Engine,https://tr.rbxcdn.com/180DAY-c252d6f2bc2435a5d674b1f2e2af043b/150/150/Image/Webp/noFilter,2026-09-05T02:53:36Z,2026-11-07,,,minimal,95942,2026-11-10
 116113866980358,7383133134,💰 Deadly Heist 💰,,,2026-11-07,,2026-11-07,mild,,2026-11-10
