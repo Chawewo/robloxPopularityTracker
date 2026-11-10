@@ -387,7 +387,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 13042495892,4557322431,Project: Afternight,,,2026-11-07,,2026-11-07,mild,,2026-11-10
 13076380114,4568630521,[HALLOWEEN] Heroes Battlegrounds,,,2026-11-07,,2026-11-07,mild,,2026-11-10
 13116420108,4578260860,Try To Die 💀,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
-13127800756,4582358979,Arm Wrestle Simulator,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-10
+13127800756,4582358979,Arm Wrestle Simulator,,,2026-11-07,,2026-11-07,minimal,,2026-11-10
 13166293021,4595016786,Barbie DreamHouse Tycoon,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 13184713709,4599924264,Teamwork Puzzles (Obby),,,2026-11-07,,2026-11-07,minimal,,2026-11-10
 13270683448,4625143324,[⚽] Score or Save Soccer,,,2026-11-07,,2026-11-07,minimal,,2026-11-10
@@ -408,7 +408,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 13775256536,4778845442,[✨CHANGES] Toilet Tower Defense,,,2026-11-07,,2026-11-07,minimal,,2026-11-10
 13796645198,4785982047,FLASHPOINT⚡,,,2026-11-07,,2026-11-07,mild,,2026-11-10
 13822562292,4793836769,[SALEEN]🚗Midnight Chasers: Highway Racing,,,2026-11-07,,2026-11-07,minimal,,2026-11-10
-13827198708,4795326392,[CLANS] Pull a Sword,,,2026-11-07,,2026-11-07,mild,,2026-11-10
+13827198708,4795326392,[CLANS] Pull a Sword,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-10
 13864661000,4807308814,Break In 2 (Story),,,2026-11-07,,2026-11-07,mild,,2026-11-10
 13953602912,4835576249,Boba Tea Tower (Boba Tower),,,2026-11-07,,2026-11-07,minimal,,2026-11-10
 13967668166,4839802560,LifeTogether 🏠 RP ,,,2026-11-07,,2026-11-07,minimal,,2026-11-10
@@ -706,7 +706,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 75146334692216,10485072019,"[BETA] MoVal, CA | School Buses 🚌",,,2026-11-07,,,minimal,,
 75317862071711,9584946743,[🪬 WORLD 10 PT. 2] Immortality Incremental,,,2026-11-07,,2026-11-07,minimal,,2026-11-10
 75356998324697,10769735087,Ship The Cargo 🚢,https://tr.rbxcdn.com/180DAY-9b617b45810cb1c4f30a970113d8a2e8/150/150/Image/Webp/noFilter,,2026-11-07,2026-11-07,,minimal,,2026-11-10
-75387700043737,7554119808,🛍️ My Avatar!,,,2026-11-07,,2026-11-07,minimal,,2026-11-10
+75387700043737,7554119808,🛍️ My Avatar!,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-10
 75541741887441,8198412649,Dinosaur Life,,,2026-11-07,,2026-11-07,moderate,,2026-11-10
 75605211243454,9800616505,[HIT-BOY SEASON🎵🎧 ] Beat Battle,https://tr.rbxcdn.com/180DAY-6777c03f422cf5ef64a29076a9b12e78/150/150/Image/Webp/noFilter,,2026-11-10,,,minimal,,2026-11-10
 75663528075786,7450497506,HOW TO TRAIN YOUR DRAGON,,,2026-11-07,,2026-11-07,minimal,,2026-11-10
@@ -2060,7 +2060,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 132169393925482,9784883402,Collect Dinos,,,2026-11-07,,2026-11-07,minimal,,2026-11-10
 132173349090360,10630800860,Color My Flag,,,2026-11-07,,2026-11-07,minimal,,2026-11-10
 132190454395474,10736720073,[🤑EARN]Donation Party,,2026-08-18T14:39:09Z,2026-11-08,,,mild,2127321,2026-11-09
-132239307080610,10526853622,[☯️] Deep Fishing🎣,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-10
+132239307080610,10526853622,[☯️] Deep Fishing🎣,,,2026-11-07,,2026-11-07,minimal,,2026-11-10
 132258949588994,10432260929,[ALIEN X] Omni Heroes,,,2026-11-07,,2026-11-07,mild,,2026-11-10
 132269871788486,10766699022,[New] Vick Outfits,,,2026-11-07,,,minimal,,
 132352755769957,6749060816,[UPD] Asylum Life 🔊,,,2026-11-07,,2026-11-07,mild,,2026-11-10
