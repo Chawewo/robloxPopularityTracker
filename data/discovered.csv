@@ -68,7 +68,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 2768379856,1000233041,3008 [2.75],,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 2772610559,1001911915,[🎃] Farming and Friends,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 2788229376,1008451066,[🦃] Da Hood,,,2026-11-07,,2026-11-07,moderate,,2026-11-11
-2809202155,1016936714,🎃 Your Bizarre Adventure 🎃,,,2026-11-07,,2026-11-07,moderate,,2026-11-11
+2809202155,1016936714,🎃 Your Bizarre Adventure 🎃,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-11
 2916899287,1054526971,Blackhawk Rescue Mission 5,,,2026-11-07,,2026-11-07,moderate,,2026-11-11
 3016661674,1087859240,[🎃] Rogue Lineage,,,2026-11-07,,2026-11-07,moderate,,2026-11-11
 3025990139,1091907805,Unboxing Simulator [UPDATE],,,2026-11-07,,2026-11-07,minimal,,2026-11-11
@@ -147,7 +147,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 5670218884,1998835206,[🌳] item asylum,,,2026-11-07,,2026-11-07,mild,,2026-11-10
 5683833663,2007050448,RAGDOLL. ENGINE!!! 😡,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 5702593762,2017809925,"Climb 1,000 Stairs",,,2026-11-07,,2026-11-07,minimal,,2026-11-11
-5712833750,2023680558,Animal Simulator,,,2026-11-07,,2026-11-07,mild,,2026-11-11
+5712833750,2023680558,Animal Simulator,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-11
 5716123942,2025565382,Untamed Animals,,,2026-11-07,,,minimal,,
 5720801512,2027832238,한국 머더,,,2026-11-07,,2026-11-07,mild,,2026-11-11
 5766084948,2045231132,SCP: The Red Lake [BIGGEST UPDATE EVER 🔥 🔥 ],,,2026-11-07,,2026-11-07,moderate,,2026-11-11
@@ -1198,7 +1198,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 94491633857486,10772027067,[UPD] Ragdoll Robot Boxing,https://tr.rbxcdn.com/180DAY-38bcdc29e9ca0c9f42135d72b61e1d7a/150/150/Image/Webp/noFilter,2026-10-20T05:02:11Z,2026-11-07,2026-11-07,,minimal,1475479,2026-11-11
 94503612388426,6935083490,Be Fish,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 94539932414164,8618660961,(🎃 HALLOWEEN EVENT!) Mojave Valley (Alpha),,,2026-11-07,,2026-11-07,minimal,,2026-11-08
-94629611849859,10701680071,SUNYI [HORROR],https://tr.rbxcdn.com/180DAY-1befda55316380c5746ed715f7b871ea/150/150/Image/Webp/noFilter,2026-08-14T07:21:56Z,2026-11-07,,,mild,2525571,2026-11-11
+94629611849859,10701680071,SUNYI [HORROR],https://tr.rbxcdn.com/180DAY-1befda55316380c5746ed715f7b871ea/150/150/Image/Webp/noFilter,2026-08-14T07:21:56Z,2026-11-07,,,minimal,2525571,2026-11-11
 94640181989498,10338952197,[💎GEMS] Grow a Chicken Fighter,,,2026-11-07,,2026-11-07,mild,,2026-11-11
 94647229517154,6945584306,[🧿 RIN + 🎃] Azure Latch,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 94675483044457,9155583610,Noobs in Combat [V6.1],https://tr.rbxcdn.com/180DAY-62f9a9a3f569ba4bb7095454c77d6935/150/150/Image/Webp/noFilter,2025-11-12T16:52:23Z,2026-11-08,,,minimal,2979847,2026-11-11
