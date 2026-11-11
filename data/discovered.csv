@@ -147,7 +147,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 5670218884,1998835206,[🌳] item asylum,,,2026-11-07,,2026-11-07,mild,,2026-11-10
 5683833663,2007050448,RAGDOLL. ENGINE!!! 😡,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 5702593762,2017809925,"Climb 1,000 Stairs",,,2026-11-07,,2026-11-07,minimal,,2026-11-11
-5712833750,2023680558,Animal Simulator,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-11
+5712833750,2023680558,Animal Simulator,,,2026-11-07,,2026-11-07,mild,,2026-11-11
 5716123942,2025565382,Untamed Animals,,,2026-11-07,,,minimal,,
 5720801512,2027832238,한국 머더,,,2026-11-07,,2026-11-07,mild,,2026-11-11
 5766084948,2045231132,SCP: The Red Lake [BIGGEST UPDATE EVER 🔥 🔥 ],,,2026-11-07,,2026-11-07,moderate,,2026-11-11
@@ -554,7 +554,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 18134283205,6147671296,Lucky Islands,https://tr.rbxcdn.com/180DAY-58552107a645ba4df8b29941c349d4ad/150/150/Image/Webp/noFilter,,2026-11-10,,,minimal,,2026-11-11
 18134488876,6147736004,Would You Rather: Zepeto Outfit Tower!,https://tr.rbxcdn.com/180DAY-3c7dddc6d620e0d29601e92fb718b305/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-11
 18153851914,6154386310,[BOSS] Classic Arena,,,2026-11-07,,2026-11-07,mild,,2026-11-11
-18172550962,6161049307,Pixel Blade,,,2026-11-07,,2026-11-07,mild,,2026-11-11
+18172550962,6161049307,Pixel Blade,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-11
 18180736634,6163884815,Team Stepmom Run! (TEAMWORK OBBY),,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 18199615050,6170143659,Demonology🕯️,,,2026-11-07,,2026-11-07,moderate,,2026-11-11
 18214855317,6174994284,Savannah Life,,,2026-11-07,,2026-11-07,moderate,,2026-11-11
@@ -1814,7 +1814,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 119067038100380,10752128321,Crown or Jail,https://tr.rbxcdn.com/180DAY-96cc57319df92a034c54d8a1fdd7dadc/150/150/Image/Webp/noFilter,2026-08-22T10:04:19Z,2026-11-07,,,mild,14098824,2026-11-07
 119068914321553,9741874508,[🎃] Traitor VS Sheriff DUELS,,,2026-11-07,,2026-11-07,mild,,2026-11-11
 119101118479978,10769835283,[UPD5 ✨] Depth Incremental,,,2026-11-07,2026-11-07,2026-11-07,minimal,,2026-11-11
-119242658671952,10739112966,[CLUBS] Street Soccer Pro,https://tr.rbxcdn.com/180DAY-eed6906fe185a0254370bf28722ccb96/150/150/Image/Webp/noFilter,2026-08-19T02:56:04Z,2026-11-07,,,minimal,39935449,2026-11-11
+119242658671952,10739112966,[CLUBS] Street Soccer Pro,https://tr.rbxcdn.com/180DAY-eed6906fe185a0254370bf28722ccb96/150/150/Image/Webp/noFilter,2026-08-19T02:56:04Z,2026-11-07,,,vng-rating-override,39935449,2026-11-11
 119248750585731,10767903282,Merge Squishy Balls [ASMR],https://tr.rbxcdn.com/180DAY-7949d015caf54ce752add8833b1216d2/150/150/Image/Webp/noFilter,2026-09-24T19:29:47Z,2026-11-07,,,minimal,253906,2026-11-11
 119263815547952,10768458048,Army Commander Tycoon [UPDATE 6],,,2026-11-07,,2026-11-07,mild,,2026-11-10
 119269765124983,10770322252,[🚨] Run a Police Station,https://tr.rbxcdn.com/180DAY-c3d016186788f684f49a146025992545/150/150/Image/Webp/noFilter,2026-10-11T07:55:26Z,2026-11-08,,,minimal,86382,2026-11-11
