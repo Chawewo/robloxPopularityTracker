@@ -166,7 +166,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 6045325556,2189381976,Car Driving Simulator,https://tr.rbxcdn.com/180DAY-49bdb19b28fec101861479d85785a0e0/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-11
 6082527099,2208244398,✏️ Project Sudoku,,,2026-11-07,,,minimal,,2026-11-07
 6104994594,2220495353,Pilfering Pirates,,,2026-11-07,,2026-11-07,mild,,2026-11-07
-6116002492,2227097851,🌟 Free Boombox/Radio 🌟,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
+6116002492,2227097851,🌟 Free Boombox/Radio 🌟,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-11
 6128441278,2233937689,[WORKSHOP] Water Physics,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 6137321701,2239430935,Blair,,,2026-11-07,,2026-11-07,mild,,2026-11-11
 6153766069,2247578975,Escape The Carnival of Terror Obby! ,,,2026-11-07,,2026-11-07,mild,,2026-11-11
@@ -422,7 +422,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 14026026722,4858558391,Terminal [Escape Room],,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 14056754882,4867910507,Flex Your UGC Limiteds,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 14172431401,4905293690,The Horse Game,,,2026-11-07,,,minimal,,
-14236123211,4924516231,[🎃]Punch Simulator 👊[FREE UGC],,,2026-11-07,,2026-11-07,mild,,2026-11-11
+14236123211,4924516231,[🎃]Punch Simulator 👊[FREE UGC],,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-11
 14259168147,4931927012,[🎃]🏀Basketball Legends🏀,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 14279693118,4938220315,[ACT 3] Skibi Defense,,,2026-11-09,,2026-11-09,minimal,,2026-11-11
 14301835518,4944984948,Team School Breakout! (TEAMWORK OBBY),,,2026-11-07,,2026-11-07,minimal,,2026-11-11
@@ -574,7 +574,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 18537079992,6280758286,Армия Роблокса РП,,,2026-11-07,,2026-11-07,mild,,2026-11-09
 18651214797,6319412433,Find The Pou Babies,https://tr.rbxcdn.com/180DAY-f9f3f2a91ae00c09c05d9194174a4ab1/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-10
 18666738837,6324644175,Death Order: Simon Says,,,2026-11-07,,2026-11-07,mild,,2026-11-11
-18668065416,6325068386,[Karasu🐦‍⬛] Blue Lock: Rivals,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
+18668065416,6325068386,[Karasu🐦‍⬛] Blue Lock: Rivals,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-11
 18687417158,6331902150,[UPD 🎃] Forsaken,,,2026-11-07,,2026-11-07,mild,,2026-11-11
 18753889337,6353751159,Main Street 🏡RP,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 18758755773,6355251723,Threadville 🧵,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
@@ -1341,7 +1341,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 99595206014058,10765618365,Jump To Steal Phonks,https://tr.rbxcdn.com/180DAY-251cc2d540269028a51da93491a05f05/150/150/Image/Webp/noFilter,2026-09-07T22:58:50Z,2026-11-07,,,minimal,8713704,2026-11-11
 99610146753435,10768371213,Free Fire Zone (Max),https://tr.rbxcdn.com/180DAY-1a51c79d6581fa383752cc7d4babd9be/150/150/Image/Webp/noFilter,2026-09-27T20:10:25Z,2026-11-07,,,mild,17866244,2026-11-11
 99621789428849,10769935409,Spray Paint A Flag!,https://tr.rbxcdn.com/180DAY-e6cef93139ee18cd2a00f0f778019b77/150/150/Image/Webp/noFilter,2026-10-09T00:39:01Z,2026-11-07,2026-11-07,,minimal,690748,2026-11-11
-99639761968524,9869259319,Would You Rather Lucky Block Tower 💥,https://tr.rbxcdn.com/180DAY-f04108f9716be5fe4f50fcbb0c217a32/150/150/Image/Webp/noFilter,2026-03-12T00:47:52Z,2026-11-07,,,vng-rating-override,42508191,2026-11-11
+99639761968524,9869259319,Would You Rather Lucky Block Tower 💥,https://tr.rbxcdn.com/180DAY-f04108f9716be5fe4f50fcbb0c217a32/150/150/Image/Webp/noFilter,2026-03-12T00:47:52Z,2026-11-07,,,minimal,42508191,2026-11-11
 99703116573266,10393438342,[⭐ MINI-UPDATE ⭐] Alliance Tower Defense! ⚔️,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 99713568470959,10291735332,Moped Drag [BIG UPDATE  🏍️],https://tr.rbxcdn.com/180DAY-58f770c775358650f60de9a662b72425/150/150/Image/Webp/noFilter,2026-06-08T13:19:32Z,2026-11-07,,2026-11-07,minimal,45665145,2026-11-11
 99715799384017,7307471843,Easy Soccer 🌈 Rainbow Football,https://tr.rbxcdn.com/180DAY-693eba93b48abd3765e0a46ed65d97a1/150/150/Image/Webp/noFilter,2025-02-28T15:31:15Z,2026-11-07,,,minimal,24368746,2026-11-11
@@ -1398,7 +1398,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 101914772188620,9490116046,Build with Voxels 🔨,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 101941828788342,7868145402,🦑Season 3 Tower [Squid Game],https://tr.rbxcdn.com/180DAY-21c853a3089814b902fa7a5334df4589/150/150/Image/Webp/noFilter,2025-06-08T07:55:40Z,2026-11-07,,,minimal,57855371,2026-11-11
 101953291486308,7938305201,[NEW] GRAU SP,https://tr.rbxcdn.com/180DAY-aa1e47947b7afef66ddab3f836beb36a/150/150/Image/Webp/noFilter,2025-06-17T23:34:57Z,2026-11-07,,,minimal,46348197,2026-11-11
-101986241528633,9981600427,[NEW] Jujutsu Outfits,,2026-04-03T09:36:31Z,2026-11-07,,,minimal,1248183,2026-11-11
+101986241528633,9981600427,[NEW] Jujutsu Outfits,,2026-04-03T09:36:31Z,2026-11-07,,,vng-rating-override,1248183,2026-11-11
 101999883467300,10766845655,Piano Rhythm Tiles,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 102053304052438,10677698797,DELTARUNE Fight,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 102071609564196,9209811415,🎞️ Emote Catalog,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
@@ -1644,7 +1644,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 112038493521489,10768464559,Control The World 👑,https://tr.rbxcdn.com/180DAY-15e96caac9bf9c8536b7ef874e84a810/150/150/Image/Webp/noFilter,2026-09-28T15:42:50Z,2026-11-07,,,minimal,4255301,2026-11-11
 112050560592995,10202515720,Undertale Multiverse Simulator 1.5,https://tr.rbxcdn.com/180DAY-d68abe487623d21bcfd81f1b3101ce0f/150/150/Image/Webp/noFilter,2026-05-22T08:01:00Z,2026-11-07,,,mild,3539623,2026-11-08
 112107733863518,9501409571,Cursed Blade[ALPHA],,,2026-11-07,,2026-11-07,mild,,2026-11-11
-112114621008524,9076692567,[CATALOG🛍️] UGC Creator 🎨,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-11
+112114621008524,9076692567,[CATALOG🛍️] UGC Creator 🎨,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 112130209541489,8005378926,Catalog Avatar Editor,https://tr.rbxcdn.com/180DAY-2d6f397bfb673d99e3e90fffc3973012/150/150/Image/Webp/noFilter,2025-06-26T18:09:37Z,2026-11-07,,,minimal,43893641,2026-11-11
 112153632295482,10769466346,Obby To Heaven! [120 Stages!],https://tr.rbxcdn.com/180DAY-8a76b6959d6fc9cdf34a3b551f6c986e/150/150/Image/Webp/noFilter,2026-10-05T09:51:51Z,2026-11-07,,,minimal,2395194,2026-11-10
 112184582330960,9935665660,[UPD] Be a Dragon Ball,https://tr.rbxcdn.com/180DAY-a19c57c00f1a3803ae755d382d844f77/150/150/Image/Webp/noFilter,2026-03-24T21:11:07Z,2026-11-11,,,minimal,1515273,2026-11-11
