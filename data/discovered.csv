@@ -68,7 +68,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 2768379856,1000233041,3008 [2.75],,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 2772610559,1001911915,[🎃] Farming and Friends,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 2788229376,1008451066,[🦃] Da Hood,,,2026-11-07,,2026-11-07,moderate,,2026-11-11
-2809202155,1016936714,🎃 Your Bizarre Adventure 🎃,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-11
+2809202155,1016936714,🎃 Your Bizarre Adventure 🎃,,,2026-11-07,,2026-11-07,moderate,,2026-11-11
 2916899287,1054526971,Blackhawk Rescue Mission 5,,,2026-11-07,,2026-11-07,moderate,,2026-11-11
 3016661674,1087859240,[🎃] Rogue Lineage,,,2026-11-07,,2026-11-07,moderate,,2026-11-11
 3025990139,1091907805,Unboxing Simulator [UPDATE],,,2026-11-07,,2026-11-07,minimal,,2026-11-11
@@ -97,7 +97,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 3891618314,1325411718,⚓ Harbor Havoc,,,2026-11-07,,2026-11-07,mild,,2026-11-11
 4104106043,1358133289,Insane Elevator!,,,2026-11-07,,2026-11-07,mild,,2026-11-11
 4195834406,1374118848,Dragon Generations,,,2026-11-07,,2026-11-07,mild,,2026-11-11
-4201429814,1375027828,Roblox Creator Challenge,,,2026-11-07,,,minimal,,2026-11-10
+4201429814,1375027828,Roblox Creator Challenge,,,2026-11-07,,,minimal,,2026-11-11
 4282985734,1390601379,Combat Warriors,,,2026-11-07,,2026-11-07,mild,,2026-11-11
 4299508195,1393178180,Polish Car Driving 🚗,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 4520749081,1451439645,[🐉UPD 11 PART 1🎃] King Legacy,,,2026-11-07,,2026-11-07,mild,,2026-11-11
@@ -378,7 +378,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 12434569116,4373521124,Destination 🌇🏡 [PERFORMANCE + MOBILE UPD! BETA],,,2026-11-07,,2026-11-07,minimal,,
 12458468699,4380922749,The Trolley Game,,,2026-11-07,,,minimal,,
 12550651382,4408288935,🎃 Ecos: La Brea,,,2026-11-07,,2026-11-07,mild,,2026-11-11
-12593620250,4420562665,[UPD] Ride Storm,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
+12593620250,4420562665,[UPD] Ride Storm,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-11
 12690288701,4449551347,[Fourze🚀] RiderTime,https://tr.rbxcdn.com/180DAY-3e5d6dd43f77f69a2216af7ab7383d92/150/150/Image/Webp/noFilter,,2026-11-08,,,mild,,2026-11-09
 12847474373,4497460596,MORPH WORLD! ⚔️ [NEW START UPDATE],,,2026-11-07,,2026-11-07,mild,,2026-11-11
 12892130985,4511892440,👓 Mandrake Catalog Editor (BETA),,,2026-11-08,,2026-11-08,minimal,,2026-11-11
@@ -1352,7 +1352,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 100321734959591,10770370806,[UPD] Find The Country 🌍,https://tr.rbxcdn.com/180DAY-5550708f20f0879bc1a20c4d360fed34/150/150/Image/Webp/noFilter,2026-10-11T13:53:21Z,2026-11-07,2026-11-07,,minimal,2938497,2026-11-11
 100355158977562,10769065052,[📱] Make Your Phone Case!,https://tr.rbxcdn.com/180DAY-49e32561d2b6217ecaec8bda68ef5102/150/150/Image/Webp/noFilter,2026-10-03T00:10:17Z,2026-11-07,2026-11-07,,minimal,1228743,2026-11-11
 100448435050950,6891218816,[🌺] FTF_Practice,https://tr.rbxcdn.com/180DAY-0e667214457a0a262f348f8a52ba1ae9/150/150/Image/Webp/noFilter,2024-12-07T22:45:33Z,2026-11-07,,,mild,6170083,2026-11-11
-100453351939863,9169166771,Tiny Universe RP [DOOMCRAB!!],,,2026-11-07,,2026-11-07,mild,,2026-11-11
+100453351939863,9169166771,[LIMITEDS] Tiny Universe RP,,,2026-11-07,,2026-11-07,mild,,2026-11-11
 100453542816833,10771871836,📸 Say Cheese! [STORY],https://tr.rbxcdn.com/180DAY-93ba390afe6105585e315a2e3be1dc11/150/150/Image/Webp/noFilter,2026-10-19T07:52:50Z,2026-11-07,2026-11-07,,minimal,15410291,2026-11-11
 100499436547488,9659241993,[Update] Motocross Adventure: Mountain Trails,https://tr.rbxcdn.com/180DAY-213daa41108121690a2cfb281d63a142/150/150/Image/Webp/noFilter,2026-02-01T11:18:29Z,2026-11-07,,,minimal,11286178,2026-11-11
 100504830136499,10773241556,🍀 HATCHZ! X999Qi INSANE MODZ,https://tr.rbxcdn.com/180DAY-0089997c26e3988ef51d48645b6ee3ea/150/150/Image/Webp/noFilter,2026-10-27T07:25:23Z,2026-11-07,2026-11-07,,minimal,508014,2026-11-10
@@ -1475,7 +1475,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 105777072844340,10757297508,[UPD🖤!] Luc1d Matching & Solo Outfits !,https://tr.rbxcdn.com/180DAY-9a2171e2e4745afc499ea8c1370814c8/150/150/Image/Webp/noFilter,2026-08-23T18:42:27Z,2026-11-07,,,minimal,55660,2026-11-11
 105916934349181,10768800151,ANALOG 📂[HORROR],,,2026-11-08,,2026-11-08,mild,,2026-11-09
 105950169251296,9686425244,[🎃 SPOOKY] HAZBIN HOTEL: Hell's Fortune,https://tr.rbxcdn.com/180DAY-b509fa22b222a112cfc53f9cbf16e06e/150/150/Image/Webp/noFilter,2026-02-07T03:49:22Z,2026-11-08,,,minimal,5856181,2026-11-09
-106033474760693,9857334324,Skibidi Battle Simulator,https://tr.rbxcdn.com/180DAY-bf4204341a7bc9caf1acb52964a68723/150/150/Image/Webp/noFilter,2026-03-09T03:35:54Z,2026-11-07,,,mild,45009085,2026-11-11
+106033474760693,9857334324,Skibidi Battle Simulator,https://tr.rbxcdn.com/180DAY-bf4204341a7bc9caf1acb52964a68723/150/150/Image/Webp/noFilter,2026-03-09T03:35:54Z,2026-11-07,,,minimal,45009085,2026-11-11
 106078822951099,6818915584,🎠 Mingle Carousel [SQUID GAME 2],,,2026-11-07,,2026-11-07,mild,,2026-11-11
 106153947616190,10155952879,[🌊] WaterWorld WaterPark,https://tr.rbxcdn.com/180DAY-9781eb008cbb2c9927c87bcde47e74f5/150/150/Image/Webp/noFilter,2026-05-12T02:48:06Z,2026-11-07,,,minimal,16728212,2026-11-11
 106198175232796,10765902945,[🥷NINJA] Anime Legacy Simulator,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
@@ -2021,7 +2021,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 127014048665608,10770847747,ESCAPE CLUB | Escape Rooms,https://tr.rbxcdn.com/180DAY-c3050035102a8c3a369db80c843665c4/150/150/Image/Webp/noFilter,2026-10-14T11:53:38Z,2026-11-07,,,minimal,181708,2026-11-11
 127099886596040,6579282112,Kite Combat 🪁,,,2026-11-09,,2026-11-09,minimal,,2026-11-09
 127135425701849,10769225661,[🌍 2D] Rule The Globe,https://tr.rbxcdn.com/180DAY-557df69c364f5e43070f6cc8541cafd2/150/150/Image/Webp/noFilter,2026-10-03T21:18:42Z,2026-11-08,,,minimal,343847,2026-11-11
-127211126316775,10769075057,Bubu & Dudu Obby 🐼🐻 [1-2 Players],https://tr.rbxcdn.com/180DAY-72b115fdd502af788aabd054cf39cf0d/150/150/Image/Webp/noFilter,2026-10-03T02:01:17Z,2026-11-07,2026-11-07,,minimal,3178889,2026-11-11
+127211126316775,10769075057,Bubu & Dudu Obby 🐼🐻 [1-2 Player],https://tr.rbxcdn.com/180DAY-72b115fdd502af788aabd054cf39cf0d/150/150/Image/Webp/noFilter,2026-10-03T02:01:17Z,2026-11-07,2026-11-07,,minimal,3178889,2026-11-11
 127222222724872,10621299421,ثانوية النسيم School Fight,https://tr.rbxcdn.com/180DAY-8fdc7936e448d0b1a722082925c381a0/150/150/Image/Webp/noFilter,2026-08-02T23:20:37Z,2026-11-07,,,mild,2219243,2026-11-08
 127231827405683,10768001644,[💥UPD] +1 Ride Pets to Fight,https://tr.rbxcdn.com/180DAY-92eeb6a7e6b25668c0820a9a43af456d/150/150/Image/Webp/noFilter,2026-09-25T15:57:14Z,2026-11-10,,,mild,3253526,2026-11-11
 127270254210112,10378493761,Prison Dodgeball,https://tr.rbxcdn.com/180DAY-5ea8cf3e5a599591e12a458166cef162/150/150/Image/Webp/noFilter,2026-06-22T23:57:17Z,2026-11-07,,,minimal,8439533,2026-11-11
@@ -2194,7 +2194,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 134117451433332,10769941703,13 Days to Escape [ALPHA],https://tr.rbxcdn.com/180DAY-54697b4176d9c3f9729c2210197e92ab/150/150/Image/Webp/noFilter,2026-10-09T01:55:51Z,2026-11-07,2026-11-07,2026-11-07,moderate,2773571,2026-11-11
 134162299584012,10452740285,Build a Gun Army,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 134208374070897,10624691669,MONOCHROME👁️,,,2026-11-07,,2026-11-07,mild,,2026-11-11
-134257874794717,6925369391,Capybara Evolution,,,2026-11-07,,2026-11-07,mild,,2026-11-11
+134257874794717,6925369391,Capybara Evolution,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-11
 134360023649587,9520692022,[UPD] Save Your Friend!,,,2026-11-07,,2026-11-07,minimal,,2026-11-10
 134363641369914,10376944238,Build Your Backrooms,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 134381727982611,9826885587,Evomon[🎃S4 StarUp],,,2026-11-07,,2026-11-07,minimal,,2026-11-11
