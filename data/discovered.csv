@@ -2,7 +2,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 189707,65241,Natural Disaster Survival,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 192800,47545,🍕Work at a Pizza Place,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 9528010,16876831,[Italy] Blood and Iron,,,2026-11-08,,2026-11-08,moderate,,2026-11-10
-13822889,2471084,🌳 Lumber Tycoon 2,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
+13822889,2471084,🌳 Lumber Tycoon 2,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-11
 20321167,21164849,Pilot Training Flight Simulator,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 21532277,16680835,Notoriety: A PAYDAY® Experience,,,2026-11-07,,2026-11-07,mild,,2026-11-11
 71315343,98929893,[OMEGA] Dragon Ball Rage,,,2026-11-07,,2026-11-07,mild,,2026-11-11
@@ -388,7 +388,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 12931609417,4523856444,Color or Die 🎨,,,2026-11-07,,2026-11-07,mild,,2026-11-11
 12933818947,4524605690,Collapsing Tower,,,2026-11-07,,2026-11-07,minimal,,2026-11-10
 12979690461,4538598064,[UPD] Phantom Ball,,,2026-11-07,,2026-11-07,mild,,2026-11-11
-12985361032,4540138978,Metro Life 🏡 City RP,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
+12985361032,4540138978,Metro Life 🏡 City RP,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-11
 13042495892,4557322431,Project: Afternight,,,2026-11-07,,2026-11-07,mild,,2026-11-11
 13076380114,4568630521,[HALLOWEEN] Heroes Battlegrounds,,,2026-11-07,,2026-11-07,mild,,2026-11-11
 13116420108,4578260860,Try To Die 💀,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
@@ -1644,7 +1644,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 111989938562194,7332711118,Brainrot Evolution,,,2026-11-07,,2026-11-07,mild,,2026-11-11
 112038493521489,10768464559,Control The World 👑,https://tr.rbxcdn.com/180DAY-15e96caac9bf9c8536b7ef874e84a810/150/150/Image/Webp/noFilter,2026-09-28T15:42:50Z,2026-11-07,,,minimal,4255301,2026-11-11
 112050560592995,10202515720,Undertale Multiverse Simulator 1.5,https://tr.rbxcdn.com/180DAY-d68abe487623d21bcfd81f1b3101ce0f/150/150/Image/Webp/noFilter,2026-05-22T08:01:00Z,2026-11-07,,,mild,3539623,2026-11-08
-112107733863518,9501409571,Cursed Blade[ALPHA],,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-11
+112107733863518,9501409571,Cursed Blade[ALPHA],,,2026-11-07,,2026-11-07,mild,,2026-11-11
 112114621008524,9076692567,[CATALOG🛍️] UGC Creator 🎨,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 112130209541489,8005378926,Catalog Avatar Editor,https://tr.rbxcdn.com/180DAY-2d6f397bfb673d99e3e90fffc3973012/150/150/Image/Webp/noFilter,2025-06-26T18:09:37Z,2026-11-07,,,minimal,43893641,2026-11-11
 112153632295482,10769466346,Obby To Heaven! [120 Stages!],https://tr.rbxcdn.com/180DAY-8a76b6959d6fc9cdf34a3b551f6c986e/150/150/Image/Webp/noFilter,2026-10-05T09:51:51Z,2026-11-07,,,minimal,2395194,2026-11-10
