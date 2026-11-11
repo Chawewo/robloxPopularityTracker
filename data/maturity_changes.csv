@@ -808,3 +808,10 @@ timestamp,game_id,old,new
 2026-11-11T02:13:24Z,11354212711,minimal,vng-rating-override
 2026-11-11T02:28:26Z,13127800756,vng-rating-override,minimal
 2026-11-11T02:28:26Z,11354212711,vng-rating-override,minimal
+2026-11-11T02:43:23Z,88247261469570,mild,moderate
+2026-11-11T02:43:23Z,113918641206373,vng-rating-override,minimal
+2026-11-11T02:43:23Z,115394135656997,mild,vng-rating-override
+2026-11-11T02:43:23Z,80734098185936,vng-rating-override,mild
+2026-11-11T02:43:23Z,14641667067,minimal,vng-rating-override
+2026-11-11T02:43:23Z,8067158534,mild,minimal
+2026-11-11T02:43:23Z,11354212711,minimal,vng-rating-override
