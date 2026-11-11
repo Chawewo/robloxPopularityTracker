@@ -2,7 +2,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 189707,65241,Natural Disaster Survival,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 192800,47545,🍕Work at a Pizza Place,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 9528010,16876831,[Italy] Blood and Iron,,,2026-11-08,,2026-11-08,moderate,,2026-11-10
-13822889,2471084,🌳 Lumber Tycoon 2,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-11
+13822889,2471084,🌳 Lumber Tycoon 2,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 20321167,21164849,Pilot Training Flight Simulator,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 21532277,16680835,Notoriety: A PAYDAY® Experience,,,2026-11-07,,2026-11-07,mild,,2026-11-11
 71315343,98929893,[OMEGA] Dragon Ball Rage,,,2026-11-07,,2026-11-07,mild,,2026-11-11
@@ -388,7 +388,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 12931609417,4523856444,Color or Die 🎨,,,2026-11-07,,2026-11-07,mild,,2026-11-11
 12933818947,4524605690,Collapsing Tower,,,2026-11-07,,2026-11-07,minimal,,2026-11-10
 12979690461,4538598064,[UPD] Phantom Ball,,,2026-11-07,,2026-11-07,mild,,2026-11-11
-12985361032,4540138978,Metro Life 🏡 City RP,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-11
+12985361032,4540138978,Metro Life 🏡 City RP,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 13042495892,4557322431,Project: Afternight,,,2026-11-07,,2026-11-07,mild,,2026-11-11
 13076380114,4568630521,[HALLOWEEN] Heroes Battlegrounds,,,2026-11-07,,2026-11-07,mild,,2026-11-11
 13116420108,4578260860,Try To Die 💀,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
@@ -950,6 +950,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 83759327241503,9906936121,Guide the Poppy Playtime,https://tr.rbxcdn.com/180DAY-cc1116dc112a2a79b8acc17996ff0ebf/150/150/Image/Webp/noFilter,2026-03-19T16:48:00Z,2026-11-07,,,minimal,7720384,2026-11-11
 83773345859628,10771205069,[UPD] TELEPORT DUELS⚡️,https://tr.rbxcdn.com/180DAY-96ea3e854dd1b7ad004900307b958e7a/150/150/Image/Webp/noFilter,2026-10-16T08:52:22Z,2026-11-09,2026-11-09,,mild,372974,2026-11-11
 83869074416117,10770748262,Anime Galaxies | UPDATE 1,,,2026-11-07,,2026-11-07,mild,,2026-11-11
+83882327995304,10771314860,Plane Crash Physics 💥,https://tr.rbxcdn.com/180DAY-4eaa3a69769c5698c0a9bf96fbb7347c/150/150/Image/Webp/noFilter,,2026-11-11,2026-11-11,,mild,,2026-11-11
 83895704311875,10151528938,Oath of Office: Political Roleplay,https://tr.rbxcdn.com/180DAY-ec23e74234404bc24596fa25ef35e5d1/150/150/Image/Webp/noFilter,2026-05-11T05:21:03Z,2026-11-07,,,minimal,1615631,2026-11-11
 83909223006012,10766251540,[UPD] Kart Arena,https://tr.rbxcdn.com/180DAY-65330809a15ca861aaf7f6c7423af864/150/150/Image/Webp/noFilter,2026-09-13T04:45:10Z,2026-11-07,,,mild,7798686,2026-11-11
 83948710348121,10769808534,Be a Soccer Manager ⚽,https://tr.rbxcdn.com/180DAY-ffa93471ccbf1ca61fbc065f8e470f53/150/150/Image/Webp/noFilter,2026-10-08T00:39:38Z,2026-11-07,2026-11-07,,minimal,6575372,2026-11-11
@@ -2334,7 +2335,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 139546619723000,10368005384,My Giant Sandwich,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 139571938533204,7587104675,Baltic Sea Simulator │BETA [MOBILE SUPPORT],,2025-04-23T12:01:10Z,2026-11-07,,,minimal,715090,2026-11-10
 139611482808453,10770197883,🎬 Make a Cartoon!,https://tr.rbxcdn.com/180DAY-e7fc6e3c40f0725714e79db9aca04d9b/150/150/Image/Webp/noFilter,2026-10-10T15:06:23Z,2026-11-07,2026-11-07,2026-11-07,minimal,7274102,2026-11-07
-139705352041000,10628006421,[🧠] Catdoku,https://tr.rbxcdn.com/180DAY-02388d8b52c384eb1bc5c0595ac66fd9/150/150/Image/Webp/noFilter,2026-08-04T05:43:07Z,2026-11-07,,,minimal,9660710,2026-11-11
+139705352041000,10628006421,[🧠] Catdoku,https://tr.rbxcdn.com/180DAY-02388d8b52c384eb1bc5c0595ac66fd9/150/150/Image/Webp/noFilter,2026-08-04T05:43:07Z,2026-11-07,,,vng-rating-override,9660710,2026-11-11
 139707731553337,10768409236,World of Nukes💥,https://tr.rbxcdn.com/180DAY-475827d7e23bd2d59913840cdd2da307/150/150/Image/Webp/noFilter,2026-09-28T03:23:31Z,2026-11-07,,,mild,5914961,2026-11-11
 139708186687323,6919822640,Sprunki RP 3D [VERITY],,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 139917699782531,10773031983,[CHP 3] That Is NOT My Mom 👩🏼‍🦰,https://tr.rbxcdn.com/180DAY-7b58e7acd66130f52a29e4d6961ec709/150/150/Image/Webp/noFilter,2026-10-25T23:15:19Z,2026-11-07,2026-11-07,,minimal,2354699,2026-11-11
