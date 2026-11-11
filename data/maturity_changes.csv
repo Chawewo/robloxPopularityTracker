@@ -799,3 +799,6 @@ timestamp,game_id,old,new
 2026-11-11T01:20:22Z,133409496563091,mild,minimal
 2026-11-11T01:43:22Z,3823781113,mild,vng-rating-override
 2026-11-11T01:43:22Z,75317862071711,vng-rating-override,minimal
+2026-11-11T01:58:20Z,113918641206373,minimal,vng-rating-override
+2026-11-11T01:58:20Z,80734098185936,mild,vng-rating-override
+2026-11-11T01:58:20Z,139394516128799,vng-rating-override,minimal
