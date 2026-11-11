@@ -91,7 +91,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 3623096087,1268927906,💪Muscle Legends,,,2026-11-07,,2026-11-07,mild,,2026-11-11
 3663340706,1278035280,Warrior Cats: Ultimate Edition,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 3678761576,1281592938,ENTRENCHED 🥀,,,2026-11-07,,2026-11-07,moderate,,2026-11-11
-3823781113,1312971993,Saber Simulator 🍂,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-11
+3823781113,1312971993,Saber Simulator 🍂,,,2026-11-07,,2026-11-07,mild,,2026-11-11
 3840352284,1316421563,Volleyball 4.2,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 3851622790,1318971886,Break In (Story),,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 3891618314,1325411718,⚓ Harbor Havoc,,,2026-11-07,,2026-11-07,mild,,2026-11-11
@@ -339,7 +339,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 11158043705,3990106548,Baddies 💅,,,2026-11-07,,2026-11-07,mild,,2026-11-11
 11232592166,4007686136,Touch Soccer,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 11328835705,4034530348,Word Search!,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
-11354212711,4041741796,This is Utara [DragMap],https://tr.rbxcdn.com/180DAY-e3fc0984b7f3f201641c40252ece5be0/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-11
+11354212711,4041741796,This is Utara [DragMap],https://tr.rbxcdn.com/180DAY-e3fc0984b7f3f201641c40252ece5be0/150/150/Image/Webp/noFilter,,2026-11-07,,,vng-rating-override,,2026-11-11
 11364087119,4044579438,[🚂] Cart Ride,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 11379739543,4049246711,🎃 Timebomb Duels [Alpha],,,2026-11-07,,2026-11-07,mild,,2026-11-11
 11380769866,4049540036,Chipeo Paradise ,https://tr.rbxcdn.com/180DAY-059029d564db1c37d3154f22e5593c54/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-10
@@ -391,7 +391,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 13042495892,4557322431,Project: Afternight,,,2026-11-07,,2026-11-07,mild,,2026-11-11
 13076380114,4568630521,[HALLOWEEN] Heroes Battlegrounds,,,2026-11-07,,2026-11-07,mild,,2026-11-11
 13116420108,4578260860,Try To Die 💀,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
-13127800756,4582358979,Arm Wrestle Simulator,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
+13127800756,4582358979,Arm Wrestle Simulator,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-11
 13166293021,4595016786,Barbie DreamHouse Tycoon,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 13184713709,4599924264,Teamwork Puzzles (Obby),,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 13270683448,4625143324,[⚽] Score or Save Soccer,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
@@ -582,7 +582,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 18803315158,6371309794,[UPD] 💪Ninja Challenge [BETA],,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 18816315817,6375110339,ST : Blockade Battlefront,,,2026-11-07,,2026-11-07,moderate,,2026-11-11
 18852831741,6385532960,[HALLOWEEN] Ryujin,https://tr.rbxcdn.com/180DAY-82ce56507d4c9816580e18295b87592f/150/150/Image/Webp/noFilter,,2026-11-07,,,moderate,,2026-11-11
-18923383360,6409446943,[UPDATE 26] FIRESTORM 2 🔥,,,2026-11-07,,2026-11-07,minimal,,2026-11-10
+18923383360,6409446943,[UPDATE 26] FIRESTORM 2 🔥,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 18934709778,6413074235,A Long Road - BETA,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 18947259921,6417204510,Clone Friends,https://tr.rbxcdn.com/180DAY-fa507e53c0e9b8c7f7082bdede87bea9/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-10
 18948446518,6417564879,Mr.Mix,,,2026-11-07,,2026-11-07,mild,,2026-11-11
@@ -1848,7 +1848,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 119966684696451,10766058238,Egg Heist Roleplay,https://tr.rbxcdn.com/180DAY-875645d4f052ddbdc3b9604f9ca3f55d/150/150/Image/Webp/noFilter,2026-09-11T22:02:32Z,2026-11-10,,,minimal,718825,2026-11-11
 120130810954904,10770431439,7 Days as a Pet [HAMSTER🐹],https://tr.rbxcdn.com/180DAY-ac79d5ee24644d9628f363699bb82eeb/150/150/Image/Webp/noFilter,2026-10-11T20:11:33Z,2026-11-07,2026-11-07,,minimal,5697613,2026-11-10
 120135584963579,8791358380,Don’t Steal the Bobo 🐻,,,2026-11-07,,2026-11-07,mild,,2026-11-09
-120189115846709,10090256806,TTK Testing [AR15],,,2026-11-07,,2026-11-07,moderate,,2026-11-11
+120189115846709,10090256806,TTK Testing [NEW WEAPONS],,,2026-11-07,,2026-11-07,moderate,,2026-11-11
 120217704230083,8937254139,Dungeon Hunters [UPD],,,2026-11-07,,2026-11-07,mild,,2026-11-11
 120219252362013,10766972131,Throw Food For Animals,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 120227620536802,10767735339,Run For Eggs,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
@@ -2192,7 +2192,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 134026357772960,10770932189,[UPDATE] Barber Simulator,https://tr.rbxcdn.com/180DAY-3c117e2ac3337e3fb5fe9491b1c8828c/150/150/Image/Webp/noFilter,2026-10-14T21:19:17Z,2026-11-10,2026-11-10,,minimal,457992,2026-11-11
 134039915751463,10289650937,🔥 Anime Piece - Update 1,https://tr.rbxcdn.com/180DAY-93c3e1c1da96a59fdb92c225160b485c/150/150/Image/Webp/noFilter,2026-06-08T01:04:16Z,2026-11-07,,,mild,2413664,2026-11-11
 134117451433332,10769941703,13 Days to Escape [ALPHA],https://tr.rbxcdn.com/180DAY-54697b4176d9c3f9729c2210197e92ab/150/150/Image/Webp/noFilter,2026-10-09T01:55:51Z,2026-11-07,2026-11-07,2026-11-07,moderate,2773571,2026-11-11
-134162299584012,10452740285,Build a Gun Army,,,2026-11-07,,2026-11-07,mild,,2026-11-11
+134162299584012,10452740285,Build a Gun Army,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 134208374070897,10624691669,MONOCHROME👁️,,,2026-11-07,,2026-11-07,mild,,2026-11-11
 134257874794717,6925369391,Capybara Evolution,,,2026-11-07,,2026-11-07,mild,,2026-11-11
 134360023649587,9520692022,[UPD] Save Your Friend!,,,2026-11-07,,2026-11-07,minimal,,2026-11-10
