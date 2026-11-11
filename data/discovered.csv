@@ -81,7 +81,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 3260590327,1176784616,Tower Defense Simulator,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 3272915504,1180269832,Arcane Odyssey 🌊,,,2026-11-07,,2026-11-07,moderate,,2026-11-11
 3286745597,1184233856,Stranded on Earth [Alpha],,,2026-11-07,,,moderate,,
-3323357986,1194183385,Legend Of Zominus RPG ⚔️,,,2026-11-10,,,mild,,2026-11-11
+3323357986,1194183385,Legend Of Zominus RPG ⚔️,https://tr.rbxcdn.com/180DAY-8e4abe405b800ffdbdd2b1dfe1523eb0/150/150/Image/Webp/noFilter,,2026-11-10,,,mild,,2026-11-11
 3351674303,1202096104,Driving Empire [🏁NASCAR Championship Weekend🏁],,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 3360073263,1204338704,PTR,,,2026-11-07,,,mild,,
 3408507762,1217298587,Click the Flag 🌍,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
@@ -100,7 +100,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 4201429814,1375027828,Roblox Creator Challenge,,,2026-11-07,,,minimal,,2026-11-11
 4282985734,1390601379,Combat Warriors,,,2026-11-07,,2026-11-07,mild,,2026-11-11
 4299508195,1393178180,Polish Car Driving 🚗,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
-4520749081,1451439645,[🐉UPD 11 PART 1🎃] King Legacy,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-11
+4520749081,1451439645,[🐉UPD 11 PART 1🎃] King Legacy,,,2026-11-07,,2026-11-07,mild,,2026-11-11
 4522347649,1452258989,[FREE ADMIN],,,2026-11-07,,2026-11-07,mild,,2026-11-11
 4545054277,1467077046,[VR Exclusive] EdgeWorks,,,2026-11-07,,,minimal,,
 4580204640,1489026993,🔪Survive the Killer!,,,2026-11-07,,2026-11-07,mild,,2026-11-11
@@ -125,7 +125,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 4954752502,1701623492,[2x Coins]Tower of Misery,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 4972273297,1709917610,Regretevator [ ELEVATOR SIMULATOR ],,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 4984400432,1715617820,[NEW] Outfit Loader,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
-4996049426,1720936166,[OG] All Star Tower Defense,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-11
+4996049426,1720936166,[OG] All Star Tower Defense,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 5041144419,1742264997,SCP: Roleplay,,,2026-11-07,,2026-11-07,mild,,2026-11-11
 5116869569,1775919872,[🎃2] Doodle World,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 5118969548,1776914212,Spider,,,2026-11-07,,2026-11-07,moderate,,2026-11-11
@@ -246,7 +246,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 7896264844,3056160040,Find the Markers (321),,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 7922773201,3064619271,Final Stand: Remastered,,,2026-11-07,,2026-11-07,mild,,2026-11-11
 7971857341,3079618996,🕹️[Arcade] Youtuber Tycoon!,,,2026-11-07,,2026-11-07,minimal,,2026-11-10
-7978512334,3081555258,Shovelware's Brain Game,,,2026-11-07,,2026-11-07,mild,,2026-11-11
+7978512334,3081555258,Shovelware's Brain Game,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 7991339063,3085257211,Rainbow Friends,,,2026-11-07,,2026-11-07,mild,,2026-11-11
 7998589447,3087415864,[ALL AGES] Down in the Engine Room,,,2026-11-07,,,mild,,
 8034026074,3097803944,Easy Glass Bridge (Possible Squid Game),,,2026-11-07,,2026-11-07,minimal,,2026-11-11
@@ -510,7 +510,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 16732694052,5750914919,Fisch 🦈,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 16735970772,5751849582,🎃SkyRivals ⚔️🐐,https://tr.rbxcdn.com/180DAY-4d1318931ef9e8657f471f4f3bb49058/150/150/Image/Webp/noFilter,,2026-11-08,,,mild,,2026-11-09
 16740784399,5753515186,The Eastern War 2.5,,,2026-11-07,,2026-11-07,moderate,,2026-11-11
-16883974868,5800312217,Jule's RNG,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
+16883974868,5800312217,Jule's RNG,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-11
 16893821047,5803093656,Blue Heater 2 [FISH FUNLAND🎣],,,2026-11-08,,2026-11-08,mild,,2026-11-09
 16910059756,5807622548,RV Cooked? [UPDATE],,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 16916122579,5809308870,Indian Bank Story,https://tr.rbxcdn.com/180DAY-4c7f9021b3aff9b12fd4486e0264683c/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-11
@@ -636,12 +636,12 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 71799264515644,9801530990,UzbekHaven RP 🇺🇿 [📸],https://tr.rbxcdn.com/180DAY-06e3b3e3d31b3c43a8428f717113886c/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-11
 71849204829689,7411615879,[NO HANDS] Trend City RP 🎶,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 71973110080262,8893827453,Ready Player Two Hub,,,2026-11-08,,,minimal,,2026-11-08
-71977599723985,10770806914,[C5] Escape The Jungle,https://tr.rbxcdn.com/180DAY-62735209a179988d12b1bb910e221aa4/150/150/Image/Webp/noFilter,,2026-11-07,2026-11-07,,minimal,,2026-11-11
+71977599723985,10770806914,Escape The Jungle,https://tr.rbxcdn.com/180DAY-62735209a179988d12b1bb910e221aa4/150/150/Image/Webp/noFilter,,2026-11-07,2026-11-07,,minimal,,2026-11-11
 71988966047401,10770722898,🐉 MYTHIC CREATURES!,https://tr.rbxcdn.com/180DAY-23495a82cacba54aa9caf319623a73bd/150/150/Image/Webp/noFilter,,2026-11-08,2026-11-08,,minimal,,2026-11-11
 72001091182267,10403820097,Hot Potato 🥔💥,https://tr.rbxcdn.com/180DAY-500fdafd6dbfa0a90145a4f22968a8bb/150/150/Image/Webp/noFilter,,2026-11-07,,,mild,,2026-11-11
 72019577565540,7687524641,Movie Maker 4🎬,,,2026-11-07,,2026-11-07,mild,,2026-11-11
 72059952782032,10770886699,[new] EXPEDITION GUNUNG DESA LARANGAN,https://tr.rbxcdn.com/180DAY-b3eb96e1e4cae8e90142dd04ea518f5b/150/150/Image/Webp/noFilter,,2026-11-07,,,moderate,,2026-11-08
-72060040950084,10771611437,[NOW] Steal an Nightmare Egg ,https://tr.rbxcdn.com/180DAY-3f48155cbe65587aa37d0bf04ec0316b/150/150/Image/Webp/noFilter,,2026-11-07,2026-11-07,,minimal,,2026-11-11
+72060040950084,10771611437,Steal an Nightmare Egg ,https://tr.rbxcdn.com/180DAY-3f48155cbe65587aa37d0bf04ec0316b/150/150/Image/Webp/noFilter,,2026-11-07,2026-11-07,,minimal,,2026-11-11
 72151041427151,9853864328,Watch cartoon movies,https://tr.rbxcdn.com/180DAY-f46ede55ed7837449a0a08676434f866/150/150/Image/Webp/noFilter,,2026-11-07,,,mild,,2026-11-11
 72169370437173,10768498581,Tribes 3v3,,,2026-11-07,,2026-11-07,moderate,,2026-11-11
 72198716631731,10772569320,[⚽] Sideswipe Soccer,https://tr.rbxcdn.com/180DAY-871e1d641c6253c9e4678cb41721b3f3/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-11
@@ -2055,7 +2055,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 127700378133421,10769025640,R6 Wings Avatar,,,2026-11-09,,,minimal,,
 127707120843339,7091388561,Math Murder,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 127742093697776,8316902627,[💰] Plants & Brainrots 🌻,,,2026-11-07,,2026-11-07,mild,,2026-11-11
-127750392812160,10007567876,Last Contract: Tower Defense [ALPHA],,,2026-11-07,,,moderate,,
+127750392812160,10007567876,Last Contract: Tower Defense [ALPHA],,,2026-11-07,,,minimal,,
 127753293230152,8648908145,Trains Of Indonesia 2,https://tr.rbxcdn.com/180DAY-ef99898d88d6d2a8df1bfd79a3085882/150/150/Image/Webp/noFilter,2025-09-06T14:42:50Z,2026-11-07,,,minimal,3318365,2026-11-11
 127768809070884,10650979742,[🥞] Make a Pancake!,https://tr.rbxcdn.com/180DAY-af173aefbebb7bdfab2c071e6d95cfac/150/150/Image/Webp/noFilter,2026-08-07T20:54:49Z,2026-11-07,,,minimal,13525046,2026-11-11
 127775478639865,10635348596,[Codes] Machine Party 💥,,,2026-11-07,,2026-11-07,mild,,2026-11-07
