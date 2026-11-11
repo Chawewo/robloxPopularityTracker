@@ -647,7 +647,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 71977599723985,10770806914,Escape The Jungle,https://tr.rbxcdn.com/180DAY-62735209a179988d12b1bb910e221aa4/150/150/Image/Webp/noFilter,,2026-11-07,2026-11-07,,minimal,,2026-11-11
 71988966047401,10770722898,🐉 MYTHIC CREATURES!,https://tr.rbxcdn.com/180DAY-23495a82cacba54aa9caf319623a73bd/150/150/Image/Webp/noFilter,,2026-11-08,2026-11-08,,minimal,,2026-11-11
 72001091182267,10403820097,Hot Potato 🥔💥,https://tr.rbxcdn.com/180DAY-500fdafd6dbfa0a90145a4f22968a8bb/150/150/Image/Webp/noFilter,,2026-11-07,,,mild,,2026-11-11
-72019577565540,7687524641,Movie Maker 4🎬,,,2026-11-07,,2026-11-07,mild,,2026-11-11
+72019577565540,7687524641,Movie Maker 4🎬,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-11
 72059952782032,10770886699,[new] EXPEDITION GUNUNG DESA LARANGAN,https://tr.rbxcdn.com/180DAY-b3eb96e1e4cae8e90142dd04ea518f5b/150/150/Image/Webp/noFilter,,2026-11-07,,,moderate,,2026-11-08
 72060040950084,10771611437,Steal an Nightmare Egg ,https://tr.rbxcdn.com/180DAY-3f48155cbe65587aa37d0bf04ec0316b/150/150/Image/Webp/noFilter,,2026-11-07,2026-11-07,,minimal,,2026-11-11
 72151041427151,9853864328,Watch cartoon movies,https://tr.rbxcdn.com/180DAY-f46ede55ed7837449a0a08676434f866/150/150/Image/Webp/noFilter,,2026-11-07,,,mild,,2026-11-11
@@ -1612,6 +1612,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 109576450376407,10772543706,Sweep The Moon 🌕,https://tr.rbxcdn.com/180DAY-8fdd03ca67a14abfe26a68699085c3ea/150/150/Image/Webp/noFilter,2026-10-23T11:46:25Z,2026-11-07,2026-11-07,2026-11-11,minimal,933446,2026-11-11
 109584643077945,10699057921,[🍁] WikiRace!,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 109607724765529,10773355038,Impact Lab: Extreme Physics!,https://tr.rbxcdn.com/180DAY-baf45b458c65fb46b4d77669559e945a/150/150/Image/Webp/noFilter,2026-10-27T21:57:14Z,2026-11-07,2026-11-07,,minimal,380880,2026-11-11
+109607959528470,9867866217,Gym Universe,https://tr.rbxcdn.com/180DAY-519ee8aeba0a43ea93d6b69302f10570/150/150/Image/Webp/noFilter,2026-03-11T16:34:22Z,2026-11-11,,,minimal,1177137,2026-11-11
 109629391874197,6676099788,[HALLOWEEN] Marvel Omega,,,2026-11-07,,2026-11-07,mild,,2026-11-11
 109686116036889,7453941040,DANGEROUS NIGHT [FURNISH THE BUNKER],,,2026-11-07,,2026-11-07,mild,,2026-11-11
 109687734059878,10773671208,Brazil Adedonha Duels 🇧🇷,https://tr.rbxcdn.com/180DAY-61d2f9c509ef0e299aa6308d50910db9/150/150/Image/Webp/noFilter,2026-10-29T15:46:43Z,2026-11-11,2026-11-11,,mild,71832,2026-11-11
