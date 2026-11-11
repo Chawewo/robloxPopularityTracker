@@ -410,7 +410,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 13730658693,4764717084,Rec It,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 13755196581,4772345874,📸PhotoShoot Scenes,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 13772394625,4777817887,Blade Ball,,,2026-11-07,,2026-11-07,mild,,2026-11-11
-13775256536,4778845442,[⌛SOON] Toilet Tower Defense,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
+13775256536,4778845442,[⌛SOON] Toilet Tower Defense,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-11
 13796645198,4785982047,FLASHPOINT⚡,,,2026-11-07,,2026-11-07,mild,,2026-11-11
 13822562292,4793836769,[SALEEN]🚗Midnight Chasers: Highway Racing,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 13827198708,4795326392,[CLANS] Pull a Sword,,,2026-11-07,,2026-11-07,mild,,2026-11-11
@@ -641,7 +641,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 72001091182267,10403820097,Hot Potato 🥔💥,https://tr.rbxcdn.com/180DAY-500fdafd6dbfa0a90145a4f22968a8bb/150/150/Image/Webp/noFilter,,2026-11-07,,,mild,,2026-11-11
 72019577565540,7687524641,Movie Maker 4🎬,,,2026-11-07,,2026-11-07,mild,,2026-11-11
 72059952782032,10770886699,[new] EXPEDITION GUNUNG DESA LARANGAN,https://tr.rbxcdn.com/180DAY-b3eb96e1e4cae8e90142dd04ea518f5b/150/150/Image/Webp/noFilter,,2026-11-07,,,moderate,,2026-11-08
-72060040950084,10771611437,[1 DAY] Steal an Nightmare Egg ,https://tr.rbxcdn.com/180DAY-3f48155cbe65587aa37d0bf04ec0316b/150/150/Image/Webp/noFilter,,2026-11-07,2026-11-07,,minimal,,2026-11-11
+72060040950084,10771611437,[9H] Steal an Nightmare Egg ,https://tr.rbxcdn.com/180DAY-3f48155cbe65587aa37d0bf04ec0316b/150/150/Image/Webp/noFilter,,2026-11-07,2026-11-07,,minimal,,2026-11-11
 72151041427151,9853864328,Watch cartoon movies,https://tr.rbxcdn.com/180DAY-f46ede55ed7837449a0a08676434f866/150/150/Image/Webp/noFilter,,2026-11-07,,,mild,,2026-11-11
 72169370437173,10768498581,Tribes 3v3,,,2026-11-07,,2026-11-07,moderate,,2026-11-11
 72198716631731,10772569320,[⚽] Sideswipe Soccer,https://tr.rbxcdn.com/180DAY-871e1d641c6253c9e4678cb41721b3f3/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-11
@@ -1537,6 +1537,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 107994591928750,10771808693,RAPM but OP ADMIN PANEL,https://tr.rbxcdn.com/180DAY-01f702212a6d00ada5ae26f38e633180/150/150/Image/Webp/noFilter,2026-10-18T21:19:10Z,2026-11-07,2026-11-07,,minimal,326694,2026-11-08
 108006120670562,9734324739,BE TINY AND ROB GRANDPA,https://tr.rbxcdn.com/180DAY-d1096eb5a4c889bbb809fe2d45beb5f8/150/150/Image/Webp/noFilter,2026-02-15T17:33:38Z,2026-11-07,,,mild,51614248,2026-11-11
 108055619068945,9867225552,[D4C] A Bizarre Run,https://tr.rbxcdn.com/180DAY-12702db0a26c1d36c7d4749dfe74f657/150/150/Image/Webp/noFilter,2026-03-11T13:22:37Z,2026-11-07,,2026-11-07,mild,4513684,2026-11-11
+108114331578868,10773001670,[🍀] Towers of Fortune,https://tr.rbxcdn.com/180DAY-90bb02708a714c304b59152b5d945481/150/150/Image/Webp/noFilter,2026-10-25T19:28:39Z,2026-11-11,2026-11-11,,mild,457907,2026-11-11
 108180124695820,9759989445,Highway Drifting: Hajwala,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 108201481515147,10016330005,Timebomb Duels Bots [NEW!],https://tr.rbxcdn.com/180DAY-0b7d36b0b233de2a7ae73790eac65b5c/150/150/Image/Webp/noFilter,2026-04-10T17:50:32Z,2026-11-07,,,mild,16118636,2026-11-10
 108307565942574,10153098880,Heroes RNG 🏹,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
@@ -1643,7 +1644,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 111989938562194,7332711118,Brainrot Evolution,,,2026-11-07,,2026-11-07,mild,,2026-11-11
 112038493521489,10768464559,Control The World 👑,https://tr.rbxcdn.com/180DAY-15e96caac9bf9c8536b7ef874e84a810/150/150/Image/Webp/noFilter,2026-09-28T15:42:50Z,2026-11-07,,,minimal,4255301,2026-11-11
 112050560592995,10202515720,Undertale Multiverse Simulator 1.5,https://tr.rbxcdn.com/180DAY-d68abe487623d21bcfd81f1b3101ce0f/150/150/Image/Webp/noFilter,2026-05-22T08:01:00Z,2026-11-07,,,mild,3539623,2026-11-08
-112107733863518,9501409571,Cursed Blade[ALPHA],,,2026-11-07,,2026-11-07,mild,,2026-11-11
+112107733863518,9501409571,Cursed Blade[ALPHA],,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-11
 112114621008524,9076692567,[CATALOG🛍️] UGC Creator 🎨,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 112130209541489,8005378926,Catalog Avatar Editor,https://tr.rbxcdn.com/180DAY-2d6f397bfb673d99e3e90fffc3973012/150/150/Image/Webp/noFilter,2025-06-26T18:09:37Z,2026-11-07,,,minimal,43893641,2026-11-11
 112153632295482,10769466346,Obby To Heaven! [120 Stages!],https://tr.rbxcdn.com/180DAY-8a76b6959d6fc9cdf34a3b551f6c986e/150/150/Image/Webp/noFilter,2026-10-05T09:51:51Z,2026-11-07,,,minimal,2395194,2026-11-10
