@@ -227,7 +227,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 6939111033,2655478023,Escape Papa Pizza's Pizzeria! (SCARY OBBY),,,2026-11-08,,2026-11-08,minimal,,2026-11-09
 6961824067,2668101271,Fling Things and People,,,2026-11-07,,2026-11-07,mild,,2026-11-12
 6989310863,2682938349,Wild Horse Islands,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
-7041939546,2711375305,Catalog Avatar Creator,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-12
+7041939546,2711375305,Catalog Avatar Creator,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
 7117492592,2754593977,[🎃] Realistic Hand RP 🖐🤏 Without VR,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
 7138009149,2765784373,PHIGHTING! [BETA],,,2026-11-07,,2026-11-07,mild,,2026-11-12
 7171174521,2783797267,[📡ANTENNAS📡] American Plains Mudding,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
@@ -866,7 +866,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 79071834805702,6906503978,Art Leap by Belvedere Museum,,,2026-11-07,,,minimal,,
 79084351635266,9859976428,[🍕] ESCAPE BILLY'S PIZZERIA (NEW OBBY),https://tr.rbxcdn.com/180DAY-933c50fce2efb32fdf877e6c903d7bed/150/150/Image/Webp/noFilter,,2026-11-09,,,mild,,2026-11-09
 79096589808390,10731257103,[📱] Guess My App,https://tr.rbxcdn.com/180DAY-3eceefae51ddb01de24c20ce1d2ae92d/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-12
-79122499196822,10772854892,Steal an Omega Hatchers x999,https://tr.rbxcdn.com/180DAY-46f7c99f712116af486806b601fef39e/150/150/Image/Webp/noFilter,,2026-11-08,2026-11-08,,minimal,,2026-11-08
+79122499196822,10772854892,🥚OMEGA HATCHERS X999,https://tr.rbxcdn.com/180DAY-46f7c99f712116af486806b601fef39e/150/150/Image/Webp/noFilter,,2026-11-08,2026-11-08,,minimal,,2026-11-08
 79148536770575,10762730780,Ludo Arena! 🎲 [2-4 Players],https://tr.rbxcdn.com/180DAY-54a01381c52dc8433c144b51521e45dd/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-12
 79176209842622,10273080931,[UPDATE] Floopia Wallhop Tower,https://tr.rbxcdn.com/180DAY-86b2c06bc9979b590254a30bab9e8a92/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-12
 79215483389935,10770592463,Ragdoll Labs 🩸,https://tr.rbxcdn.com/180DAY-40bd9402bf689a5c5a3024dba0479698/150/150/Image/Webp/noFilter,,2026-11-10,2026-11-10,,mild,,2026-11-12
@@ -1903,7 +1903,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 118297934142609,10767355485,[🎙️] Closing Shift,,,2026-11-07,,2026-11-07,mild,,2026-11-12
 118298168947099,10601155553,[🎃] That Freekick Challenge (TFC),,,2026-11-07,,2026-11-07,minimal,,2026-11-09
 118367369949006,6583326485,Ground War,,,2026-11-07,,2026-11-07,mild,,2026-11-12
-118410441439212,10071222736,Candy Stage Tower! 🍬,,2026-04-23T02:48:55Z,2026-11-12,,,minimal,294285,2026-11-12
+118410441439212,10071222736,Candy Stage Tower! 🍬,https://tr.rbxcdn.com/180DAY-b314273d6ff3bdde33528feb85f248cb/150/150/Image/Webp/noFilter,2026-04-23T02:48:55Z,2026-11-12,,,minimal,294285,2026-11-12
 118418618261207,7585140258,RUNAWAYS [beta],,,2026-11-07,,2026-11-07,mild,,2026-11-12
 118447215156914,8156973419,Prism Runway Show💎,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
 118495764531228,10767786311,🏆 MAX TROPHIES,https://tr.rbxcdn.com/180DAY-ee8dc1cb94f0c0ffd3d64ca59240330d/150/150/Image/Webp/noFilter,2026-09-23T23:07:32Z,2026-11-07,,,minimal,1382481,2026-11-12
@@ -2219,7 +2219,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 129786213527176,9035240873,Prove You Are Not a Dum-Dum,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
 129827112113663,7629331599,[🎃] Prospecting! 💎,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
 129852420118632,10770683488,🌈 ARCHANGEL  GAME,https://tr.rbxcdn.com/180DAY-49819b34d3921f5e42df47811073ad92/150/150/Image/Webp/noFilter,2026-10-13T16:19:06Z,2026-11-07,2026-11-07,,minimal,1099931,2026-11-09
-129852792970565,10770707307,[😺UPD] Raise A Catboy,https://tr.rbxcdn.com/180DAY-4d2556aaecd880580dfba63a7eec945a/150/150/Image/Webp/noFilter,2026-10-13T19:11:22Z,2026-11-07,2026-11-07,2026-11-11,minimal,2426630,2026-11-12
+129852792970565,10770707307,Raise A Catboy,https://tr.rbxcdn.com/180DAY-4d2556aaecd880580dfba63a7eec945a/150/150/Image/Webp/noFilter,2026-10-13T19:11:22Z,2026-11-07,2026-11-07,2026-11-11,minimal,2426630,2026-11-12
 129866685202296,7983308985,[🎃] Last Letter 💬,,,2026-11-07,,2026-11-07,mild,,2026-11-12
 129893680281558,10768424786,(تخفيضات!) Tea Seller - بائع الشاي,https://tr.rbxcdn.com/180DAY-f7314a2337bc58dfd3dad1bf36cbfcfe/150/150/Image/Webp/noFilter,2026-09-28T07:54:09Z,2026-11-07,2026-11-07,,minimal,68215,2026-11-12
 129932912185311,8946565814,[UPD4👻] Anime Origins,,,2026-11-11,,2026-11-11,minimal,,2026-11-11
