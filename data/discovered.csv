@@ -273,7 +273,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 8457392226,3232838484,🎶 [RE] RH Dance Studio,https://tr.rbxcdn.com/180DAY-7e5837413a0ceff1b85303f62dc66dc4/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-12
 8481844229,3240075297,Berry Avenue 🏠 RP,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
 8554378337,3262314006,[👊UPD] Weapon Fighting Simulator,,,2026-11-07,,2026-11-07,minimal,,2026-11-10
-8562822414,3264581003,[🎃] Eternal Towers of Hell,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
+8562822414,3264581003,[🎃] Eternal Towers of Hell,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-12
 8571687919,3267012194,LOCOfficial!,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
 8645800315,3289775055,Rural America: Lake Ellis [Alpha],,,2026-11-10,,,minimal,,
 8646026339,3289847355,[❄️ ROPE PLATFORMS!] Tower Creator,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
@@ -316,7 +316,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 10179538382,3734304510,South Bronx: The Trenches❗,,,2026-11-07,,2026-11-07,moderate,,2026-11-12
 10224049386,3746418487,House Tycoon 2,,,2026-11-08,,2026-11-08,minimal,,2026-11-11
 10228136016,3747388906,[5X] Fallen Survival🏹,,,2026-11-07,,2026-11-07,moderate,,2026-11-12
-10253248401,3754482795,Elemental Powers Tycoon,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-12
+10253248401,3754482795,Elemental Powers Tycoon,,,2026-11-07,,2026-11-07,mild,,2026-11-12
 10260193230,3756501373,[UPDATE 4] Meme Sea,,,2026-11-07,,2026-11-07,mild,,2026-11-12
 10277607801,3761186887,Apeirophobia,,,2026-11-08,,2026-11-08,moderate,,2026-11-09
 10424585322,3801413348,⭐ Face Animations [Demo],https://tr.rbxcdn.com/180DAY-40c60da4c1726cc6f114905353bc42c6/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-12
@@ -335,7 +335,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 10888259502,3929033413,Piano Rooms,,,2026-11-07,,,minimal,,
 10905680506,3934229151,Welcome to TechQuest by Computer History Museum,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
 10912405603,3936365689,[HALLOWEEN!] Clover Retribution,,,2026-11-07,,2026-11-07,mild,,2026-11-12
-10925495723,3940660455,🤩NEW Find The SCP Backrooms Rainbow Morphs,https://tr.rbxcdn.com/180DAY-861b7e28d4ee5f2904cef98f4e30ef78/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-11
+10925495723,3940660455,🤩NEW Find The SCP Backrooms Rainbow Morphs,https://tr.rbxcdn.com/180DAY-861b7e28d4ee5f2904cef98f4e30ef78/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-12
 10941514720,3945578236,Chaos Jenga,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 10959918411,3951147015,Studio Lite,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
 10982620122,3958291198,[HALLOWEEN PART 1] Undertale: Last Corridor,,,2026-11-09,,2026-11-09,moderate,,2026-11-12
@@ -366,7 +366,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 11815767793,4181957649,Ultimate Battlegrounds,,,2026-11-07,,2026-11-07,mild,,2026-11-12
 11828997646,4186374809,Locos Online 🚂 🌏,,,2026-11-07,,2026-11-07,minimal,,2026-11-10
 11862502039,4197966812,Seaside RP🏡🌴 City RP,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
-11872917490,4201418016,Fabled Legacy! RPG,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-12
+11872917490,4201418016,Fabled Legacy! RPG,,,2026-11-07,,2026-11-07,mild,,2026-11-12
 11945996815,4228233498,Crazy Cards 🤣,,,2026-11-07,,2026-11-07,mild,,2026-11-09
 11984550654,4240706197,كشتة الربيع (رول بلاي) Saudi-Kashtah,https://tr.rbxcdn.com/180DAY-38805823c20912e61f0dce6287f14af5/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-12
 12068120918,4260784961,Napoleonic Wars,,,2026-11-07,,2026-11-07,moderate,,2026-11-12
@@ -708,7 +708,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 74231131119820,10773109486,Prime Dash [BETA 0.2],https://tr.rbxcdn.com/180DAY-62ff2c5a101186bc795ee79be329d4b1/150/150/Image/Webp/noFilter,,2026-11-08,2026-11-08,,minimal,,2026-11-12
 74244835465756,6818297884,[x5 EXP] Sans AUs Fighter 2,,,2026-11-08,,2026-11-08,mild,,2026-11-12
 74256669508761,8662243497,🐙 Raft 101 Survival,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
-74260430392611,7178032757,[🎉] Rebirth Champions: Ultimate,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-12
+74260430392611,7178032757,[🎉] Rebirth Champions: Ultimate,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
 74271625354615,7448488942,eko Beta Test,,,2026-11-07,,,minimal,,2026-11-08
 74300432420573,10747710159,[💬] Word Battle!,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
 74395953411817,6521100398,Dreamville 🏡 RP [Pets! 😺],,,2026-11-07,,2026-11-07,minimal,,2026-11-12
@@ -1239,7 +1239,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 94503612388426,6935083490,Be Fish,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
 94539932414164,8618660961,(🎃 HALLOWEEN EVENT!) Mojave Valley (Alpha),,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 94629611849859,10701680071,SUNYI [HORROR],https://tr.rbxcdn.com/180DAY-1befda55316380c5746ed715f7b871ea/150/150/Image/Webp/noFilter,2026-08-14T07:21:56Z,2026-11-07,,,minimal,2525571,2026-11-12
-94640181989498,10338952197,[💎GEMS] Grow a Chicken Fighter,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-12
+94640181989498,10338952197,[💎GEMS] Grow a Chicken Fighter,,,2026-11-07,,2026-11-07,mild,,2026-11-12
 94647229517154,6945584306,[🧿 RIN + 🎃] Azure Latch,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
 94675483044457,9155583610,Noobs in Combat [V6.1],https://tr.rbxcdn.com/180DAY-62f9a9a3f569ba4bb7095454c77d6935/150/150/Image/Webp/noFilter,2025-11-12T16:52:23Z,2026-11-08,,,minimal,2979847,2026-11-12
 94687048380719,10371053153,🕷️[500+] Spider-Man Outfits,,,2026-11-08,,,minimal,,
@@ -2104,7 +2104,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 126934081192584,6711224984,[UPDATE!] Robot World - featuring Salvage Safari!,,,2026-11-07,,,mild,,
 126987974021910,10155360168,[GAMEMODES!] Illegal Soccer,,,2026-11-07,,2026-11-07,mild,,2026-11-12
 127014048665608,10770847747,ESCAPE CLUB | Escape Rooms,https://tr.rbxcdn.com/180DAY-c3050035102a8c3a369db80c843665c4/150/150/Image/Webp/noFilter,2026-10-14T11:53:38Z,2026-11-07,,,minimal,181708,2026-11-12
-127099886596040,6579282112,Kite Combat 🪁,,,2026-11-09,,2026-11-09,minimal,,2026-11-09
+127099886596040,6579282112,Kite Combat 🪁,,,2026-11-09,,2026-11-09,minimal,,2026-11-12
 127112779460977,10772210273,Into The Hive,https://tr.rbxcdn.com/180DAY-ed974348590d20fbf88d9ec2f99cf33f/150/150/Image/Webp/noFilter,2026-10-21T09:34:45Z,2026-11-12,,,mild,1502800,2026-11-12
 127135425701849,10769225661,[🌍 2D] Rule The Globe,https://tr.rbxcdn.com/180DAY-557df69c364f5e43070f6cc8541cafd2/150/150/Image/Webp/noFilter,2026-10-03T21:18:42Z,2026-11-08,,,minimal,343847,2026-11-12
 127211126316775,10769075057,Bubu & Dudu Obby 🐼🐻 [1-2 Player],https://tr.rbxcdn.com/180DAY-72b115fdd502af788aabd054cf39cf0d/150/150/Image/Webp/noFilter,2026-10-03T02:01:17Z,2026-11-07,2026-11-07,,minimal,3178889,2026-11-12
