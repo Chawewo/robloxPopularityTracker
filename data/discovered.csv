@@ -191,7 +191,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 6382584061,2369077151,Build to Survive 🛠️ ,,,2026-11-07,,2026-11-07,mild,,2026-11-12
 6383408360,2369519672,Fear Elevator 😱,https://tr.rbxcdn.com/180DAY-d0d130d22d8101c405cab20fa1ba6d9d/150/150/Image/Webp/noFilter,,2026-11-07,,,mild,,2026-11-07
 6403373529,2380077519,[UPDATE⚔️] Slap Battles👏,,,2026-11-07,,2026-11-07,mild,,2026-11-12
-6416498845,2387000728,Centum Laboratories ,,,2026-11-07,,2026-11-07,moderate,,2026-11-12
+6416498845,2387000728,[UPD] Centum Laboratories ,,,2026-11-07,,2026-11-07,moderate,,2026-11-12
 6447798030,2404080894,Funky Friday,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
 6456351776,2408700413,[NEW MAP] Kaiju Paradise,,,2026-11-07,,2026-11-07,mild,,2026-11-12
 6470225972,2416015385,Nowhere Railways • Early Access •,https://tr.rbxcdn.com/180DAY-4ec93a3b1a72e01250e160870718d01a/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-12
@@ -452,7 +452,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 14608970270,5039839070,(ANNIVERSARY) Outcome Memories v0.2,,,2026-11-07,,2026-11-07,moderate,,2026-11-12
 14618179455,5042430067,Build a Rocket VS Mark Rober,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
 14639856040,5048990623,[⏳] Steal TIME for SWORDS,https://tr.rbxcdn.com/180DAY-9bddf318be2ff00614ead8fb1bbaabe5/150/150/Image/Webp/noFilter,,2026-11-07,,,mild,,2026-11-12
-14641667067,5049569843,Titan Tower Defense,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
+14641667067,5049569843,Titan Tower Defense,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-12
 14771338115,5090914273,Buchones Outfits v3,https://tr.rbxcdn.com/180DAY-250aff16e05e3e023a7124c9ff144cdc/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-12
 14772802900,5091490171,[🎥REPLAY] Jailbird,,,2026-11-07,,2026-11-07,moderate,,2026-11-12
 14773138733,5091615162,Backpack Adventure: Find the Animals 🐻,,,2026-11-07,,,minimal,,
@@ -1263,7 +1263,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 94503612388426,6935083490,Be Fish,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
 94539932414164,8618660961,(🎃 HALLOWEEN EVENT!) Mojave Valley (Alpha),,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 94629611849859,10701680071,SUNYI [HORROR],https://tr.rbxcdn.com/180DAY-1befda55316380c5746ed715f7b871ea/150/150/Image/Webp/noFilter,2026-08-14T07:21:56Z,2026-11-07,,,minimal,2525571,2026-11-12
-94640181989498,10338952197,[💎GEMS] Grow a Chicken Fighter,,,2026-11-07,,2026-11-07,mild,,2026-11-12
+94640181989498,10338952197,[💎GEMS] Grow a Chicken Fighter,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-12
 94647229517154,6945584306,[🧿 RIN + 🎃] Azure Latch,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
 94675483044457,9155583610,Noobs in Combat [V6.1],https://tr.rbxcdn.com/180DAY-62f9a9a3f569ba4bb7095454c77d6935/150/150/Image/Webp/noFilter,2025-11-12T16:52:23Z,2026-11-08,,,minimal,2979847,2026-11-12
 94687048380719,10371053153,🕷️[500+] Spider-Man Outfits,,,2026-11-08,,,minimal,,
@@ -1505,7 +1505,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 103593441753340,6495484417,[200] Find The Button! 🔴,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
 103731330407395,7577791613,Chained in Backrooms,,,2026-11-08,,2026-11-08,minimal,,2026-11-12
 103754275310547,7750955984,[STEEL!] Hunty Zombie,,,2026-11-07,,2026-11-07,moderate,,2026-11-12
-103767961452227,10757247806,[SHIPS] Build and Conquer ,,,2026-11-07,,2026-11-07,mild,,2026-11-12
+103767961452227,10757247806,Build and Conquer [V0.2],,,2026-11-07,,2026-11-07,mild,,2026-11-12
 103883942725157,10561352230,+1 Drain Water Per Click,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
 103889722566356,10771924260,Merge a tank,https://tr.rbxcdn.com/180DAY-9b0e8c75924856909b75a1a2f6f5931e/150/150/Image/Webp/noFilter,2026-10-19T14:35:48Z,2026-11-12,2026-11-12,,minimal,859391,2026-11-12
 103921126484906,10772490127,Respect PVP [BETA],https://tr.rbxcdn.com/180DAY-b178937616d25d1a5c44a18ba8d291a0/150/150/Image/Webp/noFilter,2026-10-23T01:48:00Z,2026-11-07,2026-11-07,,mild,294986,2026-11-12
@@ -1550,7 +1550,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 105688896121506,6760897304,3D SPRUNKI SIM ✨ Sprunki Fans,,,2026-11-11,,2026-11-11,minimal,,2026-11-12
 105693218931258,10769555996,[UPD] Scooter Gang [ALPHA],https://tr.rbxcdn.com/180DAY-b9fafa99c42f5dfbd5bfca3ec75d7d6b/150/150/Image/Webp/noFilter,2026-10-05T23:34:18Z,2026-11-07,,,minimal,3873856,2026-11-12
 105724836892064,10431718987,[🐦‍🔥] Merge a Mini  Army,,,2026-11-11,,2026-11-11,minimal,,2026-11-12
-105777072844340,10757297508,[UPD🖤!] Luc1d Matching & Solo Outfits !,https://tr.rbxcdn.com/180DAY-9a2171e2e4745afc499ea8c1370814c8/150/150/Image/Webp/noFilter,2026-08-23T18:42:27Z,2026-11-07,,,minimal,55660,2026-11-11
+105777072844340,10757297508,[UPD🖤!] Luc1d Matching & Solo Outfits !,https://tr.rbxcdn.com/180DAY-9a2171e2e4745afc499ea8c1370814c8/150/150/Image/Webp/noFilter,2026-08-23T18:42:27Z,2026-11-07,,,minimal,55660,2026-11-12
 105916934349181,10768800151,ANALOG 📂[HORROR],,,2026-11-08,,2026-11-08,mild,,2026-11-09
 105935731955936,9893475671,[HUGE UPD🔥] OT7 Football 🏈,https://tr.rbxcdn.com/180DAY-6e42db3c19330303e7f5d2f435493a5f/150/150/Image/Webp/noFilter,2026-03-16T14:28:50Z,2026-11-12,,,minimal,11770856,2026-11-12
 105950169251296,9686425244,[🎃 SPOOKY] HAZBIN HOTEL: Hell's Fortune,https://tr.rbxcdn.com/180DAY-b509fa22b222a112cfc53f9cbf16e06e/150/150/Image/Webp/noFilter,2026-02-07T03:49:22Z,2026-11-08,,,minimal,5856181,2026-11-09
