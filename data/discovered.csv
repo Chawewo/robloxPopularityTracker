@@ -222,7 +222,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 6918802270,2644656496,[HALLOWEEN 🎃] Haze Seas ,,,2026-11-07,,2026-11-07,mild,,2026-11-12
 6924758805,2647834887,🔨 MM2 Aim Trainer,,,2026-11-07,,2026-11-07,mild,,2026-11-11
 6934310111,2652888345,Avatar Simulator,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
-6938803436,2655311011,[🎃] Anime Dimensions,,,2026-11-07,,2026-11-07,mild,,2026-11-12
+6938803436,2655311011,[🎃] Anime Dimensions,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-12
 6939111033,2655478023,Escape Papa Pizza's Pizzeria! (SCARY OBBY),,,2026-11-08,,2026-11-08,minimal,,2026-11-09
 6961824067,2668101271,Fling Things and People,,,2026-11-07,,2026-11-07,mild,,2026-11-12
 6989310863,2682938349,Wild Horse Islands,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
@@ -532,7 +532,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 16910059756,5807622548,RV Cooked? [UPDATE],,,2026-11-07,,2026-11-07,minimal,,2026-11-12
 16916122579,5809308870,Indian Bank Story,https://tr.rbxcdn.com/180DAY-4c7f9021b3aff9b12fd4486e0264683c/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-12
 16927467487,5812546130,"West Coast, Florida",,,2026-11-07,,2026-11-07,minimal,,2026-11-12
-16981421605,5827120940,Reborn As Swordsman,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-12
+16981421605,5827120940,Reborn As Swordsman,,,2026-11-07,,2026-11-07,mild,,2026-11-12
 16991287194,5829613337,something evil will happen [🎃🎃🎃],,,2026-11-07,,2026-11-07,mild,,2026-11-12
 17011057137,5835014039,[HALLOWEEN] New Journey,,,2026-11-07,,2026-11-07,mild,,2026-11-08
 17027058704,5839302258,[HALLOWEEN🎃] Spectral Fades REMAKE,https://tr.rbxcdn.com/180DAY-f817e032f5c4033e69bea80331196d95/150/150/Image/Webp/noFilter,,2026-11-07,,,moderate,,2026-11-08
@@ -681,7 +681,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 72926315136902,10765058272,TRANSFORMERS:DEFENDERS,,,2026-11-07,,,minimal,,2026-11-07
 73101851322368,6937137675,Calla City 🏡 RP [Kids! 👶🏻],,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 73125893126963,10770021080,[Ride] Adopt Your Animal!,,,2026-11-07,2026-11-08,2026-11-07,minimal,,2026-11-09
-73136526659195,9459951439,🛍️ Tiramisu Outfit Catalog,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-12
+73136526659195,9459951439,🛍️ Tiramisu Outfit Catalog,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
 73148702508017,10772947345,ЭЛЛИ [ELLY],https://tr.rbxcdn.com/180DAY-23de18a31c36e6166a8b873178908b44/150/150/Image/Webp/noFilter,,2026-11-11,2026-11-11,,moderate,,2026-11-12
 73153085372622,10172066108,Truck MBG Extreme,,,2026-11-08,,2026-11-08,minimal,,2026-11-10
 73196711512051,10586268297,SCP MORPHS NEW,https://tr.rbxcdn.com/180DAY-9ef46e740cb7bc5f6b147f5e3e5bfe4a/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-12
@@ -733,7 +733,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 74595922690455,10774187603,Quick! Deliver the Baby!,https://tr.rbxcdn.com/180DAY-df891e79a78de8a4b3da8b5604db44d2/150/150/Image/Webp/noFilter,,2026-11-10,2026-11-10,,minimal,,2026-11-11
 74600544691853,10771684661,Drill City: Chicago,https://tr.rbxcdn.com/180DAY-eb439feb99425f46a2820b2ee8ded726/150/150/Image/Webp/noFilter,,2026-11-10,,,moderate,,2026-11-12
 74624534477792,7452857402,[kit kit kit kit] Pad Thai Meme Animation,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
-74629631798007,10759638075,[🍀] Pets Universe! 🐾,,,2026-11-11,,2026-11-11,minimal,,2026-11-11
+74629631798007,10759638075,[🎪] Pets Universe! 🐾,,,2026-11-11,,2026-11-11,minimal,,2026-11-12
 74630098184329,10770582427,SLED SURFERS [WORLD 3🌊],https://tr.rbxcdn.com/180DAY-3261e4797e2466a421396bcde21352fb/150/150/Image/Webp/noFilter,,2026-11-07,2026-11-07,,minimal,,2026-11-07
 74704918243319,10772181577,[UPD] Start Your K-Pop Idol Career,https://tr.rbxcdn.com/180DAY-3b688c71b1c513cbfd2d829223610d1d/150/150/Image/Webp/noFilter,,2026-11-07,2026-11-07,,minimal,,2026-11-12
 74729868188364,9582986239,Fish an Anime RNG 🎲,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
@@ -800,7 +800,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 76954970533505,10725091845,Superhero ability arena,https://tr.rbxcdn.com/180DAY-2e5021ce31a0ca28178807d3dc7afade/150/150/Image/Webp/noFilter,,2026-11-07,2026-11-07,,mild,,2026-11-09
 76957917105133,10772488836,🥚 EGGZ! INFs ADMIN PANEL,https://tr.rbxcdn.com/180DAY-27bbb9f55124e96d361a232df6c24f7d/150/150/Image/Webp/noFilter,,2026-11-09,2026-11-09,,minimal,,2026-11-11
 77013253496192,7848204961,[UPDT] School RP #FR  ,https://tr.rbxcdn.com/180DAY-9c68e4bebcab268e1583373aaced3942/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-12
-77021749781226,7950997475,[Kunigami] Blue Lock: Skibidi,https://tr.rbxcdn.com/180DAY-1cda681ed4808eca4e4547a69b5865d7/150/150/Image/Webp/noFilter,,2026-11-07,,,mild,,2026-11-12
+77021749781226,7950997475,[Kunigami] Blue Lock: Skibidi,https://tr.rbxcdn.com/180DAY-1cda681ed4808eca4e4547a69b5865d7/150/150/Image/Webp/noFilter,,2026-11-07,,,vng-rating-override,,2026-11-12
 77029236360021,10773667387,Be a Teacher!,https://tr.rbxcdn.com/180DAY-8291a72e081eb48640a7228ca1b83896/150/150/Image/Webp/noFilter,,2026-11-08,2026-11-08,,minimal,,2026-11-12
 77106808509772,10769209434,Steal A Bike,https://tr.rbxcdn.com/180DAY-e809c9b834fd7f2cda797348fada3f74/150/150/Image/Webp/noFilter,,2026-11-08,,,minimal,,2026-11-12
 77122167637573,10764297192,Race Stars,https://tr.rbxcdn.com/180DAY-1330d3d3e6f07b74c80ce1436e96033f/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-10
