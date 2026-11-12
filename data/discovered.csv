@@ -99,7 +99,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 3891618314,1325411718,⚓ Harbor Havoc,,,2026-11-07,,2026-11-07,mild,,2026-11-12
 4104106043,1358133289,Insane Elevator!,,,2026-11-07,,2026-11-07,mild,,2026-11-12
 4195834406,1374118848,Dragon Generations,,,2026-11-07,,2026-11-07,mild,,2026-11-12
-4201429814,1375027828,Roblox Creator Challenge,,,2026-11-07,,,minimal,,2026-11-11
+4201429814,1375027828,Roblox Creator Challenge,,,2026-11-07,,,minimal,,2026-11-12
 4282985734,1390601379,Combat Warriors,,,2026-11-07,,2026-11-07,mild,,2026-11-12
 4299508195,1393178180,Polish Car Driving 🚗,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
 4520749081,1451439645,[🐉UPD 11 PART 1🎃] King Legacy,,,2026-11-07,,2026-11-07,mild,,2026-11-12
@@ -762,7 +762,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 76145207802145,10770251720,Get A Grip [UPD] [BETA],https://tr.rbxcdn.com/180DAY-fa451ef365b2facfcd452d6a74a35429/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-08
 76153324611685,9957338123,[UPD] Kart Of Hell,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
 76205942520539,10772041805,Ragdoll MMA🥊[HUGE UPDATE],https://tr.rbxcdn.com/180DAY-860a58612cc79f6eb80507282f741afd/150/150/Image/Webp/noFilter,,2026-11-07,2026-11-07,,mild,,2026-11-12
-76285745979410,9362896961,[⭐UPD] Anime Card Collection,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-12
+76285745979410,9362896961,[⭐UPD] Anime Card Collection,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
 76406337917543,10767808614,Ride An Egg,https://tr.rbxcdn.com/180DAY-805fed52c55cf0d0e2ba0e2082601257/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-12
 76427490154192,10197758650,UPD [NYAWIT🌴] MOUNT LONELY,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
 76457613648658,6704505415,Find The Pou Poos 💩,https://tr.rbxcdn.com/180DAY-a896bfd36712fd4099fb781d8783edea/150/150/Image/Webp/noFilter,,2026-11-07,,,mild,,2026-11-12
@@ -910,7 +910,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 80734098185936,7359962123,An Average Campaign [Alpha v0.5.2],,,2026-11-07,,2026-11-07,mild,,2026-11-12
 80753795320435,9840596428,[EXTENDED] Buy All Free T-Shirts,,,2026-11-07,,,minimal,,2026-11-08
 80761166368092,10493707858,Destroy The Sun ☀️,https://tr.rbxcdn.com/180DAY-0acfaf35309f498cdcbc5a17b57c72b4/150/150/Image/Webp/noFilter,,2026-11-07,,,mild,,2026-11-09
-80858274130963,8157480608,Cursed Troll Tower 💀,https://tr.rbxcdn.com/180DAY-00124a951f77b7b159cd38ad6ca4726f/150/150/Image/Webp/noFilter,,2026-11-07,,,mild,,2026-11-12
+80858274130963,8157480608,Cursed Troll Tower 💀,https://tr.rbxcdn.com/180DAY-00124a951f77b7b159cd38ad6ca4726f/150/150/Image/Webp/noFilter,,2026-11-07,,,vng-rating-override,,2026-11-12
 80959592833753,10638886777,[🎃] 🧈 Stack A Butter Squishy [ASMR],https://tr.rbxcdn.com/180DAY-cfab797080f3560f188e2233e8e8a781/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-12
 80968788477163,10247214642,[🎆]Garba Nights - Indian Karaoke RP,https://tr.rbxcdn.com/180DAY-05ecca9ee41a6c7f16e32b4119b12a43/150/150/Image/Webp/noFilter,,2026-11-09,,,minimal,,2026-11-12
 81065794749401,6489437351,Realistic Farming Experience ,https://tr.rbxcdn.com/180DAY-8b353343a8dbc27f6f41e6ae049bc5c3/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-12
@@ -2293,6 +2293,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 135026674318944,10772102123,Lethal Ape Morphs!,https://tr.rbxcdn.com/180DAY-d44b34a7c856cd9531ed513dab4efacd/150/150/Image/Webp/noFilter,2026-10-20T16:03:57Z,2026-11-07,2026-11-07,,mild,358580,2026-11-12
 135067374368271,10309149229,BeatTok! ,https://tr.rbxcdn.com/180DAY-016caaa85609a250870b98b821476563/150/150/Image/Webp/noFilter,2026-06-11T21:44:50Z,2026-11-07,,,minimal,1701212,2026-11-07
 135069647210029,10769407594,Detect and Steal an Egg,https://tr.rbxcdn.com/180DAY-8684c2cbffde4fa1c6105e90eef45071/150/150/Image/Webp/noFilter,2026-10-04T21:08:08Z,2026-11-07,2026-11-07,,minimal,2323451,2026-11-12
+135073285528385,10774557211,Control a Ragdoll Together! [1-4 Players],https://tr.rbxcdn.com/180DAY-95b346f1dc55f41a2afa4ce83a3a391f/150/150/Image/Webp/noFilter,2026-11-03T19:43:54Z,2026-11-12,2026-11-12,,minimal,257140,2026-11-12
 135155039067698,7780633647,MX WORLD,,,2026-11-08,,2026-11-08,minimal,,2026-11-11
 135172403389029,10625742896,[BIG UPDATE] UNDERTALE: Multiplayer,https://tr.rbxcdn.com/180DAY-f42d7cde6d7c18b30a8f1c6bbc17ceb6/150/150/Image/Webp/noFilter,2026-08-03T19:08:19Z,2026-11-07,,,minimal,2945002,2026-11-07
 135173146661588,10583281866,[X15] +1 Speed Elemental Keyboard Escape,https://tr.rbxcdn.com/180DAY-04f109ddd1969977a3972d737760cd79/150/150/Image/Webp/noFilter,2026-07-28T02:56:20Z,2026-11-08,,,minimal,7248222,2026-11-09
