@@ -57,7 +57,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 2376885433,833209132,[BADLANDS] Vesteria,,,2026-11-07,,2026-11-07,mild,,2026-11-11
 2394257515,839922895,Project Stardust,,,2026-11-07,,2026-11-07,mild,,2026-11-12
 2418863943,850110028,"[NEW 🎃 SPECIAL] Roanoke, VA Driving RP",,,2026-11-07,,2026-11-07,mild,,2026-11-12
-2512643572,892043755,[❄️] Bubble Gum Simulator,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
+2512643572,892043755,[❄️] Bubble Gum Simulator,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-12
 2534724415,903807016,Emergency Response: Liberty County,,,2026-11-07,,2026-11-07,moderate,,2026-11-12
 2551991523,911750776,Broken Bones IV,,,2026-11-07,,2026-11-07,mild,,2026-11-10
 2569453732,918677693,Rise of Nations,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
@@ -344,7 +344,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 11158043705,3990106548,Baddies 💅,,,2026-11-07,,2026-11-07,mild,,2026-11-12
 11232592166,4007686136,Touch Soccer,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
 11328835705,4034530348,Word Search!,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
-11354212711,4041741796,This is Utara [DragMap],https://tr.rbxcdn.com/180DAY-e3fc0984b7f3f201641c40252ece5be0/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-12
+11354212711,4041741796,This is Utara [DragMap],https://tr.rbxcdn.com/180DAY-e3fc0984b7f3f201641c40252ece5be0/150/150/Image/Webp/noFilter,,2026-11-07,,,vng-rating-override,,2026-11-12
 11364087119,4044579438,[🚂] Cart Ride,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
 11379739543,4049246711,🎃 Timebomb Duels [Alpha],,,2026-11-07,,2026-11-07,mild,,2026-11-12
 11380769866,4049540036,Chipeo Paradise ,https://tr.rbxcdn.com/180DAY-059029d564db1c37d3154f22e5593c54/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-12
@@ -356,7 +356,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 11653088948,4130569984,[HALLOWEEN PART 2] Jurassic Blocky,,,2026-11-07,,2026-11-07,mild,,2026-11-12
 11704713454,4145952225,CodeCombat Worlds [Lua Coding RPG],,,2026-11-07,,,minimal,,
 11717233041,4150150482,[2.5X COINS + 16 MIL EVENT] TBSOBR,https://tr.rbxcdn.com/180DAY-f2a2f5a80bffa7ad5b5705954ce3a2f8/150/150/Image/Webp/noFilter,,2026-11-07,,,mild,,2026-11-12
-11729688377,4154513353,Booga Booga [Combat ⚔️],,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-12
+11729688377,4154513353,Booga Booga [Combat ⚔️],,,2026-11-07,,2026-11-07,mild,,2026-11-12
 11755449133,4161745937,Mini Empires,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
 11765402359,4165164803,Clip It 😂🎬👗,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
 11765435020,4165173888,Earth Core Exploration,,,2026-11-08,,,mild,,
@@ -855,7 +855,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 79176209842622,10273080931,[UPDATE] Floopia Wallhop Tower,https://tr.rbxcdn.com/180DAY-86b2c06bc9979b590254a30bab9e8a92/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-12
 79215483389935,10770592463,Ragdoll Labs 🩸,https://tr.rbxcdn.com/180DAY-40bd9402bf689a5c5a3024dba0479698/150/150/Image/Webp/noFilter,,2026-11-10,2026-11-10,,mild,,2026-11-12
 79267089300389,10253446435,[🪓] My Wood Farm ,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
-79268393072444,7395930870,Sell Lemons 🍋,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-12
+79268393072444,7395930870,Sell Lemons 🍋,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
 79345340500110,10766025642,[📖UPD] Steal a Dumpling!,https://tr.rbxcdn.com/180DAY-cb8ff5af47c469dcb2811f24b44d6554/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-08
 79357713998128,10756305102,[BETA] BuddyTime,https://tr.rbxcdn.com/180DAY-e2212e3b7d5eedaa1f7829947fd96ad2/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-08
 79389059854988,10740316645,⛏️ My Anime Mine,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
@@ -950,7 +950,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 82461912126439,8794536584,Overfreight!,,,2026-11-08,,2026-11-08,minimal,,2026-11-10
 82507371901496,10769111944,Beat Up Verity,https://tr.rbxcdn.com/180DAY-cb35ec901c370e71ecf1a9845d291f5b/150/150/Image/Webp/noFilter,,2026-11-07,2026-11-07,,mild,,2026-11-09
 82539019711975,9776222468,[🎃] Cluck or Hide!🐔,,,2026-11-07,,2026-11-07,mild,,2026-11-12
-82686341450515,10768735219,Climb Scary Buddy Tower,https://tr.rbxcdn.com/180DAY-837af7e4d79eaa530cb26f70c559dd3a/150/150/Image/Webp/noFilter,,2026-11-07,,,mild,,2026-11-11
+82686341450515,10768735219,Climb Scary Buddy Tower,https://tr.rbxcdn.com/180DAY-837af7e4d79eaa530cb26f70c559dd3a/150/150/Image/Webp/noFilter,,2026-11-07,,,mild,,2026-11-12
 82756210797896,7457090912,[GOKU & SPIDERMAN] Realistic Outfits & Avatars,,,2026-11-09,,,minimal,,
 82797688803922,9885372266,Unseen Liminality,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
 82835505740239,10767708641,PISTOL DUELS [MASTERY 🏆] ,https://tr.rbxcdn.com/180DAY-f96a5573fb95802e76b546597231287a/150/150/Image/Webp/noFilter,,2026-11-07,,,mild,,2026-11-12
@@ -1937,6 +1937,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 120951586797306,10690942083,🙈 Killer or Innocent,,,2026-11-07,,2026-11-07,moderate,,2026-11-12
 120999655116902,10770775765,Shore Bros,https://tr.rbxcdn.com/180DAY-0d373b92108b4163d62e8b523db15507/150/150/Image/Webp/noFilter,2026-10-14T03:18:37Z,2026-11-11,2026-11-11,,mild,330184,2026-11-12
 121018193679639,10116394455,Would You Rather: Chibi Style Tower 🎀,https://tr.rbxcdn.com/180DAY-3caa795d1749fcd771fbe7e4d56ebe11/150/150/Image/Webp/noFilter,2026-05-03T04:40:46Z,2026-11-07,,,minimal,89806457,2026-11-12
+121026651633542,10770299564,DigCrew,https://tr.rbxcdn.com/180DAY-c12f20592943f53f6c7a5e2e951e9d57/150/150/Image/Webp/noFilter,2026-10-11T03:57:11Z,2026-11-12,,,minimal,570169,2026-11-12
 121130582254786,10771735082,[🎃]Break To Steal A Chicken,https://tr.rbxcdn.com/180DAY-27a5d7c27d0f7134cf835964bb8c5ab6/150/150/Image/Webp/noFilter,2026-10-18T14:12:25Z,2026-11-07,2026-11-07,,minimal,206079,2026-11-12
 121208024528653,9871049410,Connect the Words 💬,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
 121268060261990,9501701013,🚨Suspect,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
