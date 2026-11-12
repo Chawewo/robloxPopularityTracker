@@ -404,7 +404,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 13184713709,4599924264,Teamwork Puzzles (Obby),,,2026-11-07,,2026-11-07,minimal,,2026-11-12
 13270683448,4625143324,[⚽] Score or Save Soccer,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
 13379208636,4658598196,Attack on Titan Revolution,,,2026-11-07,,2026-11-07,mild,,2026-11-12
-13416197699,4669328522,Zooo,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-12
+13416197699,4669328522,Zooo,,,2026-11-07,,2026-11-07,mild,,2026-11-12
 13429790955,4673599750,📚 Murderers vs Sheriffs 2,,,2026-11-07,,2026-11-07,mild,,2026-11-12
 13473615074,4686994428,Boxywood 🏠🌴 RP,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
 13482468151,4689722433,Kitten Game 🐾,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
@@ -455,7 +455,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 14895218677,5131771588,🐈 PAWS Pet Hospital 🐾,https://tr.rbxcdn.com/180DAY-623ad0fbb1ce17ba151a2202e85e86d2/150/150/Image/Webp/noFilter,,2026-11-11,,,minimal,,2026-11-12
 14941296246,5147512977,Lucky Avatars! [Outfits Catalog] ,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
 14948124022,5149622256,[😱NEW] Skibidi Toilet Morphs,https://tr.rbxcdn.com/180DAY-e0eba6d00e76a48458f367fb4bb3d2c0/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-10
-15002061926,5166944221,Death Ball,,,2026-11-07,,2026-11-07,mild,,2026-11-12
+15002061926,5166944221,Death Ball,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-12
 15014439457,5170731021,Demon Blade,https://tr.rbxcdn.com/180DAY-39996e1fe86b501559e89d5fe33e3a02/150/150/Image/Webp/noFilter,,2026-11-07,,,mild,,2026-11-12
 15027718878,5174979552,🚀[Titan] The Space Simulator,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
 15085963991,5198232954,IATS: Community Catalog Outfits,,,2026-11-08,,,minimal,,2026-11-10
@@ -906,7 +906,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 80607040330429,7877723741,Dash World,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
 80617660156189,9747555206,Watch Cringe Peppa movies,,,2026-11-07,,2026-11-07,mild,,2026-11-12
 80623972812214,10766694698,(🎃EARLY BETA) Wheelie Road 🔥,,,2026-11-07,,,minimal,,
-80681221431821,7529591378,[ALPHA] Practical Basketball,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
+80681221431821,7529591378,[ALPHA] Practical Basketball,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-12
 80691750992437,10768502733,+1 Open Sea for Treasure,https://tr.rbxcdn.com/180DAY-de30bb2621476fe5c5dc30ccb589de3d/150/150/Image/Webp/noFilter,,2026-11-09,,,minimal,,2026-11-10
 80711496727566,10771111717,Button Battles,,,2026-11-07,2026-11-07,2026-11-07,mild,,2026-11-12
 80716761679424,9571642997,Wall jumps Into 67,,,2026-11-07,,,minimal,,
@@ -1895,7 +1895,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 119248750585731,10767903282,Merge Squishy Balls [ASMR],https://tr.rbxcdn.com/180DAY-7949d015caf54ce752add8833b1216d2/150/150/Image/Webp/noFilter,2026-09-24T19:29:47Z,2026-11-07,,,minimal,253906,2026-11-12
 119263815547952,10768458048,Army Commander Tycoon [UPDATE 6],,,2026-11-07,,2026-11-07,mild,,2026-11-10
 119269765124983,10770322252,[🚨] Run a Police Station,https://tr.rbxcdn.com/180DAY-c3d016186788f684f49a146025992545/150/150/Image/Webp/noFilter,2026-10-11T07:55:26Z,2026-11-08,,,minimal,86382,2026-11-12
-119271610514030,9491545867,[🎣FISHING] Break a Brainrot Egg!,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
+119271610514030,9491545867,[🎣SOON] Break a Brainrot Egg!,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
 119338513416973,10768634654,(UPD NOW) RNG RollAttacks,https://tr.rbxcdn.com/180DAY-53a988f222eea4a432ed138994492e03/150/150/Image/Webp/noFilter,2026-09-29T19:33:00Z,2026-11-09,,,moderate,435372,2026-11-12
 119339172690037,7134571356,Mini Drifters [BETA],,,2026-11-07,,,minimal,,
 119355263204054,10310563053,[🎃] Keyboard Wars,,,2026-11-11,,2026-11-11,minimal,,2026-11-12
@@ -2363,7 +2363,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 137225606423272,10769324921,💄 Makeup All Stars: Face Card Battles,https://tr.rbxcdn.com/180DAY-a91332bed6ae2eca4e2046a9c5c803bb/150/150/Image/Webp/noFilter,2026-10-04T12:06:22Z,2026-11-07,,2026-11-07,minimal,14794110,2026-11-12
 137226899304623,10475919483,Pitwall Manager🏁,,,2026-11-07,,,minimal,,
 137228775845999,10173311467,[LIMITED] Ghost Driver,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
-137233438285284,10209534490,Chicken Farm 🐣,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-12
+137233438285284,10209534490,Chicken Farm 🐣,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
 137303692488494,7511479008,[Free UGC] Get Your Avatar! ✨,,2025-04-09T08:32:54Z,2026-11-07,,,minimal,5067013,2026-11-11
 137334925228489,9949148856,[FPS] FLING,,,2026-11-07,,2026-11-07,mild,,2026-11-09
 137470666387963,10771101520,Blast Soccer,https://tr.rbxcdn.com/180DAY-24ec003d04410857052d385fb816da7a/150/150/Image/Webp/noFilter,2026-10-15T19:29:30Z,2026-11-10,2026-11-11,,minimal,755819,2026-11-12
