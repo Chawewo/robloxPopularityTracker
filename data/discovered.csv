@@ -485,7 +485,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 15327728308,5286749994,Aftermath 🧟,,,2026-11-07,,2026-11-07,minimal,,2026-11-13
 15352028692,5295169598,Ultimate Home Tycoon 🏠,,,2026-11-07,,2026-11-07,minimal,,2026-11-13
 15408245240,5316084314,Neon District 2051 - Cyberpunk RP,,,2026-11-07,,2026-11-07,minimal,,2026-11-13
-15474504316,5339656333,[FREE UGC⭐] Anime Outfits,,,2026-11-07,,,minimal,,2026-11-12
+15474504316,5339656333,[FREE UGC⭐] Anime Outfits,,,2026-11-07,,,minimal,,2026-11-13
 15507022415,5351168809,Chiquititas - Ray of Light Orphanage 🏫,,,2026-11-07,,2026-11-07,minimal,,2026-11-13
 15516236993,5354625397,Mini Cities 2 ,,,2026-11-07,,2026-11-07,minimal,,2026-11-13
 15532962292,5361032378,Sol's RNG [ Halloween Event 🎃],,,2026-11-07,,2026-11-07,mild,,2026-11-13
@@ -1184,7 +1184,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 91673151576922,10770879065,It Hears The Water [DONT SPLASH],https://tr.rbxcdn.com/180DAY-b1e7bdf2c0bd37b600b6b80fb627bf36/150/150/Image/Webp/noFilter,2026-10-14T15:04:33Z,2026-11-07,2026-11-09,,mild,20081501,2026-11-09
 91704854174760,10189903609,Finish The Word! [ SUMMER ],,,2026-11-07,,2026-11-07,minimal,,2026-11-13
 91707525300130,10482771373,Escape 99 Rooms [2 Player],https://tr.rbxcdn.com/180DAY-8bc6fcd5c15a6c59d8df61790de983f7/150/150/Image/Webp/noFilter,2026-07-11T05:36:41Z,2026-11-10,,,minimal,1073941,2026-11-13
-91708067709254,10769788746,Ro-BassFishing [MASSIVEE UPDATE],https://tr.rbxcdn.com/180DAY-34a6ebf248cf6f8f883ac62ee5fcc6a9/150/150/Image/Webp/noFilter,2026-10-07T20:53:31Z,2026-11-07,,,minimal,3833081,2026-11-13
+91708067709254,10769788746,Ro-BassFishing ,https://tr.rbxcdn.com/180DAY-34a6ebf248cf6f8f883ac62ee5fcc6a9/150/150/Image/Webp/noFilter,2026-10-07T20:53:31Z,2026-11-07,,,minimal,3833081,2026-11-13
 91743724736023,8419109143,Midnight Club 43 (بوزه 70),https://tr.rbxcdn.com/180DAY-65299a36d223dd57792570252eb5ded0/150/150/Image/Webp/noFilter,2025-08-12T14:45:20Z,2026-11-07,,,minimal,2707746,2026-11-13
 91772973144557,6830506509,Highway 65,https://tr.rbxcdn.com/180DAY-f86adb027c80a11c6a332397021ad7eb/150/150/Image/Webp/noFilter,2024-11-23T13:44:24Z,2026-11-07,,,minimal,5035406,2026-11-13
 91783170873958,10764783387,Defend Your Egg! TD 🥚,https://tr.rbxcdn.com/180DAY-cb5ab36ae2111038cbad012bff4177b6/150/150/Image/Webp/noFilter,2026-09-01T23:42:15Z,2026-11-07,,,mild,894076,2026-11-13
@@ -1452,7 +1452,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 101277003916102,10773618503,Hyper Realistic Ragdoll,https://tr.rbxcdn.com/180DAY-53df62d0ff3e6885e50612cdc98e2548/150/150/Image/Webp/noFilter,2026-10-29T08:44:13Z,2026-11-07,2026-11-07,2026-11-11,mild,155658,2026-11-13
 101480963912212,9296252245,[🔥AURA] Phonk Edit Tower 🎶,,,2026-11-07,,2026-11-07,minimal,,2026-11-13
 101670277171204,10219827882,Automate a Restaurant 🍲,https://tr.rbxcdn.com/180DAY-e0bb5b295e54f9a8dbab1df839fc95ef/150/150/Image/Webp/noFilter,2026-05-25T09:05:47Z,2026-11-07,,,minimal,11713973,2026-11-13
-101685456774656,6787216875,Hell Or Heaven,,,2026-11-07,,2026-11-07,mild,,2026-11-12
+101685456774656,6787216875,Hell Or Heaven,,,2026-11-07,,2026-11-07,restricted,,2026-11-13
 101689779936941,8396003586,⚔️ Tiny Troops,,2025-08-10T05:07:10Z,2026-11-07,,,mild,18183095,2026-11-07
 101694313675268,10770259671,Hug Tower & TROLL Traps,https://tr.rbxcdn.com/180DAY-094c4ba66e38cbb649f1c239e8cfcd31/150/150/Image/Webp/noFilter,2026-10-10T21:34:46Z,2026-11-07,2026-11-07,2026-11-11,mild,3392338,2026-11-13
 101723587858956,10132466472,Duckies! 🐤 [2 Player Obby],https://tr.rbxcdn.com/180DAY-8448889a923a2f07b4232c613b764feb/150/150/Image/Webp/noFilter,2026-05-07T03:31:37Z,2026-11-08,,,minimal,55336464,2026-11-09
@@ -2435,7 +2435,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 138046507944353,10772816442,[🍂] Make Soaps! 🧼,https://tr.rbxcdn.com/180DAY-fb89ae363576f982eb68a11a76e0276b/150/150/Image/Webp/noFilter,2026-10-24T20:51:45Z,2026-11-07,2026-11-07,,minimal,358802,2026-11-10
 138086712952726,10773753345,[🚒🚑] FIRE & EMS: Berkshire,https://tr.rbxcdn.com/180DAY-3b7fbec84f6677149a6fceefa920be5f/150/150/Image/Webp/noFilter,2026-10-30T03:21:34Z,2026-11-08,,,minimal,16093,2026-11-13
 138110382920220,10764297006,Pixel Front [PvP],,,2026-11-07,,2026-11-07,minimal,,2026-11-13
-138185582833791,10770252997,[New🎄] Christmas Matching Outfits,https://tr.rbxcdn.com/180DAY-1540743161f71436ea0fb23fc109835b/150/150/Image/Webp/noFilter,2026-10-10T20:46:36Z,2026-11-07,,,minimal,26228,2026-11-12
+138185582833791,10770252997,[New🎄] Christmas Matching Outfits,https://tr.rbxcdn.com/180DAY-1540743161f71436ea0fb23fc109835b/150/150/Image/Webp/noFilter,2026-10-10T20:46:36Z,2026-11-07,,,minimal,26228,2026-11-13
 138205182571367,10329489265,[UPD🖌️] Paint to Hide and Seek!,,,2026-11-07,,2026-11-07,mild,,2026-11-13
 138213346790837,10770850504,[UPD] +1 Speed Monkey keyboard escape,https://tr.rbxcdn.com/180DAY-8a8dd22cb44522d1a4cfcf67d5492be0/150/150/Image/Webp/noFilter,2026-10-14T12:11:25Z,2026-11-08,2026-11-08,,minimal,564847,2026-11-10
 138225905240404,10411121857,DELTARUNE Battles [HALLOWEEN🎃],,,2026-11-07,,2026-11-07,minimal,,2026-11-09
