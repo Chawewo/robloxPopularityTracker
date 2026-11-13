@@ -2,7 +2,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 189707,65241,Natural Disaster Survival,,,2026-11-07,,2026-11-07,minimal,,2026-11-13
 192800,47545,🍕Work at a Pizza Place,,,2026-11-07,,2026-11-07,minimal,,2026-11-13
 9528010,16876831,[Italy] Blood and Iron,,,2026-11-08,,2026-11-08,moderate,,2026-11-10
-13822889,2471084,🌳 Lumber Tycoon 2,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-13
+13822889,2471084,🌳 Lumber Tycoon 2,,,2026-11-07,,2026-11-07,minimal,,2026-11-13
 20321167,21164849,Pilot Training Flight Simulator,,,2026-11-07,,2026-11-07,minimal,,2026-11-13
 21532277,16680835,Notoriety: A PAYDAY® Experience,,,2026-11-07,,2026-11-07,mild,,2026-11-12
 71315343,98929893,[OMEGA] Dragon Ball Rage,,,2026-11-07,,2026-11-07,minimal,,2026-11-13
@@ -136,7 +136,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 5130598377,1782832995,[🎃] A Universal Time 6.4,,,2026-11-07,,2026-11-07,moderate,,2026-11-13
 5133040469,1784051919,[R15 Support] Beat up simulator,,,2026-11-07,,2026-11-07,minimal,,2026-11-13
 5140123832,1787711941,[Su-25] Aircraft Carrier [BETA] ,,,2026-11-07,,2026-11-07,mild,,2026-11-13
-5152425034,1794056685,[🎃] Camper Van 🚐,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-13
+5152425034,1794056685,[🎃] Camper Van 🚐,,,2026-11-07,,2026-11-07,minimal,,2026-11-13
 5233782396,1831550657,🦖 Creatures of Sonaria ✨ Survive Kaiju Animals,,,2026-11-07,,2026-11-07,minimal,,2026-11-13
 5244411056,1836146838,Bloxy Bingo,,,2026-11-09,,2026-11-09,minimal,,2026-11-13
 5286116071,1851087906,[🐶DOGS] Hunting Season [BETA],,,2026-11-07,,2026-11-07,moderate,,2026-11-09
@@ -480,7 +480,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 15251574108,5259044414,[🍬UPD!!] Find The Noobies Morphs,,,2026-11-12,,2026-11-12,minimal,,2026-11-13
 15269951959,5265857965,Legends Battlegrounds,,,2026-11-07,,2026-11-07,mild,,2026-11-13
 15270182488,5265950669,Ultra Toilet Roleplay 2,,,2026-11-07,,2026-11-07,minimal,,2026-11-13
-15288629078,5272606478,[LIMITEDS🚗] Highway Legends,,,2026-11-07,,2026-11-07,minimal,,2026-11-13
+15288629078,5272606478,[COMBOS & POINTS🚗] Highway Legends,,,2026-11-07,,2026-11-07,minimal,,2026-11-13
 15306809513,5279216497,Princess Tycoon 👸,https://tr.rbxcdn.com/180DAY-79ba95d2dd24a653e9e7255c4640d94d/150/150/Image/Webp/noFilter,,2026-11-07,,,mild,,2026-11-13
 15318113891,5283219861,Lethal Ape (The Mines),,,2026-11-07,,2026-11-07,mild,,2026-11-13
 15327728308,5286749994,Aftermath 🧟,,,2026-11-07,,2026-11-07,minimal,,2026-11-13
@@ -2018,7 +2018,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 120219252362013,10766972131,Throw Food For Animals,,,2026-11-07,,2026-11-07,minimal,,2026-11-13
 120227620536802,10767735339,Run For Eggs,,,2026-11-07,,2026-11-07,minimal,,2026-11-13
 120252007682677,10761375767,[🌋🏝️] Surf And Rescue ,,,2026-11-07,,2026-11-07,minimal,,2026-11-13
-120299741604934,10770749098,Grimoires Era [12 HOURS],https://tr.rbxcdn.com/180DAY-cfe5d2c5ed47c5db301e8ad55c4d242c/150/150/Image/Webp/noFilter,2026-10-14T00:43:28Z,2026-11-08,2026-11-08,,mild,97190,2026-11-13
+120299741604934,10770749098,Grimoires Era [2 HOURS],https://tr.rbxcdn.com/180DAY-cfe5d2c5ed47c5db301e8ad55c4d242c/150/150/Image/Webp/noFilter,2026-10-14T00:43:28Z,2026-11-08,2026-11-08,,mild,97190,2026-11-13
 120309659150421,10768533103,[UPD] +1 Spear Throwing,https://tr.rbxcdn.com/180DAY-56fd34d87dbc4c5047a0ef59238855f1/150/150/Image/Webp/noFilter,2026-09-29T00:23:17Z,2026-11-07,2026-11-07,,minimal,2551397,2026-11-13
 120329833999324,9510573507,GUNS VS FNAF,,,2026-11-07,,2026-11-07,moderate,,2026-11-13
 120368946172739,10766015841,Guess the anime color,https://tr.rbxcdn.com/180DAY-997d60c4a6b6619eb9c8a41ac13e7317/150/150/Image/Webp/noFilter,2026-09-11T15:27:46Z,2026-11-11,,,minimal,54515,2026-11-13
