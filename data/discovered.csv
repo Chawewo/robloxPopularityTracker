@@ -99,7 +99,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 3840352284,1316421563,Volleyball 4.2,,,2026-11-07,,2026-11-07,minimal,,2026-11-13
 3851622790,1318971886,Break In (Story),,,2026-11-07,,2026-11-07,minimal,,2026-11-13
 3891618314,1325411718,⚓ Harbor Havoc,,,2026-11-07,,2026-11-07,mild,,2026-11-13
-4104106043,1358133289,Insane Elevator!,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-13
+4104106043,1358133289,Insane Elevator!,,,2026-11-07,,2026-11-07,mild,,2026-11-13
 4195834406,1374118848,Dragon Generations,,,2026-11-07,,2026-11-07,mild,,2026-11-13
 4201429814,1375027828,Roblox Creator Challenge,,,2026-11-07,,,minimal,,2026-11-13
 4282985734,1390601379,Combat Warriors,,,2026-11-07,,2026-11-07,mild,,2026-11-13
@@ -286,7 +286,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 8737899170,3317771874,🎭 [MINIGAMES] Pet Simulator 99! 🎃,,,2026-11-07,,2026-11-07,minimal,,2026-11-13
 8838701772,3346892457,SCP Monsters or Trevor Creatures,,,2026-11-07,,2026-11-07,mild,,2026-11-13
 8848607186,3349588628,Digital Piano 🎹,,,2026-11-07,,2026-11-07,minimal,,2026-11-13
-8884433153,3359505957,Collect All Pets!,,,2026-11-07,,2026-11-07,minimal,,2026-11-13
+8884433153,3359505957,Collect All Pets!,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-13
 9096881148,3419284255,Peroxide [🎃Halloween👻],,,2026-11-07,,2026-11-07,moderate,,2026-11-08
 9099326192,3420059569,GREAT SCHOOL BREAKOUT! (First Person Obby),,,2026-11-07,,2026-11-07,minimal,,2026-11-13
 9103898828,3421408084,Rogue Demon,,,2026-11-12,,2026-11-12,mild,,2026-11-13
@@ -537,7 +537,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 16910059756,5807622548,RV Cooked? [UPDATE],,,2026-11-07,,2026-11-07,minimal,,2026-11-13
 16916122579,5809308870,Indian Bank Story,https://tr.rbxcdn.com/180DAY-4c7f9021b3aff9b12fd4486e0264683c/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-13
 16927467487,5812546130,"West Coast, Florida",,,2026-11-07,,2026-11-07,minimal,,2026-11-13
-16981421605,5827120940,Reborn As Swordsman,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-13
+16981421605,5827120940,Reborn As Swordsman,,,2026-11-07,,2026-11-07,mild,,2026-11-13
 16991287194,5829613337,something evil will happen [🎃🎃🎃],,,2026-11-07,,2026-11-07,mild,,2026-11-13
 17011057137,5835014039,[HALLOWEEN] New Journey,,,2026-11-07,,2026-11-07,mild,,2026-11-08
 17027058704,5839302258,[HALLOWEEN🎃] Spectral Fades REMAKE,https://tr.rbxcdn.com/180DAY-f817e032f5c4033e69bea80331196d95/150/150/Image/Webp/noFilter,,2026-11-07,,,moderate,,2026-11-08
@@ -622,7 +622,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 70650894743738,10769957062,Bug Evolution [☀️],,,2026-11-07,2026-11-07,2026-11-07,mild,,2026-11-13
 70670854739587,10482775464,[🎃] Bad Guy Mystery,,,2026-11-07,,2026-11-07,mild,,2026-11-13
 70678684254072,10101087598,KATSEYE: COACHELLA,https://tr.rbxcdn.com/180DAY-af2b31a4bac62b83b9edf24beb630678/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-13
-70733580049633,10725799494,Wash the Car 🧽,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-13
+70733580049633,10725799494,Wash the Car 🧽,,,2026-11-07,,2026-11-07,minimal,,2026-11-13
 70756739170479,10769884871,Car Tower Defense 🚗,https://tr.rbxcdn.com/180DAY-17bad4c1a2ffe0ed2edc1bc875b4220b/150/150/Image/Webp/noFilter,,2026-11-10,,,minimal,,2026-11-13
 70771995853821,9371639838,Last letter 💬,https://tr.rbxcdn.com/180DAY-51092396798377c9f78b1b86a5a8ba8b/150/150/Image/Webp/noFilter,,2026-11-07,,,mild,,2026-11-13
 70790608070182,10773661562,SAE RP World,https://tr.rbxcdn.com/180DAY-4396a7da8dbd34e237f0567b30ef9ec9/150/150/Image/Webp/noFilter,,2026-11-10,2026-11-10,,minimal,,2026-11-13
@@ -2498,7 +2498,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 139571938533204,7587104675,Baltic Sea Simulator │BETA [MOBILE SUPPORT],,2025-04-23T12:01:10Z,2026-11-07,,,minimal,715090,2026-11-12
 139601131965795,10773433264,Superhero Universe,https://tr.rbxcdn.com/180DAY-98a3c57477dcbf4230869d3152e7dbee/150/150/Image/Webp/noFilter,2026-10-28T03:20:03Z,2026-11-13,2026-11-13,,mild,537242,2026-11-13
 139611482808453,10770197883,🎬 Make a Cartoon!,https://tr.rbxcdn.com/180DAY-e7fc6e3c40f0725714e79db9aca04d9b/150/150/Image/Webp/noFilter,2026-10-10T15:06:23Z,2026-11-07,2026-11-07,2026-11-07,minimal,7274102,2026-11-07
-139705352041000,10628006421,[🧠] Catdoku,https://tr.rbxcdn.com/180DAY-02388d8b52c384eb1bc5c0595ac66fd9/150/150/Image/Webp/noFilter,2026-08-04T05:43:07Z,2026-11-07,,,vng-rating-override,9660710,2026-11-13
+139705352041000,10628006421,[🧠] Catdoku,https://tr.rbxcdn.com/180DAY-02388d8b52c384eb1bc5c0595ac66fd9/150/150/Image/Webp/noFilter,2026-08-04T05:43:07Z,2026-11-07,,,minimal,9660710,2026-11-13
 139707731553337,10768409236,World of Nukes💥,https://tr.rbxcdn.com/180DAY-475827d7e23bd2d59913840cdd2da307/150/150/Image/Webp/noFilter,2026-09-28T03:23:31Z,2026-11-07,,,mild,5914961,2026-11-13
 139708186687323,6919822640,Sprunki RP 3D [VERITY],,,2026-11-07,,2026-11-07,minimal,,2026-11-13
 139917699782531,10773031983,[CHP 4] That's NOT My Mom 👩🏼‍🦰,https://tr.rbxcdn.com/180DAY-7b58e7acd66130f52a29e4d6961ec709/150/150/Image/Webp/noFilter,2026-10-25T23:15:19Z,2026-11-07,2026-11-07,,minimal,2354699,2026-11-13
