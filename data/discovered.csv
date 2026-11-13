@@ -71,7 +71,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 2768379856,1000233041,3008 [2.75],,,2026-11-07,,2026-11-07,minimal,,2026-11-13
 2772610559,1001911915,Farming and Friends,,,2026-11-07,,2026-11-07,minimal,,2026-11-13
 2788229376,1008451066,[🦃] Da Hood,,,2026-11-07,,2026-11-07,moderate,,2026-11-13
-2809202155,1016936714,🎃 Your Bizarre Adventure 🎃,,,2026-11-07,,2026-11-07,moderate,,2026-11-13
+2809202155,1016936714,🎃 Your Bizarre Adventure 🎃,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-13
 2872154782,1039663363,Clover's Deltarune RP,https://tr.rbxcdn.com/180DAY-8a8a34e7f41c2b76b24c91b7b6b80ba4/150/150/Image/Webp/noFilter,,2026-11-11,,,minimal,,2026-11-13
 2916899287,1054526971,Blackhawk Rescue Mission 5,,,2026-11-07,,2026-11-07,moderate,,2026-11-13
 3016661674,1087859240,[🎃] Rogue Lineage,,,2026-11-07,,2026-11-07,moderate,,2026-11-13
@@ -510,7 +510,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 16039690331,5544551093,Secret Killer,,,2026-11-12,,2026-11-12,mild,,2026-11-13
 16057679366,5550530788,easiest game ever!,,,2026-11-07,,2026-11-07,minimal,,2026-11-13
 16115051360,5568657754,Gun and Armor Testing ,,,2026-11-07,,2026-11-07,mild,,2026-11-12
-16116270224,5569032992,🌙 Dandy's World [ALPHA],,,2026-11-07,,2026-11-07,mild,,2026-11-13
+16116270224,5569032992,🌻 Dandy's World [ALPHA],,,2026-11-07,,2026-11-07,mild,,2026-11-13
 16141640360,5576890130,[NEW] Skateboard of Hell Obby,,,2026-11-07,,2026-11-07,minimal,,2026-11-13
 16146832113,5578556129,Vanguards: Trail of the Saint,,,2026-11-07,,2026-11-07,minimal,,2026-11-13
 16154918775,5580972377,[UPD] 🎃 BUCKSHOT,,,2026-11-07,,2026-11-07,mild,,2026-11-13
@@ -720,7 +720,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 74102906764176,10440833423,Greedy Growers 🌱,,,2026-11-07,,2026-11-07,minimal,,2026-11-13
 74122653145285,10765618402,Steel Fighters,,,2026-11-07,2026-11-07,2026-11-07,minimal,,2026-11-12
 74138649591015,10753847141,Meet Spiderman,https://tr.rbxcdn.com/180DAY-6576768716e346c9aa8bf40e5f3d8431/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-08
-74150363564411,10768114929,Boss Fight For Eggs,https://tr.rbxcdn.com/180DAY-e58bdccc84cefa73b6adc35b17c6fc69/150/150/Image/Webp/noFilter,,2026-11-07,2026-11-07,,mild,,2026-11-12
+74150363564411,10768114929,Boss Fight For Eggs,https://tr.rbxcdn.com/180DAY-e58bdccc84cefa73b6adc35b17c6fc69/150/150/Image/Webp/noFilter,,2026-11-07,2026-11-07,,mild,,2026-11-13
 74164633882084,10771124452,TROLL Jail Hug Tower,https://tr.rbxcdn.com/180DAY-91c309994ef12b10d0e56bc6c377022d/150/150/Image/Webp/noFilter,,2026-11-07,2026-11-07,2026-11-11,mild,,2026-11-13
 74183246285569,10770228857,[⚡] Steal a Superpower!,https://tr.rbxcdn.com/180DAY-779569dd2e881a757e029c3676924c36/150/150/Image/Webp/noFilter,,2026-11-07,2026-11-07,2026-11-07,mild,,2026-11-13
 74188431054457,9978329815,Mukbang Game [Testing]🫓🍲!,,,2026-11-07,,2026-11-07,minimal,,2026-11-13
