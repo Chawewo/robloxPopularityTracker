@@ -259,7 +259,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 8034026074,3097803944,Easy Glass Bridge (Possible Squid Game),,,2026-11-07,,2026-11-07,minimal,,2026-11-14
 8067158534,3107874866,[VOICE🔊] Rap Battles 🔥,,,2026-11-08,,2026-11-08,minimal,,2026-11-14
 8075399143,3110388936,[Autumn PT.3 + Reanimation Technique🎃] Ninja Time,,,2026-11-07,,2026-11-07,mild,,2026-11-14
-8087448382,3114128441,[🍁SEASON 1🍁] GreenPeak | BIKE PARK,,,2026-11-07,,2026-11-07,minimal,,2026-11-13
+8087448382,3114128441,GreenPeak | BIKE PARK,,,2026-11-07,,2026-11-07,minimal,,2026-11-14
 8246874626,3164075108,[🎃] Dragon Soul | Anime MMO 🐲,,,2026-11-07,,2026-11-07,mild,,2026-11-14
 8248164019,3164482049,[🎃HALLOWEEN!] Clover RPG,,,2026-11-07,,2026-11-07,moderate,,2026-11-14
 8253643436,3166350952,[HOLY UPDATE 🪽] Depth Spelunking,,,2026-11-08,,2026-11-08,minimal,,2026-11-12
@@ -419,7 +419,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 13621938427,4730278139,[🎃] untitled boxing game🥊,,,2026-11-07,,2026-11-07,mild,,2026-11-14
 13664698400,4743794878,The Classic Soccer,,,2026-11-07,,2026-11-07,minimal,,2026-11-14
 13687899540,4750561026,Cold War [SOUNDS],,,2026-11-07,,2026-11-07,moderate,,2026-11-14
-13705777238,4756434078,Bus Driver Vietnam 2,https://tr.rbxcdn.com/180DAY-e02223a4b41f63e17a59a920fb612d3d/150/150/Image/Webp/noFilter,2023-06-10T05:05:02Z,2026-11-07,,,minimal,312828338,2026-11-14
+13705777238,4756434078,Bus Driver Vietnam 2,https://tr.rbxcdn.com/180DAY-e02223a4b41f63e17a59a920fb612d3d/150/150/Image/Webp/noFilter,2023-06-10T05:05:02Z,2026-11-07,,,vng-rating-override,312828338,2026-11-14
 13728135146,4763821055,roblox size comparison,,2023-06-12T04:38:10Z,2026-11-07,,,minimal,1850325,2026-11-10
 13730658693,4764717084,Rec It,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 13755196581,4772345874,📸PhotoShoot Scenes,,,2026-11-07,,2026-11-07,minimal,,2026-11-14
@@ -437,7 +437,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 14056754882,4867910507,Flex Your UGC Limiteds,,,2026-11-07,,2026-11-07,minimal,,2026-11-14
 14172431401,4905293690,The Horse Game [FREE WEEKEND ACCESS],,,2026-11-07,,,minimal,,2026-11-14
 14236123211,4924516231,[🎃]Punch Simulator 👊[FREE UGC],,,2026-11-07,,2026-11-07,mild,,2026-11-13
-14259168147,4931927012,[🎃]🏀Basketball Legends🏀,,,2026-11-07,,2026-11-07,minimal,,2026-11-14
+14259168147,4931927012,[UPD]🏀Basketball Legends🏀,,,2026-11-07,,2026-11-07,minimal,,2026-11-14
 14279693118,4938220315,[ACT 3] Skibi Defense,,,2026-11-09,,2026-11-09,minimal,,2026-11-12
 14301835518,4944984948,Team School Breakout! (TEAMWORK OBBY),,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-14
 14315258385,4949420752,Realistic Street Soccer,,,2026-11-07,,2026-11-07,minimal,,2026-11-14
@@ -1341,7 +1341,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 96151197088731,10514978482,Ritmada Ball [UPDATE📢],https://tr.rbxcdn.com/180DAY-4f3e0a2a3e91df97e0211bf344e5ba73/150/150/Image/Webp/noFilter,2026-07-16T21:47:42Z,2026-11-07,,,minimal,700507,2026-11-14
 96151237893653,8842956505,Brainrot Royale 👑,,,2026-11-07,,2026-11-07,minimal,,2026-11-14
 96168869671905,9472441390,[🎃] 💎 ROB IT,,,2026-11-09,,2026-11-09,minimal,,2026-11-09
-96280251181127,9496852407,⚔️Build to Defend Loot,,,2026-11-07,,2026-11-07,minimal,,2026-11-14
+96280251181127,9496852407,⚔️Build to Defend Loot,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-14
 96329519553919,10771450807,WarFront [AIRPORT],https://tr.rbxcdn.com/180DAY-b4761ce64717620f234d1db25bf8675f/150/150/Image/Webp/noFilter,2026-10-17T09:55:18Z,2026-11-07,2026-11-09,,minimal,504569,2026-11-14
 96384896875593,7223396421,Memory Murder,https://tr.rbxcdn.com/180DAY-bc6eddb3b24e1cbeef620c678fc9cb1d/150/150/Image/Webp/noFilter,2025-02-10T05:32:25Z,2026-11-07,,,minimal,42952250,2026-11-14
 96414749635381,10765444160,[🧉BREWER] Breach the Bastion: Spire Deck Builder,https://tr.rbxcdn.com/180DAY-e5294234c6a1303bf076a61c3d0da54f/150/150/Image/Webp/noFilter,2026-09-06T16:44:04Z,2026-11-10,,,mild,1164610,2026-11-14
@@ -2023,7 +2023,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 120130810954904,10770431439,7 Days as a Pet [🏡NEIGHBORHOOD PT.1],https://tr.rbxcdn.com/180DAY-ac79d5ee24644d9628f363699bb82eeb/150/150/Image/Webp/noFilter,2026-10-11T20:11:33Z,2026-11-07,2026-11-07,,minimal,5697613,2026-11-13
 120135584963579,8791358380,Don’t Steal the Bobo 🐻,,,2026-11-07,,2026-11-07,mild,,2026-11-09
 120189115846709,10090256806,TTK Testing [NEW WEAPONS],,,2026-11-07,,2026-11-07,moderate,,2026-11-14
-120217704230083,8937254139,Dungeon Hunters [UPD],,,2026-11-07,,2026-11-07,mild,,2026-11-14
+120217704230083,8937254139,Dungeon Hunters [UPD],,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-14
 120219252362013,10766972131,Throw Food For Animals,,,2026-11-07,,2026-11-07,minimal,,2026-11-14
 120227620536802,10767735339,Run For Eggs,,,2026-11-07,,2026-11-07,minimal,,2026-11-14
 120252007682677,10761375767,[🌋🏝️] Surf And Rescue ,,,2026-11-07,,2026-11-07,minimal,,2026-11-13
@@ -2406,7 +2406,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 134162299584012,10452740285,Build a Gun Army,,,2026-11-07,,2026-11-07,minimal,,2026-11-14
 134208374070897,10624691669,MONOCHROME👁️,,,2026-11-07,,2026-11-07,mild,,2026-11-14
 134236830050671,10768781474,Gakusen,https://tr.rbxcdn.com/180DAY-c640ee38398a804cbb112e5cc2efa47d/150/150/Image/Webp/noFilter,2026-09-30T22:12:18Z,2026-11-11,,,mild,1017305,2026-11-14
-134257874794717,6925369391,Capybara Evolution,,,2026-11-07,,2026-11-07,mild,,2026-11-14
+134257874794717,6925369391,Capybara Evolution,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-14
 134261685169482,10129330093,[FREE TITLE FREE AVA] MOUNT ASTRAEL V2,https://tr.rbxcdn.com/180DAY-879f310b1a5886c1806857e611c16bd8/150/150/Image/Webp/noFilter,2026-05-06T07:41:07Z,2026-11-11,,,minimal,948819,2026-11-13
 134351095853660,6771929557,Unions: Crash Test [Random Cars Update],https://tr.rbxcdn.com/180DAY-0894558562e7f94a8b5684566a982fcc/150/150/Image/Webp/noFilter,2024-11-08T13:06:43Z,2026-11-11,,,minimal,14855399,2026-11-14
 134360023649587,9520692022,[UPD] Save Your Friend!,,,2026-11-07,,2026-11-07,minimal,,2026-11-10
