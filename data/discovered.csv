@@ -90,7 +90,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 3360073263,1204338704,PTR,,,2026-11-07,,,mild,,
 3408507762,1217298587,Click the Flag 🌍,,,2026-11-07,,2026-11-07,minimal,,2026-11-14
 3457390032,1230230722,Club Roblox RP 💗,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
-3475397644,1235188606,[GUILDS] Dragon Adventures 🐉,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-14
+3475397644,1235188606,[GUILDS] Dragon Adventures 🐉,,,2026-11-07,,2026-11-07,minimal,,2026-11-14
 3540051865,1250803741,Windgate,,,2026-11-07,,,minimal,,
 3623096087,1268927906,💪Muscle Legends,,,2026-11-07,,2026-11-07,mild,,2026-11-13
 3663340706,1278035280,Warrior Cats: Ultimate Edition,,,2026-11-07,,2026-11-07,minimal,,2026-11-14
@@ -195,7 +195,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 6447798030,2404080894,[Step Right Up] Funky Friday,,,2026-11-07,,2026-11-07,minimal,,2026-11-14
 6456351776,2408700413,[NEW MAP] Kaiju Paradise,,,2026-11-07,,2026-11-07,mild,,2026-11-14
 6470225972,2416015385,Nowhere Railways • Early Access •,https://tr.rbxcdn.com/180DAY-4ec93a3b1a72e01250e160870718d01a/150/150/Image/Webp/noFilter,2021-03-03T17:02:52Z,2026-11-07,,,minimal,8163611,2026-11-14
-6507422231,2435789930,Twilight Daycare!✨RP [Trick or Treat🎃],,,2026-11-07,,2026-11-07,minimal,,2026-11-14
+6507422231,2435789930,Twilight Daycare!✨RP [Trick or Treat🎃],,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-14
 6508410616,2436339344,💥MECH SMASH💥Anime Fighting Simulator,https://tr.rbxcdn.com/180DAY-4323a579ae51f16d9a210da508613e58/150/150/Image/Webp/noFilter,2021-03-12T15:16:28Z,2026-11-07,,,mild,57382955,2026-11-14
 6516141723,2440500124,DOORS 👁️,,,2026-11-07,,2026-11-07,mild,,2026-11-14
 6517164676,2441058607,Catalog Color: Avatar Outfit Creator,https://tr.rbxcdn.com/180DAY-557ad5f20ede03cef3eef36b0d70f50f/150/150/Image/Webp/noFilter,2021-03-14T08:16:47Z,2026-11-07,,,minimal,50180553,2026-11-14
@@ -512,7 +512,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 16115051360,5568657754,Gun and Armor Testing ,,,2026-11-07,,2026-11-07,mild,,2026-11-12
 16116270224,5569032992,🌻 Dandy's World [ALPHA],,,2026-11-07,,2026-11-07,mild,,2026-11-14
 16141640360,5576890130,[NEW] Skateboard of Hell Obby,,,2026-11-07,,2026-11-07,minimal,,2026-11-14
-16146832113,5578556129,Vanguards: Trail of the Saint,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-14
+16146832113,5578556129,Vanguards: Trail of the Saint,,,2026-11-07,,2026-11-07,minimal,,2026-11-14
 16154918775,5580972377,[UPD] 🎃 BUCKSHOT,,,2026-11-07,,2026-11-07,mild,,2026-11-14
 16205713724,5595353122,[🕸️🎃Update] Slayers 2,,,2026-11-07,,2026-11-07,mild,,2026-11-14
 16389395869,5650396773,a dusty trip [🚗CAR],,,2026-11-07,,2026-11-07,minimal,,2026-11-14
@@ -598,7 +598,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 18537079992,6280758286,Армия Роблокса РП,,,2026-11-07,,2026-11-07,mild,,2026-11-09
 18651214797,6319412433,Find The Pou Babies,https://tr.rbxcdn.com/180DAY-f9f3f2a91ae00c09c05d9194174a4ab1/150/150/Image/Webp/noFilter,2024-07-25T16:16:50Z,2026-11-07,,,minimal,667899,2026-11-13
 18666738837,6324644175,Death Order: Simon Says,,,2026-11-07,,2026-11-07,mild,,2026-11-14
-18668065416,6325068386,[Karasu🐦‍⬛] Blue Lock: Rivals,,,2026-11-07,,2026-11-07,minimal,,2026-11-14
+18668065416,6325068386,[Karasu🐦‍⬛] Blue Lock: Rivals,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-14
 18687417158,6331902150,Forsaken,,,2026-11-07,,2026-11-07,mild,,2026-11-14
 18753889337,6353751159,Main Street 🏡RP,,,2026-11-07,,2026-11-07,minimal,,2026-11-14
 18758755773,6355251723,Threadville 🧵,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
@@ -1778,7 +1778,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 111989938562194,7332711118,Brainrot Evolution,,,2026-11-07,,2026-11-07,mild,,2026-11-14
 112038493521489,10768464559,Control The World 👑,https://tr.rbxcdn.com/180DAY-15e96caac9bf9c8536b7ef874e84a810/150/150/Image/Webp/noFilter,2026-09-28T15:42:50Z,2026-11-07,,,minimal,4255301,2026-11-14
 112050560592995,10202515720,Undertale Multiverse Simulator 1.5,https://tr.rbxcdn.com/180DAY-d68abe487623d21bcfd81f1b3101ce0f/150/150/Image/Webp/noFilter,2026-05-22T08:01:00Z,2026-11-07,,,mild,3539623,2026-11-13
-112107733863518,9501409571,Cursed Blade[ALPHA],,,2026-11-07,,2026-11-07,mild,,2026-11-14
+112107733863518,9501409571,Cursed Blade[ALPHA],,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-14
 112114621008524,9076692567,[CATALOG🛍️] UGC Creator 🎨,,,2026-11-07,,2026-11-07,minimal,,2026-11-14
 112130209541489,8005378926,Catalog Avatar Editor,https://tr.rbxcdn.com/180DAY-2d6f397bfb673d99e3e90fffc3973012/150/150/Image/Webp/noFilter,2025-06-26T18:09:37Z,2026-11-07,,,minimal,43893641,2026-11-14
 112146301142141,10774646539,Run a Christmas Tree Lot,https://tr.rbxcdn.com/180DAY-67c23cba549244cbf37f85f42ac47041/150/150/Image/Webp/noFilter,2026-11-04T12:07:14Z,2026-11-11,2026-11-11,,minimal,878046,2026-11-14
@@ -2101,7 +2101,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 122810668390458,10768971634,STRIKER BOYZ! ( NEW CARS! ),https://tr.rbxcdn.com/180DAY-21b73614818c90ebdbf952eaadd44719/150/150/Image/Webp/noFilter,2026-10-02T10:51:08Z,2026-11-10,,,minimal,225470,2026-11-14
 122840796290491,10767138232,Kukirin Life [Testing],,,2026-11-07,,2026-11-07,minimal,,2026-11-14
 122895181244406,10766667627,[UPD 4] Shoot That Fish,https://tr.rbxcdn.com/180DAY-56b92f0e9fec1233516d989f9c93fd96/150/150/Image/Webp/noFilter,2026-09-16T11:36:43Z,2026-11-07,,,minimal,965246,2026-11-14
-122902171482835,9754968779,+1 Health Per Click,,,2026-11-08,,2026-11-08,minimal,,2026-11-14
+122902171482835,9754968779,+1 Health Per Click,,,2026-11-08,,2026-11-08,vng-rating-override,,2026-11-14
 122988425590528,8348702748,[NEW] Soccer Freekick Duels,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
 123000804394748,8019620353,[🌊] EPIC: The Musical [OPEN TECH],https://tr.rbxcdn.com/180DAY-4f4e2bd4261152578bb06b30f4845eab/150/150/Image/Webp/noFilter,2025-06-28T12:34:08Z,2026-11-08,,,minimal,4784273,2026-11-13
 123005846306980,9791668275,Brainrot Movies,https://tr.rbxcdn.com/180DAY-fdb2182829a00d4d089a06cf3263c921/150/150/Image/Webp/noFilter,2026-02-24T21:09:48Z,2026-11-07,,,moderate,16475100,2026-11-14
