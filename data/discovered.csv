@@ -100,7 +100,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 3851622790,1318971886,Break In (Story),,,2026-11-07,,2026-11-07,minimal,,2026-11-14
 3891618314,1325411718,⚓ Harbor Havoc,,,2026-11-07,,2026-11-07,mild,,2026-11-14
 4104106043,1358133289,Insane Elevator!,,,2026-11-07,,2026-11-07,mild,,2026-11-14
-4195834406,1374118848,Dragon Generations,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-14
+4195834406,1374118848,Dragon Generations,,,2026-11-07,,2026-11-07,mild,,2026-11-14
 4201429814,1375027828,Roblox Creator Challenge,,2019-10-24T17:04:49Z,2026-11-07,,,minimal,79234871,2026-11-14
 4282985734,1390601379,Combat Warriors,,,2026-11-07,,2026-11-07,mild,,2026-11-14
 4299508195,1393178180,Polish Car Driving 🚗,,,2026-11-07,,2026-11-07,minimal,,2026-11-14
@@ -152,11 +152,11 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 5683833663,2007050448,RAGDOLL. ENGINE!!! 😡,,,2026-11-07,,2026-11-07,minimal,,2026-11-14
 5702593762,2017809925,"Climb 1,000 Stairs",,,2026-11-07,,2026-11-07,minimal,,2026-11-14
 5708035517,2020908522,Mega Hide and Seek!,,,2026-11-12,,2026-11-12,minimal,,2026-11-14
-5712833750,2023680558,Animal Simulator [🐉 DRAGONS + PETS!],,,2026-11-07,,2026-11-07,mild,,2026-11-14
+5712833750,2023680558,Animal Simulator [🐉 DRAGONS + PETS!],,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-14
 5716123942,2025565382,Untamed Animals,,,2026-11-07,,,minimal,,
 5720801512,2027832238,한국 머더,,,2026-11-07,,2026-11-07,mild,,2026-11-12
 5766084948,2045231132,SCP: The Red Lake [BIGGEST UPDATE EVER 🔥 🔥 ],,,2026-11-07,,2026-11-07,moderate,,2026-11-14
-5777099015,2049551477,Cheese Escape [Horror],,,2026-11-07,,2026-11-07,mild,,2026-11-14
+5777099015,2049551477,Cheese Escape [Horror],,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-14
 5814304937,2065706268,Outfit Loader Testing Place,,,2026-11-07,,2026-11-07,minimal,,2026-11-14
 5829141886,2073329983,JOBS | Realistic Car Driving™,,,2026-11-07,,2026-11-07,minimal,,2026-11-14
 5856880701,2087494287,Mermaid Testing 🥭,,,2026-11-07,,2026-11-07,minimal,,2026-11-14
@@ -190,7 +190,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 6377740507,2366560560,[STICKERS] Miraculous™ RP: Ladybug & Cat Noir,,,2026-11-07,,2026-11-07,minimal,,2026-11-14
 6382584061,2369077151,Build to Survive 🛠️ ,,,2026-11-07,,2026-11-07,mild,,2026-11-14
 6383408360,2369519672,Fear Elevator 😱,https://tr.rbxcdn.com/180DAY-d0d130d22d8101c405cab20fa1ba6d9d/150/150/Image/Webp/noFilter,2021-02-12T15:58:16Z,2026-11-07,,,mild,25853995,2026-11-13
-6403373529,2380077519,[UPDATE🔪] Slap Battles👏,,,2026-11-07,,2026-11-07,mild,,2026-11-14
+6403373529,2380077519,[UPDATE🔪] Slap Battles👏,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-14
 6416498845,2387000728,[UPD] Centum Laboratories ,,,2026-11-07,,2026-11-07,moderate,,2026-11-14
 6447798030,2404080894,[Step Right Up] Funky Friday,,,2026-11-07,,2026-11-07,minimal,,2026-11-14
 6456351776,2408700413,[NEW MAP] Kaiju Paradise,,,2026-11-07,,2026-11-07,mild,,2026-11-14
@@ -258,7 +258,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 7998589447,3087415864,[ALL AGES] Down in the Engine Room,,,2026-11-07,,,mild,,
 8034026074,3097803944,Easy Glass Bridge (Possible Squid Game),,,2026-11-07,,2026-11-07,minimal,,2026-11-14
 8067158534,3107874866,[VOICE🔊] Rap Battles 🔥,,,2026-11-08,,2026-11-08,minimal,,2026-11-14
-8075399143,3110388936,[Autumn PT.3 + Reanimation Technique🎃] Ninja Time,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-14
+8075399143,3110388936,[Autumn PT.3 + Reanimation Technique🎃] Ninja Time,,,2026-11-07,,2026-11-07,mild,,2026-11-14
 8087448382,3114128441,GreenPeak | BIKE PARK,,,2026-11-07,,2026-11-07,minimal,,2026-11-14
 8246874626,3164075108,[🎃] Dragon Soul | Anime MMO 🐲,,,2026-11-07,,2026-11-07,mild,,2026-11-14
 8248164019,3164482049,[🎃HALLOWEEN!] Clover RPG,,,2026-11-07,,2026-11-07,moderate,,2026-11-14
@@ -1778,7 +1778,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 111989938562194,7332711118,Brainrot Evolution,,,2026-11-07,,2026-11-07,mild,,2026-11-14
 112038493521489,10768464559,Control The World 👑,https://tr.rbxcdn.com/180DAY-15e96caac9bf9c8536b7ef874e84a810/150/150/Image/Webp/noFilter,2026-09-28T15:42:50Z,2026-11-07,,,minimal,4255301,2026-11-14
 112050560592995,10202515720,Undertale Multiverse Simulator 1.5,https://tr.rbxcdn.com/180DAY-d68abe487623d21bcfd81f1b3101ce0f/150/150/Image/Webp/noFilter,2026-05-22T08:01:00Z,2026-11-07,,,mild,3539623,2026-11-13
-112107733863518,9501409571,Cursed Blade[ALPHA],,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-14
+112107733863518,9501409571,Cursed Blade[ALPHA],,,2026-11-07,,2026-11-07,mild,,2026-11-14
 112114621008524,9076692567,[CATALOG🛍️] UGC Creator 🎨,,,2026-11-07,,2026-11-07,minimal,,2026-11-14
 112130209541489,8005378926,Catalog Avatar Editor,https://tr.rbxcdn.com/180DAY-2d6f397bfb673d99e3e90fffc3973012/150/150/Image/Webp/noFilter,2025-06-26T18:09:37Z,2026-11-07,,,minimal,43893641,2026-11-14
 112146301142141,10774646539,Run a Christmas Tree Lot,https://tr.rbxcdn.com/180DAY-67c23cba549244cbf37f85f42ac47041/150/150/Image/Webp/noFilter,2026-11-04T12:07:14Z,2026-11-11,2026-11-11,,minimal,878046,2026-11-14
@@ -2101,7 +2101,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 122810668390458,10768971634,STRIKER BOYZ! ( NEW CARS! ),https://tr.rbxcdn.com/180DAY-21b73614818c90ebdbf952eaadd44719/150/150/Image/Webp/noFilter,2026-10-02T10:51:08Z,2026-11-10,,,minimal,225470,2026-11-14
 122840796290491,10767138232,Kukirin Life [Testing],,,2026-11-07,,2026-11-07,minimal,,2026-11-14
 122895181244406,10766667627,[UPD 4] Shoot That Fish,https://tr.rbxcdn.com/180DAY-56b92f0e9fec1233516d989f9c93fd96/150/150/Image/Webp/noFilter,2026-09-16T11:36:43Z,2026-11-07,,,minimal,965246,2026-11-14
-122902171482835,9754968779,+1 Health Per Click,,,2026-11-08,,2026-11-08,vng-rating-override,,2026-11-14
+122902171482835,9754968779,+1 Health Per Click,,,2026-11-08,,2026-11-08,minimal,,2026-11-14
 122988425590528,8348702748,[NEW] Soccer Freekick Duels,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
 123000804394748,8019620353,[🌊] EPIC: The Musical [OPEN TECH],https://tr.rbxcdn.com/180DAY-4f4e2bd4261152578bb06b30f4845eab/150/150/Image/Webp/noFilter,2025-06-28T12:34:08Z,2026-11-08,,,minimal,4784273,2026-11-13
 123005846306980,9791668275,Brainrot Movies,https://tr.rbxcdn.com/180DAY-fdb2182829a00d4d089a06cf3263c921/150/150/Image/Webp/noFilter,2026-02-24T21:09:48Z,2026-11-07,,,moderate,16475100,2026-11-14
