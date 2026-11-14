@@ -100,7 +100,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 3851622790,1318971886,Break In (Story),,,2026-11-07,,2026-11-07,minimal,,2026-11-14
 3891618314,1325411718,⚓ Harbor Havoc,,,2026-11-07,,2026-11-07,mild,,2026-11-14
 4104106043,1358133289,Insane Elevator!,,,2026-11-07,,2026-11-07,mild,,2026-11-14
-4195834406,1374118848,Dragon Generations,,,2026-11-07,,2026-11-07,mild,,2026-11-14
+4195834406,1374118848,Dragon Generations,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-14
 4201429814,1375027828,Roblox Creator Challenge,,2019-10-24T17:04:49Z,2026-11-07,,,minimal,79234871,2026-11-14
 4282985734,1390601379,Combat Warriors,,,2026-11-07,,2026-11-07,mild,,2026-11-14
 4299508195,1393178180,Polish Car Driving 🚗,,,2026-11-07,,2026-11-07,minimal,,2026-11-14
@@ -195,7 +195,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 6447798030,2404080894,[Step Right Up] Funky Friday,,,2026-11-07,,2026-11-07,minimal,,2026-11-14
 6456351776,2408700413,[NEW MAP] Kaiju Paradise,,,2026-11-07,,2026-11-07,mild,,2026-11-14
 6470225972,2416015385,Nowhere Railways • Early Access •,https://tr.rbxcdn.com/180DAY-4ec93a3b1a72e01250e160870718d01a/150/150/Image/Webp/noFilter,2021-03-03T17:02:52Z,2026-11-07,,,minimal,8163611,2026-11-14
-6507422231,2435789930,Twilight Daycare!✨RP [Trick or Treat🎃],,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-14
+6507422231,2435789930,Twilight Daycare!✨RP [Trick or Treat🎃],,,2026-11-07,,2026-11-07,minimal,,2026-11-14
 6508410616,2436339344,💥MECH SMASH💥Anime Fighting Simulator,https://tr.rbxcdn.com/180DAY-4323a579ae51f16d9a210da508613e58/150/150/Image/Webp/noFilter,2021-03-12T15:16:28Z,2026-11-07,,,mild,57382955,2026-11-14
 6516141723,2440500124,DOORS 👁️,,,2026-11-07,,2026-11-07,mild,,2026-11-14
 6517164676,2441058607,Catalog Color: Avatar Outfit Creator,https://tr.rbxcdn.com/180DAY-557ad5f20ede03cef3eef36b0d70f50f/150/150/Image/Webp/noFilter,2021-03-14T08:16:47Z,2026-11-07,,,minimal,50180553,2026-11-14
@@ -1529,7 +1529,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 103037106396302,10460801145,TROLL Hug Tower,,,2026-11-07,,2026-11-07,mild,,2026-11-14
 103050497819513,9758688665,Steal The Brainrot Base🧠,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 103076400317371,10771168447,Steal An Exu [🏴‍☠️],https://tr.rbxcdn.com/180DAY-72c48b2cce2c5a54932d7ff4415a633b/150/150/Image/Webp/noFilter,2026-10-16T04:55:09Z,2026-11-07,2026-11-07,,minimal,4233697,2026-11-14
-103076556916764,10771908014,[24H] Dragon Tower Defense,,,2026-11-07,,2026-11-07,minimal,,2026-11-14
+103076556916764,10771908014,[12H] Dragon Tower Defense,,,2026-11-07,,2026-11-07,minimal,,2026-11-14
 103104121623678,8974153311,[EVENT🎂] Dragon Ball Hyper Reborn,https://tr.rbxcdn.com/180DAY-94c9271b5c69e550640595596a34f135/150/150/Image/Webp/noFilter,2025-10-18T13:38:50Z,2026-11-07,,,mild,3721170,2026-11-14
 103150493730578,10773748361,[🎄] Throw Food For Sea Monsters,https://tr.rbxcdn.com/180DAY-7e33ee12f29650322595d9466e7a572b/150/150/Image/Webp/noFilter,2026-10-30T02:23:48Z,2026-11-13,2026-11-13,,minimal,85497,2026-11-14
 103168011197605,10766390665,Guess The Real Size,,,2026-11-07,,2026-11-07,mild,,2026-11-14
@@ -1729,7 +1729,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 110175021189594,10230942274,Ability Arena 💥,,,2026-11-07,,2026-11-07,mild,,2026-11-14
 110247358891449,10774645078,[👽] HATCH THE LEGENDARY EGG 0.0001%,https://tr.rbxcdn.com/180DAY-21e3ac5df0170fcd77ced744875ccb24/150/150/Image/Webp/noFilter,2026-11-04T11:54:46Z,2026-11-11,2026-11-11,,minimal,316336,2026-11-13
 110328539470626,10765051383,🍿 Clean all the Popcorn! ,https://tr.rbxcdn.com/180DAY-7dfd9e2a398c8401080277e7036119e6/150/150/Image/Webp/noFilter,2026-09-04T04:53:55Z,2026-11-07,,,mild,2866148,2026-11-14
-110432290690507,10767494536,[TRAIL 7] Hike For Eggs,,,2026-11-07,,2026-11-07,minimal,,2026-11-14
+110432290690507,10767494536,[TRAIL 7] Hike For Eggs,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-14
 110433093427209,9365749189,Strawberry Keys Slap Tower! 🍓,https://tr.rbxcdn.com/180DAY-4e3f85fe1401f4aa2249aaddd74b19bc/150/150/Image/Webp/noFilter,2025-12-16T07:35:57Z,2026-11-07,,,mild,39520104,2026-11-14
 110443603443743,10769066324,Bloxx League,https://tr.rbxcdn.com/180DAY-555b7deccc09412dcc5b798ae487370a/150/150/Image/Webp/noFilter,2026-10-03T00:24:06Z,2026-11-07,,,minimal,34750473,2026-11-14
 110534393529784,10771440209,[MINI UPDATE 2 & EXPANDED MAP] Onthel Purwodadi,https://tr.rbxcdn.com/180DAY-5a77c310b6684bf11a948e8cee254d3d/150/150/Image/Webp/noFilter,2026-10-17T08:57:00Z,2026-11-07,2026-11-07,2026-11-11,minimal,5760753,2026-11-14
