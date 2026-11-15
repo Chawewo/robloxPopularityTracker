@@ -76,7 +76,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 2872154782,1039663363,Clover's Deltarune RP,https://tr.rbxcdn.com/180DAY-8a8a34e7f41c2b76b24c91b7b6b80ba4/150/150/Image/Webp/noFilter,2019-02-19T05:35:07Z,2026-11-11,,,minimal,16873344,2026-11-15
 2916899287,1054526971,Blackhawk Rescue Mission 5,,,2026-11-07,,2026-11-07,moderate,,2026-11-15
 3016661674,1087859240,[🌍] Rogue Lineage,,,2026-11-07,,2026-11-07,moderate,,2026-11-15
-3025990139,1091907805,Unboxing Simulator [UPDATE],,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-15
+3025990139,1091907805,Unboxing Simulator [UPDATE],,,2026-11-07,,2026-11-07,minimal,,2026-11-15
 3030166262,1093311378,1867 Historical Role Play,,,2026-11-07,,,minimal,,
 3177438863,1147304238,Dragon Blox,,,2026-11-07,,2026-11-07,mild,,2026-11-15
 3178828841,1147796911,Water Park World [Beta],,,2026-11-07,,2026-11-07,minimal,,2026-11-14
@@ -131,14 +131,14 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 4954752502,1701623492,[2x Coins]Tower of Misery,,,2026-11-07,,2026-11-07,minimal,,2026-11-15
 4972273297,1709917610,Regretevator [ ELEVATOR SIMULATOR ],,,2026-11-07,,2026-11-07,mild,,2026-11-15
 4984400432,1715617820,[NEW] Outfit Loader,,,2026-11-07,,2026-11-07,minimal,,2026-11-15
-4996049426,1720936166,[OG] All Star Tower Defense,,,2026-11-07,,2026-11-07,minimal,,2026-11-15
+4996049426,1720936166,[OG] All Star Tower Defense,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-15
 5041144419,1742264997,SCP: Roleplay,,,2026-11-07,,2026-11-07,mild,,2026-11-15
 5116869569,1775919872,[🎃2] Doodle World,,,2026-11-07,,2026-11-07,minimal,,2026-11-14
 5118969548,1776914212,Spider,,,2026-11-07,,2026-11-07,moderate,,2026-11-15
 5130598377,1782832995,[🎃] A Universal Time 6.4,,,2026-11-07,,2026-11-07,moderate,,2026-11-15
 5133040469,1784051919,[R15 Support] Beat up simulator,,,2026-11-07,,2026-11-07,minimal,,2026-11-15
 5140123832,1787711941,[Su-25] Aircraft Carrier [BETA] ,,,2026-11-07,,2026-11-07,mild,,2026-11-15
-5152425034,1794056685,[🎃] Camper Van 🚐,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-15
+5152425034,1794056685,[🎃] Camper Van 🚐,,,2026-11-07,,2026-11-07,minimal,,2026-11-15
 5233782396,1831550657,🦖 Creatures of Sonaria ✨ Survive Kaiju Animals,,,2026-11-07,,2026-11-07,minimal,,2026-11-15
 5244411056,1836146838,Bloxy Bingo,,,2026-11-09,,2026-11-09,minimal,,2026-11-13
 5286116071,1851087906,[🐶DOGS] Hunting Season [BETA],,,2026-11-07,,2026-11-07,moderate,,2026-11-09
@@ -237,7 +237,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 7171174521,2783797267,[💨RACING💨] American Plains Mudding,,,2026-11-07,,2026-11-07,minimal,,2026-11-15
 7199663966,2799421838,Durian Village 🌳 Malaysia RP,,,2026-11-07,,2026-11-07,minimal,,2026-11-15
 7232779505,2817076516,Type Race!,,,2026-11-07,,2026-11-07,minimal,,
-7243409883,2822776643,Elemental Magic Arena [👁️],,,2026-11-11,,2026-11-11,vng-rating-override,,2026-11-15
+7243409883,2822776643,Elemental Magic Arena [👁️],,,2026-11-11,,2026-11-11,mild,,2026-11-15
 7305309231,2851381018,Taxi Boss 🚖,,,2026-11-07,,2026-11-07,minimal,,2026-11-15
 7331676440,2860485766,[😱] Horror Elevator!,https://tr.rbxcdn.com/180DAY-a3752dc92379fa8901b4d69ebca452bf/150/150/Image/Webp/noFilter,2021-08-26T01:53:30Z,2026-11-07,,,mild,58944633,2026-11-15
 7336302630,2862098693,Project Delta,,,2026-11-07,,2026-11-07,moderate,,2026-11-15
@@ -588,7 +588,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 18134488876,6147736004,Would You Rather: Zepeto Outfit Tower!,https://tr.rbxcdn.com/180DAY-3c7dddc6d620e0d29601e92fb718b305/150/150/Image/Webp/noFilter,2024-06-20T17:08:56Z,2026-11-07,,,minimal,56308346,2026-11-15
 18135270018,6147964536,MOTORCYCLE 244 🔥,https://tr.rbxcdn.com/180DAY-ccb100fc4c728c68690de2f78967fb6d/150/150/Image/Webp/noFilter,2024-06-20T18:17:27Z,2026-11-13,,,minimal,52238420,2026-11-15
 18153851914,6154386310,[BOSS] Classic Arena,,,2026-11-07,,2026-11-07,mild,,2026-11-15
-18172550962,6161049307,[MYTHICALS // SERPENT] Pixel Blade,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-15
+18172550962,6161049307,[MYTHICALS // SERPENT] Pixel Blade,,,2026-11-07,,2026-11-07,mild,,2026-11-15
 18180736634,6163884815,Team Stepmom Run! (TEAMWORK OBBY),,,2026-11-07,,2026-11-07,minimal,,2026-11-15
 18199615050,6170143659,[UPD] Demonology🕯️,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-15
 18214855317,6174994284,Savannah Life,,,2026-11-07,,2026-11-07,mild,,2026-11-15
@@ -1694,7 +1694,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 107717448640907,9324506782,[TOY CHICA] Nights of Eternity 🍕,,,2026-11-14,,2026-11-14,minimal,,2026-11-15
 107725109349532,10766350628,Steal An Egg ROLEPLAY,https://tr.rbxcdn.com/180DAY-8d03c0b2f73817a3bb3bb43468388b3d/150/150/Image/Webp/noFilter,2026-09-13T18:27:02Z,2026-11-07,,,minimal,9761356,2026-11-13
 107727386530697,7794218964,[💫] Noob Mayhem!,,,2026-11-07,,2026-11-07,mild,,2026-11-15
-107778070777162,10563114921,Steal An Egg,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-15
+107778070777162,10563114921,Steal An Egg,,,2026-11-07,,2026-11-07,minimal,,2026-11-15
 107879374402090,10768410533,🔥 SPEED,https://tr.rbxcdn.com/180DAY-8336081c5aab9f6e239e02c3f942b9d6/150/150/Image/Webp/noFilter,2026-09-28T03:45:06Z,2026-11-07,,,minimal,2650548,2026-11-13
 107882283911800,10769187466,Totally Safe Dino Park,https://tr.rbxcdn.com/180DAY-953c6e07c59baf95608711760e13069f/150/150/Image/Webp/noFilter,2026-10-03T17:00:37Z,2026-11-07,,,moderate,1204038,2026-11-15
 107894105055312,7948426536,[🌈🚂UPDATE] Wax ASMR Tower,,,2026-11-07,,2026-11-07,minimal,,2026-11-15
@@ -2042,7 +2042,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 119068914321553,9741874508,[🎃] Traitor VS Sheriff DUELS,,,2026-11-07,,2026-11-07,mild,,2026-11-15
 119098142857252,10774935925,Voxelcraft 1.21.4,https://tr.rbxcdn.com/180DAY-a1f79aaa4c4a426f32e96ffe1090b745/150/150/Image/Webp/noFilter,2026-11-06T11:29:42Z,2026-11-14,2026-11-14,,mild,2071182,2026-11-14
 119101118479978,10769835283,[UPD6 🎉] Depth Incremental,,,2026-11-07,2026-11-07,2026-11-07,minimal,,2026-11-15
-119242658671952,10739112966,[CLUBS] Street Soccer Pro,https://tr.rbxcdn.com/180DAY-eed6906fe185a0254370bf28722ccb96/150/150/Image/Webp/noFilter,2026-08-19T02:56:04Z,2026-11-07,,,vng-rating-override,39935449,2026-11-15
+119242658671952,10739112966,[CLUBS] Street Soccer Pro,https://tr.rbxcdn.com/180DAY-eed6906fe185a0254370bf28722ccb96/150/150/Image/Webp/noFilter,2026-08-19T02:56:04Z,2026-11-07,,,minimal,39935449,2026-11-15
 119248750585731,10767903282,Merge Squishy Balls [ASMR],https://tr.rbxcdn.com/180DAY-7949d015caf54ce752add8833b1216d2/150/150/Image/Webp/noFilter,2026-09-24T19:29:47Z,2026-11-07,,,minimal,253906,2026-11-15
 119263815547952,10768458048,Army Commander Tycoon [UPDATE 6],,,2026-11-07,,2026-11-07,mild,,2026-11-10
 119269765124983,10770322252,[🚨UPDATE 4🚨] Run a Police Station,https://tr.rbxcdn.com/180DAY-c3d016186788f684f49a146025992545/150/150/Image/Webp/noFilter,2026-10-11T07:55:26Z,2026-11-08,,,minimal,86382,2026-11-15
