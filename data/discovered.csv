@@ -215,7 +215,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 6728870912,2544520106,[🌙C-Moon] World of Stands,,,2026-11-07,,2026-11-07,mild,,2026-11-15
 6737970321,2549475383,Livetopia 🏡 RP,,,2026-11-07,,2026-11-07,minimal,,2026-11-15
 6804602922,2583564222,[🎃] Boxing Beta! 🥊,,,2026-11-07,,2026-11-07,mild,,2026-11-15
-6816975827,2589957623,[☀️] Car Suspension Test,,,2026-11-07,,2026-11-07,minimal,,2026-11-15
+6816975827,2589957623,[☀️] Car Suspension Test,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-15
 6850547571,2607768444,🕸️ Web-Verse [REVAMP],,,2026-11-11,,2026-11-11,mild,,2026-11-14
 6855783063,2610672811,[0.9.2]Batman: Gotham Stories,,,2026-11-07,,,minimal,,
 6870736769,2618786652,Daybreak ,,,2026-11-07,,2026-11-07,moderate,,2026-11-15
@@ -268,7 +268,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 8253643436,3166350952,[HOLY UPDATE 🪽] Depth Spelunking,,,2026-11-08,,2026-11-08,minimal,,2026-11-12
 8260276694,3168615253,Ability Wars,,,2026-11-07,,2026-11-07,mild,,2026-11-09
 8265622251,3170483284,Croydon: London Bus Simulator,,,2026-11-07,,2026-11-07,minimal,,2026-11-15
-8304191830,3183403065,[☀️UPD 21🏖️] Anime Adventures,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-15
+8304191830,3183403065,[☀️UPD 21🏖️] Anime Adventures,,,2026-11-07,,2026-11-07,mild,,2026-11-15
 8317834514,3187874989,The Mad Murderer X,,,2026-11-07,,2026-11-07,mild,,2026-11-15
 8369888266,3204175584,[PLACES🗺️!] Redcliff City 🏡RP,,,2026-11-07,,2026-11-07,minimal,,2026-11-15
 8388259310,3210778402,Where's Santa [Story],,,2026-11-07,,2026-11-07,minimal,,2026-11-15
@@ -429,7 +429,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 13730658693,4764717084,Rec It,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 13755196581,4772345874,📸PhotoShoot Scenes,,,2026-11-07,,2026-11-07,minimal,,2026-11-15
 13772394625,4777817887,Blade Ball,,,2026-11-07,,2026-11-07,mild,,2026-11-15
-13775256536,4778845442,[🦃EVENT] Toilet Tower Defense,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-15
+13775256536,4778845442,[🦃EVENT] Toilet Tower Defense,,,2026-11-07,,2026-11-07,minimal,,2026-11-15
 13796645198,4785982047,FLASHPOINT⚡,,,2026-11-07,,2026-11-07,mild,,2026-11-15
 13822562292,4793836769,[SALEEN]🚗Midnight Chasers: Highway Racing,,,2026-11-07,,2026-11-07,minimal,,2026-11-15
 13827198708,4795326392,[CLANS] Pull a Sword,,,2026-11-07,,2026-11-07,mild,,2026-11-15
@@ -461,7 +461,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 14608970270,5039839070,(ANNIVERSARY) Outcome Memories v0.2,,,2026-11-07,,2026-11-07,moderate,,2026-11-15
 14618179455,5042430067,Build a Rocket VS Mark Rober,,,2026-11-07,,2026-11-07,minimal,,2026-11-15
 14639856040,5048990623,[⏳] Steal TIME for SWORDS,https://tr.rbxcdn.com/180DAY-9bddf318be2ff00614ead8fb1bbaabe5/150/150/Image/Webp/noFilter,2023-08-31T23:21:07Z,2026-11-07,,,mild,13048138,2026-11-15
-14641667067,5049569843,[💎3X] Titan Tower Defense,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-15
+14641667067,5049569843,[💎3X] Titan Tower Defense,,,2026-11-07,,2026-11-07,minimal,,2026-11-15
 14771338115,5090914273,Buchones Outfits v3,https://tr.rbxcdn.com/180DAY-250aff16e05e3e023a7124c9ff144cdc/150/150/Image/Webp/noFilter,2023-09-14T06:39:42Z,2026-11-07,,,minimal,20018202,2026-11-15
 14772802900,5091490171,[🎥REPLAY] Jailbird,,,2026-11-07,,2026-11-07,moderate,,2026-11-15
 14773138733,5091615162,Backpack Adventure: Find the Animals 🐻,,,2026-11-07,,,minimal,,
@@ -848,11 +848,11 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 77649408247578,9931749389,[2x Luck] Dungeon Quest Reborn,,,2026-11-07,,2026-11-07,mild,,2026-11-15
 77649795876119,10771514327,Bobby's Daycare [HORROR] ,https://tr.rbxcdn.com/180DAY-7b91896759bb9ade2d96a577de54b75b/150/150/Image/Webp/noFilter,2026-10-17T15:07:15Z,2026-11-08,2026-11-08,,mild,1662960,2026-11-15
 77701492128215,10770467707,[ULTIMATE TEAM] Basketball Universe🏀,https://tr.rbxcdn.com/180DAY-a0f527c8c4ecce88227dbfd59971f9b6/150/150/Image/Webp/noFilter,2026-10-12T01:54:58Z,2026-11-13,2026-11-13,,minimal,610456,2026-11-13
-77747658251236,9186719164,[BROLY🔥] Sailor Piece,,,2026-11-07,,2026-11-07,mild,,2026-11-15
+77747658251236,9186719164,[BROLY🔥] Sailor Piece,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-15
 77764836384604,9926735691,[UPDATE] Bloodlines,,,2026-11-07,,2026-11-07,moderate,,2026-11-10
 77811814730971,10761711227,[ UPD 4 🏰 ] Card Battles: Prestige,https://tr.rbxcdn.com/180DAY-39448825a5dac965a78c8f0943c5af8a/150/150/Image/Webp/noFilter,2026-08-26T00:15:48Z,2026-11-07,,,minimal,2882053,2026-11-13
 77832639330270,8653939982,Escape from Uncle [HORROR],https://tr.rbxcdn.com/180DAY-293e30971dba40c7f9e1e5144cba0cc6/150/150/Image/Webp/noFilter,2025-09-07T01:35:08Z,2026-11-08,,,mild,6674616,2026-11-15
-77843161404023,9970645639,Run a Restaurant!,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-15
+77843161404023,9970645639,Run a Restaurant!,,,2026-11-07,,2026-11-07,minimal,,2026-11-15
 77843690602580,10773161216,WRECKED💥[Realistic Crashes],https://tr.rbxcdn.com/180DAY-a6b1090bc87dcc2574863d187de0d761/150/150/Image/Webp/noFilter,,2026-11-07,2026-11-07,2026-11-11,minimal,,2026-11-15
 77881572888789,10767784294,Steal an Clown Egg,,,2026-11-07,,2026-11-07,minimal,,2026-11-15
 77900175935766,10769671316,[🗺️MAPS] Survive Your Ideas,https://tr.rbxcdn.com/180DAY-c3b4682b073174ad4c932e081dcf0fc7/150/150/Image/Webp/noFilter,,2026-11-07,2026-11-07,2026-11-07,mild,,2026-11-15
@@ -2155,7 +2155,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 122810668390458,10768971634,STRIKER BOYZ! ( SPOOFING! ),https://tr.rbxcdn.com/180DAY-21b73614818c90ebdbf952eaadd44719/150/150/Image/Webp/noFilter,2026-10-02T10:51:08Z,2026-11-10,,,minimal,225470,2026-11-15
 122840796290491,10767138232,Kukirin Life [Testing],,,2026-11-07,,2026-11-07,minimal,,2026-11-15
 122895181244406,10766667627,[UPD 4] Shoot That Fish,https://tr.rbxcdn.com/180DAY-56b92f0e9fec1233516d989f9c93fd96/150/150/Image/Webp/noFilter,2026-09-16T11:36:43Z,2026-11-07,,,minimal,965246,2026-11-15
-122902171482835,9754968779,+1 Health Per Click,,,2026-11-08,,2026-11-08,minimal,,2026-11-15
+122902171482835,9754968779,+1 Health Per Click,,,2026-11-08,,2026-11-08,vng-rating-override,,2026-11-15
 122988425590528,8348702748,[NEW] Soccer Freekick Duels,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
 123000804394748,8019620353,[🌊] EPIC: The Musical [OPEN TECH],https://tr.rbxcdn.com/180DAY-4f4e2bd4261152578bb06b30f4845eab/150/150/Image/Webp/noFilter,2025-06-28T12:34:08Z,2026-11-08,,,minimal,4784273,2026-11-13
 123005846306980,9791668275,Brainrot Movies,https://tr.rbxcdn.com/180DAY-fdb2182829a00d4d089a06cf3263c921/150/150/Image/Webp/noFilter,2026-02-24T21:09:48Z,2026-11-07,,,moderate,16475100,2026-11-15
