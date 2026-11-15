@@ -269,7 +269,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 8067158534,3107874866,[VOICE🔊] Rap Battles 🔥,,,2026-11-08,,2026-11-08,minimal,,2026-11-15
 8075399143,3110388936,[Black Flames Susanoo🔥] Ninja Time,,,2026-11-07,,2026-11-07,mild,,2026-11-15
 8087448382,3114128441,GreenPeak | BIKE PARK,,,2026-11-07,,2026-11-07,minimal,,2026-11-14
-8246874626,3164075108,[🎃MADARA] Dragon Soul | Anime MMO 🐲,,,2026-11-07,,2026-11-07,mild,,2026-11-15
+8246874626,3164075108,[🎃MADARA] Dragon Soul | Anime MMO 🐲,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-15
 8248164019,3164482049,[SPATIAL] Clover RPG,,,2026-11-07,,2026-11-07,moderate,,2026-11-15
 8253643436,3166350952,[HOLY UPDATE 🪽] Depth Spelunking,,,2026-11-08,,2026-11-08,minimal,,2026-11-12
 8260276694,3168615253,Ability Wars,,,2026-11-07,,2026-11-07,mild,,2026-11-09
@@ -414,9 +414,9 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 12979690461,4538598064,[UPD] Phantom Ball,,,2026-11-07,,2026-11-07,mild,,2026-11-15
 12985361032,4540138978,Metro Life 🏡 City RP,,,2026-11-07,,2026-11-07,minimal,,2026-11-15
 13042495892,4557322431,Project: Afternight,,,2026-11-07,,2026-11-07,mild,,2026-11-15
-13076380114,4568630521,[HALLOWEEN] Heroes Battlegrounds,,,2026-11-07,,2026-11-07,mild,,2026-11-15
+13076380114,4568630521,[RANKED REWORK] Heroes Battlegrounds,,,2026-11-07,,2026-11-07,mild,,2026-11-15
 13116420108,4578260860,Try To Die 💀,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
-13127800756,4582358979,Arm Wrestle Simulator,,,2026-11-07,,2026-11-07,minimal,,2026-11-15
+13127800756,4582358979,Arm Wrestle Simulator,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-15
 13159565330,4592676978,eat stuf get fat,,,2026-11-14,,2026-11-14,minimal,,2026-11-15
 13166293021,4595016786,Barbie DreamHouse Tycoon,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 13184713709,4599924264,Teamwork Puzzles (Obby),,,2026-11-07,,2026-11-07,minimal,,2026-11-15
@@ -873,7 +873,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 77764836384604,9926735691,[UPDATE] Bloodlines,,,2026-11-07,,2026-11-07,moderate,,2026-11-10
 77811814730971,10761711227,[ UPD 4 🏰 ] Card Battles: Prestige,https://tr.rbxcdn.com/180DAY-39448825a5dac965a78c8f0943c5af8a/150/150/Image/Webp/noFilter,2026-08-26T00:15:48Z,2026-11-07,,,minimal,2882053,2026-11-13
 77832639330270,8653939982,Escape from Uncle [HORROR],https://tr.rbxcdn.com/180DAY-293e30971dba40c7f9e1e5144cba0cc6/150/150/Image/Webp/noFilter,2025-09-07T01:35:08Z,2026-11-08,,,mild,6674616,2026-11-15
-77843161404023,9970645639,Run a Restaurant!,,,2026-11-07,,2026-11-07,minimal,,2026-11-15
+77843161404023,9970645639,Run a Restaurant!,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-15
 77843690602580,10773161216,WRECKED💥[Realistic Crashes],https://tr.rbxcdn.com/180DAY-a6b1090bc87dcc2574863d187de0d761/150/150/Image/Webp/noFilter,,2026-11-07,2026-11-07,2026-11-11,minimal,,2026-11-15
 77881572888789,10767784294,Steal an Clown Egg,,,2026-11-07,,2026-11-07,minimal,,2026-11-15
 77900175935766,10769671316,[🗺️MAPS] Survive Your Ideas,https://tr.rbxcdn.com/180DAY-c3b4682b073174ad4c932e081dcf0fc7/150/150/Image/Webp/noFilter,,2026-11-07,2026-11-07,2026-11-07,mild,,2026-11-15
@@ -1581,6 +1581,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 101906032112547,9796898051,[⚔️] Drill to Earth’s Core 🌎,,,2026-11-07,,2026-11-07,mild,,2026-11-15
 101914705206759,10767582899,📱 Build a Phone Empire,,,2026-11-07,,2026-11-07,minimal,,2026-11-15
 101914772188620,9490116046,Build with Voxels 🔨,,,2026-11-07,,2026-11-07,minimal,,2026-11-15
+101929330021009,10766987331,لاترد علي الصوت🦻 قصة رعب😨,https://tr.rbxcdn.com/180DAY-51cd4eae359c5a2a454597c5f6e7d253/150/150/Image/Webp/noFilter,2026-09-19T00:22:47Z,2026-11-15,,,mild,123592,2026-11-15
 101941828788342,7868145402,🦑Season 3 Tower [Squid Game],https://tr.rbxcdn.com/180DAY-21c853a3089814b902fa7a5334df4589/150/150/Image/Webp/noFilter,2025-06-08T07:55:40Z,2026-11-07,,,minimal,57855371,2026-11-15
 101953291486308,7938305201,[NEW] GRAU SP,https://tr.rbxcdn.com/180DAY-aa1e47947b7afef66ddab3f836beb36a/150/150/Image/Webp/noFilter,2025-06-17T23:34:57Z,2026-11-07,,,minimal,46348197,2026-11-15
 101986241528633,9981600427,[NEW] Jujutsu Outfits,,2026-04-03T09:36:31Z,2026-11-07,,,minimal,1248183,2026-11-15
@@ -2171,7 +2172,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 120564326011184,8572854650,Be a YouTuber! 🔴🎥,,,2026-11-07,,2026-11-07,minimal,,2026-11-15
 120678072723916,10768001180,My Bus 🚌,,,2026-11-07,,2026-11-07,minimal,,2026-11-10
 120700541929930,7108384194,Knife VS Gun DUELS,,,2026-11-07,,2026-11-07,mild,,2026-11-15
-120704669141193,9933939850,[V13] Blox Loot,,,2026-11-07,,2026-11-07,mild,,2026-11-15
+120704669141193,9933939850,[V13] Blox Loot,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-15
 120731410233153,10767824942,+1 Assassin Leveling,,,2026-11-07,,2026-11-07,mild,,2026-11-15
 120793632387415,10775162649,[UPD] Survive Your Drawing,https://tr.rbxcdn.com/180DAY-832e31b11453223dc73801473a0fead7/150/150/Image/Webp/noFilter,2026-11-07T15:08:53Z,2026-11-12,2026-11-12,,minimal,823300,2026-11-15
 120841752776030,9948575164,[🍂] Merge Shop,,,2026-11-07,,2026-11-07,minimal,,2026-11-15
