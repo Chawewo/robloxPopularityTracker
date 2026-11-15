@@ -416,7 +416,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 13042495892,4557322431,Project: Afternight,,,2026-11-07,,2026-11-07,mild,,2026-11-15
 13076380114,4568630521,[RANKED REWORK] Heroes Battlegrounds,,,2026-11-07,,2026-11-07,mild,,2026-11-15
 13116420108,4578260860,Try To Die 💀,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
-13127800756,4582358979,Arm Wrestle Simulator,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-15
+13127800756,4582358979,Arm Wrestle Simulator,,,2026-11-07,,2026-11-07,minimal,,2026-11-15
 13159565330,4592676978,eat stuf get fat,,,2026-11-14,,2026-11-14,minimal,,2026-11-15
 13166293021,4595016786,Barbie DreamHouse Tycoon,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 13184713709,4599924264,Teamwork Puzzles (Obby),,,2026-11-07,,2026-11-07,minimal,,2026-11-15
@@ -554,7 +554,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 16916122579,5809308870,Indian Bank Story,https://tr.rbxcdn.com/180DAY-4c7f9021b3aff9b12fd4486e0264683c/150/150/Image/Webp/noFilter,2024-03-29T04:50:04Z,2026-11-07,,,minimal,3287022,2026-11-14
 16927467487,5812546130,"[OCEAN REVAMP] West Coast, Florida",,,2026-11-07,,2026-11-07,minimal,,2026-11-15
 16948929364,5818442577,[BETA] Eternal,https://tr.rbxcdn.com/180DAY-97ea7d95d7d0296f556a3b58c2c142dd/150/150/Image/Webp/noFilter,,2026-11-14,,,moderate,,2026-11-15
-16981421605,5827120940,Reborn As Swordsman,,,2026-11-07,,2026-11-07,mild,,2026-11-15
+16981421605,5827120940,Reborn As Swordsman,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-15
 16991287194,5829613337,something evil will happen [🎃🎃🎃],,,2026-11-07,,2026-11-07,mild,,2026-11-15
 17011057137,5835014039,[HALLOWEEN] New Journey,,,2026-11-07,,2026-11-07,mild,,2026-11-08
 17027058704,5839302258,Spectral Fades REMAKE,https://tr.rbxcdn.com/180DAY-f817e032f5c4033e69bea80331196d95/150/150/Image/Webp/noFilter,2024-04-05T23:48:47Z,2026-11-07,,,moderate,17895941,2026-11-15
@@ -1030,7 +1030,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 82507371901496,10769111944,Beat Up Verity,https://tr.rbxcdn.com/180DAY-cb35ec901c370e71ecf1a9845d291f5b/150/150/Image/Webp/noFilter,,2026-11-07,2026-11-07,,mild,,2026-11-09
 82539019711975,9776222468,Cluck or Hide!🐔,,,2026-11-07,,2026-11-07,mild,,2026-11-15
 82551713687001,10772629784,it learns. [HORROR] ,https://tr.rbxcdn.com/180DAY-fc4399785443f8bb90bc91797affa62e/150/150/Image/Webp/noFilter,,2026-11-15,2026-11-15,,mild,,2026-11-15
-82587812501868,10766066961,🎀 Catalog Fashion Runway,https://tr.rbxcdn.com/180DAY-1fce8e337e11f8f86c9f5c6b36061deb/150/150/Image/Webp/noFilter,,2026-11-15,,,minimal,,2026-11-15
+82587812501868,10766066961,🌸 Catalog Fashion Runway,https://tr.rbxcdn.com/180DAY-1fce8e337e11f8f86c9f5c6b36061deb/150/150/Image/Webp/noFilter,,2026-11-15,,,minimal,,2026-11-15
 82670836075946,10773735871,TERRITORIES 🗺️,https://tr.rbxcdn.com/180DAY-ddeb2ff6b3dc7daf142a9e7331f8e057/150/150/Image/Webp/noFilter,2026-10-30T00:14:50Z,2026-11-13,,,minimal,537544,2026-11-15
 82686341450515,10768735219,Climb Scary Buddy Tower,https://tr.rbxcdn.com/180DAY-837af7e4d79eaa530cb26f70c559dd3a/150/150/Image/Webp/noFilter,2026-09-30T14:54:51Z,2026-11-07,,,mild,2529789,2026-11-15
 82756210797896,7457090912,[GOKU & SPIDERMAN] Realistic Outfits & Avatars,,2025-03-29T21:53:03Z,2026-11-09,,,minimal,1220834,2026-11-13
@@ -1038,6 +1038,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 82835505740239,10767708641,PISTOL DUELS [MATCHMAKING ⚔️] ,https://tr.rbxcdn.com/180DAY-f96a5573fb95802e76b546597231287a/150/150/Image/Webp/noFilter,2026-09-23T11:24:26Z,2026-11-07,,,mild,3682784,2026-11-15
 82854191372599,9979684281,🔧 Mechanic Legends [BODYKITS],https://tr.rbxcdn.com/180DAY-36836b04bb346eb7ba73b4bf8b9b2cd3/150/150/Image/Webp/noFilter,2026-04-03T00:08:28Z,2026-11-07,,,minimal,9379953,2026-11-15
 82866880824588,9908641400,Football Fusion 3,,,2026-11-07,,2026-11-07,minimal,,2026-11-15
+82887321543807,10774313244,[UPD 7.3] Pleb's Plane Crash Sandbox [ALPHA],https://tr.rbxcdn.com/180DAY-09898dda3b740bc688356d013e923015/150/150/Image/Webp/noFilter,,2026-11-15,2026-11-15,,mild,,2026-11-15
 82947133620236,10625609269,Bomb Jump 💣,https://tr.rbxcdn.com/180DAY-c48adcf9694dce332f34298bef3eba19/150/150/Image/Webp/noFilter,2026-08-03T18:33:13Z,2026-11-07,,,mild,10873679,2026-11-14
 83048653078891,10769851460,[🏝️ISLAND] Criminal Simulator 💰,,,2026-11-07,2026-11-07,2026-11-07,mild,,2026-11-15
 83133501920301,10648985835,KKN: THE HAUNTED VILLAGE [HORROR],https://tr.rbxcdn.com/180DAY-cdca1369f44eba21d09730cd59d5868a/150/150/Image/Webp/noFilter,2026-08-07T14:46:31Z,2026-11-07,,,mild,11915973,2026-11-15
@@ -1228,7 +1229,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 90088244419227,10770608130,Escape The Matrix,https://tr.rbxcdn.com/180DAY-28e74df081e7f6355720520cc1f96a98/150/150/Image/Webp/noFilter,2026-10-13T01:15:25Z,2026-11-10,2026-11-10,,minimal,198773,2026-11-15
 90148635862803,9098570654,[⚒️UPD] 🧟 Survive the Apocalypse,,,2026-11-07,,2026-11-07,mild,,2026-11-15
 90184287580174,10112019404,KILLSTREAK,,,2026-11-10,,2026-11-10,mild,,2026-11-15
-90198315559220,10013052337,[404+UPD!]Titans ultra boss rush ,,,2026-11-07,,2026-11-07,mild,,2026-11-15
+90198315559220,10013052337,Titans ultra boss rush ,,,2026-11-07,,2026-11-07,mild,,2026-11-15
 90198772874205,10766981621,5v5 MM2 Hotel 2 Remake,https://tr.rbxcdn.com/180DAY-fe79ddd74928730043dfb62dd9d66873/150/150/Image/Webp/noFilter,2026-09-18T23:13:45Z,2026-11-11,,,moderate,4632046,2026-11-14
 90249274732038,10773259496,[KINGSLEY] Survive a Psycho,https://tr.rbxcdn.com/180DAY-88c00d4856ff84fd3cc93151347782c3/150/150/Image/Webp/noFilter,2026-10-27T10:38:13Z,2026-11-09,2026-11-09,2026-11-14,mild,449089,2026-11-15
 90367590248857,7373989866,Army Roads 🚂,,,2026-11-07,,2026-11-07,mild,,2026-11-08
@@ -1325,6 +1326,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 93471202245114,10133875143,Watch cringe peppa movies,https://tr.rbxcdn.com/180DAY-2b447358d81af06ab97c74134252f331/150/150/Image/Webp/noFilter,2026-05-07T12:25:28Z,2026-11-07,,,mild,3263969,2026-11-15
 93520007761221,10769040929,Steal A Blind Bag,https://tr.rbxcdn.com/180DAY-404b31bbb6a62e810d8617d0f7d18ad3/150/150/Image/Webp/noFilter,2026-10-02T20:48:36Z,2026-11-07,,,minimal,1930049,2026-11-13
 93523763376122,10758824872,Ride a Dino,,,2026-11-07,,2026-11-07,minimal,,2026-11-10
+93531704032176,10774963591,🎃MMZ,https://tr.rbxcdn.com/180DAY-0c671417762cb08e05079d5e586bd63a/150/150/Image/Webp/noFilter,,2026-11-15,2026-11-15,,moderate,,2026-11-15
 93542959520760,10513472438,[🎃] Roll a UGC,https://tr.rbxcdn.com/180DAY-7aeca8f508d0366231f0158bd1bc7ee4/150/150/Image/Webp/noFilter,2026-07-16T15:04:42Z,2026-11-10,,,minimal,489743,2026-11-14
 93545804988403,10767621216,Jump for Cases🎲,https://tr.rbxcdn.com/180DAY-ff86aa87d157d0939eaa211a67a8011f/150/150/Image/Webp/noFilter,2026-09-22T16:30:01Z,2026-11-10,,,minimal,1658958,2026-11-15
 93587364463265,10773611097,Climb the Creepypasta Tower,https://tr.rbxcdn.com/180DAY-677d7d16c3db293c322fb83ca5bd3b7f/150/150/Image/Webp/noFilter,2026-10-29T07:18:36Z,2026-11-15,2026-11-15,,mild,953853,2026-11-15
@@ -2078,7 +2080,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 117945363758077,10773738399,Be a Cleaning Robot,https://tr.rbxcdn.com/180DAY-0129291b6c3d5a36bb49c9052b1c544b/150/150/Image/Webp/noFilter,2026-10-30T00:39:56Z,2026-11-11,2026-11-11,,minimal,532599,2026-11-15
 117949143041402,10116272705,[ 🎃 UPDATE 1.25 ] Anime Mysterious,,,2026-11-07,,2026-11-07,mild,,2026-11-08
 117964453312116,10350628186,[SIMULATOR] UEFA Playmakers Academy,,2026-06-18T13:17:26Z,2026-11-11,,,minimal,2768474,2026-11-11
-117985153726741,10553704684,Own a Grocery Store 🛒,,,2026-11-11,,2026-11-11,minimal,,2026-11-15
+117985153726741,10553704684,Own a Grocery Store 🛒,,,2026-11-11,,2026-11-11,vng-rating-override,,2026-11-15
 117996728392182,10302179427,⚖️ Stack the Shapes,https://tr.rbxcdn.com/180DAY-a14338928bf0f284cb77db1dba82dab2/150/150/Image/Webp/noFilter,2026-06-10T18:21:38Z,2026-11-07,,,minimal,5582738,2026-11-15
 118070637040583,8524519453,[🔥EMOTES] ایران تاور | iran tower,https://tr.rbxcdn.com/180DAY-01069a56aba6b8c13fb1f427c51204fc/150/150/Image/Webp/noFilter,2025-08-23T17:40:47Z,2026-11-07,,,mild,5188045,2026-11-14
 118198615964701,6628327758,(🎃) Dummy Defense,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
