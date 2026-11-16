@@ -115,7 +115,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 4545054277,1467077046,[VR Exclusive] EdgeWorks,,,2026-11-07,,,minimal,,
 4580204640,1489026993,🔪Survive the Killer!,,,2026-11-07,,2026-11-07,mild,,2026-11-16
 4588604953,1494262959,[🎃] Criminality,,,2026-11-07,,2026-11-07,moderate,,2026-11-16
-4616652839,1511883870,Shindo Life [251],,,2026-11-07,,2026-11-07,minimal,,2026-11-16
+4616652839,1511883870,Shindo Life [251],,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-16
 4620174796,1514363493,[ALPRS] Tennessee Roleplay Community,https://tr.rbxcdn.com/180DAY-1ced6299360d2175e7572f3e651b4c06/150/150/Image/Webp/noFilter,2020-01-21T21:26:04Z,2026-11-07,,,minimal,19184087,2026-11-15
 4622480690,1515869119,Coded Clothing Mall V3,,2020-01-22T21:37:06Z,2026-11-07,,,minimal,63288999,2026-11-15
 4623386862,1516533665,Piggy,,,2026-11-07,,2026-11-07,mild,,2026-11-16
@@ -306,7 +306,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 9273658706,3472976893,[UPDATE] Backrooms,,,2026-11-07,,2026-11-07,mild,,2026-11-14
 9285238704,3476371299,[❄️] Race Clicker,,,2026-11-07,,2026-11-07,minimal,,2026-11-15
 9346039031,3494556606,[Event] My Hello Kitty Cafe(Build),,,2026-11-07,,2026-11-07,minimal,,2026-11-15
-9391468976,3508322461,[🎃] Jujutsu Shenanigans,,,2026-11-07,,2026-11-07,mild,,2026-11-16
+9391468976,3508322461,[🎃] Jujutsu Shenanigans,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-16
 9417205094,3516020656,Brazil Ilha Bela Roleplay,https://tr.rbxcdn.com/180DAY-d56e206c046a06a5a62fbe232306fc7b/150/150/Image/Webp/noFilter,,2026-11-14,,,mild,,2026-11-15
 9484293069,3536173216,Sesame Street: Mecha Builders The Game,,,2026-11-07,,2026-11-07,minimal,,2026-11-16
 9495369236,3539082945,Cartoon Network Game On - Tycoon Theme Park,,,2026-11-07,,2026-11-07,minimal,,2026-11-15
@@ -527,7 +527,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 16039690331,5544551093,Secret Killer,,,2026-11-12,,2026-11-12,mild,,2026-11-16
 16057679366,5550530788,easiest game ever!,,,2026-11-07,,2026-11-07,minimal,,2026-11-16
 16115051360,5568657754,Gun and Armor Testing ,,,2026-11-07,,2026-11-07,mild,,2026-11-12
-16116270224,5569032992,🌻 Dandy's World [ALPHA],,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-16
+16116270224,5569032992,🌻 Dandy's World [ALPHA],,,2026-11-07,,2026-11-07,mild,,2026-11-16
 16141640360,5576890130,[NEW] Skateboard of Hell Obby,,,2026-11-07,,2026-11-07,minimal,,2026-11-16
 16146832113,5578556129,Vanguards: Trail of the Saint,,,2026-11-07,,2026-11-07,minimal,,2026-11-16
 16154918775,5580972377,💥 BUCKSHOT,,,2026-11-07,,2026-11-07,mild,,2026-11-16
@@ -555,7 +555,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 16916122579,5809308870,Indian Bank Story,https://tr.rbxcdn.com/180DAY-4c7f9021b3aff9b12fd4486e0264683c/150/150/Image/Webp/noFilter,2024-03-29T04:50:04Z,2026-11-07,,,minimal,3287022,2026-11-14
 16927467487,5812546130,"[OCEAN REVAMP] West Coast, Florida",,,2026-11-07,,2026-11-07,minimal,,2026-11-16
 16948929364,5818442577,[BETA] Eternal,https://tr.rbxcdn.com/180DAY-97ea7d95d7d0296f556a3b58c2c142dd/150/150/Image/Webp/noFilter,,2026-11-14,,,moderate,,2026-11-16
-16981421605,5827120940,Reborn As Swordsman,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-16
+16981421605,5827120940,Reborn As Swordsman,,,2026-11-07,,2026-11-07,mild,,2026-11-16
 16991287194,5829613337,something evil will happen [🎃🎃🎃],,,2026-11-07,,2026-11-07,mild,,2026-11-16
 17011057137,5835014039,[HALLOWEEN] New Journey,,,2026-11-07,,2026-11-07,mild,,2026-11-08
 17027058704,5839302258,Spectral Fades REMAKE,https://tr.rbxcdn.com/180DAY-f817e032f5c4033e69bea80331196d95/150/150/Image/Webp/noFilter,2024-04-05T23:48:47Z,2026-11-07,,,moderate,17895941,2026-11-15
@@ -2381,7 +2381,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 127742093697776,8316902627,[🏭] Plants & Brainrots 🌻,,,2026-11-07,,2026-11-07,mild,,2026-11-16
 127750392812160,10007567876,Last Contract: Tower Defense [ALPHA],,,2026-11-07,,,minimal,,
 127753293230152,8648908145,Trains Of Indonesia 2,https://tr.rbxcdn.com/180DAY-ef99898d88d6d2a8df1bfd79a3085882/150/150/Image/Webp/noFilter,2025-09-06T14:42:50Z,2026-11-07,,,minimal,3318365,2026-11-16
-127758046873351,10770036109,God Simulator 🌋 [⚔️ PVP UPDATE],https://tr.rbxcdn.com/180DAY-560da08ecf7989e64c5712cff6bac426/150/150/Image/Webp/noFilter,2026-10-09T18:43:15Z,2026-11-12,,,minimal,1698013,2026-11-16
+127758046873351,10770036109,God Simulator 🌋,https://tr.rbxcdn.com/180DAY-560da08ecf7989e64c5712cff6bac426/150/150/Image/Webp/noFilter,2026-10-09T18:43:15Z,2026-11-12,,,minimal,1698013,2026-11-16
 127768809070884,10650979742,[🥞] Make a Pancake!,https://tr.rbxcdn.com/180DAY-af173aefbebb7bdfab2c071e6d95cfac/150/150/Image/Webp/noFilter,2026-08-07T20:54:49Z,2026-11-07,,,minimal,13525046,2026-11-16
 127775478639865,10635348596,[Codes] Machine Party 💥,,,2026-11-07,,2026-11-07,mild,,2026-11-07
 127796122510286,10447863204,South Bronx: Elite War🎄,https://tr.rbxcdn.com/180DAY-e6a0b3a4384e4188bb56ce7ff1ca9e12/150/150/Image/Webp/noFilter,2026-07-04T21:14:13Z,2026-11-07,,,moderate,1703418,2026-11-16
