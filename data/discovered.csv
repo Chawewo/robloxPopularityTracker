@@ -80,7 +80,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 3016661674,1087859240,[🌍] Rogue Lineage,,,2026-11-07,,2026-11-07,moderate,,2026-11-16
 3025990139,1091907805,Unboxing Simulator [UPDATE],,,2026-11-07,,2026-11-07,minimal,,2026-11-16
 3030166262,1093311378,1867 Historical Role Play,,,2026-11-07,,,minimal,,
-3177438863,1147304238,Dragon Blox,,,2026-11-07,,2026-11-07,mild,,2026-11-16
+3177438863,1147304238,Dragon Blox,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-16
 3178828841,1147796911,Water Park World [Beta],,,2026-11-07,,2026-11-07,minimal,,2026-11-15
 3203685552,1157126388,BEAR (Alpha),,,2026-11-07,,2026-11-07,mild,,2026-11-16
 3242417672,1171251167,Carros Rebaixados BR (Pre-Alpha),,,2026-11-07,,2026-11-07,minimal,,2026-11-16
@@ -468,7 +468,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 14608970270,5039839070,(ANNIVERSARY) Outcome Memories v0.2,,,2026-11-07,,2026-11-07,moderate,,2026-11-16
 14618179455,5042430067,Build a Rocket VS Mark Rober,,,2026-11-07,,2026-11-07,minimal,,2026-11-16
 14639856040,5048990623,[⏳] Steal TIME for SWORDS,https://tr.rbxcdn.com/180DAY-9bddf318be2ff00614ead8fb1bbaabe5/150/150/Image/Webp/noFilter,2023-08-31T23:21:07Z,2026-11-07,,,mild,13048138,2026-11-16
-14641667067,5049569843,Titan Tower Defense,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-16
+14641667067,5049569843,Titan Tower Defense,,,2026-11-07,,2026-11-07,minimal,,2026-11-16
 14771338115,5090914273,Buchones Outfits v3,https://tr.rbxcdn.com/180DAY-250aff16e05e3e023a7124c9ff144cdc/150/150/Image/Webp/noFilter,2023-09-14T06:39:42Z,2026-11-07,,,minimal,20018202,2026-11-16
 14772802900,5091490171,[🎥REPLAY] Jailbird,,,2026-11-07,,2026-11-07,moderate,,2026-11-16
 14773138733,5091615162,Backpack Adventure: Find the Animals 🐻,,,2026-11-07,,,minimal,,
@@ -527,7 +527,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 16057679366,5550530788,easiest game ever!,,,2026-11-07,,2026-11-07,minimal,,2026-11-16
 16115051360,5568657754,Gun and Armor Testing ,,,2026-11-07,,2026-11-07,mild,,2026-11-12
 16116270224,5569032992,🌻 Dandy's World [ALPHA],,,2026-11-07,,2026-11-07,mild,,2026-11-16
-16141640360,5576890130,[NEW] Skateboard of Hell Obby,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-16
+16141640360,5576890130,[NEW] Skateboard of Hell Obby,,,2026-11-07,,2026-11-07,minimal,,2026-11-16
 16146832113,5578556129,Vanguards: Trail of the Saint,,,2026-11-07,,2026-11-07,minimal,,2026-11-16
 16154918775,5580972377,💥 BUCKSHOT,,,2026-11-07,,2026-11-07,mild,,2026-11-16
 16205713724,5595353122,[🕸️🎃Update] Project Slayers 2,,,2026-11-07,,2026-11-07,mild,,2026-11-16
@@ -1843,7 +1843,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 110175021189594,10230942274,Ability Arena 💥,,,2026-11-07,,2026-11-07,mild,,2026-11-16
 110247358891449,10774645078,[👽] HATCH THE LEGENDARY EGG 0.0001%,https://tr.rbxcdn.com/180DAY-21e3ac5df0170fcd77ced744875ccb24/150/150/Image/Webp/noFilter,2026-11-04T11:54:46Z,2026-11-11,2026-11-11,,minimal,316336,2026-11-13
 110328539470626,10765051383,🍿 Clean all the Popcorn! ,https://tr.rbxcdn.com/180DAY-7dfd9e2a398c8401080277e7036119e6/150/150/Image/Webp/noFilter,2026-09-04T04:53:55Z,2026-11-07,,,mild,2866148,2026-11-16
-110432290690507,10767494536,Hike For Eggs,,,2026-11-07,,2026-11-07,minimal,,2026-11-16
+110432290690507,10767494536,Hike For Eggs,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-16
 110433093427209,9365749189,Strawberry Keys Slap Tower! 🍓,https://tr.rbxcdn.com/180DAY-4e3f85fe1401f4aa2249aaddd74b19bc/150/150/Image/Webp/noFilter,2025-12-16T07:35:57Z,2026-11-07,,,mild,39520104,2026-11-16
 110443603443743,10769066324,Bloxx League,https://tr.rbxcdn.com/180DAY-555b7deccc09412dcc5b798ae487370a/150/150/Image/Webp/noFilter,2026-10-03T00:24:06Z,2026-11-07,,,minimal,34750473,2026-11-16
 110534393529784,10771440209,[UPDATE & EXPANDED MAP] Onthel Purwodadi,https://tr.rbxcdn.com/180DAY-5a77c310b6684bf11a948e8cee254d3d/150/150/Image/Webp/noFilter,2026-10-17T08:57:00Z,2026-11-07,2026-11-07,2026-11-11,minimal,5760753,2026-11-16
@@ -2275,7 +2275,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 124063493943486,10772879271,[UPDATE 2.1] 30 Floors Up,https://tr.rbxcdn.com/180DAY-259654c7a3946dea248da128011204ac/150/150/Image/Webp/noFilter,2026-10-25T06:10:18Z,2026-11-07,2026-11-07,2026-11-07,mild,2766029,2026-11-16
 124124395449044,9702081004,[🔁REBIRTH] Brainrot Card Battles,https://tr.rbxcdn.com/180DAY-01a174c0bc78de53f9ddf04f8970ade9/150/150/Image/Webp/noFilter,2026-02-09T22:07:38Z,2026-11-08,,,mild,24860017,2026-11-16
 124142675784254,10569930060,maybe tomorrow ill open the door,https://tr.rbxcdn.com/180DAY-8e0d794725b07d1d9f466b4a4a1b535a/150/150/Image/Webp/noFilter,2026-07-26T05:09:04Z,2026-11-07,,,minimal,15265142,2026-11-16
-124143542106350,9290633310,Strike Back [🌂S7],https://tr.rbxcdn.com/180DAY-3da2cf9d32d80a47cb1b5f6c7b1aadd8/150/150/Image/Webp/noFilter,2025-12-03T11:36:58Z,2026-11-07,,,vng-rating-override,48872598,2026-11-16
+124143542106350,9290633310,Strike Back [🌂S7],https://tr.rbxcdn.com/180DAY-3da2cf9d32d80a47cb1b5f6c7b1aadd8/150/150/Image/Webp/noFilter,2025-12-03T11:36:58Z,2026-11-07,,,mild,48872598,2026-11-16
 124156325220041,10772422537,Compliment,https://tr.rbxcdn.com/180DAY-32962b7e58edd6b49796774311f9eabc/150/150/Image/Webp/noFilter,2026-10-22T15:40:06Z,2026-11-07,2026-11-08,,minimal,910449,2026-11-16
 124172969655058,10768025830,Oregon Trail [new!],,,2026-11-07,,2026-11-07,minimal,,2026-11-16
 124216119978534,10035204815,[♻️] Ride A Pet,,,2026-11-07,,2026-11-07,minimal,,2026-11-16
@@ -2727,7 +2727,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 140322231839637,10765763629,ONE TAP PISTOLS,,,2026-11-07,,2026-11-07,mild,,2026-11-16
 140374914197602,7005891584,Speed Clicker ⚡,,,2026-11-07,,2026-11-07,minimal,,2026-11-15
 140393199369331,10517384691,Sequence Tile,https://tr.rbxcdn.com/180DAY-5de203021094a8fafc7ef9b4179fa985/150/150/Image/Webp/noFilter,2026-07-17T10:09:09Z,2026-11-08,,,minimal,1194935,2026-11-13
-140409475718339,9073513091, Anime Apocalypse [LAST SHINOBI],,,2026-11-07,,2026-11-07,moderate,,2026-11-16
+140409475718339,9073513091, Anime Apocalypse [LAST SHINOBI],,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-16
 140409667345323,10772611738,AURA X,,,2026-11-07,2026-11-07,2026-11-07,mild,,2026-11-16
 140431845542654,10773926254,Bloody Ragdoll Physics 🩸,https://tr.rbxcdn.com/180DAY-bbb6abc9956610452a32a16473d3b05a/150/150/Image/Webp/noFilter,2026-10-31T03:26:34Z,2026-11-07,2026-11-07,2026-11-11,mild,473339,2026-11-16
 140481779622210,8504461817,Escape The Lava 🔥,,,2026-11-07,,2026-11-07,minimal,,2026-11-16
