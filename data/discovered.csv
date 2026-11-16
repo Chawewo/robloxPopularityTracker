@@ -332,7 +332,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 10224049386,3746418487,House Tycoon 2,,,2026-11-08,,2026-11-08,minimal,,2026-11-11
 10228136016,3747388906,[FREE WEEKND] Fallen Survival🏹,,,2026-11-07,,2026-11-07,moderate,,2026-11-16
 10253248401,3754482795,Elemental Powers Tycoon,,,2026-11-07,,2026-11-07,mild,,2026-11-16
-10260193230,3756501373,[UPDATE 4] Meme Sea,,,2026-11-07,,2026-11-07,mild,,2026-11-16
+10260193230,3756501373,[UPDATE 4] Meme Sea,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-16
 10277607801,3761186887,Apeirophobia,,,2026-11-08,,2026-11-08,moderate,,2026-11-09
 10424585322,3801413348,⭐ Face Animations [Demo],https://tr.rbxcdn.com/180DAY-40c60da4c1726cc6f114905353bc42c6/150/150/Image/Webp/noFilter,2022-07-31T06:21:59Z,2026-11-07,,,minimal,75986099,2026-11-16
 10425361163,3801657309,CurioCity,,,2026-11-07,,,minimal,,
@@ -469,7 +469,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 14608970270,5039839070,(ANNIVERSARY) Outcome Memories v0.2,,,2026-11-07,,2026-11-07,moderate,,2026-11-16
 14618179455,5042430067,Build a Rocket VS Mark Rober,,,2026-11-07,,2026-11-07,minimal,,2026-11-16
 14639856040,5048990623,[⏳] Steal TIME for SWORDS,https://tr.rbxcdn.com/180DAY-9bddf318be2ff00614ead8fb1bbaabe5/150/150/Image/Webp/noFilter,2023-08-31T23:21:07Z,2026-11-07,,,mild,13048138,2026-11-16
-14641667067,5049569843,Titan Tower Defense,,,2026-11-07,,2026-11-07,minimal,,2026-11-16
+14641667067,5049569843,Titan Tower Defense,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-16
 14771338115,5090914273,Buchones Outfits v3,https://tr.rbxcdn.com/180DAY-250aff16e05e3e023a7124c9ff144cdc/150/150/Image/Webp/noFilter,2023-09-14T06:39:42Z,2026-11-07,,,minimal,20018202,2026-11-16
 14772802900,5091490171,[🎥REPLAY] Jailbird,,,2026-11-07,,2026-11-07,moderate,,2026-11-16
 14773138733,5091615162,Backpack Adventure: Find the Animals 🐻,,,2026-11-07,,,minimal,,
@@ -599,7 +599,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 18153851914,6154386310,[BOSS] Classic Arena,,,2026-11-07,,2026-11-07,mild,,2026-11-15
 18172550962,6161049307,[MYTHICALS // SERPENT] Pixel Blade,,,2026-11-07,,2026-11-07,mild,,2026-11-16
 18180736634,6163884815,Team Stepmom Run! (TEAMWORK OBBY),,,2026-11-07,,2026-11-07,minimal,,2026-11-16
-18199615050,6170143659,[UPD] Demonology🕯️,,,2026-11-07,,2026-11-07,moderate,,2026-11-16
+18199615050,6170143659,[UPD] Demonology🕯️,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-16
 18214855317,6174994284,Savannah Life,,,2026-11-07,,2026-11-07,mild,,2026-11-16
 18218605381,6176333237,Clarity Over Resonance,,,2026-11-07,,2026-11-07,minimal,,2026-11-16
 18259975825,6190071862,Grave/Digger,,,2026-11-07,,2026-11-07,moderate,,2026-11-16
@@ -710,7 +710,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 72763503064951,10140010190,Would You Rather: Teamwork Outfit Tower!,,,2026-11-07,,2026-11-07,minimal,,2026-11-16
 72791172004828,10773610400,Build a Superhero,https://tr.rbxcdn.com/180DAY-e66c95eb73dc19ba8ad6310c6e799858/150/150/Image/Webp/noFilter,2026-10-29T07:09:39Z,2026-11-12,2026-11-12,,mild,290005,2026-11-16
 72835604369883,10770190697,[X2 CASH] Survive Monochrome in Area 51,https://tr.rbxcdn.com/180DAY-1ed9731e1a49ad48fe9f17bc3b3b1f9f/150/150/Image/Webp/noFilter,2026-10-10T14:22:00Z,2026-11-07,2026-11-07,,mild,1817940,2026-11-13
-72845937010155,8365871374,[✋] Gear Slap Tower,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-16
+72845937010155,8365871374,[✋] Gear Slap Tower,,,2026-11-07,,2026-11-07,minimal,,2026-11-16
 72858262610964,10629695169,[🏰] Tap Simulator REBORN,,,2026-11-07,,2026-11-07,minimal,,2026-11-16
 72926315136902,10765058272,TRANSFORMERS:DEFENDERS,,2026-09-04T06:48:55Z,2026-11-07,,,minimal,1052124,2026-11-07
 73101851322368,6937137675,Calla City 🏡 RP [Family! 👪],,,2026-11-07,,2026-11-07,minimal,,2026-11-15
@@ -1757,7 +1757,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 107676118189831,10771853697,[FIXED!] Project Web ,https://tr.rbxcdn.com/180DAY-edc9f43d69e77f34969b23ee22dd8f5b/150/150/Image/Webp/noFilter,2026-10-19T04:40:19Z,2026-11-07,2026-11-07,,minimal,1108984,2026-11-16
 107717448640907,9324506782,[TOY CHICA] Nights of Eternity 🍕,,,2026-11-14,,2026-11-14,minimal,,2026-11-16
 107725109349532,10766350628,Steal An Egg ROLEPLAY,https://tr.rbxcdn.com/180DAY-8d03c0b2f73817a3bb3bb43468388b3d/150/150/Image/Webp/noFilter,2026-09-13T18:27:02Z,2026-11-07,,,minimal,9761356,2026-11-13
-107727386530697,7794218964,[💫] Noob Mayhem!,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-16
+107727386530697,7794218964,[💫] Noob Mayhem!,,,2026-11-07,,2026-11-07,mild,,2026-11-16
 107751141760658,10775205381,Very Realistic Ragdolls 🩸,https://tr.rbxcdn.com/180DAY-4d027449e2dd288efb03576ca709ba88/150/150/Image/Webp/noFilter,2026-11-07T19:07:29Z,2026-11-15,2026-11-15,,mild,307621,2026-11-16
 107778070777162,10563114921,Steal An Egg,,,2026-11-07,,2026-11-07,minimal,,2026-11-16
 107879374402090,10768410533,🔥 SPEED,https://tr.rbxcdn.com/180DAY-8336081c5aab9f6e239e02c3f942b9d6/150/150/Image/Webp/noFilter,2026-09-28T03:45:06Z,2026-11-07,,,minimal,2650548,2026-11-13
@@ -2665,7 +2665,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 137541498231955,7646154613,Shrink Hide & Seek,,,2026-11-07,,2026-11-07,mild,,2026-11-16
 137582978601965,10773033667,[❄️] Be Flash For Eggs,https://tr.rbxcdn.com/180DAY-e1f3bd452aaa3cd00d9dd676dffddb9c/150/150/Image/Webp/noFilter,2026-10-25T23:30:55Z,2026-11-10,2026-11-10,,minimal,218630,2026-11-16
 137623539769370,10771126583,Cube Mix Up,https://tr.rbxcdn.com/180DAY-35f2052ed432b2cdd1b0a4ac5376d9a7/150/150/Image/Webp/noFilter,2026-10-15T22:57:14Z,2026-11-07,2026-11-09,,minimal,244787,2026-11-16
-137628283909891,6925303818,Goalbound,,,2026-11-07,,2026-11-07,minimal,,2026-11-16
+137628283909891,6925303818,Goalbound,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-16
 137725982880980,10772337598,BACKROAD ATLANTA (VC🔊),https://tr.rbxcdn.com/180DAY-81ce5a762abcb33a449a58465d0100ff/150/150/Image/Webp/noFilter,2026-10-22T01:53:38Z,2026-11-07,,,moderate,446390,2026-11-13
 137826330724902,8539298853,Scary Shawarma Kiosk: the ANOMALY [horror],,,2026-11-07,,2026-11-07,minimal,,2026-11-16
 137925884276740,7822444776,✈️ Build A Plane,,,2026-11-07,,2026-11-07,minimal,,2026-11-16
