@@ -33,7 +33,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 523707617,204387960,Universal Roblox Theme Park,,,2026-11-15,,2026-11-15,minimal,,2026-11-16
 537413528,210851291,Build A Boat For Treasure,,,2026-11-07,,2026-11-07,minimal,,2026-11-16
 601239270,242453665,Mint Tycoon [BETA],,,2026-11-07,,,minimal,,
-606849621,245662005,Jailbreak 🍁🍁,,,2026-11-07,,2026-11-07,mild,,2026-11-16
+606849621,245662005,Jailbreak,,,2026-11-07,,2026-11-07,mild,,2026-11-16
 654732683,274816972,[New Car!🍃] Car Crushers 2 - Physics Simulation,,,2026-11-07,,2026-11-07,minimal,,2026-11-16
 735030788,321778215,Royale 🔥❄️ High,,,2026-11-07,,2026-11-07,mild,,2026-11-16
 740581899,324740367,Entry Point: Freelancer's Cut,,,2026-11-07,,2026-11-07,mild,,2026-11-16
@@ -78,7 +78,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 2872154782,1039663363,Clover's Deltarune RP,https://tr.rbxcdn.com/180DAY-8a8a34e7f41c2b76b24c91b7b6b80ba4/150/150/Image/Webp/noFilter,2019-02-19T05:35:07Z,2026-11-11,,,minimal,16873344,2026-11-16
 2916899287,1054526971,Blackhawk Rescue Mission 5,,,2026-11-07,,2026-11-07,moderate,,2026-11-16
 3016661674,1087859240,[🌍] Rogue Lineage,,,2026-11-07,,2026-11-07,moderate,,2026-11-16
-3025990139,1091907805,Unboxing Simulator [UPDATE],,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-16
+3025990139,1091907805,Unboxing Simulator [UPDATE],,,2026-11-07,,2026-11-07,minimal,,2026-11-16
 3030166262,1093311378,1867 Historical Role Play,,,2026-11-07,,,minimal,,
 3177438863,1147304238,Dragon Blox,,,2026-11-07,,2026-11-07,mild,,2026-11-16
 3178828841,1147796911,Water Park World [Beta],,,2026-11-07,,2026-11-07,minimal,,2026-11-15
@@ -210,7 +210,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 6557769953,2463274810,Scripting School,,,2026-11-07,,,minimal,,
 6558526079,2463681758,Anime World Tower Defense,,,2026-11-15,,2026-11-15,minimal,,2026-11-16
 6608498361,2491559356,[UPDATE] Cursed Tank Simulator【HOLD THE LINE】,,,2026-11-07,,2026-11-07,mild,,2026-11-16
-6652606416,2501141430,Circuit Maker 2,,2021-04-08T01:49:09Z,2026-11-07,,,minimal,5770221,2026-11-15
+6652606416,2501141430,Circuit Maker 2,,2021-04-08T01:49:09Z,2026-11-07,,,minimal,5770221,2026-11-16
 6653964354,2501896830,Emergency Port-Marie 🚨,,,2026-11-07,,2026-11-07,mild,,2026-11-16
 6667042496,2509333429,The Victoria Line,https://tr.rbxcdn.com/180DAY-9a35c3237a9099f49e4120cae891aa9c/150/150/Image/Webp/noFilter,,2026-11-14,,,minimal,,2026-11-14
 6686932749,2520686564,Prehistoria | Dinosaur Survival PVP,,,2026-11-07,,2026-11-07,mild,,2026-11-16
@@ -1041,7 +1041,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 82670836075946,10773735871,TERRITORIES 🗺️,https://tr.rbxcdn.com/180DAY-ddeb2ff6b3dc7daf142a9e7331f8e057/150/150/Image/Webp/noFilter,2026-10-30T00:14:50Z,2026-11-13,,,minimal,537544,2026-11-16
 82686341450515,10768735219,Climb Scary Buddy Tower,https://tr.rbxcdn.com/180DAY-837af7e4d79eaa530cb26f70c559dd3a/150/150/Image/Webp/noFilter,2026-09-30T14:54:51Z,2026-11-07,,,mild,2529789,2026-11-16
 82756210797896,7457090912,[GOKU & SPIDERMAN] Realistic Outfits & Avatars,,2025-03-29T21:53:03Z,2026-11-09,,,minimal,1220834,2026-11-13
-82797688803922,9885372266,[🏘️UPD] Unseen Liminality,,,2026-11-07,,2026-11-07,minimal,,2026-11-16
+82797688803922,9885372266,Unseen Liminality,,,2026-11-07,,2026-11-07,minimal,,2026-11-16
 82835505740239,10767708641,PISTOL DUELS [MATCHMAKING ⚔️] ,https://tr.rbxcdn.com/180DAY-f96a5573fb95802e76b546597231287a/150/150/Image/Webp/noFilter,2026-09-23T11:24:26Z,2026-11-07,,,mild,3682784,2026-11-16
 82854191372599,9979684281,🔧 Mechanic Legends [BODYKITS],https://tr.rbxcdn.com/180DAY-36836b04bb346eb7ba73b4bf8b9b2cd3/150/150/Image/Webp/noFilter,2026-04-03T00:08:28Z,2026-11-07,,,minimal,9379953,2026-11-16
 82866880824588,9908641400,Football Fusion 3,,,2026-11-07,,2026-11-07,minimal,,2026-11-16
@@ -2336,7 +2336,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 125278401867151,10766356795,Rocket Blox - Beta,https://tr.rbxcdn.com/180DAY-62883ed5143f16bc986591761ba25926/150/150/Image/Webp/noFilter,2026-09-13T19:10:20Z,2026-11-07,,,minimal,1406730,2026-11-16
 125299131646017,10419655626,[🤝TRADES] RP Harmony,,,2026-11-07,,2026-11-07,mild,,2026-11-16
 125310131519813,10747719434,[V6] Feed A Mosquito,,,2026-11-07,,2026-11-07,mild,,2026-11-16
-125311969980436,10769999776,[OVERHAUL UPDATE!] FAITHFUL | BETA,https://tr.rbxcdn.com/180DAY-b9aa7e9ec53062c88bf1752531277b5d/150/150/Image/Webp/noFilter,2026-10-09T14:11:23Z,2026-11-07,2026-11-07,,minimal,3854024,2026-11-16
+125311969980436,10769999776,[TEMPORAL REVERT] FAITHFUL | BETA,https://tr.rbxcdn.com/180DAY-b9aa7e9ec53062c88bf1752531277b5d/150/150/Image/Webp/noFilter,2026-10-09T14:11:23Z,2026-11-07,2026-11-07,,minimal,3854024,2026-11-16
 125331718634489,10295419422,League Football [PRE-ALPHA],https://tr.rbxcdn.com/180DAY-819e04200b30db805b222f65d2fb8a94/150/150/Image/Webp/noFilter,2026-06-09T10:29:25Z,2026-11-07,,,minimal,9987922,2026-11-15
 125332227026284,10773168221,Shred A Billion (🦀MR Krabs🦀),https://tr.rbxcdn.com/180DAY-04987b57c20f94da678be0a4db4e02b0/150/150/Image/Webp/noFilter,2026-10-26T19:40:28Z,2026-11-14,2026-11-14,,minimal,280212,2026-11-16
 125350055595066,10765927544,🍂 Zarechensk RP [ОБНОВА],https://tr.rbxcdn.com/180DAY-872861c71d972ed1833822f00c325d88/150/150/Image/Webp/noFilter,2026-09-10T18:55:10Z,2026-11-12,,2026-11-16,mild,4070138,2026-11-13
