@@ -314,7 +314,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 9503261072,3541611379,[+50% SHARDS] Tower Defense X: BETA,,,2026-11-07,,2026-11-07,minimal,,2026-11-16
 9603033881,3573098848,💰 Bid Battles!,,,2026-11-07,,2026-11-07,minimal,,2026-11-16
 9731376817,3608594708,✨Collect The Body,,,2026-11-07,,2026-11-07,minimal,,2026-11-16
-9731911476,3608732146,💪Size Legends Simulator,,,2026-11-07,,2026-11-07,minimal,,2026-11-16
+9731911476,3608732146,💪Size Legends Simulator,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-16
 9756976552,3615728730,[🎃] Derelict,,,2026-11-07,,2026-11-07,moderate,,2026-11-07
 9759893929,3616579578,Zoo Tropica 🦓 ,,2022-05-29T12:37:57Z,2026-11-07,,,minimal,9217293,2026-11-14
 9791603388,3624423521,Underground War 2.0 ⚔️ [NUKE],,,2026-11-07,,2026-11-07,mild,,2026-11-16
@@ -432,7 +432,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 13600218266,4723764956,🎥My Movie,,,2026-11-07,,2026-11-07,minimal,,2026-11-16
 13621938427,4730278139,[🎃] untitled boxing game🥊,,,2026-11-07,,2026-11-07,mild,,2026-11-16
 13664698400,4743794878,The Classic Soccer,,,2026-11-07,,2026-11-07,minimal,,2026-11-16
-13687899540,4750561026,Cold War [SOUNDS],,,2026-11-07,,2026-11-07,moderate,,2026-11-16
+13687899540,4750561026,Cold War [SOUNDS],,,2026-11-07,,2026-11-07,mild,,2026-11-16
 13705777238,4756434078,Bus Driver Vietnam 2,https://tr.rbxcdn.com/180DAY-e02223a4b41f63e17a59a920fb612d3d/150/150/Image/Webp/noFilter,2023-06-10T05:05:02Z,2026-11-07,,,minimal,312828338,2026-11-16
 13728135146,4763821055,roblox size comparison,,2023-06-12T04:38:10Z,2026-11-07,,,minimal,1850325,2026-11-10
 13730658693,4764717084,Rec It,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
@@ -2621,6 +2621,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 134619004688066,8659262047,Dangerous ATV Driving,,,2026-11-07,,2026-11-07,minimal,,2026-11-16
 134631749335354,10773200083,Anime Ragdoll🩸,https://tr.rbxcdn.com/180DAY-3cb269022c873692c5d2be0610c5587f/150/150/Image/Webp/noFilter,2026-10-26T23:09:24Z,2026-11-14,2026-11-14,2026-11-16,mild,705317,2026-11-16
 134679507313109,10758397570,Steal an Egg for Squishy Dumplings!,,,2026-11-07,,2026-11-07,minimal,,2026-11-16
+134688800506215,10774290326,Throw Pets to Fight,https://tr.rbxcdn.com/180DAY-b191303d2fb7a7231745aee5626172ee/150/150/Image/Webp/noFilter,2026-11-02T01:53:37Z,2026-11-16,2026-11-16,,minimal,142667,2026-11-16
 134720269349402,10031520860,UAV STRIKE [NEW DRONES],https://tr.rbxcdn.com/180DAY-e9a8863849ac5234b6fe19cc88122e12/150/150/Image/Webp/noFilter,2026-04-13T10:37:27Z,2026-11-07,,,mild,14927046,2026-11-13
 134727247207201,10773493909,[🎅] Taxi Getaway 🚖,https://tr.rbxcdn.com/180DAY-5bee8e37b4301dc7a18cdd92c348180b/150/150/Image/Webp/noFilter,2026-10-28T13:42:01Z,2026-11-13,2026-11-13,,minimal,221856,2026-11-16
 134812706485585,10766284126,+1 Monkey Swing Escape,https://tr.rbxcdn.com/180DAY-abb33b20177f5c16197f93e1e24df783/150/150/Image/Webp/noFilter,2026-09-13T10:26:29Z,2026-11-11,,,minimal,616022,2026-11-16
@@ -2666,7 +2667,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 136468592163527,10771507608,🧸 My Small Business,,,2026-11-07,2026-11-07,2026-11-07,minimal,,2026-11-16
 136555269557967,10773166420,Create Slime Mart ! [Testing] 🍫,https://tr.rbxcdn.com/180DAY-e0cbdb7a2f6e3639baf5b0d164157a09/150/150/Image/Webp/noFilter,2026-10-26T19:27:06Z,2026-11-07,2026-11-07,,minimal,1620100,2026-11-13
 136557931890878,9857357565,[🎃]Tebak Yuk!,https://tr.rbxcdn.com/180DAY-79510d71e126a2a1549025f91ce23502/150/150/Image/Webp/noFilter,2026-03-09T03:44:52Z,2026-11-07,,,minimal,19862150,2026-11-16
-136559140509439,7779608878,Find the Key! 🔑,https://tr.rbxcdn.com/180DAY-fe9874999cc50fa6026711dd7a216690/150/150/Image/Webp/noFilter,2025-05-26T18:06:25Z,2026-11-07,,,minimal,12856959,2026-11-16
+136559140509439,7779608878,[🔥New Maps] Find the Key! 🔑,https://tr.rbxcdn.com/180DAY-fe9874999cc50fa6026711dd7a216690/150/150/Image/Webp/noFilter,2025-05-26T18:06:25Z,2026-11-07,,,minimal,12856959,2026-11-16
 136608860274308,10766026489,[⭐️ UPD] Avataria Life,https://tr.rbxcdn.com/180DAY-cefe23060a683ec50e77711e9fb58ecf/150/150/Image/Webp/noFilter,2026-09-11T17:03:57Z,2026-11-07,2026-11-07,,minimal,2698243,2026-11-16
 136611085381274,10037019232,🤿[DIVE GEAR] Marine Academy: Military Roleplay,,,2026-11-07,,2026-11-07,minimal,,2026-11-16
 136751105840706,10764840185,[🎃] CASER - Open Cases & Upgrade Your Skins!,https://tr.rbxcdn.com/180DAY-777fe64606b04df78f1a4ee22ecd9bfc/150/150/Image/Webp/noFilter,2026-09-02T12:27:01Z,2026-11-07,,,minimal,4000369,2026-11-16
