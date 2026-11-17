@@ -82,7 +82,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 3030166262,1093311378,1867 Historical Role Play,,,2026-11-07,,,minimal,,
 3177438863,1147304238,Dragon Blox,,,2026-11-07,,2026-11-07,mild,,2026-11-17
 3178828841,1147796911,Water Park World [Beta],,,2026-11-07,,2026-11-07,minimal,,2026-11-15
-3203685552,1157126388,BEAR (Alpha),,,2026-11-07,,2026-11-07,mild,,2026-11-17
+3203685552,1157126388,BEAR (Alpha),,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-17
 3242417672,1171251167,Carros Rebaixados BR (Pre-Alpha),,,2026-11-07,,2026-11-07,minimal,,2026-11-17
 3255508650,1175471394,[new weapons!] brawl 2,,,2026-11-08,,2026-11-08,mild,,2026-11-17
 3260590327,1176784616,Tower Defense Simulator,,,2026-11-07,,2026-11-07,minimal,,2026-11-17
@@ -153,7 +153,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 5484617659,1917762467,🎵 Free Boombox/Radio 🎵,,2020-08-02T17:41:37Z,2026-11-07,,,minimal,5086146,2026-11-16
 5496455308,1921509404,[❄️] Tower FL,,,2026-11-07,,2026-11-07,minimal,,2026-11-17
 5571328985,1946714362,[🎃] Bloodlines,,,2026-11-07,,2026-11-07,moderate,,2026-11-17
-5593470048,1953956112,Visual Pianos 🎹,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-17
+5593470048,1953956112,Visual Pianos 🎹,,,2026-11-07,,2026-11-07,minimal,,2026-11-17
 5593925613,1954152886,Countryball World 🌎,,,2026-11-07,,2026-11-07,minimal,,2026-11-15
 5602055394,1958807588,[🎃] Hood Modded,,,2026-11-07,,2026-11-07,moderate,,2026-11-10
 5670218884,1998835206,[🌳] item asylum,,,2026-11-07,,2026-11-07,mild,,2026-11-15
@@ -345,7 +345,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 10561456271,3837114739,The Vampire Legends 2,,,2026-11-07,,2026-11-07,minimal,,2026-11-13
 10617518225,3852524123,Catalog Avatar Editor,,,2026-11-07,,2026-11-07,minimal,,2026-11-17
 10679239752,3869462497,Furry Infection game [Furinfection],,,2026-11-07,,2026-11-07,mild,,2026-11-10
-10683046649,3870463843,[SBR 1500+🔥]Jojo Outfits,,2022-08-22T16:51:38Z,2026-11-07,,,vng-rating-override,1281953,2026-11-15
+10683046649,3870463843,[SBR 1500+🔥]Jojo Outfits,,2022-08-22T16:51:38Z,2026-11-07,,,minimal,1281953,2026-11-15
 10834586502,3913007563,The Battle Bricks,,,2026-11-07,,2026-11-07,mild,,2026-11-17
 10840095864,3914607290,Mission: Mars – Explore the Red Planet 🔴,,,2026-11-07,,,minimal,,
 10853515606,3918560032,MEDIEVAL STRATEGY,,,2026-11-09,,2026-11-09,mild,,2026-11-15
@@ -977,7 +977,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 80364693006131,10205303532,Boats Go BOOM💥[FPS],https://tr.rbxcdn.com/180DAY-6e8b25fe42194c7a17723e4719b8de66/150/150/Image/Webp/noFilter,2026-05-22T20:09:06Z,2026-11-10,2026-11-10,,mild,2092296,2026-11-17
 80379629003961,10772608754,[NOW] Roller Life,https://tr.rbxcdn.com/180DAY-4b50d0796e8d317c74d49fe9d25be791/150/150/Image/Webp/noFilter,2026-10-23T19:18:48Z,2026-11-13,2026-11-13,,minimal,291501,2026-11-15
 80392427444524,10768905764,Build Your World! 🔨,https://tr.rbxcdn.com/180DAY-6ad70d697f8adf3911ec9ff8c2d82c4e/150/150/Image/Webp/noFilter,2026-10-01T20:31:38Z,2026-11-12,,,minimal,2490513,2026-11-17
-80428104832071,9879502104,🌪️ TORNADO RP - 2 ( MOVIE PACK + MORE ),,,2026-11-17,,,minimal,,2026-11-17
+80428104832071,9879502104,🌪️ TORNADO RP - 2 ( MOVIE PACK + MORE ),https://tr.rbxcdn.com/180DAY-552af607319fdb5708c0634c19957cdf/150/150/Image/Webp/noFilter,,2026-11-17,,,minimal,,2026-11-17
 80436333294247,10764857294,KartX Racing [NEW TRACK!],https://tr.rbxcdn.com/180DAY-ccdb1e4a137cbd5a38d51a34b6d974dd/150/150/Image/Webp/noFilter,2026-09-02T14:51:40Z,2026-11-07,,,minimal,6271369,2026-11-17
 80473152446189,10771520659,[BETA] BONK! Ragdoll Boxing 🥊,https://tr.rbxcdn.com/180DAY-d6d86faa655646c01b8b3e97a2028241/150/150/Image/Webp/noFilter,2026-10-17T15:37:03Z,2026-11-07,2026-11-10,,mild,6148085,2026-11-17
 80497193963352,9584013605,Shoot Zombies To Move Up,https://tr.rbxcdn.com/180DAY-06b9b81d98ec78f71144931110f0be91/150/150/Image/Webp/noFilter,2026-01-18T15:00:06Z,2026-11-07,,,moderate,46666023,2026-11-13
@@ -1621,6 +1621,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 102155891663543,10769876151,Make Ramen To Get Rich [RELEASE],,,2026-11-07,2026-11-07,2026-11-07,minimal,,2026-11-07
 102376676442996,10647121886,✂️ Split,https://tr.rbxcdn.com/180DAY-7ab3eb800cde808fc3c7fb3c3c50846c/150/150/Image/Webp/noFilter,2026-08-07T08:56:34Z,2026-11-11,,,minimal,247659,2026-11-16
 102457672839885,10211159992,Keyboard Color Bridge,,,2026-11-07,,2026-11-07,minimal,,2026-11-17
+102462353338227,9594335382,Steal From Gatito 🐱,,,2026-11-17,,,mild,,
 102476635575386,10767634248,Firefighting Sim 🚒,,,2026-11-07,,2026-11-07,minimal,,2026-11-17
 102487657531883,10773502711,[🦖T-REX] BoneBox Engine 🩸,https://tr.rbxcdn.com/180DAY-f6bcb82f89348c6f576342b5d040ab9b/150/150/Image/Webp/noFilter,2026-10-28T14:31:42Z,2026-11-13,2026-11-13,,mild,391349,2026-11-17
 102493777880530,9949288829,[UPD] Steal from KPOP Idols!,https://tr.rbxcdn.com/180DAY-dc36dc2e18c01c008fdc97c747b78770/150/150/Image/Webp/noFilter,2026-03-27T21:00:53Z,2026-11-07,,,minimal,13726426,2026-11-17
@@ -1730,7 +1731,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 106281665544955,10768043046,Battle Royale,https://tr.rbxcdn.com/180DAY-b38003876d68924531ee1e3c70114c06/150/150/Image/Webp/noFilter,2026-09-25T21:54:58Z,2026-11-07,,,mild,1317599,2026-11-13
 106316795026515,10757056801,Mini World War [MWW],https://tr.rbxcdn.com/180DAY-07b995efa2a97b85d306f7f83246f1bc/150/150/Image/Webp/noFilter,2026-08-23T16:49:54Z,2026-11-07,,,minimal,1185288,2026-11-17
 106371326931646,9948825950,Escape Tornado Alley,,,2026-11-10,,2026-11-10,mild,,2026-11-12
-106404302880623,10773109180,Himalaya Map,,,2026-11-17,,,minimal,,
+106404302880623,10773109180,Himalaya Map,https://tr.rbxcdn.com/180DAY-2920f122de96ae5f1087958156643686/150/150/Image/Webp/noFilter,2026-10-26T12:37:07Z,2026-11-17,,,minimal,119378,2026-11-17
 106425431775947,7332812970,Motorcycle Racing 🏍️,,,2026-11-07,,2026-11-07,minimal,,2026-11-17
 106473672978445,10773432056,Malam Bersama Kaka [HOROR],https://tr.rbxcdn.com/180DAY-b305d0403b7d7b78f02cabd4e374e3b8/150/150/Image/Webp/noFilter,2026-10-28T03:05:38Z,2026-11-07,2026-11-07,,minimal,460675,2026-11-17
 106490710325921,9620363363,[ UPD ] Aman Kok Laser ,,,2026-11-07,,2026-11-07,minimal,,2026-11-17
