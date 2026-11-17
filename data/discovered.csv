@@ -116,7 +116,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 4545054277,1467077046,[VR Exclusive] EdgeWorks,,,2026-11-07,,,minimal,,
 4580204640,1489026993,🔪Survive the Killer!,,,2026-11-07,,2026-11-07,mild,,2026-11-17
 4588604953,1494262959,[🎃] Criminality,,,2026-11-07,,2026-11-07,moderate,,2026-11-17
-4616652839,1511883870,Shindo Life [251],,,2026-11-07,,2026-11-07,minimal,,2026-11-17
+4616652839,1511883870,Shindo Life [251],,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-17
 4620174796,1514363493,[ALPRS] Tennessee Roleplay Community,https://tr.rbxcdn.com/180DAY-1ced6299360d2175e7572f3e651b4c06/150/150/Image/Webp/noFilter,2020-01-21T21:26:04Z,2026-11-07,,,minimal,19184087,2026-11-15
 4622480690,1515869119,Coded Clothing Mall V3,,2020-01-22T21:37:06Z,2026-11-07,,,minimal,63288999,2026-11-16
 4623386862,1516533665,Piggy,,,2026-11-07,,2026-11-07,mild,,2026-11-17
@@ -294,7 +294,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 8704997000,3308103880,Maple Hospital 🍂,,,2026-11-07,,2026-11-07,minimal,,2026-11-17
 8712817601,3310460039,🚨BARRY'S PRISON RUN! (OBBY),,,2026-11-07,,2026-11-07,minimal,,2026-11-17
 8737602449,3317679266,PLS DONATE 💸,,,2026-11-07,,2026-11-07,minimal,,2026-11-17
-8737899170,3317771874,🍁 [TYCOON] Pet Simulator 99! 🍀,,,2026-11-07,,2026-11-07,minimal,,2026-11-17
+8737899170,3317771874,🍁 [TYCOON] Pet Simulator 99! 🍀,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-17
 8838701772,3346892457,SCP Monsters or Trevor Creatures,,,2026-11-07,,2026-11-07,mild,,2026-11-17
 8848607186,3349588628,Digital Piano 🎹,,,2026-11-07,,2026-11-07,minimal,,2026-11-17
 8884433153,3359505957,Collect All Pets!,,,2026-11-07,,2026-11-07,minimal,,2026-11-17
@@ -451,7 +451,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 14038329225,4862269388,Archived,,,2026-11-16,,2026-11-16,moderate,,2026-11-17
 14056754882,4867910507,Flex Your UGC Limiteds,,,2026-11-07,,2026-11-07,minimal,,2026-11-17
 14172431401,4905293690,The Horse Game,https://tr.rbxcdn.com/180DAY-f2b7cac35d5015045b5eab44079d1f69/150/150/Image/Webp/noFilter,,2026-11-07,,,minimal,,2026-11-15
-14236123211,4924516231,Punch Simulator 👊[FREE UGC],,,2026-11-07,,2026-11-07,mild,,2026-11-17
+14236123211,4924516231,Punch Simulator 👊[FREE UGC],,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-17
 14259168147,4931927012,[UPD]🏀Basketball Legends🏀,,,2026-11-07,,2026-11-07,minimal,,2026-11-17
 14279693118,4938220315,[ACT 3] Skibi Defense,,,2026-11-09,,2026-11-09,minimal,,2026-11-12
 14301835518,4944984948,Team School Breakout! (TEAMWORK OBBY),,,2026-11-07,,2026-11-07,minimal,,2026-11-17
@@ -1443,7 +1443,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 96425088123775,10552540426,My Toll Farm!,,,2026-11-07,,2026-11-07,minimal,,2026-11-17
 96443646410175,8738763254,Sesame Street: Neighborhood Adventures,,,2026-11-07,,2026-11-07,minimal,,2026-11-15
 96510596525082,10685282333,Ball VS Ball [Trading Plaza],,,2026-11-07,,2026-11-07,minimal,,2026-11-17
-96645548064314,9091133975,[🍪] Catch And Tame!,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-17
+96645548064314,9091133975,[🍪] Catch And Tame!,,,2026-11-07,,2026-11-07,minimal,,2026-11-17
 96670505038029,10542421906,Free Items & Avatar Catalog,https://tr.rbxcdn.com/180DAY-abde1f7bf3c23708bf943c940c0cbe6b/150/150/Image/Webp/noFilter,2026-07-21T14:53:43Z,2026-11-14,,,minimal,133401,2026-11-16
 96707166754980,10066618669,Catalog Avatar Builder,https://tr.rbxcdn.com/180DAY-d7efff9da12c216daf814faa09f5e213/150/150/Image/Webp/noFilter,2026-04-21T20:08:42Z,2026-11-07,,,minimal,34973932,2026-11-17
 96740842890477,10770779724,[LAG FIXED!] Ragdoll Boxing 3D,https://tr.rbxcdn.com/180DAY-670fab078bd6588719c917489557f89a/150/150/Image/Webp/noFilter,2026-10-14T03:40:04Z,2026-11-07,2026-11-07,,mild,4639579,2026-11-17
@@ -1572,7 +1572,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 100632832332148,10772400342,[🎮] Fix PCs! 🔧,https://tr.rbxcdn.com/180DAY-e80edd0632c4ee88a30fdbed5bf45b15/150/150/Image/Webp/noFilter,2026-10-22T13:04:21Z,2026-11-11,2026-11-11,,minimal,173721,2026-11-17
 100655715596680,10768449395,Train Pets for Eggs,https://tr.rbxcdn.com/180DAY-a6e6b31dac04526e3962cf20f473c9f1/150/150/Image/Webp/noFilter,2026-09-28T13:19:14Z,2026-11-07,,,minimal,8991781,2026-11-17
 100689340481763,9736593239,[FREE AVA] Palm Tree Mount,,,2026-11-07,,2026-11-07,minimal,,2026-11-17
-100744519298647,7798947148,Anime Final Quest,,,2026-11-07,,2026-11-07,mild,,2026-11-17
+100744519298647,7798947148,Anime Final Quest,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-17
 100799142820663,10765858129,GOVERNMENT ABDI SIMULATOR,https://tr.rbxcdn.com/180DAY-6064d9f356362d1d6c41e8491fbe1060/150/150/Image/Webp/noFilter,2026-09-10T03:05:17Z,2026-11-07,,,minimal,640561,2026-11-15
 100860415498291,10764208570,[UPDATE] MM2 of The Monsters,,,2026-11-07,,2026-11-07,mild,,2026-11-17
 100875144666716,9738543563,🧠 99 Rooms IQ Test,https://tr.rbxcdn.com/180DAY-619e15b69a46d272fdd70fe18b8f0379/150/150/Image/Webp/noFilter,2026-02-16T09:41:39Z,2026-11-14,,,minimal,7909482,2026-11-14
