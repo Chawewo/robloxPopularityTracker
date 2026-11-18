@@ -81,7 +81,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 3016661674,1087859240,[🌍] Rogue Lineage,,,2026-11-07,,2026-11-07,moderate,,2026-11-18
 3025990139,1091907805,Unboxing Simulator [UPDATE],,,2026-11-07,,2026-11-07,minimal,,2026-11-18
 3030166262,1093311378,1867 Historical Role Play,,,2026-11-07,,,minimal,,
-3177438863,1147304238,Dragon Blox,,,2026-11-07,,2026-11-07,mild,,2026-11-18
+3177438863,1147304238,Dragon Blox,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-18
 3178828841,1147796911,Water Park World [Beta],,,2026-11-07,,2026-11-07,minimal,,2026-11-15
 3203685552,1157126388,BEAR (Alpha),,,2026-11-07,,2026-11-07,mild,,2026-11-18
 3242417672,1171251167,Carros Rebaixados BR (Pre-Alpha),,,2026-11-07,,2026-11-07,minimal,,2026-11-18
@@ -107,7 +107,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 3891618314,1325411718,⚓ Harbor Havoc,,,2026-11-07,,2026-11-07,mild,,2026-11-18
 4104106043,1358133289,Insane Elevator!,,,2026-11-07,,2026-11-07,mild,,2026-11-18
 4179502680,1371242815,[RELEASE] C.C. Clicker: Eternal Slice,https://tr.rbxcdn.com/180DAY-fc9f35b2658f8a24ed7842bebff2a7fd/150/150/Image/Webp/noFilter,,2026-11-16,,,minimal,,2026-11-16
-4195834406,1374118848,Dragon Generations,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-18
+4195834406,1374118848,Dragon Generations,,,2026-11-07,,2026-11-07,mild,,2026-11-18
 4201429814,1375027828,Roblox Creator Challenge,,2019-10-24T17:04:49Z,2026-11-07,,,minimal,79234871,2026-11-18
 4282985734,1390601379,Combat Warriors,,,2026-11-07,,2026-11-07,mild,,2026-11-18
 4299508195,1393178180,Polish Car Driving 🚗,,,2026-11-07,,2026-11-07,minimal,,2026-11-15
@@ -159,7 +159,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 5593925613,1954152886,Countryball World 🌎,,,2026-11-07,,2026-11-07,minimal,,2026-11-15
 5602055394,1958807588,[🎃] Hood Modded,,,2026-11-07,,2026-11-07,moderate,,2026-11-10
 5670218884,1998835206,[🌳] item asylum,,,2026-11-07,,2026-11-07,mild,,2026-11-15
-5683833663,2007050448,RAGDOLL. ENGINE!!! 😡,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-18
+5683833663,2007050448,RAGDOLL. ENGINE!!! 😡,,,2026-11-07,,2026-11-07,minimal,,2026-11-18
 5702593762,2017809925,"Climb 1,000 Stairs",,,2026-11-07,,2026-11-07,mild,,2026-11-18
 5708035517,2020908522,Mega Hide and Seek!,,,2026-11-12,,2026-11-12,minimal,,2026-11-18
 5712833750,2023680558,Animal Simulator [🐉 DRAGONS + PETS!],,,2026-11-07,,2026-11-07,mild,,2026-11-18
@@ -302,7 +302,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 8737899170,3317771874,🍁 [TYCOON] Pet Simulator 99! 🍀,,,2026-11-07,,2026-11-07,minimal,,2026-11-18
 8838701772,3346892457,SCP Monsters or Trevor Creatures,,,2026-11-07,,2026-11-07,mild,,2026-11-18
 8848607186,3349588628,Digital Piano 🎹,,,2026-11-07,,2026-11-07,minimal,,2026-11-18
-8884433153,3359505957,Collect All Pets!,,,2026-11-07,,2026-11-07,minimal,,2026-11-18
+8884433153,3359505957,Collect All Pets!,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-18
 9096881148,3419284255,Peroxide [🎃Halloween👻],,,2026-11-07,,2026-11-07,moderate,,2026-11-08
 9099326192,3420059569,GREAT SCHOOL BREAKOUT! (First Person Obby),,,2026-11-07,,2026-11-07,minimal,,2026-11-18
 9103898828,3421408084,Rogue Demon,,,2026-11-12,,2026-11-12,mild,,2026-11-18
@@ -410,7 +410,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 12434569116,4373521124,Destination 🌇🏡 [PERFORMANCE + MOBILE UPD! BETA],,,2026-11-07,,2026-11-07,minimal,,
 12458468699,4380922749,The Trolley Game,,,2026-11-07,,,minimal,,
 12550651382,4408288935,Ecos: La Brea,,,2026-11-07,,2026-11-07,mild,,2026-11-18
-12593620250,4420562665,[🦃 EVENT] Ride Storm,,,2026-11-07,,2026-11-07,minimal,,2026-11-18
+12593620250,4420562665,[🦃 EVENT] Ride Storm,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-18
 12690288701,4449551347,[Fourze🚀] RiderTime,https://tr.rbxcdn.com/180DAY-3e5d6dd43f77f69a2216af7ab7383d92/150/150/Image/Webp/noFilter,2023-03-05T08:07:05Z,2026-11-08,,,mild,35166659,2026-11-13
 12716055617,4457060041,Emergency Emden,,,2026-11-11,,2026-11-11,minimal,,2026-11-15
 12847474373,4497460596,[DEXTER DOG] MORPH WORLD! ,,,2026-11-07,,2026-11-07,mild,,2026-11-18
@@ -429,7 +429,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 13166293021,4595016786,Barbie DreamHouse Tycoon,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 13184713709,4599924264,Teamwork Puzzles (Obby),,,2026-11-07,,2026-11-07,minimal,,2026-11-18
 13270683448,4625143324,[⚽] Score or Save Soccer,,,2026-11-07,,2026-11-07,minimal,,2026-11-18
-13379208636,4658598196,Attack on Titan Revolution,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-18
+13379208636,4658598196,Attack on Titan Revolution,,,2026-11-07,,2026-11-07,mild,,2026-11-18
 13405957741,4666414595,[2x💵] NitroLab Drag Racing🚦,https://tr.rbxcdn.com/180DAY-f3e677a7c0fda747683634311c1e9518/150/150/Image/Webp/noFilter,2023-05-10T21:24:52Z,2026-11-12,,,minimal,7602439,2026-11-13
 13416197699,4669328522,Zooo,,,2026-11-07,,2026-11-07,mild,,2026-11-18
 13429790955,4673599750,🎃 Murderers vs Sheriffs 2,,,2026-11-07,,2026-11-07,mild,,2026-11-18
@@ -758,7 +758,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 73839579572801,10774219423,Wall of Suffering [New Songs],https://tr.rbxcdn.com/180DAY-79d3d65e60cf12ad82a345a1d6c7688a/150/150/Image/Webp/noFilter,2026-11-01T17:04:08Z,2026-11-11,,,minimal,71764,2026-11-18
 73897506680154,10643795368,Idle Mafia Game,,,2026-11-07,,2026-11-07,minimal,,2026-11-18
 73908022013371,8925924444,[🎃] Baboon Tag X,,,2026-11-07,,2026-11-07,mild,,2026-11-18
-73956553001240,6931042565,[UPD] Volleyball Legends,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-18
+73956553001240,6931042565,[UPD] Volleyball Legends,,,2026-11-07,,2026-11-07,minimal,,2026-11-18
 73958363924703,10771290199,[2x WEEKEND] Farm Evolution,https://tr.rbxcdn.com/180DAY-565724ab3e9e1746456013b03282f41b/150/150/Image/Webp/noFilter,,2026-11-07,2026-11-07,2026-11-07,minimal,,2026-11-18
 74012041386288,10506354213,[LAG TRAIN] Trending Meme Animations,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 74023858073178,10766620257,Bike For Egg!,,,2026-11-07,,2026-11-07,minimal,,2026-11-18
@@ -1228,7 +1228,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 88236294229807,10570199278,HIGHEST Rollercoaster Ever,https://tr.rbxcdn.com/180DAY-73e2b140f8e827a5cccf7e64f7e2fd41/150/150/Image/Webp/noFilter,2026-07-26T06:01:02Z,2026-11-07,,,minimal,1183993,2026-11-07
 88236825351515,10773680236,[HORROR] ATOK,https://tr.rbxcdn.com/180DAY-9da9611d9df8b1b8a59bf87090e96f8b/150/150/Image/Webp/noFilter,2026-10-29T16:50:27Z,2026-11-07,2026-11-07,,minimal,922031,2026-11-18
 88246556972100,10774386745,Sandworm Playground,https://tr.rbxcdn.com/180DAY-56d61402f8ea43f0c9d3f585473485b4/150/150/Image/Webp/noFilter,2026-11-02T17:36:49Z,2026-11-13,2026-11-13,2026-11-16,mild,298652,2026-11-18
-88247261469570,10771269188,[🌌SABERS!] Ragdoll Physics 2 🩸,,,2026-11-07,2026-11-07,2026-11-07,moderate,,2026-11-18
+88247261469570,10771269188,[🌌] Ragdoll Physics 2 🩸,,,2026-11-07,2026-11-07,2026-11-07,moderate,,2026-11-18
 88286531172202,10769249409,[DUO] Drive a Cart Downhill!,https://tr.rbxcdn.com/180DAY-a273a8d5a88c47b340fb74fa50ef8104/150/150/Image/Webp/noFilter,2026-10-04T00:55:01Z,2026-11-07,,,minimal,19036471,2026-11-18
 88300652132387,10772137565,Celestial Hatchers [Admin Panel 35 RBX],https://tr.rbxcdn.com/180DAY-81fcd3c7b02f2b6acaa0c99e6ef87c6c/150/150/Image/Webp/noFilter,2026-10-20T20:32:53Z,2026-11-08,2026-11-08,,minimal,207388,2026-11-18
 88323040672117,7528417535,[UPD] Divaz 💄,,,2026-11-07,,2026-11-07,mild,,2026-11-18
