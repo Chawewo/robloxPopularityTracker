@@ -137,7 +137,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 4954096313,1701332290,Field Trip Z,,,2026-11-07,,2026-11-07,minimal,,2026-11-18
 4954752502,1701623492,[2x Coins]Tower of Misery,,,2026-11-07,,2026-11-07,minimal,,2026-11-18
 4972273297,1709917610,Regretevator [ ELEVATOR SIMULATOR ],,,2026-11-07,,2026-11-07,mild,,2026-11-18
-4984400432,1715617820,[NEW] Outfit Loader,,,2026-11-07,,2026-11-07,minimal,,2026-11-17
+4984400432,1715617820,[NEW] Outfit Loader,,,2026-11-07,,2026-11-07,minimal,,2026-11-18
 4996049426,1720936166,[OG] All Star Tower Defense,,,2026-11-07,,2026-11-07,minimal,,2026-11-18
 5041144419,1742264997,SCP: Roleplay,,,2026-11-07,,2026-11-07,mild,,2026-11-18
 5116869569,1775919872,[🎃2] Doodle World,,,2026-11-07,,2026-11-07,minimal,,2026-11-14
@@ -806,7 +806,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 75108253383447,10767619742,[UPDATE] Portal Sandbox,https://tr.rbxcdn.com/180DAY-71053a5c7fe808499dd00938421176f9/150/150/Image/Webp/noFilter,2026-09-22T16:17:22Z,2026-11-07,,,mild,5103549,2026-11-18
 75146334692216,10485072019,"[BETA] MoVal, CA | School Buses 🚌",,,2026-11-07,,,minimal,,
 75260404327641,10774244015,[⚔️] Kit PVP FFA ,https://tr.rbxcdn.com/180DAY-9aeae74ca18c48b8fe392bdb975337f3/150/150/Image/Webp/noFilter,,2026-11-17,2026-11-17,,mild,,2026-11-18
-75317862071711,9584946743,[💎 WORLD 11] Immortality Incremental,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-18
+75317862071711,9584946743,[💎 WORLD 11] Immortality Incremental,,,2026-11-07,,2026-11-07,minimal,,2026-11-18
 75356998324697,10769735087,Ship The Cargo 🚢,https://tr.rbxcdn.com/180DAY-9b617b45810cb1c4f30a970113d8a2e8/150/150/Image/Webp/noFilter,2026-10-07T12:51:38Z,2026-11-07,2026-11-07,,minimal,2690633,2026-11-13
 75387700043737,7554119808,🛍️ My Avatar!,,,2026-11-07,,2026-11-07,minimal,,2026-11-18
 75407502025821,10769580813,Grapple Sniper Arena,https://tr.rbxcdn.com/180DAY-a352107413c0f2e3976431d825a9bb6d/150/150/Image/Webp/noFilter,,2026-11-17,,,mild,,2026-11-18
@@ -1027,7 +1027,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 81230874545623,10770593871,Realistic Ragdoll Engine 🩸,,,2026-11-07,2026-11-07,2026-11-07,moderate,,2026-11-18
 81232743149920,10772054574,[UPD] Bike For Animals Eggs🥚,https://tr.rbxcdn.com/180DAY-5dd6836d8f7ae233b69a44a17668de33/150/150/Image/Webp/noFilter,2026-10-20T10:01:32Z,2026-11-07,2026-11-07,,minimal,1668764,2026-11-13
 81239378558719,7823137182,Hide the body,,,2026-11-07,,2026-11-07,moderate,,2026-11-18
-81315647087659,10773380485,[WAR] Ragdoll Realism,https://tr.rbxcdn.com/180DAY-fc2a8b4ffad9ddc62e9adf1eddca21d9/150/150/Image/Webp/noFilter,,2026-11-07,2026-11-07,2026-11-11,moderate,,2026-11-18
+81315647087659,10773380485,[FIXES] Ragdoll Realism,https://tr.rbxcdn.com/180DAY-fc2a8b4ffad9ddc62e9adf1eddca21d9/150/150/Image/Webp/noFilter,,2026-11-07,2026-11-07,2026-11-11,moderate,,2026-11-18
 81321308940826,10774141738,[DUO] Drive a Bed Downhill!,https://tr.rbxcdn.com/180DAY-5f508fd5a3fa61b611eb35e4b3ec2097/150/150/Image/Webp/noFilter,2026-11-01T08:27:31Z,2026-11-12,2026-11-12,,minimal,257730,2026-11-18
 81348016870238,7598875406,Run or be rich,https://tr.rbxcdn.com/180DAY-7b6549c8f233d0e90775b27475cd5b8f/150/150/Image/Webp/noFilter,2025-04-26T00:59:57Z,2026-11-07,,,moderate,3926515,2026-11-10
 81387538570957,10751153610,[Catalog] Larp Shopping 🛍️,https://tr.rbxcdn.com/180DAY-26691170376a5a7f9469c3f02c143706/150/150/Image/Webp/noFilter,2026-08-22T03:11:19Z,2026-11-07,,,minimal,1755489,2026-11-18
@@ -2095,7 +2095,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 115335123670720,10769100437,[NEW VEHICLES + DOT] Central Kansas,https://tr.rbxcdn.com/180DAY-ab22e48759259b9e256df29665151220/150/150/Image/Webp/noFilter,2026-10-03T06:15:16Z,2026-11-17,,,minimal,979235,2026-11-18
 115337407531717,10772010278,Cut Grass for Eggs,https://tr.rbxcdn.com/180DAY-ce928f4757d1d553a1d9a8ad4502aa45/150/150/Image/Webp/noFilter,2026-10-20T01:46:59Z,2026-11-14,2026-11-15,,minimal,275840,2026-11-18
 115369271316070,10770784203,🥀Drain All Life,https://tr.rbxcdn.com/180DAY-a543c97dcc276fbec93a66a8a238f733/150/150/Image/Webp/noFilter,2026-10-14T04:03:54Z,2026-11-07,2026-11-07,,minimal,744070,2026-11-13
-115394135656997,9929086116,+1 Speed Wings Escape 🦅,,,2026-11-07,,2026-11-07,mild,,2026-11-18
+115394135656997,9929086116,+1 Speed Wings Escape 🦅,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-18
 115421280851964,10772028037,🏠[UPD] Pocket Landlord 🏗️ Build Your Town,https://tr.rbxcdn.com/180DAY-791c7c95253b0ea93046c19014282f95/150/150/Image/Webp/noFilter,2026-10-20T05:14:13Z,2026-11-07,2026-11-07,,minimal,3680670,2026-11-13
 115455497946779,10144739042, 🔪Survival the Kpop Demon Hunters 🎤,https://tr.rbxcdn.com/180DAY-ad0d9d202712906b4dd20bb53a0ce5fc/150/150/Image/Webp/noFilter,2026-05-09T21:37:35Z,2026-11-07,,,mild,13715910,2026-11-18
 115491448901009,10771231637,Moonwalk for Eggs [NEW!],https://tr.rbxcdn.com/180DAY-fda484e1a59564dbc9048fe80594a130/150/150/Image/Webp/noFilter,2026-10-16T11:26:44Z,2026-11-07,2026-11-07,,minimal,1451234,2026-11-13
@@ -2640,7 +2640,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 132169393925482,9784883402,Collect Dinos,,,2026-11-07,,2026-11-07,minimal,,2026-11-18
 132173349090360,10630800860,Color My Flag,,,2026-11-07,,2026-11-07,minimal,,2026-11-18
 132190454395474,10736720073,[🤑EARN]Donation Party,,2026-08-18T14:39:09Z,2026-11-08,,,mild,2127321,2026-11-13
-132239307080610,10526853622,Deep Fishing🎣,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-18
+132239307080610,10526853622,Deep Fishing🎣,,,2026-11-07,,2026-11-07,minimal,,2026-11-18
 132242344291615,10772655994,Outside 🔪 [BETA],https://tr.rbxcdn.com/180DAY-96513cea884a7b4adc476c319699f66f/150/150/Image/Webp/noFilter,2026-10-24T02:23:09Z,2026-11-10,2026-11-10,,moderate,244741,2026-11-17
 132258949588994,10432260929,[Recalibrated] Omni Heroes,,,2026-11-07,,2026-11-07,mild,,2026-11-18
 132269871788486,10766699022,[New] Vick Outfits,,,2026-11-07,,,minimal,,
