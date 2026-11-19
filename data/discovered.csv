@@ -79,7 +79,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 2872154782,1039663363,Clover's Deltarune RP,https://tr.rbxcdn.com/180DAY-8a8a34e7f41c2b76b24c91b7b6b80ba4/150/150/Image/Webp/noFilter,2019-02-19T05:35:07Z,2026-11-11,,,minimal,16873344,2026-11-19
 2916899287,1054526971,Blackhawk Rescue Mission 5,,,2026-11-07,,2026-11-07,moderate,,2026-11-19
 3016661674,1087859240,[🌍] Rogue Lineage,,,2026-11-07,,2026-11-07,moderate,,2026-11-19
-3025990139,1091907805,Unboxing Simulator [UPDATE],,,2026-11-07,,2026-11-07,minimal,,2026-11-19
+3025990139,1091907805,Unboxing Simulator [UPDATE],,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-19
 3030166262,1093311378,1867 Historical Role Play,,,2026-11-07,,,minimal,,
 3177438863,1147304238,Dragon Blox,,,2026-11-07,,2026-11-07,mild,,2026-11-19
 3178828841,1147796911,Water Park World [Beta],,,2026-11-07,,2026-11-07,minimal,,2026-11-18
@@ -118,7 +118,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 4580204640,1489026993,🔪Survive the Killer!,,,2026-11-07,,2026-11-07,mild,,2026-11-19
 4588604953,1494262959,[🎃] Criminality,,,2026-11-07,,2026-11-07,moderate,,2026-11-19
 4598019433,1499870257,🏘️[NPC]generic roleplay gaem.,,,2026-11-18,,2026-11-18,mild,,2026-11-19
-4616652839,1511883870,Shindo Life [251],,,2026-11-07,,2026-11-07,minimal,,2026-11-19
+4616652839,1511883870,Shindo Life [251],,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-19
 4620174796,1514363493,[ALPRS] Tennessee Roleplay Community,https://tr.rbxcdn.com/180DAY-1ced6299360d2175e7572f3e651b4c06/150/150/Image/Webp/noFilter,2020-01-21T21:26:04Z,2026-11-07,,,minimal,19184087,2026-11-19
 4622480690,1515869119,Coded Clothing Mall V3,,2020-01-22T21:37:06Z,2026-11-07,,,minimal,63288999,2026-11-18
 4623386862,1516533665,Piggy,,,2026-11-07,,2026-11-07,mild,,2026-11-19
@@ -235,7 +235,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 6875747014,2621511041,Ronopoly,,,2026-11-07,,2026-11-07,minimal,,2026-11-19
 6911148748,2640407187,(👻) Car Driving Indonesia,,,2026-11-07,,2026-11-07,minimal,,2026-11-19
 6915976310,2643072291,Frigid Dusk,,,2026-11-10,,2026-11-10,moderate,,2026-11-11
-6918802270,2644656496,[HALLOWEEN 🎃] Haze Seas ,,,2026-11-07,,2026-11-07,mild,,2026-11-19
+6918802270,2644656496,[HALLOWEEN 🎃] Haze Seas ,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-19
 6924758805,2647834887,🔨 MM2 Aim Trainer,,,2026-11-07,,2026-11-07,mild,,2026-11-19
 6934310111,2652888345,Avatar Simulator,,,2026-11-07,,2026-11-07,minimal,,2026-11-19
 6938803436,2655311011,[🎃] Anime Dimensions,,,2026-11-07,,2026-11-07,mild,,2026-11-19
@@ -374,7 +374,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 11380769866,4049540036,Chipeo Paradise ,https://tr.rbxcdn.com/180DAY-059029d564db1c37d3154f22e5593c54/150/150/Image/Webp/noFilter,2022-10-26T00:06:35Z,2026-11-07,,,minimal,8882145,2026-11-14
 11399271177,4055567612,Words of Power,,,2026-11-07,,,mild,,
 11428002558,4064537489,Sapien | Beginnings of Humanity,,,2026-11-07,,,minimal,,
-11464559285,4075802159,El Gato Tower 😸 [MEGA UPDATE],,,2026-11-07,,2026-11-07,minimal,,2026-11-19
+11464559285,4075802159,El Gato Tower 😸 [MEGA UPDATE],,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-19
 11497119928,4086773669,PET PARTY 🎉 RP,,,2026-11-07,,2026-11-07,minimal,,2026-11-19
 11573027469,4107809076,ESCAPE EVIL GRANDPA! (OBBY),,,2026-11-08,,2026-11-08,minimal,,2026-11-10
 11653088948,4130569984,Jurassic Blocky,,,2026-11-07,,2026-11-07,mild,,2026-11-19
@@ -426,7 +426,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 13042495892,4557322431,Project: Afternight,,,2026-11-07,,2026-11-07,mild,,2026-11-17
 13076380114,4568630521,[RANKED REWORK] Heroes Battlegrounds,,,2026-11-07,,2026-11-07,mild,,2026-11-19
 13116420108,4578260860,Try To Die 💀,,,2026-11-07,,2026-11-07,minimal,,2026-11-07
-13127800756,4582358979,Arm Wrestle Simulator,,,2026-11-07,,2026-11-07,minimal,,2026-11-19
+13127800756,4582358979,Arm Wrestle Simulator,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-19
 13159565330,4592676978,eat stuf get fat,,,2026-11-14,,2026-11-14,minimal,,2026-11-19
 13166293021,4595016786,Barbie DreamHouse Tycoon,,,2026-11-07,,2026-11-07,minimal,,2026-11-19
 13184713709,4599924264,Teamwork Puzzles (Obby),,,2026-11-07,,2026-11-07,minimal,,2026-11-19
@@ -566,7 +566,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 16916122579,5809308870,Indian Bank Story,https://tr.rbxcdn.com/180DAY-4c7f9021b3aff9b12fd4486e0264683c/150/150/Image/Webp/noFilter,2024-03-29T04:50:04Z,2026-11-07,,,minimal,3287022,2026-11-17
 16927467487,5812546130,"[UPDATE 2] West Coast, Florida",,,2026-11-07,,2026-11-07,minimal,,2026-11-19
 16948929364,5818442577,[BETA] Eternal,https://tr.rbxcdn.com/180DAY-97ea7d95d7d0296f556a3b58c2c142dd/150/150/Image/Webp/noFilter,,2026-11-14,,,moderate,,2026-11-19
-16981421605,5827120940,Reborn As Swordsman,,,2026-11-07,,2026-11-07,mild,,2026-11-19
+16981421605,5827120940,Reborn As Swordsman,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-19
 16991287194,5829613337,something evil will happen [🎃🎃🎃],,,2026-11-07,,2026-11-07,mild,,2026-11-19
 17011057137,5835014039,[HALLOWEEN] New Journey,,,2026-11-07,,2026-11-07,mild,,2026-11-08
 17027058704,5839302258,Spectral Fades REMAKE,https://tr.rbxcdn.com/180DAY-f817e032f5c4033e69bea80331196d95/150/150/Image/Webp/noFilter,2024-04-05T23:48:47Z,2026-11-07,,,moderate,17895941,2026-11-15
@@ -629,7 +629,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 18537079992,6280758286,Армия Роблокса РП,,,2026-11-07,,2026-11-07,mild,,2026-11-15
 18651214797,6319412433,Find The Pou Babies,https://tr.rbxcdn.com/180DAY-f9f3f2a91ae00c09c05d9194174a4ab1/150/150/Image/Webp/noFilter,2024-07-25T16:16:50Z,2026-11-07,,,minimal,667899,2026-11-13
 18666738837,6324644175,Death Order: Simon Says,,,2026-11-07,,2026-11-07,mild,,2026-11-19
-18668065416,6325068386,[OTOYA 🥷] Blue Lock: Rivals,,,2026-11-07,,2026-11-07,minimal,,2026-11-19
+18668065416,6325068386,[OTOYA 🥷] Blue Lock: Rivals,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-19
 18687417158,6331902150,Forsaken,,,2026-11-07,,2026-11-07,mild,,2026-11-19
 18753889337,6353751159,Main Street 🏡RP,,,2026-11-07,,2026-11-07,minimal,,2026-11-19
 18758755773,6355251723,Threadville 🧵,,,2026-11-07,,2026-11-07,minimal,,2026-11-15
@@ -1294,7 +1294,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 89932880765651,10772425644,Smash Cars Off the Road,https://tr.rbxcdn.com/180DAY-9733477660a19a972772d76cfc4f7c1b/150/150/Image/Webp/noFilter,2026-10-22T16:03:06Z,2026-11-16,2026-11-16,,minimal,1005232,2026-11-19
 89933748062168,6584920149,The Pony Legends🦄 (Beta),https://tr.rbxcdn.com/180DAY-c2ec345abcdd717237252fe72d5ddd0f/150/150/Image/Webp/noFilter,2024-09-22T01:41:07Z,2026-11-07,,,mild,4741198,2026-11-13
 89959946549432,7873196722,[❤️] Traitor Duels ⚔️,https://tr.rbxcdn.com/180DAY-872a0ad5351994e5033c90268d782323/150/150/Image/Webp/noFilter,2025-06-08T21:56:18Z,2026-11-07,,,mild,13055941,2026-11-18
-89975768879199,10773582045,(CO-OP) CUPHEAD Fight!,https://tr.rbxcdn.com/180DAY-9a96e8d0638acd1c856415e8dd8d1323/150/150/Image/Webp/noFilter,2026-10-29T00:56:50Z,2026-11-08,2026-11-08,,mild,116001,2026-11-19
+89975768879199,10773582045,(Grim Matchstick) CUPHEAD Fight!,https://tr.rbxcdn.com/180DAY-9a96e8d0638acd1c856415e8dd8d1323/150/150/Image/Webp/noFilter,2026-10-29T00:56:50Z,2026-11-08,2026-11-08,,mild,116001,2026-11-19
 90014279238954,10770115123,[BETA] My Career - Be a Soccer Player!,https://tr.rbxcdn.com/180DAY-bfac455f5c61955bcaba8b3a06750958/150/150/Image/Webp/noFilter,2026-10-10T04:35:00Z,2026-11-08,2026-11-08,,minimal,159908,2026-11-19
 90025580559528,10767641664,(NEW MAP) Dune Drivers,,,2026-11-07,,,minimal,,
 90068262218939,9966392909,Glitch Avatars,,2026-03-31T02:21:36Z,2026-11-08,,,minimal,1309033,2026-11-15
@@ -1464,7 +1464,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 94778952173979,7133288191,وين فهد 2 رعب😰,https://tr.rbxcdn.com/180DAY-4b04c9a1d1ef321a5ac367481b351288/150/150/Image/Webp/noFilter,2025-01-23T20:34:59Z,2026-11-07,,,mild,11692833,2026-11-19
 94791540472189,10772176224,Epoxy the Floors!,https://tr.rbxcdn.com/180DAY-82a74da1e8b2697b38cf9507b3f7c92d/150/150/Image/Webp/noFilter,2026-10-21T03:09:03Z,2026-11-07,2026-11-07,,minimal,744160,2026-11-13
 94803702445546,9322720136,🌴Crybaby Harvest Ss2 [VC📢],https://tr.rbxcdn.com/180DAY-7b4acaaf454ddb11be69c912ef599f9f/150/150/Image/Webp/noFilter,2025-12-08T15:26:00Z,2026-11-08,,,minimal,1345272,2026-11-11
-94877808062580,10113294071,PAPER PLANES!,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-19
+94877808062580,10113294071,PAPER PLANES!,,,2026-11-07,,2026-11-07,minimal,,2026-11-19
 94891079210424,10767380385,Sell Fries! [Anomaly] 🍟,,,2026-11-07,,2026-11-07,minimal,,2026-11-19
 94909971919932,10754356208,OUTFITS 👔,https://tr.rbxcdn.com/180DAY-d8683c6dfc0acb0b32db8a4c15bed8b4/150/150/Image/Webp/noFilter,2026-08-22T23:35:55Z,2026-11-07,,,mild,17034558,2026-11-19
 94948862110933,10772655297,[UPD] Save A Life! 🩺,https://tr.rbxcdn.com/180DAY-9a8564871274c5b7d9bba5c4190e5cc6/150/150/Image/Webp/noFilter,2026-10-24T02:16:40Z,2026-11-11,2026-11-11,,mild,563296,2026-11-17
@@ -1653,7 +1653,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 100632832332148,10772400342,[🎮] Fix PCs! 🔧,https://tr.rbxcdn.com/180DAY-e80edd0632c4ee88a30fdbed5bf45b15/150/150/Image/Webp/noFilter,2026-10-22T13:04:21Z,2026-11-11,2026-11-11,,minimal,173721,2026-11-19
 100655715596680,10768449395,Train Pets for Eggs,https://tr.rbxcdn.com/180DAY-a6e6b31dac04526e3962cf20f473c9f1/150/150/Image/Webp/noFilter,2026-09-28T13:19:14Z,2026-11-07,,,minimal,8991781,2026-11-19
 100689340481763,9736593239,[FREE AVA] Palm Tree Mount,,,2026-11-07,,2026-11-07,minimal,,2026-11-19
-100744519298647,7798947148,Anime Final Quest,,,2026-11-07,,2026-11-07,mild,,2026-11-19
+100744519298647,7798947148,Anime Final Quest,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-19
 100764764897050,10773933799,Steal a horse,https://tr.rbxcdn.com/180DAY-27453d286dbc23c787f3a742525d324b/150/150/Image/Webp/noFilter,2026-10-31T04:39:51Z,2026-11-17,,,minimal,75592,2026-11-19
 100799142820663,10765858129,GOVERNMENT ABDI SIMULATOR,https://tr.rbxcdn.com/180DAY-6064d9f356362d1d6c41e8491fbe1060/150/150/Image/Webp/noFilter,2026-09-10T03:05:17Z,2026-11-07,,,minimal,640561,2026-11-15
 100860415498291,10764208570,[UPDATE] MM2 of The Monsters,,,2026-11-07,,2026-11-07,mild,,2026-11-19
@@ -2090,7 +2090,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 113840831788266,10765783365,Cute Hair UGC Obby [AFK or Play] ⭐,https://tr.rbxcdn.com/180DAY-d8df514e94202c1b9a8751feebdb084c/150/150/Image/Webp/noFilter,2026-09-09T12:43:45Z,2026-11-08,,,minimal,348646,2026-11-13
 113841196617922,10504739696,Belt Dance [New Playlist🎶] ,https://tr.rbxcdn.com/180DAY-538b2f280a34eee68152f21e33b18541/150/150/Image/Webp/noFilter,2026-07-15T00:29:54Z,2026-11-07,,,minimal,2919407,2026-11-18
 113890950093491,10767353295,Supernatural Realm,https://tr.rbxcdn.com/180DAY-d42b5e8f51128ca50e6db00e7a4e9940/150/150/Image/Webp/noFilter,2026-09-21T02:56:02Z,2026-11-07,,,minimal,1053476,2026-11-13
-113918641206373,9893515490,☢️ Nuke Your City,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-19
+113918641206373,9893515490,☢️ Nuke Your City,,,2026-11-07,,2026-11-07,minimal,,2026-11-19
 113921375793640,10772497615,Break And Hide The Plane! ✈️,https://tr.rbxcdn.com/180DAY-166ff40bae0af1038a5af72a366efc68/150/150/Image/Webp/noFilter,2026-10-23T03:14:44Z,2026-11-10,2026-11-10,,minimal,556041,2026-11-13
 113939391927202,8187135306,Roblox Innovation Awards 2025 - Voting Hub,,,2026-11-07,,2026-11-07,minimal,,2026-11-19
 113956654824187,10765312940,[🎃] Swim For Eggs!,,,2026-11-07,,2026-11-07,minimal,,2026-11-17
