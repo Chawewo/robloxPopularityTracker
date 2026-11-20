@@ -11,7 +11,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 166731267,79609758,The Dropper ✨ [135+ LEVELS!],,,2026-11-18,,2026-11-18,minimal,,2026-11-19
 166986752,79301772,🔨Plane Crazy🔨 [UPDATE],,,2026-11-07,,2026-11-07,minimal,,2026-11-20
 180037022,85505226,[HYPER] SURPG,,,2026-11-15,,2026-11-15,mild,,2026-11-20
-180364455,85651869,[PLAYER CARDS] Survive The Disasters 2,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-20
+180364455,85651869,[PLAYER CARDS] Survive The Disasters 2,,,2026-11-07,,2026-11-07,mild,,2026-11-20
 183364845,83858907,[🎃] Speed Run 4,,,2026-11-12,,2026-11-12,minimal,,2026-11-13
 185655149,88070565,[📱] Welcome to Bloxburg ,,,2026-11-07,,2026-11-07,minimal,,2026-11-20
 205224386,93740418,Hide and Seek Extreme,,,2026-11-07,,2026-11-07,minimal,,2026-11-20
@@ -1657,7 +1657,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 99932265350241,10773964844,[W3] +1 Scary Evolution,https://tr.rbxcdn.com/180DAY-87b8925e16ab7d609a9986b78d01257c/150/150/Image/Webp/noFilter,2026-10-31T09:32:06Z,2026-11-17,2026-11-17,,minimal,1084288,2026-11-20
 99994815687167,10767973757,TRACTION: Realistic Dirt Bikes,https://tr.rbxcdn.com/180DAY-0002f6ab39e2526dbea656e3b75b0d58/150/150/Image/Webp/noFilter,2026-09-25T11:39:56Z,2026-11-10,,,minimal,1820629,2026-11-13
 100047964036957,10770568427,Fart Together [1-4 PLAYER OBBY] 💨,,,2026-11-07,2026-11-07,2026-11-07,mild,,2026-11-07
-100055483398966,8348146089,[UPD🎉] Anime Slap Tower 🖐️,https://tr.rbxcdn.com/180DAY-71b0c2e0edb838f70dd29208a75f4acb/150/150/Image/Webp/noFilter,2025-08-04T19:09:21Z,2026-11-07,,,mild,111712504,2026-11-20
+100055483398966,8348146089,[UPD🎉] Anime Slap Tower 🖐️,https://tr.rbxcdn.com/180DAY-71b0c2e0edb838f70dd29208a75f4acb/150/150/Image/Webp/noFilter,2025-08-04T19:09:21Z,2026-11-07,,,vng-rating-override,111712504,2026-11-20
 100079017940927,9702840627,🤔Hot or Cold: Guess the Word!,,,2026-11-07,,2026-11-07,minimal,,2026-11-18
 100095010102847,10681043083,Nextbots Brazil (0.9.6),https://tr.rbxcdn.com/180DAY-224e953725ba2abb72a50faffe30b211/150/150/Image/Webp/noFilter,2026-08-11T13:34:11Z,2026-11-08,2026-11-08,,minimal,313792,2026-11-13
 100110568486227,9086352106,RV Lost?,https://tr.rbxcdn.com/180DAY-ef6b785e040d10f972c06378f948cfae/150/150/Image/Webp/noFilter,2025-11-02T09:53:06Z,2026-11-17,,,minimal,8168499,2026-11-20
@@ -2309,7 +2309,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 119101118479978,10769835283,[UPD6 🎉] Depth Incremental,,,2026-11-07,2026-11-07,2026-11-07,minimal,,2026-11-20
 119130658034844,10773729910,[UPDATE 2] Foltyn Ate Them (HORROR),https://tr.rbxcdn.com/180DAY-1194cba5fd8e560ea62a0c7b41e3c229/150/150/Image/Webp/noFilter,2026-10-29T23:15:12Z,2026-11-16,2026-11-16,,minimal,724468,2026-11-18
 119167442172024,6949043989,KLASE,https://tr.rbxcdn.com/180DAY-7d44f7b0fc60ed59fe53cdf71578a363/150/150/Image/Webp/noFilter,2024-12-21T04:57:13Z,2026-11-18,,,mild,17107573,2026-11-20
-119242658671952,10739112966,Street Soccer Pro,https://tr.rbxcdn.com/180DAY-eed6906fe185a0254370bf28722ccb96/150/150/Image/Webp/noFilter,2026-08-19T02:56:04Z,2026-11-07,,,vng-rating-override,39935449,2026-11-20
+119242658671952,10739112966,Street Soccer Pro,https://tr.rbxcdn.com/180DAY-eed6906fe185a0254370bf28722ccb96/150/150/Image/Webp/noFilter,2026-08-19T02:56:04Z,2026-11-07,,,minimal,39935449,2026-11-20
 119248750585731,10767903282,Merge Squishy Balls [ASMR],https://tr.rbxcdn.com/180DAY-7949d015caf54ce752add8833b1216d2/150/150/Image/Webp/noFilter,2026-09-24T19:29:47Z,2026-11-07,,,minimal,253906,2026-11-20
 119263815547952,10768458048,Army Commander Tycoon [UPDATE 6],,,2026-11-07,,2026-11-07,mild,,2026-11-10
 119269765124983,10770322252,[🚨] Run a Police Station,https://tr.rbxcdn.com/180DAY-c3d016186788f684f49a146025992545/150/150/Image/Webp/noFilter,2026-10-11T07:55:26Z,2026-11-08,,,minimal,86382,2026-11-20
