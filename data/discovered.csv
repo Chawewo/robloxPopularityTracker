@@ -36,7 +36,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 601239270,242453665,Mint Tycoon [BETA],,,2026-11-07,,,minimal,,
 606849621,245662005,Jailbreak ⛓️‍💥,,,2026-11-07,,2026-11-07,mild,,2026-11-20
 654732683,274816972,Car Crushers 2 ⌛ Physics Simulation,,,2026-11-07,,2026-11-07,minimal,,2026-11-20
-735030788,321778215,Royale 🔥❄️ High,,,2026-11-07,,2026-11-07,minimal,,2026-11-20
+735030788,321778215,Royale 🔥❄️ High,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-20
 740581899,324740367,Entry Point: Freelancer's Cut,,,2026-11-07,,2026-11-07,mild,,2026-11-20
 815405518,341654025,The Floor Is LAVA!🔥,,,2026-11-07,,2026-11-07,minimal,,2026-11-20
 863266079,358276974,Apocalypse Rising 2,,,2026-11-07,,2026-11-07,moderate,,2026-11-20
@@ -225,7 +225,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 6711870575,2535080489,[💢ALL FOR ME] Heroes Online 2 ,,,2026-11-07,,2026-11-07,mild,,
 6717367660,2538086639,Happy Land 🏡RP,,,2026-11-07,,2026-11-07,minimal,,2026-11-20
 6727915552,2544016903,Worldwide Spies,,,2026-11-10,,2026-11-10,minimal,,2026-11-15
-6728870912,2544520106,[2v2's🥊] World of Stands,,,2026-11-07,,2026-11-07,mild,,2026-11-20
+6728870912,2544520106,[2v2's🥊] World of Stands,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-20
 6737970321,2549475383,Livetopia 🏡 RP,,,2026-11-07,,2026-11-07,minimal,,2026-11-20
 6804602922,2583564222,[🍗] Boxing Beta! 🥊,,,2026-11-07,,2026-11-07,mild,,2026-11-20
 6816975827,2589957623,[☀️] Car Suspension Test,,,2026-11-07,,2026-11-07,minimal,,2026-11-20
@@ -331,7 +331,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 9825515356,3634139746,Hood Customs,,,2026-11-07,,2026-11-07,moderate,,2026-11-20
 9852034001,3641597042,Artillery Showcase 🪖,,2022-06-08T11:08:37Z,2026-11-07,,,minimal,17192018,2026-11-18
 9865836356,3645313968,🐯Endangered World,,,2026-11-07,,2026-11-07,minimal,,2026-11-20
-9872472334,3647333358,[🎃HLWN🎃] Evade ,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-20
+9872472334,3647333358,[🎃HLWN🎃] Evade ,,,2026-11-07,,2026-11-07,mild,,2026-11-20
 9898710720,3655030699,💸Money Tycoon!,,,2026-11-07,,2026-11-07,mild,,2026-11-20
 9922455303,3661343497,A Lion's Pride Beta - Lion RP 🦁,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
 9938675423,3666294218,🌳 Oaklands [QOL Update],,,2026-11-07,,2026-11-07,minimal,,2026-11-20
@@ -495,7 +495,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 14948124022,5149622256,[😱NEW] Skibidi Toilet Morphs,https://tr.rbxcdn.com/180DAY-e0eba6d00e76a48458f367fb4bb3d2c0/150/150/Image/Webp/noFilter,2023-10-02T10:33:08Z,2026-11-07,,,minimal,183351335,2026-11-13
 15002061926,5166944221,Death Ball,,,2026-11-07,,2026-11-07,mild,,2026-11-20
 15014439457,5170731021,Demon Blade,https://tr.rbxcdn.com/180DAY-39996e1fe86b501559e89d5fe33e3a02/150/150/Image/Webp/noFilter,2023-10-09T06:07:50Z,2026-11-07,,,mild,233757921,2026-11-20
-15027718878,5174979552,🚀[Titan] The Space Simulator,,,2026-11-07,,2026-11-07,minimal,,2026-11-20
+15027718878,5174979552,🚀[Titan] The Space Simulator,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-20
 15085963991,5198232954,IATS: Community Catalog Outfits,,2023-10-16T08:45:34Z,2026-11-08,,,minimal,13380592,2026-11-10
 15099727851,5203208431,[VERSUS] DashBlox 2 (Geometry Dash),https://tr.rbxcdn.com/180DAY-d0212d21385470d9fe8a12cfa57ba96f/150/150/Image/Webp/noFilter,2023-10-18T01:51:42Z,2026-11-12,,,minimal,21962402,2026-11-17
 15101393044,5203828273,[🎃] Dress To Impress,,,2026-11-07,,2026-11-07,minimal,,2026-11-20
@@ -633,7 +633,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 18537079992,6280758286,Армия Роблокса РП,,,2026-11-07,,2026-11-07,mild,,2026-11-15
 18651214797,6319412433,Find The Pou Babies,https://tr.rbxcdn.com/180DAY-f9f3f2a91ae00c09c05d9194174a4ab1/150/150/Image/Webp/noFilter,2024-07-25T16:16:50Z,2026-11-07,,,minimal,667899,2026-11-13
 18666738837,6324644175,Death Order: Simon Says,,,2026-11-07,,2026-11-07,mild,,2026-11-20
-18668065416,6325068386,[OTOYA 🥷] Blue Lock: Rivals,,,2026-11-07,,2026-11-07,minimal,,2026-11-20
+18668065416,6325068386,[OTOYA 🥷] Blue Lock: Rivals,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-20
 18687417158,6331902150,Forsaken,,,2026-11-07,,2026-11-07,mild,,2026-11-20
 18753889337,6353751159,Main Street 🏡RP,,,2026-11-07,,2026-11-07,minimal,,2026-11-20
 18758755773,6355251723,Threadville 🧵,,,2026-11-07,,2026-11-07,minimal,,2026-11-15
@@ -2811,7 +2811,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 134558434771720,7884563721,[🏆TOURNAMENTS] Arcade Basketball 🏀 ,,,2026-11-07,,2026-11-07,minimal,,2026-11-20
 134594133375327,10773269457,[☄️SECRET LIMITED] SEPEDA ONTEL SIMULATOR,https://tr.rbxcdn.com/180DAY-b7ee9cb2767b93c494d467893df3f691/150/150/Image/Webp/noFilter,2026-10-27T12:06:55Z,2026-11-07,2026-11-07,,minimal,965970,2026-11-20
 134600002153324,8769048786,Dead Shore,,,2026-11-08,,2026-11-08,mild,,2026-11-20
-134619004688066,8659262047,Dangerous ATV Driving,,,2026-11-07,,2026-11-07,minimal,,2026-11-20
+134619004688066,8659262047,Dangerous ATV Driving,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-20
 134631749335354,10773200083,Anime Ragdoll🩸,https://tr.rbxcdn.com/180DAY-3cb269022c873692c5d2be0610c5587f/150/150/Image/Webp/noFilter,2026-10-26T23:09:24Z,2026-11-14,2026-11-14,2026-11-16,mild,705317,2026-11-20
 134679507313109,10758397570,Steal an Egg for Squishy Dumplings!,,,2026-11-07,,2026-11-07,minimal,,2026-11-20
 134688800506215,10774290326,Throw Pets to Fight,https://tr.rbxcdn.com/180DAY-b191303d2fb7a7231745aee5626172ee/150/150/Image/Webp/noFilter,2026-11-02T01:53:37Z,2026-11-16,2026-11-16,,minimal,142667,2026-11-17
