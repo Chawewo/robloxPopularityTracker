@@ -9,7 +9,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 142823291,66654135,Murder Mystery 2,,,2026-11-07,,2026-11-07,moderate,,2026-11-20
 155615604,73885730,Prison Life,,,2026-11-07,,2026-11-07,mild,,2026-11-20
 166731267,79609758,The Dropper ✨ [135+ LEVELS!],,,2026-11-18,,2026-11-18,minimal,,2026-11-19
-166986752,79301772,🔨Plane Crazy🔨 [UPDATE],,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-20
+166986752,79301772,🔨Plane Crazy🔨 [UPDATE],,,2026-11-07,,2026-11-07,minimal,,2026-11-20
 180037022,85505226,[HYPER] SURPG,,,2026-11-15,,2026-11-15,mild,,2026-11-20
 180364455,85651869,[PLAYER CARDS] Survive The Disasters 2,,,2026-11-07,,2026-11-07,mild,,2026-11-20
 183364845,83858907,[🎃] Speed Run 4,,,2026-11-12,,2026-11-12,minimal,,2026-11-13
@@ -107,7 +107,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 3891618314,1325411718,⚓ Harbor Havoc,,,2026-11-07,,2026-11-07,mild,,2026-11-18
 4104106043,1358133289,Insane Elevator!,,,2026-11-07,,2026-11-07,mild,,2026-11-20
 4179502680,1371242815,[RELEASE] C.C. Clicker: Eternal Slice,https://tr.rbxcdn.com/180DAY-fc9f35b2658f8a24ed7842bebff2a7fd/150/150/Image/Webp/noFilter,,2026-11-16,,,minimal,,2026-11-16
-4195834406,1374118848,Dragon Generations,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-20
+4195834406,1374118848,Dragon Generations,,,2026-11-07,,2026-11-07,mild,,2026-11-20
 4201429814,1375027828,Roblox Creator Challenge,,2019-10-24T17:04:49Z,2026-11-07,,,minimal,79234871,2026-11-20
 4282985734,1390601379,Combat Warriors,,,2026-11-07,,2026-11-07,mild,,2026-11-20
 4299508195,1393178180,Polish Car Driving 🚗,,,2026-11-07,,2026-11-07,minimal,,2026-11-15
@@ -177,7 +177,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 5935278470,2131410080,[WAKES!] Lake Ozark,https://tr.rbxcdn.com/180DAY-a3cfaab6ccdfd5ec0da6453ea476fb7a/150/150/Image/Webp/noFilter,2020-11-09T06:52:42Z,2026-11-07,,,minimal,20027084,2026-11-20
 5946155382,2137105308,Trivia! Roblox Game Show [Jeopardy],,,2026-11-07,,2026-11-07,minimal,,2026-11-20
 5951002734,2139712082,[🎃 ASTA + MORE!] Project Baki,,,2026-11-08,,2026-11-08,minimal,,2026-11-17
-5976159288,2153167977,Formula Apex Racing,,,2026-11-07,,2026-11-07,minimal,,2026-11-20
+5976159288,2153167977,Formula Apex Racing,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-20
 5985232436,2157872230,Infectious Smile,,,2026-11-07,,2026-11-07,mild,,2026-11-20
 6016716328,2174306620,[RELEASE!] Beyond Nen,https://tr.rbxcdn.com/180DAY-401a20107157eaa4270ab64c727cc008/150/150/Image/Webp/noFilter,2020-11-29T02:08:10Z,2026-11-07,,,mild,2277807,2026-11-20
 6045325556,2189381976,Car Driving Simulator,https://tr.rbxcdn.com/180DAY-49bdb19b28fec101861479d85785a0e0/150/150/Image/Webp/noFilter,2020-12-05T10:49:00Z,2026-11-07,,,minimal,7475649,2026-11-20
@@ -1723,7 +1723,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 102071609564196,9209811415,🎞️ Emote Catalog,,,2026-11-07,,2026-11-07,minimal,,2026-11-20
 102072869879193,10502841145,[ATOMIC] Anime Astral Simulator,,,2026-11-07,,2026-11-07,minimal,,2026-11-20
 102109493161335,10773613271,Chess League,https://tr.rbxcdn.com/180DAY-f163fe580a06d12fe0c5ac1d9e316b22/150/150/Image/Webp/noFilter,2026-10-29T07:45:04Z,2026-11-13,,,minimal,231432,2026-11-20
-102121798992963,7151600766,[🐻] FNAF Bundle,,2025-01-26T21:41:35Z,2026-11-07,,,minimal,2051950,2026-11-16
+102121798992963,7151600766,[🐻] FNAF Bundle,,2025-01-26T21:41:35Z,2026-11-07,,,minimal,2051950,2026-11-20
 102155891663543,10769876151,Make Ramen To Get Rich [RELEASE],,,2026-11-07,2026-11-07,2026-11-07,minimal,,2026-11-07
 102376676442996,10647121886,✂️ Split,https://tr.rbxcdn.com/180DAY-7ab3eb800cde808fc3c7fb3c3c50846c/150/150/Image/Webp/noFilter,2026-08-07T08:56:34Z,2026-11-11,,,minimal,247659,2026-11-20
 102457672839885,10211159992,Keyboard Color Bridge,,,2026-11-07,,2026-11-07,minimal,,2026-11-20
@@ -1932,7 +1932,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 108449021470175,10768064179,Voxel Build Battle!,https://tr.rbxcdn.com/180DAY-46d347c6dde316059f06b5347b28bbbd/150/150/Image/Webp/noFilter,2026-09-26T02:00:30Z,2026-11-07,,,minimal,3667364,2026-11-20
 108468773491142,10770990312,PORTAL DUELS,https://tr.rbxcdn.com/180DAY-168cea47645f676bb41536e0372c7150/150/150/Image/Webp/noFilter,2026-10-15T05:14:45Z,2026-11-07,2026-11-09,,mild,589953,2026-11-20
 108481366788727,10767360124,[UPD!🐉]Choose the Stronger Animal!,https://tr.rbxcdn.com/180DAY-d4f8493a8680cfb7d4f54920607d43ce/150/150/Image/Webp/noFilter,2026-09-21T05:08:15Z,2026-11-07,,,mild,31707653,2026-11-20
-108533757090220,7703614594,Garden Tower Defense 🌻,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-20
+108533757090220,7703614594,Garden Tower Defense 🌻,,,2026-11-07,,2026-11-07,minimal,,2026-11-20
 108567435288296,10399136326,Anime Ability Arena,,,2026-11-07,,2026-11-07,mild,,2026-11-20
 108605519269759,6752499006,[Beta] BUTTON PRISON,,,2026-11-07,,2026-11-07,mild,,2026-11-17
 108656620062694,10773761607,Tea on the Highway [ANOMALY],https://tr.rbxcdn.com/180DAY-28c2c99cf5e8a6983ec9510eef68ead3/150/150/Image/Webp/noFilter,2026-10-30T05:03:48Z,2026-11-07,2026-11-07,,moderate,61129,2026-11-20
@@ -2795,7 +2795,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 133659730452994,10178501358,[R6] Matching / Clothing Outfits,,,2026-11-07,,,minimal,,
 133679065471783,7113705633,💜[RELEASE!] MonsterVerze💜,,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 133745375070118,10771539115,[MULTIPLAYER ADMIN] TK Ragdoll Engine,https://tr.rbxcdn.com/180DAY-12ee68e6f4673f765c84aabf02b2be86/150/150/Image/Webp/noFilter,2026-10-17T16:59:18Z,2026-11-07,2026-11-07,,moderate,978825,2026-11-13
-133787291114459,10770104321,[✏️] Draw a Flag!,https://tr.rbxcdn.com/180DAY-655514884989b838c34c5019700e5984/150/150/Image/Webp/noFilter,2026-10-10T02:31:31Z,2026-11-07,2026-11-07,,minimal,3829711,2026-11-20
+133787291114459,10770104321,[UPD] Draw a Flag!,https://tr.rbxcdn.com/180DAY-655514884989b838c34c5019700e5984/150/150/Image/Webp/noFilter,2026-10-10T02:31:31Z,2026-11-07,2026-11-07,,minimal,3829711,2026-11-20
 133885345087087,10335428337,a cool game,https://tr.rbxcdn.com/180DAY-88edbd4c22e4a1b7ef17bb94d78ebde1/150/150/GameIcon10/Webp/noFilter,2026-06-15T23:26:09Z,2026-11-07,,,mild,3579543,2026-11-20
 133927229860262,10767946926,HUSH: They can hear. (BETA),,,2026-11-07,,2026-11-07,mild,,2026-11-20
 133944342556545,10769801424,[TRADING] Be The Biggest Verity,https://tr.rbxcdn.com/180DAY-66d405bbcfca2dcea8123e53ea3be0d1/150/150/Image/Webp/noFilter,2026-10-07T23:15:36Z,2026-11-07,,,mild,1810429,2026-11-15
