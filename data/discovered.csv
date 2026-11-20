@@ -36,7 +36,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 601239270,242453665,Mint Tycoon [BETA],,,2026-11-07,,,minimal,,
 606849621,245662005,Jailbreak ⛓️‍💥,,,2026-11-07,,2026-11-07,mild,,2026-11-20
 654732683,274816972,Car Crushers 2 ⌛ Physics Simulation,,,2026-11-07,,2026-11-07,minimal,,2026-11-20
-735030788,321778215,Royale 🔥❄️ High,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-20
+735030788,321778215,Royale 🔥❄️ High,,,2026-11-07,,2026-11-07,minimal,,2026-11-20
 740581899,324740367,Entry Point: Freelancer's Cut,,,2026-11-07,,2026-11-07,mild,,2026-11-20
 815405518,341654025,The Floor Is LAVA!🔥,,,2026-11-07,,2026-11-07,minimal,,2026-11-20
 863266079,358276974,Apocalypse Rising 2,,,2026-11-07,,2026-11-07,moderate,,2026-11-20
@@ -129,7 +129,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 4646477729,1531130248,Tower Heroes [UPD] 🎃 ,,,2026-11-07,,2026-11-07,minimal,,2026-11-13
 4735589050,1579747797,Prizefighter Boxing,,,2026-11-07,,,mild,,
 4796443083,1617287243,Daycare 2 🎈 (Story),,,2026-11-07,,2026-11-07,minimal,,2026-11-20
-4850588087,1648496580,Bendy and the ink Machine,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-20
+4850588087,1648496580,Bendy and the ink Machine,,,2026-11-07,,2026-11-07,minimal,,2026-11-20
 4857298151,1651278324,[🐦] Free Items Game!,,,2026-11-07,,2026-11-07,minimal,,2026-11-20
 4878988249,1663370770,[HALLOWEEN] Mighty Omega,,,2026-11-08,,2026-11-08,moderate,,
 4889315193,1668992109,Total Roblox Drama,,,2026-11-08,,2026-11-08,minimal,,2026-11-09
@@ -225,7 +225,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 6711870575,2535080489,[💢ALL FOR ME] Heroes Online 2 ,,,2026-11-07,,2026-11-07,mild,,
 6717367660,2538086639,Happy Land 🏡RP,,,2026-11-07,,2026-11-07,minimal,,2026-11-20
 6727915552,2544016903,Worldwide Spies,,,2026-11-10,,2026-11-10,minimal,,2026-11-15
-6728870912,2544520106,[2v2's🥊] World of Stands,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-20
+6728870912,2544520106,[2v2's🥊] World of Stands,,,2026-11-07,,2026-11-07,mild,,2026-11-20
 6737970321,2549475383,Livetopia 🏡 RP,,,2026-11-07,,2026-11-07,minimal,,2026-11-20
 6804602922,2583564222,[🍗] Boxing Beta! 🥊,,,2026-11-07,,2026-11-07,mild,,2026-11-20
 6816975827,2589957623,[☀️] Car Suspension Test,,,2026-11-07,,2026-11-07,minimal,,2026-11-20
@@ -495,7 +495,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 14948124022,5149622256,[😱NEW] Skibidi Toilet Morphs,https://tr.rbxcdn.com/180DAY-e0eba6d00e76a48458f367fb4bb3d2c0/150/150/Image/Webp/noFilter,2023-10-02T10:33:08Z,2026-11-07,,,minimal,183351335,2026-11-13
 15002061926,5166944221,Death Ball,,,2026-11-07,,2026-11-07,mild,,2026-11-20
 15014439457,5170731021,Demon Blade,https://tr.rbxcdn.com/180DAY-39996e1fe86b501559e89d5fe33e3a02/150/150/Image/Webp/noFilter,2023-10-09T06:07:50Z,2026-11-07,,,mild,233757921,2026-11-20
-15027718878,5174979552,🚀[Titan] The Space Simulator,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-20
+15027718878,5174979552,🚀[Titan] The Space Simulator,,,2026-11-07,,2026-11-07,minimal,,2026-11-20
 15085963991,5198232954,IATS: Community Catalog Outfits,,2023-10-16T08:45:34Z,2026-11-08,,,minimal,13380592,2026-11-10
 15099727851,5203208431,[VERSUS] DashBlox 2 (Geometry Dash),https://tr.rbxcdn.com/180DAY-d0212d21385470d9fe8a12cfa57ba96f/150/150/Image/Webp/noFilter,2023-10-18T01:51:42Z,2026-11-12,,,minimal,21962402,2026-11-17
 15101393044,5203828273,[🎃] Dress To Impress,,,2026-11-07,,2026-11-07,minimal,,2026-11-20
@@ -1999,7 +1999,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 110725234112010,10419211403,[🐉SPIRIT BEASTS] Cultivation Unbound,https://tr.rbxcdn.com/180DAY-a3aa8497ddc2c0b1d8ca576e897f8196/150/150/Image/Webp/noFilter,2026-06-30T01:26:36Z,2026-11-15,,,minimal,971230,2026-11-20
 110738023593516,10769291958,[W3] +1 Clean Keyboard Adventure,https://tr.rbxcdn.com/180DAY-4f26f3516f83228e284e8c2cd2528e1d/150/150/Image/Webp/noFilter,2026-10-04T07:57:26Z,2026-11-07,,,minimal,3754707,2026-11-14
 110806816173057,10171934713,[💀] +1 DMG Per Revive[🎃Halloween],,,2026-11-07,,2026-11-07,mild,,2026-11-07
-110829983956014,6682487255,[ 👻 🎃] Anime Card Clash,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-20
+110829983956014,6682487255,[ 👻 🎃] Anime Card Clash,,,2026-11-07,,2026-11-07,minimal,,2026-11-20
 110920665538163,10771570570,[🎃]Cars Overboard,https://tr.rbxcdn.com/180DAY-8dd8b6bcc4c3cdc0ad3109e5fb6afac9/150/150/Image/Webp/noFilter,2026-10-17T19:38:24Z,2026-11-08,2026-11-08,,minimal,224207,2026-11-20
 110974555182616,10769205469,🧟 INFECTION 🧟 Grapple Strike,https://tr.rbxcdn.com/180DAY-7c6b183d6ebe30f178b59d4ff0490d14/150/150/Image/Webp/noFilter,2026-10-03T18:56:15Z,2026-11-07,,,mild,5390617,2026-11-13
 111016047652730,10773064825,Crocodile UGC TRY ON,https://tr.rbxcdn.com/180DAY-cea04c64973f7e4e36cc172ce5e62c77/150/150/Image/Webp/noFilter,2026-10-26T05:05:57Z,2026-11-15,,,minimal,34124,2026-11-19
@@ -2466,7 +2466,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 124289700092777,9106699235,Custom UGC Designer 🎨,https://tr.rbxcdn.com/180DAY-ff83fdd850c17c0404c0802af8dfacc3/150/150/Image/Webp/noFilter,2025-11-05T11:49:48Z,2026-11-08,,,minimal,11911074,2026-11-20
 124313546037300,10774274296,Make The Flag!,https://tr.rbxcdn.com/180DAY-328aa6916b5f096c3e003a258e53f203/150/150/Image/Webp/noFilter,2026-11-01T23:16:54Z,2026-11-15,2026-11-17,,minimal,275443,2026-11-20
 124357835578554,10769787444,ABOVE [💀RUINS],https://tr.rbxcdn.com/180DAY-0e15dd90ea257267a554c651f6d2f245/150/150/Image/Webp/noFilter,2026-10-07T20:40:14Z,2026-11-07,,2026-11-07,mild,552590,2026-11-12
-124369430681784,9865931248,Word Hunt🔍 ,https://tr.rbxcdn.com/180DAY-c658f5b2c6c644e7e0962140bd1373ba/150/150/Image/Webp/noFilter,2026-03-11T06:01:51Z,2026-11-07,,,vng-rating-override,7862201,2026-11-20
+124369430681784,9865931248,Word Hunt🔍 ,https://tr.rbxcdn.com/180DAY-c658f5b2c6c644e7e0962140bd1373ba/150/150/Image/Webp/noFilter,2026-03-11T06:01:51Z,2026-11-07,,,minimal,7862201,2026-11-20
 124389216346675,7685678300,Control Europe,,,2026-11-07,,2026-11-07,minimal,,2026-11-20
 124398083342642,6720585148,[UPD!] Ride A Cart Down A Slide,,,2026-11-07,,2026-11-07,mild,,2026-11-20
 124526331490208,10770024330,[🧬HUGE UPDATE] Gym Legacy,https://tr.rbxcdn.com/180DAY-775d9cd5d9f17b4f04e037cbbcf989fa/150/150/Image/Webp/noFilter,2026-10-09T17:17:19Z,2026-11-07,2026-11-07,,minimal,199081,2026-11-15
