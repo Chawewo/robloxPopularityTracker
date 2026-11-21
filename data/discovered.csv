@@ -24,7 +24,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 286090429,111958650,Arsenal,,,2026-11-07,,2026-11-07,mild,,2026-11-21
 289685010,112845193,Bird Simulator,,,2026-11-07,,,minimal,,
 292439477,113491250,Phantom Forces,,,2026-11-07,,2026-11-07,mild,,2026-11-21
-294790062,114070244,Roblox Titanic,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-21
+294790062,114070244,Roblox Titanic,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
 306964494,117307972,(Route 9) Loomian Legacy,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
 328028363,147332621,Typical Colors 2,,,2026-11-07,,2026-11-07,mild,,2026-11-21
 334730614,123956318,Kaizen [RP],,,2026-11-07,,2026-11-07,minimal,,2026-11-17
@@ -99,7 +99,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 3475397644,1235188606,[GUILD WARS] Dragon Adventures 🐉,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
 3540051865,1250803741,Windgate,,,2026-11-07,,,minimal,,
 3577061261,1258866324,Defusal 💣,https://tr.rbxcdn.com/180DAY-9b0a035eb5b8a53238bce6cd0a3a4429/150/150/Image/Webp/noFilter,,2026-11-16,,,mild,,2026-11-17
-3623096087,1268927906,💪 Muscle Legends,,,2026-11-07,,2026-11-07,mild,,2026-11-21
+3623096087,1268927906,💪 Muscle Legends,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-21
 3663340706,1278035280,Warrior Cats: Ultimate Edition,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
 3678761576,1281592938,ENTRENCHED 🥀,,,2026-11-07,,2026-11-07,mild,,2026-11-21
 3823781113,1312971993,[🍗UPD] Saber Simulator,,,2026-11-07,,2026-11-07,mild,,2026-11-21
@@ -343,7 +343,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 10224049386,3746418487,House Tycoon 2,,,2026-11-08,,2026-11-08,minimal,,2026-11-11
 10228136016,3747388906,Fallen Survival🏹,,,2026-11-07,,2026-11-07,moderate,,2026-11-21
 10253248401,3754482795,Elemental Powers Tycoon,,,2026-11-07,,2026-11-07,mild,,2026-11-21
-10260193230,3756501373,[UPDATE 4] Meme Sea,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-21
+10260193230,3756501373,[UPDATE 4] Meme Sea,,,2026-11-07,,2026-11-07,mild,,2026-11-21
 10277607801,3761186887,Apeirophobia,,,2026-11-08,,2026-11-08,mild,,2026-11-21
 10424585322,3801413348,⭐ Face Animations [Demo],https://tr.rbxcdn.com/180DAY-40c60da4c1726cc6f114905353bc42c6/150/150/Image/Webp/noFilter,2022-07-31T06:21:59Z,2026-11-07,,,minimal,75986099,2026-11-21
 10425361163,3801657309,CurioCity,,,2026-11-07,,,minimal,,
@@ -598,7 +598,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 17516596118,5995470825,[🔥CLANS] Hypershot,,,2026-11-07,,2026-11-07,mild,,2026-11-21
 17571821642,6015491985,Math Tower Race,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
 17579554548,6018363181,[🛍️] Fandom Avatar Creator,,2024-05-22T19:06:26Z,2026-11-07,,,minimal,14359600,2026-11-21
-17581668152,6019027471,Nitro Car,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
+17581668152,6019027471,Nitro Car,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-21
 17599091344,6025946776,Carousel - World School 🏫,https://tr.rbxcdn.com/180DAY-33f1d6b3ccf7bd8862e8516588502e14/150/150/Image/Webp/noFilter,2024-05-24T18:04:07Z,2026-11-07,,,minimal,134140367,2026-11-21
 17625359962,6035872082,[🛡️] RIVALS,,,2026-11-07,,2026-11-07,mild,,2026-11-21
 17664585395,6049736902,Spelling Race,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
@@ -2205,7 +2205,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 115335123670720,10769100437,[NEW VEHICLES + DOT] Central Kansas,https://tr.rbxcdn.com/180DAY-ab22e48759259b9e256df29665151220/150/150/Image/Webp/noFilter,2026-10-03T06:15:16Z,2026-11-17,,,minimal,979235,2026-11-18
 115337407531717,10772010278,Cut Grass for Eggs,https://tr.rbxcdn.com/180DAY-ce928f4757d1d553a1d9a8ad4502aa45/150/150/Image/Webp/noFilter,2026-10-20T01:46:59Z,2026-11-14,2026-11-15,,minimal,275840,2026-11-21
 115369271316070,10770784203,🥀Drain All Life,https://tr.rbxcdn.com/180DAY-a543c97dcc276fbec93a66a8a238f733/150/150/Image/Webp/noFilter,2026-10-14T04:03:54Z,2026-11-07,2026-11-07,,minimal,744070,2026-11-13
-115394135656997,9929086116,+1 Speed Wings Escape 🦅,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-21
+115394135656997,9929086116,+1 Speed Wings Escape 🦅,,,2026-11-07,,2026-11-07,mild,,2026-11-21
 115421280851964,10772028037,🏠[UPD] Pocket Landlord 🏗️ Build Your Town,https://tr.rbxcdn.com/180DAY-791c7c95253b0ea93046c19014282f95/150/150/Image/Webp/noFilter,2026-10-20T05:14:13Z,2026-11-07,2026-11-07,,minimal,3680670,2026-11-13
 115455497946779,10144739042, 🔪Survival the Kpop Demon Hunters 🎤,https://tr.rbxcdn.com/180DAY-ad0d9d202712906b4dd20bb53a0ce5fc/150/150/Image/Webp/noFilter,2026-05-09T21:37:35Z,2026-11-07,,,mild,13715910,2026-11-21
 115491448901009,10771231637,Moonwalk for Eggs [NEW!],https://tr.rbxcdn.com/180DAY-fda484e1a59564dbc9048fe80594a130/150/150/Image/Webp/noFilter,2026-10-16T11:26:44Z,2026-11-07,2026-11-07,,minimal,1451234,2026-11-13
