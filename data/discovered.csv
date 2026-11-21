@@ -220,13 +220,13 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 6652606416,2501141430,Circuit Maker 2,,2021-04-08T01:49:09Z,2026-11-07,,,minimal,5770221,2026-11-21
 6653964354,2501896830,Emergency Port-Marie 🚨,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
 6667042496,2509333429,The Victoria Line,https://tr.rbxcdn.com/180DAY-9a35c3237a9099f49e4120cae891aa9c/150/150/Image/Webp/noFilter,,2026-11-14,,,minimal,,2026-11-14
-6686932749,2520686564,Thalassodromeus! | Prehistoria,,,2026-11-07,,2026-11-07,mild,,2026-11-21
+6686932749,2520686564,Thalassodromeus! | Prehistoria,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-21
 6698800091,2527789729,[HALLOWEEN👻]Prior Extinction - Dinosaur Survival!,,,2026-11-07,,2026-11-07,mild,,2026-11-21
 6708164649,2533027421,Ocean Conservation Experience,,,2026-11-07,,,minimal,,
 6711870575,2535080489,[💢ALL FOR ME] Heroes Online 2 ,,,2026-11-07,,2026-11-07,mild,,
 6717367660,2538086639,Happy Land 🏡RP,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
 6727915552,2544016903,Worldwide Spies,,,2026-11-10,,2026-11-10,minimal,,2026-11-15
-6728870912,2544520106,[2v2's🥊] World of Stands,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-21
+6728870912,2544520106,[2v2's🥊] World of Stands,,,2026-11-07,,2026-11-07,mild,,2026-11-21
 6737970321,2549475383,Livetopia 🏡 RP,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
 6804602922,2583564222,[🍗] Boxing Beta! 🥊,,,2026-11-07,,2026-11-07,mild,,2026-11-21
 6816975827,2589957623,[☀️] Car Suspension Test,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
@@ -445,7 +445,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 13621938427,4730278139,untitled boxing game🥊,,,2026-11-07,,2026-11-07,mild,,2026-11-21
 13664698400,4743794878,The Classic Soccer,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
 13687899540,4750561026,Cold War [New Map🇨🇿],,,2026-11-07,,2026-11-07,mild,,2026-11-21
-13705777238,4756434078,Bus Driver Vietnam 2,https://tr.rbxcdn.com/180DAY-e02223a4b41f63e17a59a920fb612d3d/150/150/Image/Webp/noFilter,2023-06-10T05:05:02Z,2026-11-07,,,vng-rating-override,312828338,2026-11-21
+13705777238,4756434078,Bus Driver Vietnam 2,https://tr.rbxcdn.com/180DAY-e02223a4b41f63e17a59a920fb612d3d/150/150/Image/Webp/noFilter,2023-06-10T05:05:02Z,2026-11-07,,,minimal,312828338,2026-11-21
 13728135146,4763821055,roblox size comparison,,2023-06-12T04:38:10Z,2026-11-07,,,minimal,1850325,2026-11-10
 13730658693,4764717084,Rec It,,,2026-11-07,,2026-11-07,minimal,,2026-11-18
 13755196581,4772345874,📸PhotoShoot Scenes,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
@@ -523,7 +523,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 15507022415,5351168809,Chiquititas - Ray of Light Orphanage 🏫,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
 15516236993,5354625397,Mini Cities 2 ,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
 15532962292,5361032378,Sol's RNG [ Part 2 🎃 ],,,2026-11-07,,2026-11-07,mild,,2026-11-21
-15542804777,5364600678,High Iron [Alpha],,2023-12-04T07:24:46Z,2026-11-07,,,minimal,1740734,2026-11-15
+15542804777,5364600678,High Iron [Alpha],,2023-12-04T07:24:46Z,2026-11-07,,,minimal,1740734,2026-11-21
 15550215902,5367389312,[🎃HALLOWEEN] Sing It! Karaoke Battles [VC🎤],,,2026-11-07,,2026-11-07,minimal,,2026-11-21
 15555246249,5369242581,⭐DoW⭐ -  Dogs of War,,,2026-11-10,,2026-11-10,moderate,,2026-11-12
 15560168390,5371127625,[NOW] Toilet Verse Tower Defense,,,2026-11-07,,2026-11-07,minimal,,2026-11-19
@@ -2481,7 +2481,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 123103185182920,10770926951,Draw a Pancake! 🥞,https://tr.rbxcdn.com/180DAY-dbd77a0c5f0ebb22c589edb9a511f66d/150/150/Image/Webp/noFilter,2026-10-14T20:32:34Z,2026-11-07,2026-11-07,,minimal,3565917,2026-11-13
 123144130909283,10764296404,Cards Matching 🃏,https://tr.rbxcdn.com/180DAY-50bf8b6219daec79aa5e8d688aaa62cc/150/150/Image/Webp/noFilter,2026-08-29T05:19:38Z,2026-11-07,,,minimal,4903244,2026-11-20
 123174014188923,7328877831,[🛠️] Zombies vs Security,https://tr.rbxcdn.com/180DAY-77720a2bac746790e8e9de5894f80c81/150/150/Image/Webp/noFilter,2025-03-04T15:17:28Z,2026-11-07,,,mild,60398357,2026-11-21
-123243055683524,6938969105,Where Am I? 🗺️ [Alpha],,,2026-11-07,,2026-11-07,minimal,,2026-11-20
+123243055683524,6938969105,Where Am I? 🗺️ [Alpha],,,2026-11-07,,2026-11-07,minimal,,2026-11-21
 123267859217356,10422547363,[📢] Lethal Ape: Rewired! {PB},https://tr.rbxcdn.com/180DAY-2d614ade47303f8ea0987b8d4a27f9c8/150/150/Image/Webp/noFilter,2026-06-30T17:20:05Z,2026-11-07,,,minimal,8019767,2026-11-21
 123291844239648,10770235379,[💸] Guess The Price,https://tr.rbxcdn.com/180DAY-c368ff505da44f048ea75a8a4f1d8fff/150/150/Image/Webp/noFilter,2026-10-10T18:50:06Z,2026-11-07,,,mild,1384793,2026-11-19
 123316423799511,10773448788,Kill 'Em All,https://tr.rbxcdn.com/180DAY-4e2cc528b7d028306e2074d05dbbfc11/150/150/Image/Webp/noFilter,2026-10-28T06:43:10Z,2026-11-15,2026-11-15,,mild,511279,2026-11-21
