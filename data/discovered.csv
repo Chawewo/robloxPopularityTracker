@@ -76,7 +76,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 2768379856,1000233041,3008 [2.75],,,2026-11-07,,2026-11-07,minimal,,2026-11-21
 2772610559,1001911915,Farming and Friends,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
 2788229376,1008451066,[🦃] Da Hood,,,2026-11-07,,2026-11-07,moderate,,2026-11-21
-2809202155,1016936714,🎃 Your Bizarre Adventure 🎃,,,2026-11-07,,2026-11-07,moderate,,2026-11-21
+2809202155,1016936714,🎃 Your Bizarre Adventure 🎃,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-21
 2872154782,1039663363,Clover's Deltarune RP,https://tr.rbxcdn.com/180DAY-8a8a34e7f41c2b76b24c91b7b6b80ba4/150/150/Image/Webp/noFilter,2019-02-19T05:35:07Z,2026-11-11,,,minimal,16873344,2026-11-20
 2916899287,1054526971,Blackhawk Rescue Mission 5,,,2026-11-07,,2026-11-07,moderate,,2026-11-21
 3016661674,1087859240,[🌍] Rogue Lineage,,,2026-11-07,,2026-11-07,moderate,,2026-11-21
@@ -179,7 +179,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 5946155382,2137105308,Trivia! Roblox Game Show [Jeopardy],,,2026-11-07,,2026-11-07,minimal,,2026-11-21
 5951002734,2139712082,[🎃 ASTA + MORE!] Project Baki,,,2026-11-08,,2026-11-08,minimal,,2026-11-17
 5976159288,2153167977,Formula Apex Racing,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
-5985232436,2157872230,Infectious Smile,,,2026-11-07,,2026-11-07,mild,,2026-11-21
+5985232436,2157872230,Infectious Smile,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-21
 6016716328,2174306620,[RELEASE!] Beyond Nen,https://tr.rbxcdn.com/180DAY-401a20107157eaa4270ab64c727cc008/150/150/Image/Webp/noFilter,2020-11-29T02:08:10Z,2026-11-07,,,mild,2277807,2026-11-21
 6045325556,2189381976,Car Driving Simulator,https://tr.rbxcdn.com/180DAY-49bdb19b28fec101861479d85785a0e0/150/150/Image/Webp/noFilter,2020-12-05T10:49:00Z,2026-11-07,,,minimal,7475649,2026-11-20
 6082527099,2208244398,✏️ Project Sudoku,,2020-12-13T15:07:18Z,2026-11-07,,,minimal,6274834,2026-11-14
@@ -493,10 +493,10 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 14875626099,5125369493,Driving Simulator,https://tr.rbxcdn.com/180DAY-a1b6c54a633bf8c59de8f6f314dfc8f4/150/150/Image/Webp/noFilter,2023-09-24T20:41:47Z,2026-11-07,,,minimal,21842965,2026-11-21
 14892572912,5130926460,RIA 2023: Award Show,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
 14895218677,5131771588,🐈 PAWS Pet Hospital 🐾,https://tr.rbxcdn.com/180DAY-623ad0fbb1ce17ba151a2202e85e86d2/150/150/Image/Webp/noFilter,2023-09-27T07:08:05Z,2026-11-11,,,minimal,73876417,2026-11-13
-14941296246,5147512977,Lucky Avatars! [Outfits Catalog] ,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-21
+14941296246,5147512977,Lucky Avatars! [Outfits Catalog] ,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
 14948124022,5149622256,[😱NEW] Skibidi Toilet Morphs,https://tr.rbxcdn.com/180DAY-e0eba6d00e76a48458f367fb4bb3d2c0/150/150/Image/Webp/noFilter,2023-10-02T10:33:08Z,2026-11-07,,,minimal,183351335,2026-11-21
 15002061926,5166944221,Death Ball,,,2026-11-07,,2026-11-07,mild,,2026-11-21
-15014439457,5170731021,Demon Blade,https://tr.rbxcdn.com/180DAY-39996e1fe86b501559e89d5fe33e3a02/150/150/Image/Webp/noFilter,2023-10-09T06:07:50Z,2026-11-07,,,vng-rating-override,233757921,2026-11-21
+15014439457,5170731021,Demon Blade,https://tr.rbxcdn.com/180DAY-39996e1fe86b501559e89d5fe33e3a02/150/150/Image/Webp/noFilter,2023-10-09T06:07:50Z,2026-11-07,,,mild,233757921,2026-11-21
 15027718878,5174979552,🚀[Titan] The Space Simulator,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
 15085963991,5198232954,IATS: Community Catalog Outfits,,2023-10-16T08:45:34Z,2026-11-08,,,minimal,13380592,2026-11-10
 15099727851,5203208431,[VERSUS] DashBlox 2 (Geometry Dash),https://tr.rbxcdn.com/180DAY-d0212d21385470d9fe8a12cfa57ba96f/150/150/Image/Webp/noFilter,2023-10-18T01:51:42Z,2026-11-12,,,minimal,21962402,2026-11-21
@@ -1139,7 +1139,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 83781490679011,8828178306,Underworld Realm (BETA),https://tr.rbxcdn.com/180DAY-dd55c56a9fa04b1beba7928e0954987a/150/150/Image/Webp/noFilter,2025-09-29T00:21:05Z,2026-11-13,,,minimal,20450,2026-11-21
 83784149502814,10770604649,BloxNG [CRASH PHYSICS] 💥,https://tr.rbxcdn.com/180DAY-c38111e144f91a3b3b5fc694ab38864f/150/150/Image/Webp/noFilter,2026-10-13T00:35:20Z,2026-11-12,2026-11-12,2026-11-14,minimal,1245668,2026-11-21
 83800734153526,10772501910,My Football Empire⚽,https://tr.rbxcdn.com/180DAY-3d21da7074bd11651d46c9a1c67b7b1c/150/150/Image/Webp/noFilter,2026-10-23T04:09:40Z,2026-11-12,2026-11-12,,minimal,301081,2026-11-15
-83836799290307,10772423249,[✨UPD] Renovate the Floor,https://tr.rbxcdn.com/180DAY-fd50e04b2d32ac89892296a546aab043/150/150/Image/Webp/noFilter,2026-10-22T15:45:23Z,2026-11-17,2026-11-17,,minimal,1159898,2026-11-21
+83836799290307,10772423249,Renovate the Floor,https://tr.rbxcdn.com/180DAY-fd50e04b2d32ac89892296a546aab043/150/150/Image/Webp/noFilter,2026-10-22T15:45:23Z,2026-11-17,2026-11-17,,minimal,1159898,2026-11-21
 83837446591799,10770934141,E-Scooter Universe - Highway Driving,https://tr.rbxcdn.com/180DAY-c14ce13f1c883cde99a91cf6fb41fc39/150/150/Image/Webp/noFilter,2026-10-14T21:37:41Z,2026-11-14,2026-11-14,,minimal,631456,2026-11-21
 83869074416117,10770748262,Anime Galaxies | UPDATE 2,,,2026-11-07,,2026-11-07,mild,,2026-11-18
 83882327995304,10771314860,Plane Crash Physics 💥,https://tr.rbxcdn.com/180DAY-4eaa3a69769c5698c0a9bf96fbb7347c/150/150/Image/Webp/noFilter,2026-10-16T18:11:11Z,2026-11-11,2026-11-11,,mild,1544624,2026-11-16
@@ -1549,7 +1549,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 95745594063679,10773362651,[🔱] Ability Ragdoll Playground,https://tr.rbxcdn.com/180DAY-a50db12afe720ad776ada522d2cd4190/150/150/Image/Webp/noFilter,2026-10-27T22:18:34Z,2026-11-09,2026-11-09,,mild,227119,2026-11-15
 95784893420853,10301203995,⚽Aura Football [💥PHONK] ,https://tr.rbxcdn.com/180DAY-498c3b6b1becc9526684e5453bc1f1cb/150/150/Image/Webp/noFilter,2026-06-10T15:02:08Z,2026-11-07,,,minimal,21803177,2026-11-21
 96011561805257,10773109057,Brick a House,https://tr.rbxcdn.com/180DAY-88e2bf05b398a499b2741fae11e89e53/150/150/Image/Webp/noFilter,2026-10-26T12:36:04Z,2026-11-18,2026-11-18,,minimal,509395,2026-11-21
-96041842832519,10282569694,Baltic Bus Simulator | EARLY ACCESS,,2026-06-06T19:07:13Z,2026-11-07,,,minimal,110143,2026-11-20
+96041842832519,10282569694,Baltic Bus Simulator | EARLY ACCESS,,2026-06-06T19:07:13Z,2026-11-07,,,minimal,110143,2026-11-21
 96058414266541,10623237963,[🍬UPDATE] Mount Senadi ⛅,https://tr.rbxcdn.com/180DAY-a1c37542bbad04c29a84710c4baa67aa/150/150/Image/Webp/noFilter,2026-08-03T08:42:51Z,2026-11-07,,,minimal,2841002,2026-11-21
 96084440704354,10767311806,Escape the Basement!,https://tr.rbxcdn.com/180DAY-bc10fbef36440beb3896e6a346d1fa84/150/150/Image/Webp/noFilter,2026-09-20T19:52:53Z,2026-11-10,,,minimal,867981,2026-11-18
 96120449121277,10770533880,Hit Bout' It! [🦃],https://tr.rbxcdn.com/180DAY-068f8cbc901a3eb4de3e472f4523740d/150/150/Image/Webp/noFilter,2026-10-12T15:14:55Z,2026-11-07,2026-11-07,,mild,2797621,2026-11-13
