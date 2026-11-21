@@ -343,7 +343,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 10224049386,3746418487,House Tycoon 2,,,2026-11-08,,2026-11-08,minimal,,2026-11-11
 10228136016,3747388906,Fallen Survival🏹,,,2026-11-07,,2026-11-07,moderate,,2026-11-21
 10253248401,3754482795,Elemental Powers Tycoon,,,2026-11-07,,2026-11-07,mild,,2026-11-21
-10260193230,3756501373,[UPDATE 4] Meme Sea,,,2026-11-07,,2026-11-07,mild,,2026-11-21
+10260193230,3756501373,[UPDATE 4] Meme Sea,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-21
 10277607801,3761186887,Apeirophobia,,,2026-11-08,,2026-11-08,mild,,2026-11-21
 10424585322,3801413348,⭐ Face Animations [Demo],https://tr.rbxcdn.com/180DAY-40c60da4c1726cc6f114905353bc42c6/150/150/Image/Webp/noFilter,2022-07-31T06:21:59Z,2026-11-07,,,minimal,75986099,2026-11-21
 10425361163,3801657309,CurioCity,,,2026-11-07,,,minimal,,
@@ -352,7 +352,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 10523498173,3827505494,Trollge Universe Incident,,,2026-11-11,,2026-11-11,mild,,2026-11-17
 10524142058,3827656431,MTR South Island Line | A train simulator,,,2026-11-07,,,minimal,,
 10561456271,3837114739,The Vampire Legends 2,,,2026-11-07,,2026-11-07,minimal,,2026-11-13
-10617518225,3852524123,Catalog Avatar Editor,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-21
+10617518225,3852524123,Catalog Avatar Editor,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
 10679239752,3869462497,Furry Infection game [Furinfection],,,2026-11-07,,2026-11-07,mild,,2026-11-20
 10683046649,3870463843,[SBR 1500+🔥]Jojo Outfits,,2022-08-22T16:51:38Z,2026-11-07,,,minimal,1281953,2026-11-15
 10834586502,3913007563,The Battle Bricks,,,2026-11-07,,2026-11-07,mild,,2026-11-21
@@ -620,7 +620,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 18153851914,6154386310,[BOSS] Classic Arena,,,2026-11-07,,2026-11-07,mild,,2026-11-15
 18172550962,6161049307,[MYTHICALS // SERPENT] Pixel Blade,,,2026-11-07,,2026-11-07,mild,,2026-11-21
 18180736634,6163884815,Team Stepmom Run! (TEAMWORK OBBY),,,2026-11-07,,2026-11-07,minimal,,2026-11-18
-18199615050,6170143659,[UPD] Demonology🕯️,,,2026-11-07,,2026-11-07,moderate,,2026-11-21
+18199615050,6170143659,[UPD] Demonology🕯️,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-21
 18214855317,6174994284,Savannah Life,,,2026-11-07,,2026-11-07,mild,,2026-11-21
 18218605381,6176333237,Clarity Over Resonance,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
 18259975825,6190071862,Grave/Digger,,,2026-11-07,,2026-11-07,moderate,,2026-11-21
@@ -703,7 +703,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 71586501620185,10770463307,Stop The Tsunami!,https://tr.rbxcdn.com/180DAY-5b2578f0be803fb3730a0feb44c7a646/150/150/Image/Webp/noFilter,2026-10-12T01:05:03Z,2026-11-11,2026-11-11,2026-11-14,minimal,3668537,2026-11-21
 71592191727683,10768650470,Lanterns [HUGE PATCH!],https://tr.rbxcdn.com/180DAY-b56db031e413a5325f77c5f21c57b88f/150/150/Image/Webp/noFilter,2026-09-29T22:18:03Z,2026-11-08,,,mild,3039908,2026-11-13
 71593571625633,10770461124,Survive the River🌊,https://tr.rbxcdn.com/180DAY-cd85796c965db658c63d1cb31bfcb383/150/150/Image/Webp/noFilter,,2026-11-15,,,mild,,2026-11-20
-71599043035739,9735583968,SCP MORPH,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
+71599043035739,9735583968,[8H] SCP MORPH,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
 71600459831333,6726637224,[🎟️] Street Life Remastered 🔥,,,2026-11-07,,2026-11-07,mild,,2026-11-21
 71623596075319,10769243125,DEEPER,https://tr.rbxcdn.com/180DAY-3854ed6413d9c0156a884feeedc64e10/150/150/Image/Webp/noFilter,2026-10-03T23:49:48Z,2026-11-07,,,mild,8797181,2026-11-13
 71633357052422,8527834040,[WORKING SUSPENSION] TRC | Offroad Park,,,2026-11-07,,,minimal,,2026-11-18
@@ -1618,7 +1618,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 98067481349941,7317454210,Obby Champion 🏆,,,2026-11-13,,2026-11-13,minimal,,2026-11-21
 98101650780813,10771236550,💎 Get OP Eggs!,https://tr.rbxcdn.com/180DAY-70f216fdd8c4774cab35ecb5a5569f53/150/150/Image/Webp/noFilter,2026-10-16T11:52:56Z,2026-11-20,,,minimal,995057,2026-11-21
 98138235237704,8228371304,Hide the Friend,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
-98186300980512,10768158677,SAURUS [HORROR],https://tr.rbxcdn.com/180DAY-bca6f620460db91486132a6280257e27/150/150/Image/Webp/noFilter,2026-09-26T16:02:28Z,2026-11-10,2026-11-10,2026-11-20,minimal,475698,2026-11-21
+98186300980512,10768158677,SAURUS [RAPTOR],https://tr.rbxcdn.com/180DAY-bca6f620460db91486132a6280257e27/150/150/Image/Webp/noFilter,2026-09-26T16:02:28Z,2026-11-10,2026-11-10,2026-11-20,minimal,475698,2026-11-21
 98218294109691,10770901530,Brazilian Government Simulator 🏛️,https://tr.rbxcdn.com/180DAY-4fb41f62c86750bf8a380116a68c80d9/150/150/Image/Webp/noFilter,2026-10-14T17:24:14Z,2026-11-07,2026-11-09,,minimal,1910397,2026-11-18
 98256320592611,10768941680,[⌛24H] Build A Striker ⚽,https://tr.rbxcdn.com/180DAY-ad912f87fc3b0545c229d8e696307747/150/150/Image/Webp/noFilter,2026-10-02T03:33:45Z,2026-11-07,,,minimal,2925790,2026-11-13
 98272441761103,10774725421,🌎 In This World,https://tr.rbxcdn.com/180DAY-53386c2d7eb19fec7c404169bc6e97a8/150/150/Image/Webp/noFilter,2026-11-04T22:30:40Z,2026-11-19,2026-11-19,,minimal,772897,2026-11-21
@@ -2495,7 +2495,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 123046810948906,10768904584,[🌌UPD!] RFC 27,https://tr.rbxcdn.com/180DAY-21ecdea24a7bfadaa83cd505e9911ee9/150/150/Image/Webp/noFilter,2026-10-01T20:20:10Z,2026-11-07,,,minimal,3974406,2026-11-13
 123103185182920,10770926951,Draw a Pancake! 🥞,https://tr.rbxcdn.com/180DAY-dbd77a0c5f0ebb22c589edb9a511f66d/150/150/Image/Webp/noFilter,2026-10-14T20:32:34Z,2026-11-07,2026-11-07,,minimal,3565917,2026-11-13
 123144130909283,10764296404,Cards Matching 🃏,https://tr.rbxcdn.com/180DAY-50bf8b6219daec79aa5e8d688aaa62cc/150/150/Image/Webp/noFilter,2026-08-29T05:19:38Z,2026-11-07,,,minimal,4903244,2026-11-20
-123174014188923,7328877831,[🛠️] Zombies vs Security,https://tr.rbxcdn.com/180DAY-77720a2bac746790e8e9de5894f80c81/150/150/Image/Webp/noFilter,2025-03-04T15:17:28Z,2026-11-07,,,mild,60398357,2026-11-21
+123174014188923,7328877831,[🛠️] Zombies vs Security,https://tr.rbxcdn.com/180DAY-77720a2bac746790e8e9de5894f80c81/150/150/Image/Webp/noFilter,2025-03-04T15:17:28Z,2026-11-07,,,vng-rating-override,60398357,2026-11-21
 123243055683524,6938969105,Where Am I? 🗺️ [Alpha],,,2026-11-07,,2026-11-07,minimal,,2026-11-21
 123267859217356,10422547363,[📢] Lethal Ape: Rewired! {PB},https://tr.rbxcdn.com/180DAY-2d614ade47303f8ea0987b8d4a27f9c8/150/150/Image/Webp/noFilter,2026-06-30T17:20:05Z,2026-11-07,,,minimal,8019767,2026-11-21
 123291844239648,10770235379,[💸] Guess The Price,https://tr.rbxcdn.com/180DAY-c368ff505da44f048ea75a8a4f1d8fff/150/150/Image/Webp/noFilter,2026-10-10T18:50:06Z,2026-11-07,,,mild,1384793,2026-11-19
