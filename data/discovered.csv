@@ -313,7 +313,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 9120716669,3426175130,Insane Elevator Testing,,,2026-11-07,,2026-11-07,mild,,2026-11-21
 9198859262,3450182786,Prehistoria! | Testing Branch,https://tr.rbxcdn.com/180DAY-26de3a6f3be928df6691f27dc32575c9/150/150/GameIcon3/Webp/noFilter,2022-03-26T09:24:18Z,2026-11-07,,,mild,1691986,2026-11-21
 9243012887,3463296686,[turn into cat] Bang Marcave ,,,2026-11-07,,2026-11-07,mild,,2026-11-21
-9273658706,3472976893,[UPDATE] Backrooms,,,2026-11-07,,2026-11-07,mild,,2026-11-14
+9273658706,3472976893,[MOTION] Backrooms,,,2026-11-07,,2026-11-07,mild,,2026-11-21
 9285238704,3476371299,[❄️] Race Clicker,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
 9301186334,3481099993,[💍Wizard ] Rider World ,,,2026-11-18,,2026-11-18,mild,,2026-11-21
 9346039031,3494556606,[Event] My Hello Kitty Cafe(Build),,,2026-11-07,,2026-11-07,minimal,,2026-11-21
@@ -496,7 +496,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 14941296246,5147512977,Lucky Avatars! [Outfits Catalog] ,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-21
 14948124022,5149622256,[😱NEW] Skibidi Toilet Morphs,https://tr.rbxcdn.com/180DAY-e0eba6d00e76a48458f367fb4bb3d2c0/150/150/Image/Webp/noFilter,2023-10-02T10:33:08Z,2026-11-07,,,minimal,183351335,2026-11-21
 15002061926,5166944221,Death Ball,,,2026-11-07,,2026-11-07,mild,,2026-11-21
-15014439457,5170731021,Demon Blade,https://tr.rbxcdn.com/180DAY-39996e1fe86b501559e89d5fe33e3a02/150/150/Image/Webp/noFilter,2023-10-09T06:07:50Z,2026-11-07,,,mild,233757921,2026-11-21
+15014439457,5170731021,Demon Blade,https://tr.rbxcdn.com/180DAY-39996e1fe86b501559e89d5fe33e3a02/150/150/Image/Webp/noFilter,2023-10-09T06:07:50Z,2026-11-07,,,vng-rating-override,233757921,2026-11-21
 15027718878,5174979552,🚀[Titan] The Space Simulator,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
 15085963991,5198232954,IATS: Community Catalog Outfits,,2023-10-16T08:45:34Z,2026-11-08,,,minimal,13380592,2026-11-10
 15099727851,5203208431,[VERSUS] DashBlox 2 (Geometry Dash),https://tr.rbxcdn.com/180DAY-d0212d21385470d9fe8a12cfa57ba96f/150/150/Image/Webp/noFilter,2023-10-18T01:51:42Z,2026-11-12,,,minimal,21962402,2026-11-21
@@ -624,7 +624,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 18214855317,6174994284,Savannah Life,,,2026-11-07,,2026-11-07,mild,,2026-11-21
 18218605381,6176333237,Clarity Over Resonance,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
 18259975825,6190071862,Grave/Digger,,,2026-11-07,,2026-11-07,moderate,,2026-11-21
-18260801046,6190384723,Baddies Brawl 👊,,,2026-11-08,,2026-11-08,mild,,2026-11-21
+18260801046,6190384723,Baddies Brawl 👊,,,2026-11-08,,2026-11-08,vng-rating-override,,2026-11-21
 18320910606,6211067578,The Games,,,2026-11-20,,2026-11-20,minimal,,2026-11-21
 18334179599,6215464786,Chained [2 Player Obby],,,2026-11-07,,2026-11-07,mild,,2026-11-17
 18335956021,6215986499,Grand Blue [Early Access],,,2026-11-08,,2026-11-08,mild,,2026-11-17
@@ -930,7 +930,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 77649408247578,9931749389,[2x XP] Dungeon Quest Reborn,,,2026-11-07,,2026-11-07,mild,,2026-11-21
 77649795876119,10771514327,[CHAPTER 2] BOBBY'S DAYCARE [HORROR],https://tr.rbxcdn.com/180DAY-7b91896759bb9ade2d96a577de54b75b/150/150/Image/Webp/noFilter,2026-10-17T15:07:15Z,2026-11-08,2026-11-08,,mild,1662960,2026-11-21
 77701492128215,10770467707,[ULTIMATE TEAM] Basketball Universe🏀,https://tr.rbxcdn.com/180DAY-a0f527c8c4ecce88227dbfd59971f9b6/150/150/Image/Webp/noFilter,2026-10-12T01:54:58Z,2026-11-13,2026-11-13,,minimal,610456,2026-11-13
-77747658251236,9186719164,[1D ⏳ ] Sailor Piece,,,2026-11-07,,2026-11-07,mild,,2026-11-21
+77747658251236,9186719164,[1D ⏳ ] Sailor Piece,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-21
 77762780479259,10770113648,[🔥 NEW UPD] Fish A Pirate,https://tr.rbxcdn.com/180DAY-71ce752582071922d60233b6bc037419/150/150/Image/Webp/noFilter,,2026-11-19,,,minimal,,2026-11-20
 77764836384604,9926735691,[UPDATE] Bloodlines,,,2026-11-07,,2026-11-07,moderate,,2026-11-10
 77770548200698,10541723625,[BETA] Atlantis Journey,https://tr.rbxcdn.com/180DAY-447939acc7edec783be9711d4001b6b5/150/150/Image/Webp/noFilter,,2026-11-19,,,minimal,,2026-11-19
@@ -1630,7 +1630,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 98592272079599,10770229863,T-Rex vs 99 Players,https://tr.rbxcdn.com/180DAY-99c620d9afc846692aba9ffd44f41cd9/150/150/Image/Webp/noFilter,2026-10-10T18:16:25Z,2026-11-07,,,mild,9397428,2026-11-13
 98598648022411,6889123544,[ UPDATE ] Zenkai Blox,https://tr.rbxcdn.com/180DAY-d8ee0dfc881dca6b9f96caf677f88e1d/150/150/Image/Webp/noFilter,2024-12-07T14:18:15Z,2026-11-07,,,minimal,1519183,2026-11-21
 98610101874791,10766138478,+1 Strength for Eggs,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
-98628861455414,10768284407,⌛[12H] Bike Universe,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
+98628861455414,10768284407,⌛[6H] Bike Universe,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
 98647300128103,10769902948,FRAMEBREAK [Season 1],https://tr.rbxcdn.com/180DAY-7268591a9cb91487aa0ff929ab3fffd9/150/150/Image/Webp/noFilter,2026-10-08T19:03:31Z,2026-11-14,,,moderate,4004722,2026-11-20
 98664161516921,9141743926,[NOW] Catch a Monster,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
 98747713010535,10774093619,Voxel Ragdolls,https://tr.rbxcdn.com/180DAY-e943158a7665b187424dc807a975abc9/150/150/Image/Webp/noFilter,2026-11-01T00:51:39Z,2026-11-14,2026-11-14,,minimal,432539,2026-11-17
@@ -2701,6 +2701,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 129172691103247,10772048283,[W5] +1 Drain Water for Treasure,https://tr.rbxcdn.com/180DAY-e913ffd9128b1f6ea48c7e9f1645f89e/150/150/Image/Webp/noFilter,2026-10-20T08:58:41Z,2026-11-10,2026-11-10,,minimal,782474,2026-11-21
 129212992588622,10774435280,DIVINE HATCHERS 0.00001% [NEW],https://tr.rbxcdn.com/180DAY-dce5110dddcf3d4d4146b07595abf21c/150/150/Image/Webp/noFilter,2026-11-03T00:03:23Z,2026-11-11,2026-11-11,,minimal,250187,2026-11-11
 129253568870286,10060242820,Bonk & Block,,,2026-11-07,,2026-11-07,mild,,2026-11-07
+129272596992631,10773908096,[SANDEVISTAN] Illegal Chess,https://tr.rbxcdn.com/180DAY-fa2731e68b1ecff59682d08f6d09ab07/150/150/Image/Webp/noFilter,2026-10-31T00:41:06Z,2026-11-21,2026-11-21,,minimal,224085,2026-11-21
 129286807537154,10767110259,[🌾HARVEST FEST] +1 Arm Length 💪,https://tr.rbxcdn.com/180DAY-3067f797defaae2831b4acf0f07f0ee1/150/150/Image/Webp/noFilter,2026-09-19T16:45:58Z,2026-11-07,2026-11-07,,minimal,2915287,2026-11-21
 129293217952280,10772159183,Build A Steal An Egg,https://tr.rbxcdn.com/180DAY-f9da36959d88f96268628c79b5f183a2/150/150/Image/Webp/noFilter,2026-10-21T00:10:25Z,2026-11-09,2026-11-09,,minimal,700135,2026-11-15
 129305685430482,10768259373,🛍️My Avatar Creator,https://tr.rbxcdn.com/180DAY-6a8ef945d75a2554896a5d2c9674eb21/150/150/Image/Webp/noFilter,2026-09-27T06:19:06Z,2026-11-18,,,mild,60784,2026-11-21
@@ -2911,7 +2912,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 135419993807617,10775555885,[🍀 2X LUCK] Evolve an Egg!,https://tr.rbxcdn.com/180DAY-12d6e2d665a46f5c36f933c3b218a188/150/150/Image/Webp/noFilter,2026-11-09T16:42:03Z,2026-11-19,2026-11-19,,minimal,289493,2026-11-21
 135446196332870,10730818741,💀 Run Or Die!,https://tr.rbxcdn.com/180DAY-b593ce7cfe07a00a7e8957416eec0e77/150/150/Image/Webp/noFilter,2026-08-17T11:18:11Z,2026-11-07,,,mild,15527056,2026-11-21
 135471930388646,10774468211,💣 Ragdoll Destruction Playground,https://tr.rbxcdn.com/180DAY-c5549ed9cc6d4c64bb3283b78efc9801/150/150/Image/Webp/noFilter,2026-11-03T06:36:34Z,2026-11-11,2026-11-11,,moderate,128338,2026-11-21
-135486323963203,9825259729,Duck Duck (Tag) 🦆,,,2026-11-12,,2026-11-12,mild,,2026-11-13
+135486323963203,9825259729,Duck Duck (Tag) 🦆,,,2026-11-12,,2026-11-12,mild,,2026-11-21
 135619589726492,7307246329,100 Players Musical Chairs,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
 135660974763308,9318527928,[SUPER SONIC + ANIMATIONS] Sonic Avatars & Outfits,,2025-12-07T20:54:12Z,2026-11-07,,,minimal,830509,2026-11-21
 135675416428111,10767566226,Don't Steal My Eggs!,,,2026-11-07,,2026-11-07,minimal,,2026-11-12
