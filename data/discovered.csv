@@ -1558,7 +1558,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 96425088123775,10552540426,My Toll Farm!,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
 96443646410175,8738763254,Sesame Street: Neighborhood Adventures,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
 96510596525082,10685282333,Ball VS Ball [Fusion Mode],,,2026-11-07,,2026-11-07,minimal,,2026-11-21
-96645548064314,9091133975,[🍪] Catch And Tame!,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-21
+96645548064314,9091133975,[🍪] Catch And Tame!,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
 96665881849072,10079271418,[UPD3.5!🔥] Anime Paradise,https://tr.rbxcdn.com/180DAY-68c9944708bd84419cf7efbfc4296eaf/150/150/Image/Webp/noFilter,2026-04-25T02:23:09Z,2026-11-20,,,minimal,4120510,2026-11-21
 96670505038029,10542421906,Free Items & Avatar Catalog,https://tr.rbxcdn.com/180DAY-abde1f7bf3c23708bf943c940c0cbe6b/150/150/Image/Webp/noFilter,2026-07-21T14:53:43Z,2026-11-14,,,minimal,133401,2026-11-21
 96707166754980,10066618669,Catalog Avatar Builder,https://tr.rbxcdn.com/180DAY-d7efff9da12c216daf814faa09f5e213/150/150/Image/Webp/noFilter,2026-04-21T20:08:42Z,2026-11-07,,,minimal,34973932,2026-11-21
@@ -1767,7 +1767,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 102842561752540,8293407677,😡 !!!ليالي (الأصلي),https://tr.rbxcdn.com/180DAY-4ecf216841d2b7076e38dc21abcd78da/150/150/Image/Webp/noFilter,2025-07-29T19:16:37Z,2026-11-07,,,mild,6330322,2026-11-21
 102871156420149,7935634976,The Lost Front,,,2026-11-07,,2026-11-07,moderate,,2026-11-20
 102910473965465,10600432468,[🌋 UPDATE] Pro Soccer Online ⚽,https://tr.rbxcdn.com/180DAY-d622c335205684399da7d9c64e77d2cf/150/150/Image/Webp/noFilter,2026-07-30T22:31:51Z,2026-11-07,,,minimal,2889633,2026-11-21
-102917792916356,8546873728,(1 DAY) Apocalyptic Titans Roleplay,,,2026-11-07,,2026-11-07,mild,,2026-11-21
+102917792916356,8546873728,(SOON) Apocalyptic Titans Roleplay,,,2026-11-07,,2026-11-07,mild,,2026-11-21
 102942672757858,10774424398,Throw Food for Brainrots,https://tr.rbxcdn.com/180DAY-fb7bc75b2562a735cc6f136c7b654501/150/150/Image/Webp/noFilter,2026-11-02T22:21:52Z,2026-11-15,2026-11-15,,minimal,183375,2026-11-18
 102972365566319,10769256110,🚨SWAT: Elite Force (Launch),https://tr.rbxcdn.com/180DAY-4f7a1115e7f765eab3259d348920f6c8/150/150/Image/Webp/noFilter,2026-10-04T02:07:12Z,2026-11-12,,,minimal,2939777,2026-11-21
 103037106396302,10460801145,TROLL Hug Tower,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
@@ -2136,7 +2136,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 113342584066139,10343807359,[⚽UPD⚽] Spurs Adventure Arena – Tottenham Hotspur,,2026-06-17T09:39:06Z,2026-11-13,,,minimal,2111505,2026-11-14
 113344560678185,10768915831,[700+] Cute Matching Outfits Ideas,,,2026-11-17,,,minimal,,
 113357348337304,10775203666,Similarity Test [2 Player Quiz],https://tr.rbxcdn.com/180DAY-f5b4504d804222ca6069326765a73228/150/150/Image/Webp/noFilter,2026-11-07T18:57:41Z,2026-11-20,,,minimal,170754,2026-11-21
-113384248926706,10764240948,[🦖] Harpoon a Fish,https://tr.rbxcdn.com/180DAY-b46dc9c5a91378ede02bf060e4ad83ae/150/150/Image/Webp/noFilter,2026-08-28T18:31:21Z,2026-11-07,,,minimal,13748197,2026-11-21
+113384248926706,10764240948,[🦖] Harpoon a Fish,https://tr.rbxcdn.com/180DAY-b46dc9c5a91378ede02bf060e4ad83ae/150/150/Image/Webp/noFilter,2026-08-28T18:31:21Z,2026-11-07,,,vng-rating-override,13748197,2026-11-21
 113392430358155,10763860058,💀 TRAPPED,,,2026-11-07,,2026-11-07,mild,,2026-11-21
 113394252054854,10471861416,🪱 worm odyssey [slither update !],,,2026-11-07,,2026-11-07,mild,,2026-11-21
 113398609378596,10771155665,Ragdoll Sandbox,,,2026-11-07,2026-11-07,2026-11-07,mild,,2026-11-21
