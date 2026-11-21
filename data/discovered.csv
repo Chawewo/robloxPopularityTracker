@@ -360,7 +360,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 10853515606,3918560032,MEDIEVAL STRATEGY,,,2026-11-09,,2026-11-09,mild,,2026-11-21
 10888259502,3929033413,Piano Rooms,,,2026-11-07,,,minimal,,
 10905680506,3934229151,Welcome to TechQuest by Computer History Museum,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
-10912405603,3936365689,[HALLOWEEN!] Clover Retribution,,,2026-11-07,,2026-11-07,mild,,2026-11-21
+10912405603,3936365689,[HALLOWEEN!] Clover Retribution,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-21
 10925495723,3940660455,🤩NEW Find The SCP Backrooms Rainbow Morphs,https://tr.rbxcdn.com/180DAY-861b7e28d4ee5f2904cef98f4e30ef78/150/150/Image/Webp/noFilter,2022-09-16T14:36:45Z,2026-11-07,,,minimal,17140778,2026-11-21
 10941514720,3945578236,Chaos Jenga,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
 10959918411,3951147015,Studio Lite,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
@@ -372,7 +372,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 11328835705,4034530348,Word Search!,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
 11334800850,4036453752,Chainsaw Man Testing Place,https://tr.rbxcdn.com/180DAY-7d811cb5967d739dcce7a5fc6b7ceac1/150/150/Image/Webp/noFilter,2022-10-21T15:47:13Z,2026-11-12,,,mild,169457395,2026-11-13
 11354212711,4041741796,This is Utara DragMap🏁[UPDATE]🏁 ,https://tr.rbxcdn.com/180DAY-e3fc0984b7f3f201641c40252ece5be0/150/150/Image/Webp/noFilter,2022-10-23T04:43:30Z,2026-11-07,,,minimal,34721486,2026-11-21
-11364087119,4044579438,[🚂] Cart Ride,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
+11364087119,4044579438,[🚂] Cart Ride,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-21
 11379739543,4049246711,Timebomb Duels [Alpha],,,2026-11-07,,2026-11-07,mild,,2026-11-21
 11380769866,4049540036,Chipeo Paradise ,https://tr.rbxcdn.com/180DAY-059029d564db1c37d3154f22e5593c54/150/150/Image/Webp/noFilter,2022-10-26T00:06:35Z,2026-11-07,,,minimal,8882145,2026-11-14
 11399271177,4055567612,Words of Power,,,2026-11-07,,,mild,,
@@ -908,7 +908,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 76954970533505,10725091845,Superhero ability arena,https://tr.rbxcdn.com/180DAY-2e5021ce31a0ca28178807d3dc7afade/150/150/Image/Webp/noFilter,2026-08-16T18:24:13Z,2026-11-07,2026-11-07,,mild,8349912,2026-11-13
 76957917105133,10772488836,🥚 EGGZ! INFs ADMIN PANEL,https://tr.rbxcdn.com/180DAY-27bbb9f55124e96d361a232df6c24f7d/150/150/Image/Webp/noFilter,2026-10-23T01:33:12Z,2026-11-09,2026-11-09,,minimal,332728,2026-11-11
 77013253496192,7848204961,[⭐] School RP #FR  ,https://tr.rbxcdn.com/180DAY-9c68e4bebcab268e1583373aaced3942/150/150/Image/Webp/noFilter,2025-06-05T18:00:31Z,2026-11-07,,,minimal,10438767,2026-11-21
-77021749781226,7950997475,[Kunigami] Blue Lock: Skibidi,https://tr.rbxcdn.com/180DAY-1cda681ed4808eca4e4547a69b5865d7/150/150/Image/Webp/noFilter,2025-06-19T18:42:36Z,2026-11-07,,,mild,26555480,2026-11-21
+77021749781226,7950997475,[Kunigami] Blue Lock: Skibidi,https://tr.rbxcdn.com/180DAY-1cda681ed4808eca4e4547a69b5865d7/150/150/Image/Webp/noFilter,2025-06-19T18:42:36Z,2026-11-07,,,vng-rating-override,26555480,2026-11-21
 77029236360021,10773667387,Be a Teacher!,https://tr.rbxcdn.com/180DAY-8291a72e081eb48640a7228ca1b83896/150/150/Image/Webp/noFilter,2026-10-29T15:20:50Z,2026-11-08,2026-11-08,,minimal,1299367,2026-11-19
 77106808509772,10769209434,Steal A Bike,https://tr.rbxcdn.com/180DAY-e809c9b834fd7f2cda797348fada3f74/150/150/Image/Webp/noFilter,2026-10-03T19:22:56Z,2026-11-08,,,minimal,5157636,2026-11-13
 77122167637573,10764297192,Race Stars,https://tr.rbxcdn.com/180DAY-1330d3d3e6f07b74c80ce1436e96033f/150/150/Image/Webp/noFilter,2026-08-29T05:31:31Z,2026-11-07,,,minimal,2203254,2026-11-13
@@ -1496,7 +1496,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 94486764111804,10773517934,[UPD] Rollercoaster Tycoon 🎢,https://tr.rbxcdn.com/180DAY-2a5ac5f8b11a02511cf390d9fd649c63/150/150/Image/Webp/noFilter,2026-10-28T16:13:19Z,2026-11-13,2026-11-13,2026-11-14,minimal,655871,2026-11-17
 94491633857486,10772027067,[UPD] Ragdoll Robot Boxing,https://tr.rbxcdn.com/180DAY-38bcdc29e9ca0c9f42135d72b61e1d7a/150/150/Image/Webp/noFilter,2026-10-20T05:02:11Z,2026-11-07,2026-11-07,,minimal,1475479,2026-11-14
 94492993443653,10773617422,+1 Fighter Jet Evolution,https://tr.rbxcdn.com/180DAY-c3cbaf88aa78191619d16ef65c0c2b89/150/150/Image/Webp/noFilter,2026-10-29T08:32:08Z,2026-11-18,2026-11-18,,mild,446330,2026-11-19
-94503612388426,6935083490,Be Fish,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
+94503612388426,6935083490,Be Fish,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-21
 94539932414164,8618660961,(🎃 HALLOWEEN EVENT!) Mojave Valley (Alpha),,,2026-11-07,,2026-11-07,minimal,,2026-11-08
 94560907627862,10775310284,[NEW 🤍] CTRL DRIP Outfit Ideas,https://tr.rbxcdn.com/180DAY-5cd1b59b91e390e2e0462d70c441cc4e/150/150/Image/Webp/noFilter,2026-11-08T08:34:52Z,2026-11-21,,,minimal,13100,2026-11-21
 94590879393563,7115773109,Weird Gun Game [UPDATE],,,2026-11-12,,2026-11-12,mild,,2026-11-15
