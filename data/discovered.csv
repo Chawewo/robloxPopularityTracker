@@ -84,7 +84,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 3030166262,1093311378,1867 Historical Role Play,,,2026-11-07,,,minimal,,
 3177438863,1147304238,Dragon Blox,,,2026-11-07,,2026-11-07,mild,,2026-11-21
 3178828841,1147796911,Water Park World [Beta],,,2026-11-07,,2026-11-07,minimal,,2026-11-18
-3203685552,1157126388,BEAR (Alpha),,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-21
+3203685552,1157126388,BEAR (Alpha),,,2026-11-07,,2026-11-07,mild,,2026-11-21
 3242417672,1171251167,Carros Rebaixados BR (Pre-Alpha),,,2026-11-07,,2026-11-07,minimal,,2026-11-21
 3255508650,1175471394,[new weapons!] brawl 2,,,2026-11-08,,2026-11-08,mild,,2026-11-18
 3260590327,1176784616,Tower Defense Simulator,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
@@ -493,7 +493,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 14875626099,5125369493,Driving Simulator,https://tr.rbxcdn.com/180DAY-a1b6c54a633bf8c59de8f6f314dfc8f4/150/150/Image/Webp/noFilter,2023-09-24T20:41:47Z,2026-11-07,,,minimal,21842965,2026-11-21
 14892572912,5130926460,RIA 2023: Award Show,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
 14895218677,5131771588,🐈 PAWS Pet Hospital 🐾,https://tr.rbxcdn.com/180DAY-623ad0fbb1ce17ba151a2202e85e86d2/150/150/Image/Webp/noFilter,2023-09-27T07:08:05Z,2026-11-11,,,minimal,73876417,2026-11-13
-14941296246,5147512977,Lucky Avatars! [Outfits Catalog] ,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
+14941296246,5147512977,Lucky Avatars! [Outfits Catalog] ,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-21
 14948124022,5149622256,[😱NEW] Skibidi Toilet Morphs,https://tr.rbxcdn.com/180DAY-e0eba6d00e76a48458f367fb4bb3d2c0/150/150/Image/Webp/noFilter,2023-10-02T10:33:08Z,2026-11-07,,,minimal,183351335,2026-11-21
 15002061926,5166944221,Death Ball,,,2026-11-07,,2026-11-07,mild,,2026-11-21
 15014439457,5170731021,Demon Blade,https://tr.rbxcdn.com/180DAY-39996e1fe86b501559e89d5fe33e3a02/150/150/Image/Webp/noFilter,2023-10-09T06:07:50Z,2026-11-07,,,mild,233757921,2026-11-21
@@ -2405,7 +2405,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 120252007682677,10761375767,[🍁🌊] Surf And Rescue ,,,2026-11-07,,2026-11-07,minimal,,2026-11-14
 120299741604934,10770749098,Grimoires Era [24 HOURS],https://tr.rbxcdn.com/180DAY-cfe5d2c5ed47c5db301e8ad55c4d242c/150/150/Image/Webp/noFilter,2026-10-14T00:43:28Z,2026-11-08,2026-11-08,,mild,97190,2026-11-21
 120309659150421,10768533103,[UPD] +1 Spear Throwing,https://tr.rbxcdn.com/180DAY-56fd34d87dbc4c5047a0ef59238855f1/150/150/Image/Webp/noFilter,2026-09-29T00:23:17Z,2026-11-07,2026-11-07,,minimal,2551397,2026-11-17
-120329833999324,9510573507,GUNS VS FNAF,,,2026-11-07,,2026-11-07,moderate,,2026-11-20
+120329833999324,9510573507,GUNS VS FNAF,,,2026-11-07,,2026-11-07,moderate,,2026-11-21
 120368946172739,10766015841,Guess the anime color,https://tr.rbxcdn.com/180DAY-997d60c4a6b6619eb9c8a41ac13e7317/150/150/Image/Webp/noFilter,2026-09-11T15:27:46Z,2026-11-11,,,minimal,54515,2026-11-21
 120392598553216,10771096069,Steal Monster Eggs! 👹🥚,https://tr.rbxcdn.com/180DAY-4b04c9a1d1ef321a5ac367481b351288/150/150/Image/Webp/noFilter,2026-10-15T18:50:39Z,2026-11-07,2026-11-07,,minimal,15942532,2026-11-20
 120450743769548,10334731049,Clean the Supermarket!,,,2026-11-08,,2026-11-08,minimal,,2026-11-16
