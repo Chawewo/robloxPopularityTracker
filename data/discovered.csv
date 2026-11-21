@@ -36,7 +36,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 537413528,210851291,Build A Boat For Treasure,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
 601239270,242453665,Mint Tycoon [BETA],,,2026-11-07,,,minimal,,
 606849621,245662005,Jailbreak ⛓️‍💥,,,2026-11-07,,2026-11-07,mild,,2026-11-21
-654732683,274816972,[1 Day⌛] Car Crushers 2 - Physics Simulation,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-21
+654732683,274816972,[1 Day⌛] Car Crushers 2 - Physics Simulation,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
 735030788,321778215,Royale 🔥❄️ High,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
 740581899,324740367,Entry Point: Freelancer's Cut,,,2026-11-07,,2026-11-07,mild,,2026-11-21
 815405518,341654025,The Floor Is LAVA!🔥,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
@@ -285,7 +285,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 8253643436,3166350952,[HOLY UPDATE 🪽] Depth Spelunking,,,2026-11-08,,2026-11-08,minimal,,2026-11-12
 8260276694,3168615253,Ability Wars,,,2026-11-07,,2026-11-07,mild,,2026-11-09
 8265622251,3170483284,Croydon: London Bus Simulator,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
-8304191830,3183403065,[☀️UPD 21🏖️] Anime Adventures,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-21
+8304191830,3183403065,[☀️UPD 21🏖️] Anime Adventures,,,2026-11-07,,2026-11-07,mild,,2026-11-21
 8317834514,3187874989,Murder Mystery: Mad Murderer X,,,2026-11-07,,2026-11-07,mild,,2026-11-21
 8369888266,3204175584,[COMPANIONS 👶!] Redcliff City 🏡RP,,,2026-11-07,,2026-11-07,minimal,,2026-11-21
 8388259310,3210778402,Where's Santa [Story],,,2026-11-07,,2026-11-07,minimal,,2026-11-21
@@ -2558,7 +2558,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 125411119339236,10771972641,[🎨] Paint a Rug,https://tr.rbxcdn.com/180DAY-9cd03713e30f5ab02acd8ba3661197ab/150/150/Image/Webp/noFilter,2026-10-19T20:23:34Z,2026-11-10,2026-11-10,,minimal,1403048,2026-11-13
 125443886963420,10771658642,2 Player Knockout!,https://tr.rbxcdn.com/180DAY-1e81031c216dfd5da1478b110d1d9159/150/150/Image/Webp/noFilter,2026-10-18T06:59:34Z,2026-11-07,2026-11-07,,minimal,906600,2026-11-13
 125474121706035,10503890169,Zombie Base Defense ⚔️,https://tr.rbxcdn.com/180DAY-159d5d59c64a1b80890d5b6bfa8bfe9a/150/150/Image/Webp/noFilter,2026-07-14T20:00:45Z,2026-11-07,,,minimal,1614492,2026-11-21
-125479550217058,7113599041,vivid memory - cozy house [showcase/RP],https://tr.rbxcdn.com/180DAY-790eaa285269ffd58e6e556f3044aa48/150/150/Image/Webp/noFilter,2025-01-19T19:31:11Z,2026-11-07,,,vng-rating-override,9856542,2026-11-21
+125479550217058,7113599041,vivid memory - cozy house [showcase/RP],https://tr.rbxcdn.com/180DAY-790eaa285269ffd58e6e556f3044aa48/150/150/Image/Webp/noFilter,2025-01-19T19:31:11Z,2026-11-07,,,minimal,9856542,2026-11-21
 125488740127641,8752324161,Build Anything! [🛠️],,,2026-11-07,,2026-11-07,minimal,,2026-11-09
 125518655171294,10768613071,Project Soul's [Undertale RPG],https://tr.rbxcdn.com/180DAY-0371bf4c6b9f0df82896f735d20460e0/150/150/Image/Webp/noFilter,2026-09-29T16:21:41Z,2026-11-07,2026-11-12,,minimal,243236,2026-11-21
 125519932808854,10667990790,ASMR Game [DIY SLIME!],https://tr.rbxcdn.com/180DAY-db00d05977660eda2745b9e4b8f28732/150/150/Image/Webp/noFilter,2026-08-09T22:44:16Z,2026-11-19,,,minimal,16258105,2026-11-19
@@ -2985,7 +2985,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 138578132401096,10769793590,⚒️ LICENSE PLATE GENERATOR,https://tr.rbxcdn.com/180DAY-be46ba3037e9e1c13a6bf81eb3965070/150/150/Image/Webp/noFilter,2026-10-07T21:47:07Z,2026-11-07,2026-11-07,,minimal,1134646,2026-11-18
 138636753681976,10767537135,Evermore High 🦢,https://tr.rbxcdn.com/180DAY-1de72aa318269d8d9a0a9928e60b3185/150/150/Image/Webp/noFilter,2026-09-21T22:20:40Z,2026-11-07,,2026-11-07,minimal,9773795,2026-11-21
 138651234618145,10731592585,SNIPESHOT,https://tr.rbxcdn.com/180DAY-2f8475f6e420f2159a85c977391029f7/150/150/Image/Webp/noFilter,2026-08-17T13:23:15Z,2026-11-07,,,mild,4251791,2026-11-21
-138664547327338,10663063965,[DEVGRU 🇺🇸] Military outfits ideas,https://tr.rbxcdn.com/180DAY-8b9fbec7a8ed2a6cd82b479b843f9496/150/150/Image/Webp/noFilter,2026-08-09T09:53:00Z,2026-11-07,,,minimal,180719,2026-11-20
+138664547327338,10663063965,[DEVGRU 🇺🇸] Military outfits ideas,https://tr.rbxcdn.com/180DAY-8b9fbec7a8ed2a6cd82b479b843f9496/150/150/Image/Webp/noFilter,2026-08-09T09:53:00Z,2026-11-07,,,minimal,180719,2026-11-21
 138666683767450,10770306793,[♾️ENDLESS] 1M Clicks To Escape,https://tr.rbxcdn.com/180DAY-de77c173de65363c6351459035e957ea/150/150/Image/Webp/noFilter,2026-10-11T05:13:41Z,2026-11-07,2026-11-07,,minimal,4916580,2026-11-14
 138706234463889,10774068626,[🐙] Octopus Evolution,https://tr.rbxcdn.com/180DAY-ae34d84900dc6f8c634ca5aa24ba4c2d/150/150/Image/Webp/noFilter,2026-10-31T20:54:58Z,2026-11-18,2026-11-18,,moderate,155033,2026-11-18
 138717245952148,10769288862,[UPD] Kill Your Friend!,,,2026-11-07,,2026-11-07,mild,,2026-11-15
