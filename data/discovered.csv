@@ -240,7 +240,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 6918802270,2644656496,[HALLOWEEN 🎃] Haze Seas ,,,2026-11-07,,2026-11-07,mild,,2026-11-22
 6924758805,2647834887,🔨 MM2 Aim Trainer,,,2026-11-07,,2026-11-07,mild,,2026-11-22
 6934310111,2652888345,Avatar Simulator,,,2026-11-07,,2026-11-07,minimal,,2026-11-22
-6938803436,2655311011,[🌌2X] Anime Dimensions,,,2026-11-07,,2026-11-07,vng-rating-override,,2026-11-22
+6938803436,2655311011,[🌌2X] Anime Dimensions,,,2026-11-07,,2026-11-07,mild,,2026-11-22
 6939111033,2655478023,Escape Papa Pizza's Pizzeria! (SCARY OBBY),,,2026-11-08,,2026-11-08,minimal,,2026-11-09
 6961824067,2668101271,Fling Things and People,,,2026-11-07,,2026-11-07,mild,,2026-11-22
 6989310863,2682938349,Wild Horse Islands,,,2026-11-07,,2026-11-07,minimal,,2026-11-22
@@ -629,7 +629,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 18214855317,6174994284,Savannah Life,,,2026-11-07,,2026-11-07,mild,,2026-11-22
 18218605381,6176333237,Clarity Over Resonance,,,2026-11-07,,2026-11-07,minimal,,2026-11-22
 18259975825,6190071862,Grave/Digger,,,2026-11-07,,2026-11-07,moderate,,2026-11-22
-18260801046,6190384723,Baddies Brawl 👊,,,2026-11-08,,2026-11-08,mild,,2026-11-22
+18260801046,6190384723,Baddies Brawl 👊,,,2026-11-08,,2026-11-08,vng-rating-override,,2026-11-22
 18320910606,6211067578,The Games,,,2026-11-20,,2026-11-20,minimal,,2026-11-22
 18334179599,6215464786,Chained [2 Player Obby],,,2026-11-07,,2026-11-07,mild,,2026-11-17
 18335956021,6215986499,[NEW ISLAND] Grand Blue,,,2026-11-08,,2026-11-08,mild,,2026-11-22
@@ -1744,7 +1744,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 100875144666716,9738543563,🧠 99 Rooms IQ Test,https://tr.rbxcdn.com/180DAY-619e15b69a46d272fdd70fe18b8f0379/150/150/Image/Webp/noFilter,2026-02-16T09:41:39Z,2026-11-14,,,minimal,7909482,2026-11-14
 100878446394441,10770964381,[UPDATE 1.0🛠️] BlockUp,https://tr.rbxcdn.com/180DAY-d18e6247dbad5f9fb4f80783ea94f3dd/150/150/Image/Webp/noFilter,2026-10-15T01:10:54Z,2026-11-07,2026-11-07,,minimal,534527,2026-11-20
 100911287331536,9157758111,🌕 แห่นาค HAENAKH,https://tr.rbxcdn.com/180DAY-0f9459e3c290f434bf912a0c0f72ea23/150/150/Image/Webp/noFilter,2025-11-13T03:17:25Z,2026-11-08,,,minimal,15069693,2026-11-22
-100975894126710,10767308126,[FIX] Guess And Slap,https://tr.rbxcdn.com/180DAY-3680aa3e3cec766b40569162ba45ace4/150/150/Image/Webp/noFilter,2026-09-20T19:23:56Z,2026-11-07,,,minimal,1661430,2026-11-22
+100975894126710,10767308126,[UPDATE] Guess And Slap,https://tr.rbxcdn.com/180DAY-3680aa3e3cec766b40569162ba45ace4/150/150/Image/Webp/noFilter,2026-09-20T19:23:56Z,2026-11-07,,,minimal,1661430,2026-11-22
 100981917200669,10772968523, [24H] Impossible Hill Climb,https://tr.rbxcdn.com/180DAY-11f0bd849fca2bdcf7fd90270a8d21ab/150/150/Image/Webp/noFilter,2026-10-25T16:13:46Z,2026-11-07,2026-11-07,2026-11-16,minimal,374525,2026-11-22
 100988524818303,10712258231,Ludo Classic 🎲,https://tr.rbxcdn.com/180DAY-85b5d0e7dad461471ede5c7b1145ea94/150/150/Image/Webp/noFilter,2026-08-15T11:18:20Z,2026-11-07,,,minimal,3697845,2026-11-22
 101001957765810,10768827250,Thai Word Chain,,,2026-11-07,,2026-11-07,minimal,,2026-11-11
@@ -2298,7 +2298,7 @@ game_id,universe_id,name,icon_url,created,first_chart,first_up_and_coming,listed
 116502367082500,9753458401,StyleMe,https://tr.rbxcdn.com/180DAY-aeb99718ee786123738bad7a6ba1043e/150/150/Image/Webp/noFilter,2026-02-18T19:56:22Z,2026-11-07,,,minimal,15080046,2026-11-22
 116517168170959,10773295735,Drive Only Up! 🚗 [VICE UPDATE🚨] Car Obby,https://tr.rbxcdn.com/180DAY-ed63e5fe88a43ab091000ce1939a2caf/150/150/Image/Webp/noFilter,2026-10-27T15:28:01Z,2026-11-18,2026-11-18,,minimal,200878,2026-11-22
 116544803732940,10768493972,(EARLY ACCESS) Plane Flight,,,2026-11-07,,,minimal,,
-116549075512917,10081101517,شباب البومب  |  تحديث الكشتة 🏕️🚗- رول بلاي ,https://tr.rbxcdn.com/180DAY-b6d05812b59cdb3573d73aed1e6912d5/150/150/Image/Webp/noFilter,2026-04-25T11:26:53Z,2026-11-07,,,minimal,4574955,2026-11-21
+116549075512917,10081101517,شباب البومب  |  تحديث الكشتة 🏕️🚗- رول بلاي ,https://tr.rbxcdn.com/180DAY-b6d05812b59cdb3573d73aed1e6912d5/150/150/Image/Webp/noFilter,2026-04-25T11:26:53Z,2026-11-07,,,minimal,4574955,2026-11-22
 116582067658533,10769959246,[Word3] The Treadmill Fast x999!,https://tr.rbxcdn.com/180DAY-9f1ac258993ec8f52484adb5e9d7cc53/150/150/Image/Webp/noFilter,2026-10-09T06:20:57Z,2026-11-11,,,minimal,134603,2026-11-18
 116637001962797,10768259308,Manage A Country ,https://tr.rbxcdn.com/180DAY-cdf76251aac8bbc07f68607c5829c567/150/150/Image/Webp/noFilter,2026-09-27T06:18:13Z,2026-11-07,,,minimal,2126858,2026-11-14
 116701845804918,10767408330,Peel THE Potato,,,2026-11-07,,2026-11-07,minimal,,2026-11-15
